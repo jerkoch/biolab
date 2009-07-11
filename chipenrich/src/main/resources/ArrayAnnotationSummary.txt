@@ -1,0 +1,5470 @@
+AGI ID	Array Annotation Category
+At1g01120	ABA
+At1g01240	ABA
+At1g01520	ABA
+At1g02200	ABA
+At1g02310	ABA
+At1g02816	ABA
+At1g03520	ABA
+At1g04220	ABA
+At1g04560	ABA
+At1g05100	ABA
+At1g07430	ABA
+At1g07870	ABA
+At1g08900	ABA
+At1g09520	ABA
+At1g10090	ABA
+At1g14530	ABA
+At1g14730	ABA
+At1g15410	ABA
+At1g16280	ABA
+At1g16850	ABA
+At1g17550	ABA
+At1g18460	ABA
+At1g19230	ABA
+At1g19970	ABA
+At1g20070	ABA
+At1g20440	ABA
+At1g20450	ABA
+At1g20590	ABA
+At1g21400	ABA
+At1g21790	ABA
+At1g22640	ABA
+At1g23480	ABA
+At1g23710	ABA
+At1g24600	ABA
+At1g27200	ABA
+At1g30500	ABA
+At1g30620	ABA
+At1g33600	ABA
+At1g42990	ABA
+At1g47610	ABA
+At1g47960	ABA
+At1g48100	ABA
+At1g49450	ABA
+At1g50630	ABA
+At1g50840	ABA
+At1g51790	ABA
+At1g51800	ABA
+At1g51805	ABA
+At1g52690	ABA
+At1g53430	ABA
+At1g53440	ABA
+At1g56170	ABA
+At1g56600	ABA
+At1g58110	ABA
+At1g60080	ABA
+At1g60190	ABA
+At1g62280	ABA
+At1g62710	ABA
+At1g63720	ABA
+At1g64110	ABA
+At1g64170	ABA
+At1g64380	ABA
+At1g65390	ABA
+At1g65400	ABA
+At1g67360	ABA
+At1g67920	ABA
+At1g68020	ABA
+At1g68050	ABA
+At1g68620	ABA
+At1g69295	ABA
+At1g69480	ABA
+At1g70170	ABA
+At1g70420	ABA
+At1g71960	ABA
+At1g72240	ABA
+At1g72770	ABA
+At1g73220	ABA
+At1g73920	ABA
+At1g75030	ABA
+At1g75170	ABA
+At1g76180	ABA
+At1g77680	ABA
+At1g77690	ABA
+At1g78080	ABA
+At1g78270	ABA
+At1g79270	ABA
+At1g79520	ABA
+At1g80160	ABA
+At2g01630	ABA
+At2g02020	ABA
+At2g02710	ABA
+At2g04350	ABA
+At2g14460	ABA
+At2g17680	ABA
+At2g17840	ABA
+At2g18050	ABA
+At2g18170	ABA
+At2g19810	ABA
+At2g21180	ABA
+At2g21560	ABA
+At2g21590	ABA
+At2g21820	ABA
+At2g22190	ABA
+At2g22430	ABA
+At2g22500	ABA
+At2g23120	ABA
+At2g24540	ABA
+At2g25530	ABA
+At2g26440	ABA
+At2g28600	ABA
+At2g29330	ABA
+At2g29380	ABA
+At2g32510	ABA
+At2g32800	ABA
+At2g35300	ABA
+At2g35585	ABA
+At2g37770	ABA
+At2g37870	ABA
+At2g38310	ABA
+At2g39110	ABA
+At2g39450	ABA
+At2g41190	ABA
+At2g41870	ABA
+At2g42540	ABA
+At2g43130	ABA
+At2g43330	ABA
+At2g45600	ABA
+At2g46450	ABA
+At2g47780	ABA
+At3g01160	ABA
+At3g02140	ABA
+At3g02150	ABA
+At3g05340	ABA
+At3g06780	ABA
+At3g07360	ABA
+At3g10250	ABA
+At3g10500	ABA
+At3g10980	ABA
+At3g11410	ABA
+At3g11420	ABA
+At3g12510	ABA
+At3g13610	ABA
+At3g13672	ABA
+At3g13690	ABA
+At3g14440	ABA
+At3g14840	ABA
+At3g15670	ABA
+At3g17000	ABA
+At3g17130	ABA
+At3g17520	ABA
+At3g19290	ABA
+At3g21890	ABA
+At3g22370	ABA
+At3g22620	ABA
+At3g22830	ABA
+At3g23800	ABA
+At3g24500	ABA
+At3g25400	ABA
+At3g25870	ABA
+At3g26910	ABA
+At3g27210	ABA
+At3g27270	ABA
+At3g28007	ABA
+At3g29630	ABA
+At3g29810	ABA
+At3g32920	ABA
+At3g44735	ABA
+At3g45650	ABA
+At3g46450	ABA
+At3g47295	ABA
+At3g48510	ABA
+At3g48520	ABA
+At3g48920	ABA
+At3g49940	ABA
+At3g50400	ABA
+At3g50740	ABA
+At3g50970	ABA
+At3g51750	ABA
+At3g51860	ABA
+At3g51895	ABA
+At3g52820	ABA
+At3g54680	ABA
+At3g55090	ABA
+At3g55430	ABA
+At3g55450	ABA
+At3g55560	ABA
+At3g55610	ABA
+At3g57540	ABA
+At3g61890	ABA
+At3g62090	ABA
+At3g62260	ABA
+At3g62590	ABA
+At4g01280	ABA
+At4g01550	ABA
+At4g05100	ABA
+At4g08850	ABA
+At4g09030	ABA
+At4g09600	ABA
+At4g10960	ABA
+At4g11330	ABA
+At4g12390	ABA
+At4g12430	ABA
+At4g14270	ABA
+At4g15120	ABA
+At4g15390	ABA
+At4g17280	ABA
+At4g17550	ABA
+At4g18700	ABA
+At4g20780	ABA
+At4g20880	ABA
+At4g21440	ABA
+At4g21870	ABA
+At4g21940	ABA
+At4g22920	ABA
+At4g23270	ABA
+At4g23450	ABA
+At4g23870	ABA
+At4g23920	ABA
+At4g24960	ABA
+At4g25670	ABA
+At4g26090	ABA
+At4g27840	ABA
+At4g28110	ABA
+At4g30850	ABA
+At4g33040	ABA
+At4g33550	ABA
+At4g33666	ABA
+At4g33905	ABA
+At4g33960	ABA
+At4g34230	ABA
+At4g34740	ABA
+At4g34950	ABA
+At4g35190	ABA
+At4g35560	ABA
+At4g37150	ABA
+At4g37220	ABA
+At4g39670	ABA
+At4g40010	ABA
+At5g01300	ABA
+At5g01600	ABA
+At5g01670	ABA
+At5g03080	ABA
+At5g03700	ABA
+At5g04250	ABA
+At5g04950	ABA
+At5g05870	ABA
+At5g06760	ABA
+At5g07330	ABA
+At5g07680	ABA
+At5g09520	ABA
+At5g09620	ABA
+At5g12840	ABA
+At5g13170	ABA
+At5g13580	ABA
+At5g13900	ABA
+At5g15190	ABA
+At5g15960	ABA
+At5g16600	ABA
+At5g17760	ABA
+At5g19120	ABA
+At5g19410	ABA
+At5g20250	ABA
+At5g22290	ABA
+At5g23190	ABA
+At5g24080	ABA
+At5g24120	ABA
+At5g25220	ABA
+At5g26010	ABA
+At5g28290	ABA
+At5g28520	ABA
+At5g35735	ABA
+At5g37550	ABA
+At5g38720	ABA
+At5g39520	ABA
+At5g41460	ABA
+At5g42050	ABA
+At5g43150	ABA
+At5g43850	ABA
+At5g45630	ABA
+At5g45690	ABA
+At5g46410	ABA
+At5g46780	ABA
+At5g47640	ABA
+At5g52300	ABA
+At5g52310	ABA
+At5g52550	ABA
+At5g52660	ABA
+At5g53120	ABA
+At5g53990	ABA
+At5g54300	ABA
+At5g54840	ABA
+At5g55970	ABA
+At5g57050	ABA
+At5g57610	ABA
+At5g58160	ABA
+At5g59220	ABA
+At5g59310	ABA
+At5g60450	ABA
+At5g61820	ABA
+At5g62150	ABA
+At5g62470	ABA
+At5g62480	ABA
+At5g62490	ABA
+At5g63130	ABA
+At5g63180	ABA
+At5g64170	ABA
+At5g64310	ABA
+At5g65470	ABA
+At5g66050	ABA
+At5g66400	ABA
+At5g66780	ABA
+At2g26730	ACC
+At3g23150	ACC
+At4g22840	ACC
+At1g67050	BL
+At2g24570	BL
+At2g42580	BL
+At4g39800	BL
+At5g45670	BL
+At5g46590	BL
+At1g02370	CK
+At1g10470	CK
+At1g28100	CK
+At1g75440	CK
+At1g75450	CK
+At2g45310	CK
+At2g46310	CK
+At3g13980	CK
+At3g45680	CK
+At3g57040	CK
+At4g03610	CK
+At4g28720	CK
+At5g05860	CK
+At5g43180	CK
+At1g04100	IAA
+At1g11000	IAA
+At1g15580	IAA
+At1g19220	IAA
+At1g29490	IAA
+At1g30570	IAA
+At1g34110	IAA
+At1g52830	IAA
+At1g65920	IAA
+At1g73590	IAA
+At1g75640	IAA
+At2g14960	IAA
+At2g22830	IAA
+At2g23340	IAA
+At2g33310	IAA
+At2g37030	IAA
+At2g39370	IAA
+At2g40140	IAA
+At2g42430	IAA
+At2g45420	IAA
+At3g15540	IAA
+At3g20830	IAA
+At3g25710	IAA
+At3g28420	IAA
+At3g28850	IAA
+At3g29370	IAA
+At3g42800	IAA
+At3g58190	IAA
+At3g61160	IAA
+At3g63440	IAA
+At4g12720	IAA
+At4g14550	IAA
+At4g17350	IAA
+At4g17490	IAA
+At4g24160	IAA
+At4g32280	IAA
+At4g37290	IAA
+At4g37295	IAA
+At4g37590	IAA
+At4g37770	IAA
+At4g37890	IAA
+At5g06080	IAA
+At5g06860	IAA
+At5g06930	IAA
+At5g13190	IAA
+At5g17340	IAA
+At5g19340	IAA
+At5g19530	IAA
+At5g26930	IAA
+At5g35750	IAA
+At5g47230	IAA
+At5g48150	IAA
+At5g51190	IAA
+At5g52910	IAA
+At5g54500	IAA
+At5g60660	IAA
+At5g65320	IAA
+At1g01260	MJ
+At1g03495	MJ
+At1g05620	MJ
+At1g06180	MJ
+At1g06620	MJ
+At1g06640	MJ
+At1g10700	MJ
+At1g11440	MJ
+At1g12240	MJ
+At1g13280	MJ
+At1g14130	MJ
+At1g14280	MJ
+At1g14290	MJ
+At1g16370	MJ
+At1g17420	MJ
+At1g17700	MJ
+At1g17750	MJ
+At1g19330	MJ
+At1g19680	MJ
+At1g20490	MJ
+At1g24070	MJ
+At1g25500	MJ
+At1g26730	MJ
+At1g27480	MJ
+At1g28480	MJ
+At1g29410	MJ
+At1g30135	MJ
+At1g31550	MJ
+At1g31700	MJ
+At1g31710	MJ
+At1g32170	MJ
+At1g35260	MJ
+At1g35625	MJ
+At1g44790	MJ
+At1g48960	MJ
+At1g49520	MJ
+At1g51780	MJ
+At1g52040	MJ
+At1g52400	MJ
+At1g52410	MJ
+At1g52720	MJ
+At1g53320	MJ
+At1g53870	MJ
+At1g56650	MJ
+At1g58200	MJ
+At1g60270	MJ
+At1g61065	MJ
+At1g61120	MJ
+At1g62560	MJ
+At1g62990	MJ
+At1g63750	MJ
+At1g64200	MJ
+At1g65490	MJ
+At1g65860	MJ
+At1g65890	MJ
+At1g66100	MJ
+At1g66280	MJ
+At1g66370	MJ
+At1g67750	MJ
+At1g67910	MJ
+At1g69370	MJ
+At1g69450	MJ
+At1g69850	MJ
+At1g69890	MJ
+At1g72230	MJ
+At1g72470	MJ
+At1g72520	MJ
+At1g74100	MJ
+At1g74420	MJ
+At1g74950	MJ
+At1g75220	MJ
+At1g75230	MJ
+At1g76070	MJ
+At1g76600	MJ
+At1g76640	MJ
+At1g77370	MJ
+At1g77420	MJ
+At1g78490	MJ
+At1g78660	MJ
+At1g79110	MJ
+At1g79310	MJ
+At2g01900	MJ
+At2g02220	MJ
+At2g03980	MJ
+At2g04080	MJ
+At2g04400	MJ
+At2g14750	MJ
+At2g15760	MJ
+At2g18750	MJ
+At2g18840	MJ
+At2g22020	MJ
+At2g22850	MJ
+At2g23560	MJ
+At2g25490	MJ
+At2g27230	MJ
+At2g27310	MJ
+At2g27690	MJ
+At2g32400	MJ
+At2g33480	MJ
+At2g34600	MJ
+At2g34930	MJ
+At2g36650	MJ
+At2g37620	MJ
+At2g38050	MJ
+At2g38240	MJ
+At2g39330	MJ
+At2g39420	MJ
+At2g39770	MJ
+At2g42300	MJ
+At2g42760	MJ
+At2g43510	MJ
+At2g43520	MJ
+At2g43530	MJ
+At2g44200	MJ
+At2g46150	MJ
+At3g02380	MJ
+At3g02570	MJ
+At3g02875	MJ
+At3g06330	MJ
+At3g09560	MJ
+At3g09830	MJ
+At3g10260	MJ
+At3g11880	MJ
+At3g12710	MJ
+At3g16350	MJ
+At3g16470	MJ
+At3g16860	MJ
+At3g17250	MJ
+At3g19840	MJ
+At3g22290	MJ
+At3g22400	MJ
+At3g22420	MJ
+At3g22740	MJ
+At3g25570	MJ
+At3g25760	MJ
+At3g28220	MJ
+At3g28270	MJ
+At3g44720	MJ
+At3g44850	MJ
+At3g45130	MJ
+At3g45210	MJ
+At3g45430	MJ
+At3g50280	MJ
+At3g50310	MJ
+At3g54640	MJ
+At3g54990	MJ
+At3g55110	MJ
+At3g55950	MJ
+At3g55970	MJ
+At3g56200	MJ
+At3g58710	MJ
+At3g59710	MJ
+At3g59760	MJ
+At3g61400	MJ
+At3g62010	MJ
+At4g00050	MJ
+At4g08170	MJ
+At4g08870	MJ
+At4g08930	MJ
+At4g09510	MJ
+At4g11310	MJ
+At4g12790	MJ
+At4g13410	MJ
+At4g14090	MJ
+At4g14580	MJ
+At4g14940	MJ
+At4g15210	MJ
+At4g15330	MJ
+At4g15440	MJ
+At4g15920	MJ
+At4g17470	MJ
+At4g17500	MJ
+At4g18440	MJ
+At4g23600	MJ
+At4g24830	MJ
+At4g27570	MJ
+At4g28300	MJ
+At4g28910	MJ
+At4g29210	MJ
+At4g30530	MJ
+At4g31820	MJ
+At4g34210	MJ
+At4g34920	MJ
+At4g35630	MJ
+At4g37010	MJ
+At4g37430	MJ
+At4g38470	MJ
+At4g39780	MJ
+At5g02940	MJ
+At5g05540	MJ
+At5g05600	MJ
+At5g06870	MJ
+At5g07460	MJ
+At5g08520	MJ
+At5g12440	MJ
+At5g12890	MJ
+At5g13550	MJ
+At5g13800	MJ
+At5g14710	MJ
+At5g16290	MJ
+At5g17490	MJ
+At5g19100	MJ
+At5g19470	MJ
+At5g20885	MJ
+At5g22570	MJ
+At5g23810	MJ
+At5g23820	MJ
+At5g23830	MJ
+At5g24030	MJ
+At5g27380	MJ
+At5g27930	MJ
+At5g33290	MJ
+At5g35940	MJ
+At5g36220	MJ
+At5g38710	MJ
+At5g39790	MJ
+At5g40340	MJ
+At5g40780	MJ
+At5g42650	MJ
+At5g43745	MJ
+At5g44720	MJ
+At5g46710	MJ
+At5g46760	MJ
+At5g52120	MJ
+At5g52320	MJ
+At5g52430	MJ
+At5g53050	MJ
+At5g53060	MJ
+At5g53500	MJ
+At5g55120	MJ
+At5g56760	MJ
+At5g57890	MJ
+At5g60300	MJ
+At5g63490	MJ
+At5g63590	MJ
+At5g63970	MJ
+At5g63980	MJ
+At5g64560	MJ
+At5g65280	MJ
+At5g65380	MJ
+At5g65790	MJ
+At5g67080	MJ
+At5g67160	MJ
+At5g67210	MJ
+At1g44110	Mitosis-Specific Expression
+At5g11300	Mitosis-Specific Expression
+At5g06150	Mitosis-Specific Expression
+At3g11520	Mitosis-Specific Expression
+At2g26760	Mitosis-Specific Expression
+At1g34460	Mitosis-Specific Expression
+At2g17620	Mitosis-Specific Expression
+At4g35620	Mitosis-Specific Expression
+At1g76310	Mitosis-Specific Expression
+At1g20590	Mitosis-Specific Expression
+At1g16330	Mitosis-Specific Expression
+At1g76540	Mitosis-Specific Expression
+At1g20930	Mitosis-Specific Expression
+At2g25880	Mitosis-Specific Expression
+At4g32830	Mitosis-Specific Expression
+At5g55830	Mitosis-Specific Expression
+At5g11510	Mitosis-Specific Expression
+At1g08560	Mitosis-Specific Expression
+At1g18370	Mitosis-Specific Expression
+At5g23910	Mitosis-Specific Expression
+At5g02370	Mitosis-Specific Expression
+At3g20150	Mitosis-Specific Expression
+At5g60930	Mitosis-Specific Expression
+At2g28620	Mitosis-Specific Expression
+At2g22610	Mitosis-Specific Expression
+At2g47500	Mitosis-Specific Expression
+At1g59540	Mitosis-Specific Expression
+At1g72250	Mitosis-Specific Expression
+At3g23670	Mitosis-Specific Expression
+At4g05190	Mitosis-Specific Expression
+At4g26660	Mitosis-Specific Expression
+At5g55520	Mitosis-Specific Expression
+At5g67270	Mitosis-Specific Expression
+At5g51600	Mitosis-Specific Expression
+At3g60840	Mitosis-Specific Expression
+At4g11080	Mitosis-Specific Expression
+At4g23800	Mitosis-Specific Expression
+At4g33260	Mitosis-Specific Expression
+At5g13840	Mitosis-Specific Expression
+At1g50490	Mitosis-Specific Expression
+At3g25980	Mitosis-Specific Expression
+At3g19590	Mitosis-Specific Expression
+At2g33560	Mitosis-Specific Expression
+At1g69400	Mitosis-Specific Expression
+At4g33400	Mitosis-Specific Expression
+At3g23890	Mitosis-Specific Expression
+At3g51280	Mitosis-Specific Expression
+At1g02730	Mitosis-Specific Expression
+At2g25060	Mitosis-Specific Expression
+At1g75920	Mitosis-Specific Expression
+At3g03090	Mitosis-Specific Expression
+At3g14190	Mitosis-Specific Expression
+At4g15830	Mitosis-Specific Expression
+At4g02800	Mitosis-Specific Expression
+At4g28430	Mitosis-Specific Expression
+At3g26050	Mitosis-Specific Expression
+At1g33940	Mitosis-Specific Expression
+At4g22860	Mitosis-Specific Expression
+At2g38160	Mitosis-Specific Expression
+At2g44190	Mitosis-Specific Expression
+At1g03780	Mitosis-Specific Expression
+At1g34355	Mitosis-Specific Expression
+At3g27330	Mitosis-Specific Expression
+At2g20590	Mitosis-Specific Expression
+At1g23790	Mitosis-Specific Expression
+At3g03130	Mitosis-Specific Expression
+At3g12870	Mitosis-Specific Expression
+At4g01730	Mitosis-Specific Expression
+At5g33300	Mitosis-Specific Expression
+At4g28230	Mitosis-Specific Expression
+At3g55660	Mitosis-Specific Expression
+At5g15510	Mitosis-Specific Expression
+At5g36710	Mitosis-Specific Expression
+At5g48310	Mitosis-Specific Expression
+At5g66230	Mitosis-Specific Expression
+At5g17160	Mitosis-Specific Expression
+At5g62550	Mitosis-Specific Expression
+At1g61450	Mitosis-Specific Expression
+At4g05520	Mitosis-Specific Expression
+At2g16270	Mitosis-Specific Expression
+At5g45700	Mitosis-Specific Expression
+At3g02640	Mitosis-Specific Expression
+At4g39830	S-Phase-Specific Expression
+At5g38690	S-Phase-Specific Expression
+At5g63540	S-Phase-Specific Expression
+At3g27640	S-Phase-Specific Expression
+At3g12170	S-Phase-Specific Expression
+At5g43080	S-Phase-Specific Expression
+At3g51030	S-Phase-Specific Expression
+At3g59550	S-Phase-Specific Expression
+At4g28310	S-Phase-Specific Expression
+At3g14740	S-Phase-Specific Expression
+At5g02520	S-Phase-Specific Expression
+At2g24490	S-Phase-Specific Expression
+At5g08020	S-Phase-Specific Expression
+At1g47210	S-Phase-Specific Expression
+At1g04020	S-Phase-Specific Expression
+At5g43530	S-Phase-Specific Expression
+At5g52220	S-Phase-Specific Expression
+At5g23420	S-Phase-Specific Expression
+AT2G23170	Lateral-Root Significant Genes
+AT2G45420	Lateral-Root Significant Genes
+AT5G52050	Lateral-Root Significant Genes
+AT3G63440	Lateral-Root Significant Genes
+AT3G58190	Lateral-Root Significant Genes
+AT4G37290	Lateral-Root Significant Genes
+AT4G37295	Lateral-Root Significant Genes
+AT3G15540	Lateral-Root Significant Genes
+AT4G37390;AT1G59500	Lateral-Root Significant Genes
+AT2G34650	Lateral-Root Significant Genes
+AT2G39370	Lateral-Root Significant Genes
+AT1G67750	Lateral-Root Significant Genes
+AT3G60220	Lateral-Root Significant Genes
+AT4G32280	Lateral-Root Significant Genes
+AT4G30140	Lateral-Root Significant Genes
+AT4G28640	Lateral-Root Significant Genes
+AT4G27260	Lateral-Root Significant Genes
+AT2G42440	Lateral-Root Significant Genes
+AT3G07390	Lateral-Root Significant Genes
+AT1G01140	Lateral-Root Significant Genes
+AT2G14960	Lateral-Root Significant Genes
+AT3G10870	Lateral-Root Significant Genes
+AT5G26930	Lateral-Root Significant Genes
+AT5G54510	Lateral-Root Significant Genes
+AT5G53290	Lateral-Root Significant Genes
+AT5G06080	Lateral-Root Significant Genes
+AT3G62100	Lateral-Root Significant Genes
+AT1G04680	Lateral-Root Significant Genes
+AT4G08040	Lateral-Root Significant Genes
+AT4G23750	Lateral-Root Significant Genes
+AT1G69530	Lateral-Root Significant Genes
+AT5G09800	Lateral-Root Significant Genes
+AT5G05180	Lateral-Root Significant Genes
+AT5G18560	Lateral-Root Significant Genes
+AT5G54490	Lateral-Root Significant Genes
+AT5G52950	Lateral-Root Significant Genes
+AT5G47370	Lateral-Root Significant Genes
+AT3G44540	Lateral-Root Significant Genes
+AT4G37370	Lateral-Root Significant Genes
+AT4G13195	Lateral-Root Significant Genes
+AT1G34110	Lateral-Root Significant Genes
+AT3G22540	Lateral-Root Significant Genes
+AT1G17060	Lateral-Root Significant Genes
+AT1G59740	Lateral-Root Significant Genes
+AT1G05560	Lateral-Root Significant Genes
+AT1G05680	Lateral-Root Significant Genes
+AT2G19670	Lateral-Root Significant Genes
+AT2G18980	Lateral-Root Significant Genes
+AT2G39340;AT2G39350	Lateral-Root Significant Genes
+AT4G02290	Lateral-Root Significant Genes
+AT1G03820	Lateral-Root Significant Genes
+AT4G14560	Lateral-Root Significant Genes
+AT4G17350	Lateral-Root Significant Genes
+AT5G16930	Lateral-Root Significant Genes
+AT1G31650	Lateral-Root Significant Genes
+AT5G52900	Lateral-Root Significant Genes
+AT5G47060	Lateral-Root Significant Genes
+AT5G11010	Lateral-Root Significant Genes
+AT3G55090	Lateral-Root Significant Genes
+AT3G54000	Lateral-Root Significant Genes
+AT4G28490	Lateral-Root Significant Genes
+AT4G22780	Lateral-Root Significant Genes
+AT4G22530	Lateral-Root Significant Genes
+AT4G22620	Lateral-Root Significant Genes
+AT4G12420	Lateral-Root Significant Genes
+AT4G11280	Lateral-Root Significant Genes
+AT4G02820	Lateral-Root Significant Genes
+AT2G33310	Lateral-Root Significant Genes
+AT1G21980	Lateral-Root Significant Genes
+AT1G58340	Lateral-Root Significant Genes
+AT3G13380	Lateral-Root Significant Genes
+AT3G24240	Lateral-Root Significant Genes
+AT3G25290	Lateral-Root Significant Genes
+AT3G26760	Lateral-Root Significant Genes
+AT3G22660	Lateral-Root Significant Genes
+AT3G06370	Lateral-Root Significant Genes
+AT1G64405	Lateral-Root Significant Genes
+AT1G73590	Lateral-Root Significant Genes
+AT1G78100	Lateral-Root Significant Genes
+AT1G29195	Lateral-Root Significant Genes
+AT1G18670	Lateral-Root Significant Genes
+AT1G64450	Lateral-Root Significant Genes
+AT1G02850	Lateral-Root Significant Genes
+AT1G70940	Lateral-Root Significant Genes
+AT1G75640	Lateral-Root Significant Genes
+AT1G23080	Lateral-Root Significant Genes
+AT2G32100	Lateral-Root Significant Genes
+AT2G47860	Lateral-Root Significant Genes
+AT2G47140	Lateral-Root Significant Genes
+AT2G41100	Lateral-Root Significant Genes
+AT2G38120	Lateral-Root Significant Genes
+AT2G39870	Lateral-Root Significant Genes
+AT2G40010	Lateral-Root Significant Genes
+AT5G55050	Lateral-Root Significant Genes
+AT5G43700	Lateral-Root Significant Genes
+AT5G04980	Lateral-Root Significant Genes
+AT4G26050	Lateral-Root Significant Genes
+AT4G05120;AT4G05110	Lateral-Root Significant Genes
+AT1G68400	Lateral-Root Significant Genes
+AT1G14350	Lateral-Root Significant Genes
+AT2G25790	Lateral-Root Significant Genes
+AT5G65320	Lateral-Root Significant Genes
+AT3G58660	Lateral-Root Significant Genes
+AT1G21060	Lateral-Root Significant Genes
+AT2G45400	Lateral-Root Significant Genes
+AT5G12330	Lateral-Root Significant Genes
+AT5G65120	Lateral-Root Significant Genes
+AT4G21680	Lateral-Root Significant Genes
+AT3G19200	Lateral-Root Significant Genes
+AT3G08030	Lateral-Root Significant Genes
+AT3G03170	Lateral-Root Significant Genes
+AT1G78390	Lateral-Root Significant Genes
+AT1G60010	Lateral-Root Significant Genes
+AT2G36220	Lateral-Root Significant Genes
+AT1G77280	Lateral-Root Significant Genes
+	Lateral-Root Significant Genes
+AT1G27050	Lateral-Root Significant Genes
+AT1G30860	Lateral-Root Significant Genes
+AT2G42430	Lateral-Root Significant Genes
+AT2G01430	Lateral-Root Significant Genes
+AT2G47130	Lateral-Root Significant Genes
+AT2G39700	Lateral-Root Significant Genes
+AT4G14380	Lateral-Root Significant Genes
+AT5G60450	Lateral-Root Significant Genes
+AT5G17340	Lateral-Root Significant Genes
+AT3G60900	Lateral-Root Significant Genes
+AT4G38210	Lateral-Root Significant Genes
+AT1G69040	Lateral-Root Significant Genes
+AT3G18710	Lateral-Root Significant Genes
+AT1G28360	Lateral-Root Significant Genes
+AT1G55610	Lateral-Root Significant Genes
+AT2G26710	Lateral-Root Significant Genes
+AT3G55690	Lateral-Root Significant Genes
+AT4G12410	Lateral-Root Significant Genes
+AT1G80370	Lateral-Root Significant Genes
+AT1G30040	Lateral-Root Significant Genes
+AT5G66460	Lateral-Root Significant Genes
+AT1G30760	Lateral-Root Significant Genes
+AT1G22880	Lateral-Root Significant Genes
+AT5G47550	Lateral-Root Significant Genes
+AT3G02885	Lateral-Root Significant Genes
+AT3G01070	Lateral-Root Significant Genes
+AT4G17785	Lateral-Root Significant Genes
+AT5G13490	Lateral-Root Significant Genes
+AT5G10720	Lateral-Root Significant Genes
+AT5G65860	Lateral-Root Significant Genes
+AT5G39850	Lateral-Root Significant Genes
+AT5G05160	Lateral-Root Significant Genes
+AT4G36360	Lateral-Root Significant Genes
+AT4G18910	Lateral-Root Significant Genes
+AT2G40540	Lateral-Root Significant Genes
+AT1G19220	Lateral-Root Significant Genes
+AT3G13672	Lateral-Root Significant Genes
+AT3G25940	Lateral-Root Significant Genes
+AT2G43650	Lateral-Root Significant Genes
+AT1G56110	Lateral-Root Significant Genes
+AT1G30620	Lateral-Root Significant Genes
+AT1G03360	Lateral-Root Significant Genes
+AT1G61350	Lateral-Root Significant Genes
+AT2G17280	Lateral-Root Significant Genes
+AT1G55500	Lateral-Root Significant Genes
+AT2G35770	Lateral-Root Significant Genes
+AT2G39710	Lateral-Root Significant Genes
+AT1G35140	Lateral-Root Significant Genes
+AT4G36680	Lateral-Root Significant Genes
+AT5G59240	Lateral-Root Significant Genes
+AT5G22740	Lateral-Root Significant Genes
+AT3G57940	Lateral-Root Significant Genes
+AT3G57950	Lateral-Root Significant Genes
+AT3G53900	Lateral-Root Significant Genes
+AT3G12860	Lateral-Root Significant Genes
+AT3G09720	Lateral-Root Significant Genes
+AT1G77690	Lateral-Root Significant Genes
+AT2G43660	Lateral-Root Significant Genes
+AT1G62770	Lateral-Root Significant Genes
+AT2G28690	Lateral-Root Significant Genes
+AT1G79150	Lateral-Root Significant Genes
+AT2G01290	Lateral-Root Significant Genes
+AT5G15750	Lateral-Root Significant Genes
+AT5G61030	Lateral-Root Significant Genes
+AT5G57280	Lateral-Root Significant Genes
+AT5G22650	Lateral-Root Significant Genes
+AT5G14650	Lateral-Root Significant Genes
+AT5G09790	Lateral-Root Significant Genes
+AT3G52780	Lateral-Root Significant Genes
+AT3G44750	Lateral-Root Significant Genes
+AT4G30990	Lateral-Root Significant Genes
+AT4G26600	Lateral-Root Significant Genes
+AT4G25630	Lateral-Root Significant Genes
+AT4G04180	Lateral-Root Significant Genes
+AT4G00620;AT4G00600	Lateral-Root Significant Genes
+AT3G18600	Lateral-Root Significant Genes
+AT3G23830	Lateral-Root Significant Genes
+AT3G18130	Lateral-Root Significant Genes
+AT3G07050	Lateral-Root Significant Genes
+AT3G03060	Lateral-Root Significant Genes
+AT1G68990	Lateral-Root Significant Genes
+AT1G73177	Lateral-Root Significant Genes
+AT1G52930	Lateral-Root Significant Genes
+AT1G07370	Lateral-Root Significant Genes
+AT1G18320;AT3G10110	Lateral-Root Significant Genes
+AT1G15580	Lateral-Root Significant Genes
+AT2G16440	Lateral-Root Significant Genes
+AT1G61580	Lateral-Root Significant Genes
+AT2G25355	Lateral-Root Significant Genes
+AT2G27840	Lateral-Root Significant Genes
+AT2G47990	Lateral-Root Significant Genes
+AT2G46990	Lateral-Root Significant Genes
+AT5G25475	Lateral-Root Significant Genes
+AT5G65500	Lateral-Root Significant Genes
+AT3G61820	Lateral-Root Significant Genes
+AT4G24780	Lateral-Root Significant Genes
+AT3G13860	Lateral-Root Significant Genes
+AT3G27070	Lateral-Root Significant Genes
+AT3G27580	Lateral-Root Significant Genes
+AT2G47260	Lateral-Root Significant Genes
+AT2G16660	Lateral-Root Significant Genes
+AT2G35605	Lateral-Root Significant Genes
+AT2G34357	Lateral-Root Significant Genes
+AT2G39795	Lateral-Root Significant Genes
+AT2G41650	Lateral-Root Significant Genes
+AT2G45440	Lateral-Root Significant Genes
+AT4G15770	Lateral-Root Significant Genes
+AT4G14390	Lateral-Root Significant Genes
+AT1G25260	Lateral-Root Significant Genes
+AT1G28290	Lateral-Root Significant Genes
+AT5G19290	Lateral-Root Significant Genes
+AT5G19300	Lateral-Root Significant Genes
+AT4G37090	Lateral-Root Significant Genes
+AT5G16750	Lateral-Root Significant Genes
+AT5G15550	Lateral-Root Significant Genes
+AT1G31660	Lateral-Root Significant Genes
+AT1G48920	Lateral-Root Significant Genes
+AT5G27120;AT5G27140	Lateral-Root Significant Genes
+AT5G67240	Lateral-Root Significant Genes
+AT5G66540	Lateral-Root Significant Genes
+AT5G66750	Lateral-Root Significant Genes
+AT5G65900	Lateral-Root Significant Genes
+AT5G62440	Lateral-Root Significant Genes
+AT5G61880	Lateral-Root Significant Genes
+AT5G61770	Lateral-Root Significant Genes
+AT5G57390	Lateral-Root Significant Genes
+AT5G56580	Lateral-Root Significant Genes
+AT5G56740	Lateral-Root Significant Genes
+AT5G55920	Lateral-Root Significant Genes
+AT5G54130	Lateral-Root Significant Genes
+AT5G52380	Lateral-Root Significant Genes
+AT5G51550	Lateral-Root Significant Genes
+AT5G47440	Lateral-Root Significant Genes
+AT5G46280	Lateral-Root Significant Genes
+AT5G38890	Lateral-Root Significant Genes
+AT5G24330	Lateral-Root Significant Genes
+AT5G22440	Lateral-Root Significant Genes
+AT5G14610	Lateral-Root Significant Genes
+AT5G14520	Lateral-Root Significant Genes
+AT5G14050	Lateral-Root Significant Genes
+AT5G11240	Lateral-Root Significant Genes
+AT5G10510	Lateral-Root Significant Genes
+AT5G08180	Lateral-Root Significant Genes
+AT5G06550	Lateral-Root Significant Genes
+AT5G02590	Lateral-Root Significant Genes
+AT5G02050	Lateral-Root Significant Genes
+AT3G61160	Lateral-Root Significant Genes
+AT3G59670	Lateral-Root Significant Genes
+AT3G57660	Lateral-Root Significant Genes
+AT3G57000	Lateral-Root Significant Genes
+AT3G57150	Lateral-Root Significant Genes
+AT3G56070	Lateral-Root Significant Genes
+AT3G55510	Lateral-Root Significant Genes
+AT3G55400	Lateral-Root Significant Genes
+AT3G55010	Lateral-Root Significant Genes
+AT3G52040	Lateral-Root Significant Genes
+AT3G50660	Lateral-Root Significant Genes
+AT3G46940	Lateral-Root Significant Genes
+AT4G38100	Lateral-Root Significant Genes
+AT4G36020	Lateral-Root Significant Genes
+AT4G30840	Lateral-Root Significant Genes
+AT4G30800	Lateral-Root Significant Genes
+AT4G29510	Lateral-Root Significant Genes
+AT4G29360	Lateral-Root Significant Genes
+AT4G28450	Lateral-Root Significant Genes
+AT4G27490	Lateral-Root Significant Genes
+AT4G26140	Lateral-Root Significant Genes
+AT4G25340	Lateral-Root Significant Genes
+AT4G25730	Lateral-Root Significant Genes
+AT4G22380	Lateral-Root Significant Genes
+AT4G13750	Lateral-Root Significant Genes
+AT4G13210	Lateral-Root Significant Genes
+AT4G12600	Lateral-Root Significant Genes
+AT4G10450	Lateral-Root Significant Genes
+AT4G05410	Lateral-Root Significant Genes
+AT4G04940	Lateral-Root Significant Genes
+AT4G02060	Lateral-Root Significant Genes
+AT4G01560	Lateral-Root Significant Genes
+AT4G01630	Lateral-Root Significant Genes
+AT4G00238	Lateral-Root Significant Genes
+AT1G20300	Lateral-Root Significant Genes
+AT1G07070	Lateral-Root Significant Genes
+AT1G13730	Lateral-Root Significant Genes
+AT1G48630	Lateral-Root Significant Genes
+AT3G12270	Lateral-Root Significant Genes
+AT1G54990	Lateral-Root Significant Genes
+AT1G33420	Lateral-Root Significant Genes
+AT3G11150	Lateral-Root Significant Genes
+AT3G11964	Lateral-Root Significant Genes
+AT3G23990	Lateral-Root Significant Genes
+AT3G13160	Lateral-Root Significant Genes
+AT3G15080	Lateral-Root Significant Genes
+AT1G71850	Lateral-Root Significant Genes
+AT3G16810	Lateral-Root Significant Genes
+AT3G13230	Lateral-Root Significant Genes
+AT3G12670	Lateral-Root Significant Genes
+AT3G27060	Lateral-Root Significant Genes
+AT3G23620	Lateral-Root Significant Genes
+AT3G13940	Lateral-Root Significant Genes
+AT3G15460	Lateral-Root Significant Genes
+AT3G16780	Lateral-Root Significant Genes
+AT3G06530	Lateral-Root Significant Genes
+AT3G06680	Lateral-Root Significant Genes
+AT3G02790	Lateral-Root Significant Genes
+AT3G04710	Lateral-Root Significant Genes
+AT3G10610	Lateral-Root Significant Genes
+AT3G10690	Lateral-Root Significant Genes
+AT3G07750	Lateral-Root Significant Genes
+AT3G07770	Lateral-Root Significant Genes
+AT3G05060	Lateral-Root Significant Genes
+AT3G03920	Lateral-Root Significant Genes
+AT1G64390	Lateral-Root Significant Genes
+AT1G77550	Lateral-Root Significant Genes
+AT1G67630	Lateral-Root Significant Genes
+AT1G63660	Lateral-Root Significant Genes
+AT1G63810	Lateral-Root Significant Genes
+AT1G80270	Lateral-Root Significant Genes
+AT1G72310	Lateral-Root Significant Genes
+AT2G41820	Lateral-Root Significant Genes
+AT1G02690	Lateral-Root Significant Genes
+AT1G04870	Lateral-Root Significant Genes
+AT1G04940	Lateral-Root Significant Genes
+AT1G20220	Lateral-Root Significant Genes
+AT1G18850	Lateral-Root Significant Genes
+AT1G28395	Lateral-Root Significant Genes
+AT1G80750	Lateral-Root Significant Genes
+AT1G02870	Lateral-Root Significant Genes
+AT1G15420	Lateral-Root Significant Genes
+AT1G15440	Lateral-Root Significant Genes
+AT1G75670	Lateral-Root Significant Genes
+AT1G23280	Lateral-Root Significant Genes
+AT2G16570	Lateral-Root Significant Genes
+AT2G31410	Lateral-Root Significant Genes
+AT2G20490	Lateral-Root Significant Genes
+AT2G20450	Lateral-Root Significant Genes
+AT2G04160	Lateral-Root Significant Genes
+AT2G17250	Lateral-Root Significant Genes
+AT2G17230	Lateral-Root Significant Genes
+AT2G25270	Lateral-Root Significant Genes
+AT1G59990	Lateral-Root Significant Genes
+AT1G26910	Lateral-Root Significant Genes
+AT2G40360	Lateral-Root Significant Genes
+AT2G21790	Lateral-Root Significant Genes
+AT2G42740	Lateral-Root Significant Genes
+AT2G03740	Lateral-Root Significant Genes
+AT1G79140	Lateral-Root Significant Genes
+AT1G61870	Lateral-Root Significant Genes
+AT2G17670	Lateral-Root Significant Genes
+AT1G08580	Lateral-Root Significant Genes
+AT1G03530	Lateral-Root Significant Genes
+AT1G61570	Lateral-Root Significant Genes
+AT2G18220	Lateral-Root Significant Genes
+AT2G37190	Lateral-Root Significant Genes
+AT2G40700	Lateral-Root Significant Genes
+AT2G37990	Lateral-Root Significant Genes
+AT2G29540	Lateral-Root Significant Genes
+AT2G18900	Lateral-Root Significant Genes
+AT2G34260	Lateral-Root Significant Genes
+AT2G37690	Lateral-Root Significant Genes
+AT2G19385	Lateral-Root Significant Genes
+AT2G35020	Lateral-Root Significant Genes
+AT5G27330	Lateral-Root Significant Genes
+AT5G67260	Lateral-Root Significant Genes
+AT3G10600	Lateral-Root Significant Genes
+AT1G05577	Lateral-Root Significant Genes
+AT1G55430	Lateral-Root Significant Genes
+AT2G35600	Lateral-Root Significant Genes
+AT4G14450	Lateral-Root Significant Genes
+AT4G34290	Lateral-Root Significant Genes
+AT3G07000	Lateral-Root Significant Genes
+AT1G65390	Lateral-Root Significant Genes
+AT1G65390	Lateral-Root Significant Genes
+AT5G08600	Lateral-Root Significant Genes
+AT1G26450	Lateral-Root Significant Genes
+AT1G04180	Lateral-Root Significant Genes
+AT4G15550	Lateral-Root Significant Genes
+AT4G14440	Lateral-Root Significant Genes
+AT5G19440	Lateral-Root Significant Genes
+AT1G58170	Lateral-Root Significant Genes
+AT5G16970	Lateral-Root Significant Genes
+AT5G14730	Lateral-Root Significant Genes
+AT5G27760	Lateral-Root Significant Genes
+AT5G26340	Lateral-Root Significant Genes
+AT5G65470	Lateral-Root Significant Genes
+AT5G63720	Lateral-Root Significant Genes
+AT5G63790	Lateral-Root Significant Genes
+AT5G62580	Lateral-Root Significant Genes
+AT5G58620	Lateral-Root Significant Genes
+AT5G56040	Lateral-Root Significant Genes
+AT5G53760	Lateral-Root Significant Genes
+AT5G52310	Lateral-Root Significant Genes
+AT5G51830	Lateral-Root Significant Genes
+AT5G48180	Lateral-Root Significant Genes
+AT5G45340	Lateral-Root Significant Genes
+AT5G24110	Lateral-Root Significant Genes
+AT5G24310	Lateral-Root Significant Genes
+AT5G13750	Lateral-Root Significant Genes
+AT5G10830	Lateral-Root Significant Genes
+AT5G07870	Lateral-Root Significant Genes
+AT5G01890	Lateral-Root Significant Genes
+AT3G54400	Lateral-Root Significant Genes
+AT3G53540;AT3G53530	Lateral-Root Significant Genes
+AT3G45970;AT3G45980	Lateral-Root Significant Genes
+AT4G38420	Lateral-Root Significant Genes
+AT4G34710	Lateral-Root Significant Genes
+AT4G33070	Lateral-Root Significant Genes
+AT4G32070	Lateral-Root Significant Genes
+AT4G24960	Lateral-Root Significant Genes
+AT4G23800;AT4G23810	Lateral-Root Significant Genes
+AT4G22070	Lateral-Root Significant Genes
+AT4G18360	Lateral-Root Significant Genes
+AT4G13235	Lateral-Root Significant Genes
+AT4G09460	Lateral-Root Significant Genes
+AT4G02940	Lateral-Root Significant Genes
+AT4G01870	Lateral-Root Significant Genes
+AT1G19230	Lateral-Root Significant Genes
+AT1G16850	Lateral-Root Significant Genes
+AT1G66880	Lateral-Root Significant Genes
+AT2G34140	Lateral-Root Significant Genes
+AT3G13650	Lateral-Root Significant Genes
+AT3G13520	Lateral-Root Significant Genes
+AT3G15350	Lateral-Root Significant Genes
+AT3G12700	Lateral-Root Significant Genes
+AT3G18490	Lateral-Root Significant Genes
+AT3G04440;AT3G03700	Lateral-Root Significant Genes
+AT1G02400	Lateral-Root Significant Genes
+AT1G76520	Lateral-Root Significant Genes
+AT1G73760	Lateral-Root Significant Genes
+AT1G01225	Lateral-Root Significant Genes
+AT1G75390	Lateral-Root Significant Genes
+AT1G17180	Lateral-Root Significant Genes
+AT1G17170	Lateral-Root Significant Genes
+AT1G14130	Lateral-Root Significant Genes
+AT1G54270;AT3G13920	Lateral-Root Significant Genes
+AT1G23340	Lateral-Root Significant Genes
+AT1G11960	Lateral-Root Significant Genes
+AT1G09350	Lateral-Root Significant Genes
+AT1G62300	Lateral-Root Significant Genes
+AT1G60730	Lateral-Root Significant Genes
+AT1G51170	Lateral-Root Significant Genes
+AT2G15490	Lateral-Root Significant Genes
+AT2G18690	Lateral-Root Significant Genes
+AT2G43290	Lateral-Root Significant Genes
+AT2G19860	Lateral-Root Significant Genes
+AT2G38180	Lateral-Root Significant Genes
+AT2G32560	Lateral-Root Significant Genes
+AT2G23420	Lateral-Root Significant Genes
+AT2G30140	Lateral-Root Significant Genes
+AT2G34660	Lateral-Root Significant Genes
+AT2G30400	Lateral-Root Significant Genes
+AT4G14550	Lateral-Root Significant Genes
+AT1G57990;AT1G57980	Lateral-Root Significant Genes
+AT3G51850	Lateral-Root Significant Genes
+AT1G57560	Lateral-Root Significant Genes
+AT5G62350	Lateral-Root Significant Genes
+AT5G51690;AT5G51680	Lateral-Root Significant Genes
+AT5G47070	Lateral-Root Significant Genes
+AT5G41040	Lateral-Root Significant Genes
+AT5G04770	Lateral-Root Significant Genes
+AT3G59350	Lateral-Root Significant Genes
+AT3G54950	Lateral-Root Significant Genes
+AT4G37890	Lateral-Root Significant Genes
+AT4G33540	Lateral-Root Significant Genes
+AT3G21420	Lateral-Root Significant Genes
+AT3G28180	Lateral-Root Significant Genes
+AT1G72230	Lateral-Root Significant Genes
+AT1G70550	Lateral-Root Significant Genes
+AT1G14480	Lateral-Root Significant Genes
+AT1G04240	Lateral-Root Significant Genes
+AT1G04550	Lateral-Root Significant Genes
+AT1G08610	Lateral-Root Significant Genes
+AT2G29440	Lateral-Root Significant Genes
+AT2G30040	Lateral-Root Significant Genes
+AT2G29980	Lateral-Root Significant Genes
+AT5G39040	Lateral-Root Significant Genes
+AT4G27820;AT4G27830	Lateral-Root Significant Genes
+AT5G59480	Lateral-Root Significant Genes
+AT5G18470	Lateral-Root Significant Genes
+AT4G22710;AT4G22690	Lateral-Root Significant Genes
+AT2G22880;AT2G22870	Lateral-Root Significant Genes
+AT2G33720	Lateral-Root Significant Genes
+AT5G20540	Lateral-Root Significant Genes
+AT1G31860	Lateral-Root Significant Genes
+AT3G43590	Lateral-Root Significant Genes
+AT3G44820	Lateral-Root Significant Genes
+AT1G51950	Lateral-Root Significant Genes
+AT5G15920	Lateral-Root Significant Genes
+AT5G64340	Lateral-Root Significant Genes
+AT5G53900	Lateral-Root Significant Genes
+AT5G52810	Lateral-Root Significant Genes
+AT5G41620	Lateral-Root Significant Genes
+AT5G22860	Lateral-Root Significant Genes
+AT5G11740	Lateral-Root Significant Genes
+AT5G06860	Lateral-Root Significant Genes
+AT5G03490	Lateral-Root Significant Genes
+AT3G58180	Lateral-Root Significant Genes
+AT3G57550	Lateral-Root Significant Genes
+AT3G51670	Lateral-Root Significant Genes
+AT4G39230	Lateral-Root Significant Genes
+AT4G37590	Lateral-Root Significant Genes
+AT4G26690	Lateral-Root Significant Genes
+AT4G13130	Lateral-Root Significant Genes
+AT4G12840	Lateral-Root Significant Genes
+AT4G12110	Lateral-Root Significant Genes
+AT4G03550	Lateral-Root Significant Genes
+AT4G01250	Lateral-Root Significant Genes
+AT1G25570	Lateral-Root Significant Genes
+AT3G14070	Lateral-Root Significant Genes
+AT3G02800	Lateral-Root Significant Genes
+AT1G66480	Lateral-Root Significant Genes
+AT3G26980	Lateral-Root Significant Genes
+AT3G21700	Lateral-Root Significant Genes
+AT3G25400	Lateral-Root Significant Genes
+AT3G20830	Lateral-Root Significant Genes
+AT3G08760	Lateral-Root Significant Genes
+AT3G01820	Lateral-Root Significant Genes
+AT1G48120	Lateral-Root Significant Genes
+AT1G06770	Lateral-Root Significant Genes
+AT1G49740	Lateral-Root Significant Genes
+AT1G18480	Lateral-Root Significant Genes
+AT1G08280	Lateral-Root Significant Genes
+AT1G80840	Lateral-Root Significant Genes
+AT1G77840	Lateral-Root Significant Genes
+AT1G34750	Lateral-Root Significant Genes
+AT1G28680	Lateral-Root Significant Genes
+AT1G13195	Lateral-Root Significant Genes
+AT2G36910	Lateral-Root Significant Genes
+AT2G24500	Lateral-Root Significant Genes
+AT2G41110	Lateral-Root Significant Genes
+AT1G73540	Lateral-Root Significant Genes
+AT5G53280	Lateral-Root Significant Genes
+AT4G27280	Lateral-Root Significant Genes
+AT4G25810	Lateral-Root Significant Genes
+AT4G00940	Lateral-Root Significant Genes
+AT1G18570	Lateral-Root Significant Genes
+AT3G05900	Lateral-Root Significant Genes
+AT1G74660	Lateral-Root Significant Genes
+AT2G03730	Lateral-Root Significant Genes
+AT2G23450	Lateral-Root Significant Genes
+AT3G20460	Lateral-Root Significant Genes
+AT1G69760	Lateral-Root Significant Genes
+AT2G39210	Lateral-Root Significant Genes
+AT2G40000	Lateral-Root Significant Genes
+AT2G28210	Lateral-Root Significant Genes
+AT5G53250	Lateral-Root Significant Genes
+AT5G46590	Lateral-Root Significant Genes
+AT5G41080	Lateral-Root Significant Genes
+AT3G14780	Lateral-Root Significant Genes
+AT1G10530	Lateral-Root Significant Genes
+AT1G74055	Lateral-Root Significant Genes
+AT4G14690	Lateral-Root Significant Genes
+AT4G15500	Lateral-Root Significant Genes
+AT1G33590	Lateral-Root Significant Genes
+AT5G19850	Lateral-Root Significant Genes
+AT5G21105	Lateral-Root Significant Genes
+AT4G36500	Lateral-Root Significant Genes
+AT5G28150	Lateral-Root Significant Genes
+AT5G27540	Lateral-Root Significant Genes
+AT5G26780	Lateral-Root Significant Genes
+AT5G67580	Lateral-Root Significant Genes
+AT5G65630	Lateral-Root Significant Genes
+AT5G65640	Lateral-Root Significant Genes
+AT5G65180	Lateral-Root Significant Genes
+AT5G64300	Lateral-Root Significant Genes
+AT5G52540	Lateral-Root Significant Genes
+AT5G49480	Lateral-Root Significant Genes
+AT5G48430	Lateral-Root Significant Genes
+AT5G45350	Lateral-Root Significant Genes
+AT5G44370	Lateral-Root Significant Genes
+AT5G42570	Lateral-Root Significant Genes
+AT5G38460	Lateral-Root Significant Genes
+AT5G06300	Lateral-Root Significant Genes
+AT5G05820	Lateral-Root Significant Genes
+AT3G60620	Lateral-Root Significant Genes
+AT3G60450	Lateral-Root Significant Genes
+AT3G59220	Lateral-Root Significant Genes
+AT3G55980	Lateral-Root Significant Genes
+AT3G54030	Lateral-Root Significant Genes
+AT3G52960	Lateral-Root Significant Genes
+AT3G52500	Lateral-Root Significant Genes
+AT3G50970	Lateral-Root Significant Genes
+AT3G46930	Lateral-Root Significant Genes
+AT3G46290	Lateral-Root Significant Genes
+AT4G39120	Lateral-Root Significant Genes
+AT4G31550	Lateral-Root Significant Genes
+AT4G22130	Lateral-Root Significant Genes
+AT4G19200	Lateral-Root Significant Genes
+AT4G18950	Lateral-Root Significant Genes
+AT4G18280	Lateral-Root Significant Genes
+AT4G18490	Lateral-Root Significant Genes
+AT4G08390	Lateral-Root Significant Genes
+AT1G20330	Lateral-Root Significant Genes
+AT1G18150	Lateral-Root Significant Genes
+AT3G20110	Lateral-Root Significant Genes
+AT3G20740	Lateral-Root Significant Genes
+AT3G21690	Lateral-Root Significant Genes
+AT1G28110	Lateral-Root Significant Genes
+AT1G77610	Lateral-Root Significant Genes
+AT1G30080	Lateral-Root Significant Genes
+AT1G74380	Lateral-Root Significant Genes
+AT1G68500	Lateral-Root Significant Genes
+AT2G43360	Lateral-Root Significant Genes
+AT1G08090	Lateral-Root Significant Genes
+AT1G19450	Lateral-Root Significant Genes
+AT1G12950	Lateral-Root Significant Genes
+AT1G76160	Lateral-Root Significant Genes
+AT1G65060	Lateral-Root Significant Genes
+AT1G02900	Lateral-Root Significant Genes
+AT1G53840	Lateral-Root Significant Genes
+AT1G16310	Lateral-Root Significant Genes
+AT1G14790;AT1G14780	Lateral-Root Significant Genes
+AT1G54010;AT1G54000	Lateral-Root Significant Genes
+AT2G36290	Lateral-Root Significant Genes
+AT1G10370	Lateral-Root Significant Genes
+AT1G23010	Lateral-Root Significant Genes
+AT1G61340	Lateral-Root Significant Genes
+AT1G64950	Lateral-Root Significant Genes
+AT2G27820	Lateral-Root Significant Genes
+AT2G23910	Lateral-Root Significant Genes
+AT4G36430	Lateral-Root Significant Genes
+AT2G48080	Lateral-Root Significant Genes
+AT5G65140	Lateral-Root Significant Genes
+AT5G45080	Lateral-Root Significant Genes
+AT5G07390	Lateral-Root Significant Genes
+AT3G50480	Lateral-Root Significant Genes
+AT3G46350	Lateral-Root Significant Genes
+AT3G45920;AT3G46330	Lateral-Root Significant Genes
+AT4G34750	Lateral-Root Significant Genes
+AT4G12490	Lateral-Root Significant Genes
+AT2G39530	Lateral-Root Significant Genes
+AT2G47490	Lateral-Root Significant Genes
+AT4G16660	Lateral-Root Significant Genes
+AT1G48850	Lateral-Root Significant Genes
+AT5G08300	Lateral-Root Significant Genes
+AT1G48860;AT2G45300	Lateral-Root Significant Genes
+AT5G67300;AT5G67310	Lateral-Root Significant Genes
+AT5G66120	Lateral-Root Significant Genes
+AT5G63770	Lateral-Root Significant Genes
+AT5G61790	Lateral-Root Significant Genes
+AT5G58140;AT5G58150	Lateral-Root Significant Genes
+AT5G51220	Lateral-Root Significant Genes
+AT5G50370	Lateral-Root Significant Genes
+AT5G50340	Lateral-Root Significant Genes
+AT5G23830	Lateral-Root Significant Genes
+AT3G62600	Lateral-Root Significant Genes
+AT3G55740	Lateral-Root Significant Genes
+AT3G49680	Lateral-Root Significant Genes
+AT3G47520	Lateral-Root Significant Genes
+AT4G35640;AT4G35630	Lateral-Root Significant Genes
+AT4G24190	Lateral-Root Significant Genes
+AT4G21150	Lateral-Root Significant Genes
+AT4G09420	Lateral-Root Significant Genes
+AT4G01650	Lateral-Root Significant Genes
+AT1G19180	Lateral-Root Significant Genes
+AT1G16940	Lateral-Root Significant Genes
+AT1G51800	Lateral-Root Significant Genes
+AT3G28480	Lateral-Root Significant Genes
+AT3G11660	Lateral-Root Significant Genes
+AT1G18970	Lateral-Root Significant Genes
+AT1G74030	Lateral-Root Significant Genes
+AT1G53310	Lateral-Root Significant Genes
+AT1G26460	Lateral-Root Significant Genes
+AT1G28510	Lateral-Root Significant Genes
+AT1G22510	Lateral-Root Significant Genes
+AT1G78000	Lateral-Root Significant Genes
+AT1G79410	Lateral-Root Significant Genes
+AT2G22250	Lateral-Root Significant Genes
+AT1G12000	Lateral-Root Significant Genes
+AT1G61770	Lateral-Root Significant Genes
+AT1G23830	Lateral-Root Significant Genes
+AT2G28250	Lateral-Root Significant Genes
+AT2G18990	Lateral-Root Significant Genes
+AT2G30200	Lateral-Root Significant Genes
+AT4G21400	Lateral-Root Significant Genes
+AT4G12060	Lateral-Root Significant Genes
+AT3G09920	Lateral-Root Significant Genes
+AT1G71400	Lateral-Root Significant Genes
+AT1G06710	Lateral-Root Significant Genes
+AT1G01340	Lateral-Root Significant Genes
+AT2G21160	Lateral-Root Significant Genes
+AT1G70410	Lateral-Root Significant Genes
+AT2G03450	Lateral-Root Significant Genes
+AT2G27810	Lateral-Root Significant Genes
+AT2G35270	Lateral-Root Significant Genes
+AT2G28960	Lateral-Root Significant Genes
+AT5G67070	Lateral-Root Significant Genes
+AT4G32290	Lateral-Root Significant Genes
+AT4G21410	Lateral-Root Significant Genes
+AT4G08850	Lateral-Root Significant Genes
+AT3G13790	Lateral-Root Significant Genes
+AT3G15850	Lateral-Root Significant Genes
+AT2G18210	Lateral-Root Significant Genes
+AT2G28900	Lateral-Root Significant Genes
+AT5G19040	Lateral-Root Significant Genes
+AT4G24570	Lateral-Root Significant Genes
+AT5G05580;AT3G11170	Lateral-Root Significant Genes
+AT1G11670	Lateral-Root Significant Genes
+AT3G11110	Lateral-Root Significant Genes
+AT3G22500	Lateral-Root Significant Genes
+AT5G05430	Lateral-Root Significant Genes
+AT5G44400	Lateral-Root Significant Genes
+AT4G26790	Lateral-Root Significant Genes
+AT1G01600	Lateral-Root Significant Genes
+AT4G30850	Lateral-Root Significant Genes
+AT3G05360	Lateral-Root Significant Genes
+AT1G78530	Lateral-Root Significant Genes
+AT4G14970	Lateral-Root Significant Genes
+AT5G14760	Lateral-Root Significant Genes
+AT5G61310	Lateral-Root Significant Genes
+AT5G56950	Lateral-Root Significant Genes
+AT5G51560	Lateral-Root Significant Genes
+AT5G47250	Lateral-Root Significant Genes
+AT5G45800	Lateral-Root Significant Genes
+AT5G43960	Lateral-Root Significant Genes
+AT5G35910	Lateral-Root Significant Genes
+AT5G14580	Lateral-Root Significant Genes
+AT5G06050	Lateral-Root Significant Genes
+AT5G05620;AT3G61650	Lateral-Root Significant Genes
+AT3G49990	Lateral-Root Significant Genes
+AT3G49240	Lateral-Root Significant Genes
+AT4G38660	Lateral-Root Significant Genes
+AT4G23010	Lateral-Root Significant Genes
+AT4G22610	Lateral-Root Significant Genes
+AT4G20980	Lateral-Root Significant Genes
+AT4G18900	Lateral-Root Significant Genes
+AT4G04870	Lateral-Root Significant Genes
+AT3G05910	Lateral-Root Significant Genes
+AT1G69200	Lateral-Root Significant Genes
+AT1G07790	Lateral-Root Significant Genes
+AT1G64490	Lateral-Root Significant Genes
+AT1G56050	Lateral-Root Significant Genes
+AT1G47500;AT1G47490	Lateral-Root Significant Genes
+AT1G13160	Lateral-Root Significant Genes
+AT2G31360	Lateral-Root Significant Genes
+AT2G04030	Lateral-Root Significant Genes
+AT2G42710	Lateral-Root Significant Genes
+AT2G28000	Lateral-Root Significant Genes
+AT2G37400	Lateral-Root Significant Genes
+AT2G05920	Lateral-Root Significant Genes
+AT2G27080;AT2G27090	Lateral-Root Significant Genes
+AT2G44040	Lateral-Root Significant Genes
+AT2G33210	Lateral-Root Significant Genes
+AT5G64670	Lateral-Root Significant Genes
+AT5G54970	Lateral-Root Significant Genes
+AT5G03160	Lateral-Root Significant Genes
+AT3G59820	Lateral-Root Significant Genes
+AT3G58830	Lateral-Root Significant Genes
+AT4G39720	Lateral-Root Significant Genes
+AT4G31810	Lateral-Root Significant Genes
+AT4G30400	Lateral-Root Significant Genes
+AT1G75200	Lateral-Root Significant Genes
+AT3G24090	Lateral-Root Significant Genes
+AT2G43800	Lateral-Root Significant Genes
+AT1G53645	Lateral-Root Significant Genes
+AT1G79470	Lateral-Root Significant Genes
+AT2G24970	Lateral-Root Significant Genes
+AT2G29570	Lateral-Root Significant Genes
+AT1G77670	Lateral-Root Significant Genes
+AT1G51420	Lateral-Root Significant Genes
+AT2G37280	Lateral-Root Significant Genes
+AT2G23350	Lateral-Root Significant Genes
+AT2G47610	Lateral-Root Significant Genes
+AT2G45240	Lateral-Root Significant Genes
+AT4G14320	Lateral-Root Significant Genes
+AT4G15000	Lateral-Root Significant Genes
+AT4G17520	Lateral-Root Significant Genes
+AT4G15640	Lateral-Root Significant Genes
+AT4G14350	Lateral-Root Significant Genes
+AT1G25280	Lateral-Root Significant Genes
+AT1G28210	Lateral-Root Significant Genes
+AT1G26260	Lateral-Root Significant Genes
+AT5G09420	Lateral-Root Significant Genes
+AT5G09510	Lateral-Root Significant Genes
+AT5G09250	Lateral-Root Significant Genes
+AT5G19750	Lateral-Root Significant Genes
+AT5G19320	Lateral-Root Significant Genes
+AT5G20160	Lateral-Root Significant Genes
+AT5G20040	Lateral-Root Significant Genes
+AT5G28370;AT3G61520;AT5G28460	Lateral-Root Significant Genes
+AT5G20890	Lateral-Root Significant Genes
+AT4G37210	Lateral-Root Significant Genes
+AT4G37280	Lateral-Root Significant Genes
+AT3G51800	Lateral-Root Significant Genes
+AT3G56900	Lateral-Root Significant Genes
+AT5G15980	Lateral-Root Significant Genes
+AT5G16070	Lateral-Root Significant Genes
+AT5G16040	Lateral-Root Significant Genes
+AT5G15810	Lateral-Root Significant Genes
+AT5G27990	Lateral-Root Significant Genes
+AT5G27740	Lateral-Root Significant Genes
+AT5G27770	Lateral-Root Significant Genes
+AT5G26830	Lateral-Root Significant Genes
+AT5G26710	Lateral-Root Significant Genes
+AT5G26860	Lateral-Root Significant Genes
+AT5G27640;AT5G25780	Lateral-Root Significant Genes
+AT5G26180	Lateral-Root Significant Genes
+AT5G04870;AT3G10660	Lateral-Root Significant Genes
+AT5G24840	Lateral-Root Significant Genes
+AT5G67510	Lateral-Root Significant Genes
+AT5G67100	Lateral-Root Significant Genes
+AT5G66440	Lateral-Root Significant Genes
+AT5G64680	Lateral-Root Significant Genes
+AT5G64140	Lateral-Root Significant Genes
+AT5G62290	Lateral-Root Significant Genes
+AT5G62440	Lateral-Root Significant Genes
+AT5G61020	Lateral-Root Significant Genes
+AT5G61170	Lateral-Root Significant Genes
+AT5G60670	Lateral-Root Significant Genes
+AT5G61000	Lateral-Root Significant Genes
+AT5G60960	Lateral-Root Significant Genes
+AT5G60990	Lateral-Root Significant Genes
+AT5G59850	Lateral-Root Significant Genes
+AT5G59740	Lateral-Root Significant Genes
+AT5G59180	Lateral-Root Significant Genes
+AT5G57990	Lateral-Root Significant Genes
+AT5G58210	Lateral-Root Significant Genes
+AT5G57290	Lateral-Root Significant Genes
+AT5G56940	Lateral-Root Significant Genes
+AT5G55200	Lateral-Root Significant Genes
+AT5G54900	Lateral-Root Significant Genes
+AT5G54580	Lateral-Root Significant Genes
+AT5G53620	Lateral-Root Significant Genes
+AT5G53320	Lateral-Root Significant Genes
+AT5G53070	Lateral-Root Significant Genes
+AT5G52650	Lateral-Root Significant Genes
+AT5G52470	Lateral-Root Significant Genes
+AT5G48760	Lateral-Root Significant Genes
+AT5G48030	Lateral-Root Significant Genes
+AT5G48240	Lateral-Root Significant Genes
+AT5G47210	Lateral-Root Significant Genes
+AT5G45590	Lateral-Root Significant Genes
+AT5G44710	Lateral-Root Significant Genes
+AT5G42150	Lateral-Root Significant Genes
+AT5G41190	Lateral-Root Significant Genes
+AT5G40770	Lateral-Root Significant Genes
+AT5G40480	Lateral-Root Significant Genes
+AT5G40200	Lateral-Root Significant Genes
+AT5G39740	Lateral-Root Significant Genes
+AT5G38690	Lateral-Root Significant Genes
+AT5G35530	Lateral-Root Significant Genes
+AT5G35620	Lateral-Root Significant Genes
+AT5G23850	Lateral-Root Significant Genes
+AT5G23250	Lateral-Root Significant Genes
+AT5G22840	Lateral-Root Significant Genes
+AT5G18400	Lateral-Root Significant Genes
+AT5G18550	Lateral-Root Significant Genes
+AT5G18440	Lateral-Root Significant Genes
+AT5G11690	Lateral-Root Significant Genes
+AT5G11200;AT5G11170	Lateral-Root Significant Genes
+AT5G10920	Lateral-Root Significant Genes
+AT5G10360	Lateral-Root Significant Genes
+AT5G10010	Lateral-Root Significant Genes
+AT5G10240	Lateral-Root Significant Genes
+AT5G09770	Lateral-Root Significant Genes
+AT5G08570	Lateral-Root Significant Genes
+AT5G07090;AT5G58420;AT2G17360	Lateral-Root Significant Genes
+AT5G06360	Lateral-Root Significant Genes
+AT5G06460	Lateral-Root Significant Genes
+AT5G05470	Lateral-Root Significant Genes
+AT5G05210	Lateral-Root Significant Genes
+AT5G03970	Lateral-Root Significant Genes
+AT5G02610	Lateral-Root Significant Genes
+AT5G02450	Lateral-Root Significant Genes
+AT5G01470	Lateral-Root Significant Genes
+AT3G62940	Lateral-Root Significant Genes
+AT3G63130	Lateral-Root Significant Genes
+AT3G62870	Lateral-Root Significant Genes
+AT3G62530;AT3G62460	Lateral-Root Significant Genes
+AT3G62310	Lateral-Root Significant Genes
+AT3G61620	Lateral-Root Significant Genes
+AT3G60770	Lateral-Root Significant Genes
+AT3G60660	Lateral-Root Significant Genes
+AT3G59650	Lateral-Root Significant Genes
+AT3G59430	Lateral-Root Significant Genes
+AT3G58700	Lateral-Root Significant Genes
+AT3G57610	Lateral-Root Significant Genes
+AT3G57560	Lateral-Root Significant Genes
+AT3G56990	Lateral-Root Significant Genes
+AT3G56090	Lateral-Root Significant Genes
+AT3G56340	Lateral-Root Significant Genes
+AT3G56150	Lateral-Root Significant Genes
+AT3G55605	Lateral-Root Significant Genes
+AT3G55620	Lateral-Root Significant Genes
+AT3G55280	Lateral-Root Significant Genes
+AT3G55410	Lateral-Root Significant Genes
+AT3G54960	Lateral-Root Significant Genes
+AT3G54750	Lateral-Root Significant Genes
+AT3G54790	Lateral-Root Significant Genes
+AT3G53890	Lateral-Root Significant Genes
+AT3G53020	Lateral-Root Significant Genes
+AT3G52140	Lateral-Root Significant Genes
+AT3G52580	Lateral-Root Significant Genes
+AT3G49180	Lateral-Root Significant Genes
+AT3G49320	Lateral-Root Significant Genes
+AT3G49080	Lateral-Root Significant Genes
+AT3G48930	Lateral-Root Significant Genes
+AT3G48150	Lateral-Root Significant Genes
+AT3G48250	Lateral-Root Significant Genes
+AT3G48425	Lateral-Root Significant Genes
+AT3G46560	Lateral-Root Significant Genes
+AT3G46040	Lateral-Root Significant Genes
+AT3G44590	Lateral-Root Significant Genes
+AT4G39280	Lateral-Root Significant Genes
+AT4G39300	Lateral-Root Significant Genes
+AT4G37910	Lateral-Root Significant Genes
+AT4G35850	Lateral-Root Significant Genes
+AT4G35550	Lateral-Root Significant Genes
+AT4G34555	Lateral-Root Significant Genes
+AT4G34910	Lateral-Root Significant Genes
+AT4G34265	Lateral-Root Significant Genes
+AT4G34670	Lateral-Root Significant Genes
+AT4G33680	Lateral-Root Significant Genes
+AT4G33180	Lateral-Root Significant Genes
+AT4G33350	Lateral-Root Significant Genes
+AT4G32720	Lateral-Root Significant Genes
+AT4G32460	Lateral-Root Significant Genes
+AT4G32520	Lateral-Root Significant Genes
+AT4G32610	Lateral-Root Significant Genes
+AT4G31700	Lateral-Root Significant Genes
+AT4G31790	Lateral-Root Significant Genes
+AT4G30930	Lateral-Root Significant Genes
+AT4G30890	Lateral-Root Significant Genes
+AT4G31160	Lateral-Root Significant Genes
+AT4G31210	Lateral-Root Significant Genes
+AT4G30080	Lateral-Root Significant Genes
+AT4G30220	Lateral-Root Significant Genes
+AT4G29390	Lateral-Root Significant Genes
+AT4G29410	Lateral-Root Significant Genes
+AT4G27660	Lateral-Root Significant Genes
+AT4G27180	Lateral-Root Significant Genes
+AT4G26870	Lateral-Root Significant Genes
+AT4G26780	Lateral-Root Significant Genes
+AT4G26110	Lateral-Root Significant Genes
+AT4G25890	Lateral-Root Significant Genes
+AT4G25740	Lateral-Root Significant Genes
+AT4G25280	Lateral-Root Significant Genes
+AT4G24940	Lateral-Root Significant Genes
+AT4G24830	Lateral-Root Significant Genes
+AT4G23620	Lateral-Root Significant Genes
+AT4G23540	Lateral-Root Significant Genes
+AT4G22850	Lateral-Root Significant Genes
+AT4G22970	Lateral-Root Significant Genes
+AT4G21700	Lateral-Root Significant Genes
+AT4G21100	Lateral-Root Significant Genes
+AT4G20440	Lateral-Root Significant Genes
+AT4G20020	Lateral-Root Significant Genes
+AT4G19610	Lateral-Root Significant Genes
+AT4G18730	Lateral-Root Significant Genes
+AT4G18040	Lateral-Root Significant Genes
+AT4G13170	Lateral-Root Significant Genes
+AT4G11420	Lateral-Root Significant Genes
+AT4G11160	Lateral-Root Significant Genes
+AT4G10480	Lateral-Root Significant Genes
+AT4G10090	Lateral-Root Significant Genes
+AT4G09570	Lateral-Root Significant Genes
+AT4G05400	Lateral-Root Significant Genes
+AT4G02930	Lateral-Root Significant Genes
+AT4G01990	Lateral-Root Significant Genes
+AT4G00810	Lateral-Root Significant Genes
+AT4G00100	Lateral-Root Significant Genes
+AT1G31970	Lateral-Root Significant Genes
+AT1G16740	Lateral-Root Significant Genes
+AT1G18540	Lateral-Root Significant Genes
+AT2G33370	Lateral-Root Significant Genes
+AT2G33620	Lateral-Root Significant Genes
+AT2G40590	Lateral-Root Significant Genes
+AT2G40550	Lateral-Root Significant Genes
+AT1G22030	Lateral-Root Significant Genes
+AT1G22270	Lateral-Root Significant Genes
+AT1G34030	Lateral-Root Significant Genes
+AT1G16870	Lateral-Root Significant Genes
+AT1G48830	Lateral-Root Significant Genes
+AT3G11250	Lateral-Root Significant Genes
+AT1G72040	Lateral-Root Significant Genes
+AT4G26300;AT1G66530	Lateral-Root Significant Genes
+AT4G18440	Lateral-Root Significant Genes
+AT1G33410	Lateral-Root Significant Genes
+AT3G20000	Lateral-Root Significant Genes
+AT3G13570	Lateral-Root Significant Genes
+AT2G34050	Lateral-Root Significant Genes
+AT3G23940	Lateral-Root Significant Genes
+AT3G26410	Lateral-Root Significant Genes
+AT3G13560	Lateral-Root Significant Genes
+AT3G20050	Lateral-Root Significant Genes
+AT3G28900	Lateral-Root Significant Genes
+AT3G27280	Lateral-Root Significant Genes
+AT3G15000	Lateral-Root Significant Genes
+AT3G20430	Lateral-Root Significant Genes
+AT3G20330	Lateral-Root Significant Genes
+AT3G18760	Lateral-Root Significant Genes
+AT3G27080	Lateral-Root Significant Genes
+AT3G19440	Lateral-Root Significant Genes
+AT3G14600	Lateral-Root Significant Genes
+AT3G27740	Lateral-Root Significant Genes
+AT3G16080	Lateral-Root Significant Genes
+AT3G23325	Lateral-Root Significant Genes
+AT3G14390;AT5G11880	Lateral-Root Significant Genes
+AT3G22310	Lateral-Root Significant Genes
+AT3G22300	Lateral-Root Significant Genes
+AT3G02650	Lateral-Root Significant Genes
+AT3G02530	Lateral-Root Significant Genes
+AT3G02560	Lateral-Root Significant Genes
+AT3G02490	Lateral-Root Significant Genes
+AT3G06790	Lateral-Root Significant Genes
+AT3G06930	Lateral-Root Significant Genes
+AT3G02760	Lateral-Root Significant Genes
+AT3G02920	Lateral-Root Significant Genes
+AT3G09630	Lateral-Root Significant Genes
+AT3G11830	Lateral-Root Significant Genes
+AT3G04770	Lateral-Root Significant Genes
+AT3G03960	Lateral-Root Significant Genes
+AT3G07110	Lateral-Root Significant Genes
+AT3G02080	Lateral-Root Significant Genes
+AT3G10050	Lateral-Root Significant Genes
+AT3G05590	Lateral-Root Significant Genes
+AT3G10090	Lateral-Root Significant Genes
+AT3G01790	Lateral-Root Significant Genes
+AT3G11710	Lateral-Root Significant Genes
+AT3G04820	Lateral-Root Significant Genes
+AT3G04920	Lateral-Root Significant Genes
+AT3G04840	Lateral-Root Significant Genes
+AT3G02220	Lateral-Root Significant Genes
+AT3G11510	Lateral-Root Significant Genes
+AT5G15080	Lateral-Root Significant Genes
+AT3G01160	Lateral-Root Significant Genes
+AT1G13380	Lateral-Root Significant Genes
+AT1G69070	Lateral-Root Significant Genes
+AT1G17690	Lateral-Root Significant Genes
+AT1G63160	Lateral-Root Significant Genes
+AT1G77470	Lateral-Root Significant Genes
+AT1G64400	Lateral-Root Significant Genes
+AT1G66250	Lateral-Root Significant Genes
+AT1G71210	Lateral-Root Significant Genes
+AT1G71260	Lateral-Root Significant Genes
+AT1G29940	Lateral-Root Significant Genes
+AT1G73240	Lateral-Root Significant Genes
+AT1G67620	Lateral-Root Significant Genes
+AT1G74440	Lateral-Root Significant Genes
+AT1G74560	Lateral-Root Significant Genes
+AT1G74260	Lateral-Root Significant Genes
+AT1G74240	Lateral-Root Significant Genes
+AT1G63780	Lateral-Root Significant Genes
+AT1G69250	Lateral-Root Significant Genes
+AT1G72320	Lateral-Root Significant Genes
+AT1G72440	Lateral-Root Significant Genes
+AT1G55900	Lateral-Root Significant Genes
+AT1G14620	Lateral-Root Significant Genes
+AT1G43860	Lateral-Root Significant Genes
+AT1G53460	Lateral-Root Significant Genes
+AT1G12830	Lateral-Root Significant Genes
+AT1G05910	Lateral-Root Significant Genes
+AT1G26750	Lateral-Root Significant Genes
+AT1G52980	Lateral-Root Significant Genes
+AT1G44780	Lateral-Root Significant Genes
+AT1G18800	Lateral-Root Significant Genes
+AT1G71840	Lateral-Root Significant Genes
+AT1G14300	Lateral-Root Significant Genes
+AT1G49760	Lateral-Root Significant Genes
+AT1G08360	Lateral-Root Significant Genes
+AT1G76300	Lateral-Root Significant Genes
+AT1G76090	Lateral-Root Significant Genes
+AT1G15930	Lateral-Root Significant Genes
+AT1G08130	Lateral-Root Significant Genes
+AT1G64550	Lateral-Root Significant Genes
+AT1G42440	Lateral-Root Significant Genes
+AT1G49400	Lateral-Root Significant Genes
+AT1G49310	Lateral-Root Significant Genes
+AT1G11240	Lateral-Root Significant Genes
+AT1G06670	Lateral-Root Significant Genes
+AT1G16280	Lateral-Root Significant Genes
+AT1G64790	Lateral-Root Significant Genes
+AT1G64700	Lateral-Root Significant Genes
+AT1G64880	Lateral-Root Significant Genes
+AT1G65700	Lateral-Root Significant Genes
+AT2G05120	Lateral-Root Significant Genes
+AT1G03110	Lateral-Root Significant Genes
+AT1G78650	Lateral-Root Significant Genes
+AT1G10490	Lateral-Root Significant Genes
+AT2G36160	Lateral-Root Significant Genes
+AT2G03820	Lateral-Root Significant Genes
+AT2G20530	Lateral-Root Significant Genes
+AT2G31610	Lateral-Root Significant Genes
+AT2G28600	Lateral-Root Significant Genes
+AT2G31660	Lateral-Root Significant Genes
+AT2G31740	Lateral-Root Significant Genes
+AT2G21580	Lateral-Root Significant Genes
+AT5G37350;AT2G24990	Lateral-Root Significant Genes
+AT2G11910	Lateral-Root Significant Genes
+AT1G04510	Lateral-Root Significant Genes
+AT1G26880	Lateral-Root Significant Genes
+AT2G20585	Lateral-Root Significant Genes
+AT1G60080	Lateral-Root Significant Genes
+AT2G36930	Lateral-Root Significant Genes
+AT2G36250	Lateral-Root Significant Genes
+AT2G36070	Lateral-Root Significant Genes
+AT2G21060	Lateral-Root Significant Genes
+AT1G54690	Lateral-Root Significant Genes
+AT1G22780	Lateral-Root Significant Genes
+AT1G04190	Lateral-Root Significant Genes
+AT1G04170	Lateral-Root Significant Genes
+AT1G61730	Lateral-Root Significant Genes
+AT1G27400	Lateral-Root Significant Genes
+AT1G10270	Lateral-Root Significant Genes
+AT1G27390	Lateral-Root Significant Genes
+AT1G09620	Lateral-Root Significant Genes
+AT1G08640	Lateral-Root Significant Genes
+AT1G23220	Lateral-Root Significant Genes
+AT1G60770	Lateral-Root Significant Genes
+AT1G61667	Lateral-Root Significant Genes
+AT2G36620	Lateral-Root Significant Genes
+AT2G18400	Lateral-Root Significant Genes
+AT2G18330	Lateral-Root Significant Genes
+AT2G16780	Lateral-Root Significant Genes
+AT2G46520	Lateral-Root Significant Genes
+AT2G15690	Lateral-Root Significant Genes
+AT2G20060	Lateral-Root Significant Genes
+AT2G32060	Lateral-Root Significant Genes
+AT2G32070	Lateral-Root Significant Genes
+AT2G01250	Lateral-Root Significant Genes
+AT2G35790	Lateral-Root Significant Genes
+AT2G01630	Lateral-Root Significant Genes
+AT2G15000	Lateral-Root Significant Genes
+AT2G25670	Lateral-Root Significant Genes
+AT2G19520	Lateral-Root Significant Genes
+AT2G19540	Lateral-Root Significant Genes
+AT2G40660	Lateral-Root Significant Genes
+AT2G38020;AT2G38010	Lateral-Root Significant Genes
+AT2G39020	Lateral-Root Significant Genes
+AT2G27710	Lateral-Root Significant Genes
+AT2G27775	Lateral-Root Significant Genes
+AT2G29140	Lateral-Root Significant Genes
+AT2G31060	Lateral-Root Significant Genes
+AT2G47680	Lateral-Root Significant Genes
+AT2G46230	Lateral-Root Significant Genes
+AT2G19730	Lateral-Root Significant Genes
+AT2G19750	Lateral-Root Significant Genes
+AT2G44860	Lateral-Root Significant Genes
+AT2G34570	Lateral-Root Significant Genes
+AT2G39380	Lateral-Root Significant Genes
+AT2G39390	Lateral-Root Significant Genes
+AT2G37600	Lateral-Root Significant Genes
+AT2G44120	Lateral-Root Significant Genes
+AT2G39990	Lateral-Root Significant Genes
+AT2G45520	Lateral-Root Significant Genes
+AT2G45710	Lateral-Root Significant Genes
+AT4G16700	Lateral-Root Significant Genes
+AT1G30240	Lateral-Root Significant Genes
+AT5G20600	Lateral-Root Significant Genes
+AT5G15520	Lateral-Root Significant Genes
+AT5G63950	Lateral-Root Significant Genes
+AT5G63810	Lateral-Root Significant Genes
+AT5G55280	Lateral-Root Significant Genes
+AT5G46840	Lateral-Root Significant Genes
+AT5G46100	Lateral-Root Significant Genes
+AT5G41970	Lateral-Root Significant Genes
+AT5G41880	Lateral-Root Significant Genes
+AT5G40780	Lateral-Root Significant Genes
+AT5G16290	Lateral-Root Significant Genes
+AT5G04600	Lateral-Root Significant Genes
+AT5G02830;AT5G02820	Lateral-Root Significant Genes
+AT5G01230	Lateral-Root Significant Genes
+AT3G59540	Lateral-Root Significant Genes
+AT3G46210	Lateral-Root Significant Genes
+AT4G34740	Lateral-Root Significant Genes
+AT4G33400	Lateral-Root Significant Genes
+AT4G26900	Lateral-Root Significant Genes
+AT4G19710	Lateral-Root Significant Genes
+AT4G07410	Lateral-Root Significant Genes
+AT2G40480	Lateral-Root Significant Genes
+AT3G12340	Lateral-Root Significant Genes
+AT3G19130	Lateral-Root Significant Genes
+AT3G19720	Lateral-Root Significant Genes
+AT3G28860	Lateral-Root Significant Genes
+AT3G18524	Lateral-Root Significant Genes
+AT3G17970	Lateral-Root Significant Genes
+AT1G72550	Lateral-Root Significant Genes
+AT1G70470	Lateral-Root Significant Genes
+AT1G05810	Lateral-Root Significant Genes
+AT1G48460	Lateral-Root Significant Genes
+AT1G48570	Lateral-Root Significant Genes
+AT1G15660	Lateral-Root Significant Genes
+AT1G50570;AT1G50560	Lateral-Root Significant Genes
+AT1G14810	Lateral-Root Significant Genes
+AT1G54330	Lateral-Root Significant Genes
+AT2G36170	Lateral-Root Significant Genes
+AT2G31530	Lateral-Root Significant Genes
+AT2G22410	Lateral-Root Significant Genes
+AT2G22400	Lateral-Root Significant Genes
+AT1G02110	Lateral-Root Significant Genes
+AT1G09830	Lateral-Root Significant Genes
+AT1G77000	Lateral-Root Significant Genes
+AT1G67320	Lateral-Root Significant Genes
+AT2G37860	Lateral-Root Significant Genes
+AT2G44640	Lateral-Root Significant Genes
+AT2G23360	Lateral-Root Significant Genes
+AT2G41950	Lateral-Root Significant Genes
+AT5G17160	Lateral-Root Significant Genes
+AT5G15350	Lateral-Root Significant Genes
+AT3G59420	Lateral-Root Significant Genes
+AT3G54090	Lateral-Root Significant Genes
+AT3G15680	Lateral-Root Significant Genes
+AT3G06730	Lateral-Root Significant Genes
+AT1G20590;AT1G20610	Lateral-Root Significant Genes
+AT1G76540	Lateral-Root Significant Genes
+AT1G33700	Lateral-Root Significant Genes
+AT1G12020	Lateral-Root Significant Genes
+AT2G14880	Lateral-Root Significant Genes
+AT2G39420	Lateral-Root Significant Genes
+AT5G63850	Lateral-Root Significant Genes
+AT5G47455	Lateral-Root Significant Genes
+AT3G48970	Lateral-Root Significant Genes
+AT4G13740	Lateral-Root Significant Genes
+AT1G05470	Lateral-Root Significant Genes
+AT1G04330	Lateral-Root Significant Genes
+AT5G22500	Lateral-Root Significant Genes
+AT3G51200	Lateral-Root Significant Genes
+AT4G23920	Lateral-Root Significant Genes
+AT4G19230	Lateral-Root Significant Genes
+AT1G61480	Lateral-Root Significant Genes
+AT4G34510	Lateral-Root Significant Genes
+AT4G05020	Lateral-Root Significant Genes
+AT1G67810	Lateral-Root Significant Genes
+AT5G11110	Lateral-Root Significant Genes
+AT5G20270	Lateral-Root Significant Genes
+AT5G65990;AT5G66000	Lateral-Root Significant Genes
+AT5G39050	Lateral-Root Significant Genes
+AT5G13580	Lateral-Root Significant Genes
+AT5G13360	Lateral-Root Significant Genes
+AT5G06760	Lateral-Root Significant Genes
+AT4G09030	Lateral-Root Significant Genes
+AT3G25640	Lateral-Root Significant Genes
+AT3G26910	Lateral-Root Significant Genes
+AT2G43500	Lateral-Root Significant Genes
+AT1G53170	Lateral-Root Significant Genes
+AT1G01120	Lateral-Root Significant Genes
+AT1G54540	Lateral-Root Significant Genes
+AT1G04220;AT1G04210	Lateral-Root Significant Genes
+AT1G60730	Lateral-Root Significant Genes
+AT1G77120	Lateral-Root Significant Genes
+AT1G62570	Lateral-Root Significant Genes
+AT2G39110	Lateral-Root Significant Genes
+AT5G19530	Lateral-Root Significant Genes
+AT5G07010	Lateral-Root Significant Genes
+AT3G28730;AT3G28740	Lateral-Root Significant Genes
+AT3G22620	Lateral-Root Significant Genes
+AT5G43450	Lateral-Root Significant Genes
+AT1G75920	Lateral-Root Significant Genes
+AT3G43150	Lateral-Root Significant Genes
+AT5G58400	Lateral-Root Significant Genes
+AT5G03510	Lateral-Root Significant Genes
+AT1G06980	Lateral-Root Significant Genes
+AT1G73040	Lateral-Root Significant Genes
+AT2G28420	Lateral-Root Significant Genes
+AT5G17600	Lateral-Root Significant Genes
+AT1G75090	Lateral-Root Significant Genes
+AT2G41730	Lateral-Root Significant Genes
+AT1G32870	Lateral-Root Significant Genes
+AT1G13990	Lateral-Root Significant Genes
+AT2G19810	Lateral-Root Significant Genes
+AT1G19340	Lateral-Root Significant Genes
+AT2G31945	Lateral-Root Significant Genes
+AT3G27620	Lateral-Root Significant Genes
+AT2G28305	Lateral-Root Significant Genes
+AT3G32120	Lateral-Root Significant Genes
+AT1G05340	Lateral-Root Significant Genes
+AT1G34355	Lateral-Root Significant Genes
+AT5G41410	Lateral-Root Significant Genes
+AT5G24270	Lateral-Root Significant Genes
+AT4G37310	Lateral-Root Significant Genes
+AT4G26080	Lateral-Root Significant Genes
+AT4G12000	Lateral-Root Significant Genes
+AT4G03070	Lateral-Root Significant Genes
+AT1G69480	Lateral-Root Significant Genes
+AT3G20500	Lateral-Root Significant Genes
+AT3G17820	Lateral-Root Significant Genes
+AT3G10340	Lateral-Root Significant Genes
+AT1G01720	Lateral-Root Significant Genes
+AT1G11170	Lateral-Root Significant Genes
+AT1G16510	Lateral-Root Significant Genes
+AT2G28350	Lateral-Root Significant Genes
+AT2G15480	Lateral-Root Significant Genes
+AT2G26480	Lateral-Root Significant Genes
+AT5G17560	Lateral-Root Significant Genes
+AT5G24850	Lateral-Root Significant Genes
+AT5G45390	Lateral-Root Significant Genes
+AT5G41060	Lateral-Root Significant Genes
+AT5G24650	Lateral-Root Significant Genes
+AT5G22730	Lateral-Root Significant Genes
+AT5G16390	Lateral-Root Significant Genes
+AT5G08110	Lateral-Root Significant Genes
+AT3G61770	Lateral-Root Significant Genes
+AT3G55430	Lateral-Root Significant Genes
+AT3G55000	Lateral-Root Significant Genes
+AT3G52950	Lateral-Root Significant Genes
+AT3G44190	Lateral-Root Significant Genes
+AT4G39680	Lateral-Root Significant Genes
+AT4G24160	Lateral-Root Significant Genes
+AT4G13100	Lateral-Root Significant Genes
+AT4G00900	Lateral-Root Significant Genes
+AT3G12280	Lateral-Root Significant Genes
+AT3G21140	Lateral-Root Significant Genes
+AT3G20020	Lateral-Root Significant Genes
+AT3G18380	Lateral-Root Significant Genes
+AT3G16950	Lateral-Root Significant Genes
+AT3G04730	Lateral-Root Significant Genes
+AT3G06410	Lateral-Root Significant Genes
+AT3G10390	Lateral-Root Significant Genes
+AT3G05490	Lateral-Root Significant Genes
+AT1G01470	Lateral-Root Significant Genes
+AT1G18900	Lateral-Root Significant Genes
+AT1G72560	Lateral-Root Significant Genes
+AT1G32440	Lateral-Root Significant Genes
+AT1G05960	Lateral-Root Significant Genes
+AT1G63500	Lateral-Root Significant Genes
+AT1G17090	Lateral-Root Significant Genes
+AT1G75500	Lateral-Root Significant Genes
+AT2G31400	Lateral-Root Significant Genes
+AT2G42520	Lateral-Root Significant Genes
+AT2G04350	Lateral-Root Significant Genes
+AT2G17900	Lateral-Root Significant Genes
+AT2G39050	Lateral-Root Significant Genes
+AT2G29490	Lateral-Root Significant Genes
+AT2G29420	Lateral-Root Significant Genes
+AT2G26910	Lateral-Root Significant Genes
+AT2G33860	Lateral-Root Significant Genes
+AT4G10040	Lateral-Root Significant Genes
+AT1G74790	Lateral-Root Significant Genes
+AT5G48480	Lateral-Root Significant Genes
+AT5G45070	Lateral-Root Significant Genes
+AT5G44510	Lateral-Root Significant Genes
+AT5G38900	Lateral-Root Significant Genes
+AT4G12910	Lateral-Root Significant Genes
+AT3G18560	Lateral-Root Significant Genes
+AT3G12920	Lateral-Root Significant Genes
+AT1G71140	Lateral-Root Significant Genes
+AT1G53490	Lateral-Root Significant Genes
+AT1G71695	Lateral-Root Significant Genes
+AT1G17020	Lateral-Root Significant Genes
+AT1G34180	Lateral-Root Significant Genes
+AT1G05010	Lateral-Root Significant Genes
+AT5G12410	Lateral-Root Significant Genes
+AT4G15900	Lateral-Root Significant Genes
+AT5G19420	Lateral-Root Significant Genes
+AT5G20180	Lateral-Root Significant Genes
+AT5G20930	Lateral-Root Significant Genes
+AT5G20920	Lateral-Root Significant Genes
+AT5G27470	Lateral-Root Significant Genes
+AT5G62050	Lateral-Root Significant Genes
+AT5G61010	Lateral-Root Significant Genes
+AT5G58230	Lateral-Root Significant Genes
+AT5G58300;AT5G58310	Lateral-Root Significant Genes
+AT5G56350	Lateral-Root Significant Genes
+AT5G56500	Lateral-Root Significant Genes
+AT5G55480	Lateral-Root Significant Genes
+AT5G55070	Lateral-Root Significant Genes
+AT5G51980	Lateral-Root Significant Genes
+AT5G48230	Lateral-Root Significant Genes
+AT5G48380	Lateral-Root Significant Genes
+AT5G47880	Lateral-Root Significant Genes
+AT5G43010	Lateral-Root Significant Genes
+AT5G24530	Lateral-Root Significant Genes
+AT5G12080	Lateral-Root Significant Genes
+AT5G11900	Lateral-Root Significant Genes
+AT5G09900	Lateral-Root Significant Genes
+AT5G08500	Lateral-Root Significant Genes
+AT5G06590	Lateral-Root Significant Genes
+AT5G05640	Lateral-Root Significant Genes
+AT3G62620	Lateral-Root Significant Genes
+AT3G54110	Lateral-Root Significant Genes
+AT3G51260	Lateral-Root Significant Genes
+AT3G51010	Lateral-Root Significant Genes
+AT4G39170	Lateral-Root Significant Genes
+AT4G32690	Lateral-Root Significant Genes
+AT4G32551	Lateral-Root Significant Genes
+AT4G31180	Lateral-Root Significant Genes
+AT4G30910	Lateral-Root Significant Genes
+AT4G28600	Lateral-Root Significant Genes
+AT4G25880	Lateral-Root Significant Genes
+AT4G24260	Lateral-Root Significant Genes
+AT4G10970	Lateral-Root Significant Genes
+AT4G03120	Lateral-Root Significant Genes
+AT4G01860	Lateral-Root Significant Genes
+AT1G25580	Lateral-Root Significant Genes
+AT1G18080	Lateral-Root Significant Genes
+AT1G51710	Lateral-Root Significant Genes
+AT3G12130	Lateral-Root Significant Genes
+AT3G12620	Lateral-Root Significant Genes
+AT1G66620	Lateral-Root Significant Genes
+AT3G29360	Lateral-Root Significant Genes
+AT3G22550	Lateral-Root Significant Genes
+AT3G15020	Lateral-Root Significant Genes
+AT3G13320	Lateral-Root Significant Genes
+AT3G12800	Lateral-Root Significant Genes
+AT3G27430	Lateral-Root Significant Genes
+AT3G18830	Lateral-Root Significant Genes
+AT3G27570	Lateral-Root Significant Genes
+AT3G18165	Lateral-Root Significant Genes
+AT3G26770	Lateral-Root Significant Genes
+AT3G16110	Lateral-Root Significant Genes
+AT3G16620	Lateral-Root Significant Genes
+AT3G17240	Lateral-Root Significant Genes
+AT3G02710	Lateral-Root Significant Genes
+AT3G07910	Lateral-Root Significant Genes
+AT3G05840	Lateral-Root Significant Genes
+AT3G11820	Lateral-Root Significant Genes
+AT3G04570	Lateral-Root Significant Genes
+AT3G03050	Lateral-Root Significant Genes
+AT3G05070	Lateral-Root Significant Genes
+AT1G27910	Lateral-Root Significant Genes
+AT1G72740	Lateral-Root Significant Genes
+AT1G68550	Lateral-Root Significant Genes
+AT1G73880	Lateral-Root Significant Genes
+AT1G47250	Lateral-Root Significant Genes
+AT1G55920	Lateral-Root Significant Genes
+AT1G17350	Lateral-Root Significant Genes
+AT1G20200	Lateral-Root Significant Genes
+AT1G79730	Lateral-Root Significant Genes
+AT1G14410	Lateral-Root Significant Genes
+AT1G80670	Lateral-Root Significant Genes
+AT1G80070	Lateral-Root Significant Genes
+AT1G59600	Lateral-Root Significant Genes
+AT1G56120	Lateral-Root Significant Genes
+AT1G53900;AT1G53880	Lateral-Root Significant Genes
+AT1G62790	Lateral-Root Significant Genes
+AT1G16520	Lateral-Root Significant Genes
+AT1G16470	Lateral-Root Significant Genes
+AT2G17630	Lateral-Root Significant Genes
+AT1G30580	Lateral-Root Significant Genes
+AT2G22230	Lateral-Root Significant Genes
+AT2G13540	Lateral-Root Significant Genes
+AT2G21270	Lateral-Root Significant Genes
+AT2G46370	Lateral-Root Significant Genes
+AT2G36485	Lateral-Root Significant Genes
+AT1G09210	Lateral-Root Significant Genes
+AT1G11890	Lateral-Root Significant Genes
+AT1G27435	Lateral-Root Significant Genes
+AT1G65650	Lateral-Root Significant Genes
+AT1G51160	Lateral-Root Significant Genes
+AT2G42910	Lateral-Root Significant Genes
+AT2G22680	Lateral-Root Significant Genes
+AT2G19470	Lateral-Root Significant Genes
+AT2G37500	Lateral-Root Significant Genes
+AT2G05990	Lateral-Root Significant Genes
+AT2G46700	Lateral-Root Significant Genes
+AT2G41380	Lateral-Root Significant Genes
+AT2G47900	Lateral-Root Significant Genes
+AT2G46170	Lateral-Root Significant Genes
+AT2G38470	Lateral-Root Significant Genes
+AT2G41460	Lateral-Root Significant Genes
+AT2G37760	Lateral-Root Significant Genes
+AT2G30050	Lateral-Root Significant Genes
+AT2G30060	Lateral-Root Significant Genes
+AT2G19080	Lateral-Root Significant Genes
+AT2G39650	Lateral-Root Significant Genes
+AT4G15780	Lateral-Root Significant Genes
+AT5G04200	Lateral-Root Significant Genes
+AT1G77360	Lateral-Root Significant Genes
+AT5G57490	Lateral-Root Significant Genes
+AT5G53180	Lateral-Root Significant Genes
+AT5G52370	Lateral-Root Significant Genes
+AT5G50960	Lateral-Root Significant Genes
+AT5G48970	Lateral-Root Significant Genes
+AT5G39600	Lateral-Root Significant Genes
+AT5G14250	Lateral-Root Significant Genes
+AT5G14210	Lateral-Root Significant Genes
+AT3G60910	Lateral-Root Significant Genes
+AT3G59990	Lateral-Root Significant Genes
+AT3G55830;AT3G55840	Lateral-Root Significant Genes
+AT3G55040	Lateral-Root Significant Genes
+AT3G50830	Lateral-Root Significant Genes
+AT3G45590	Lateral-Root Significant Genes
+AT4G38130	Lateral-Root Significant Genes
+AT4G38370	Lateral-Root Significant Genes
+AT4G35480	Lateral-Root Significant Genes
+AT4G31880	Lateral-Root Significant Genes
+AT4G26670	Lateral-Root Significant Genes
+AT4G25210	Lateral-Root Significant Genes
+AT4G11790	Lateral-Root Significant Genes
+AT4G11240	Lateral-Root Significant Genes
+AT1G29850	Lateral-Root Significant Genes
+AT1G75190	Lateral-Root Significant Genes
+AT1G36730	Lateral-Root Significant Genes
+AT3G13430	Lateral-Root Significant Genes
+AT3G13222	Lateral-Root Significant Genes
+AT3G27050	Lateral-Root Significant Genes
+AT3G14610	Lateral-Root Significant Genes
+AT3G29160	Lateral-Root Significant Genes
+AT3G02555	Lateral-Root Significant Genes
+AT3G03970	Lateral-Root Significant Genes
+AT3G01540	Lateral-Root Significant Genes
+AT3G07565	Lateral-Root Significant Genes
+AT1G29350;AT1G29370	Lateral-Root Significant Genes
+AT1G49850	Lateral-Root Significant Genes
+AT1G74040	Lateral-Root Significant Genes
+AT1G62390	Lateral-Root Significant Genes
+AT1G06900	Lateral-Root Significant Genes
+AT1G71730	Lateral-Root Significant Genes
+AT1G18500	Lateral-Root Significant Genes
+AT1G17280	Lateral-Root Significant Genes
+AT1G14000	Lateral-Root Significant Genes
+AT1G13210	Lateral-Root Significant Genes
+AT1G59760	Lateral-Root Significant Genes
+AT1G54510	Lateral-Root Significant Genes
+AT2G17510	Lateral-Root Significant Genes
+AT2G15290	Lateral-Root Significant Genes
+AT2G22090	Lateral-Root Significant Genes
+AT2G31840	Lateral-Root Significant Genes
+AT2G31270	Lateral-Root Significant Genes
+AT1G76920	Lateral-Root Significant Genes
+AT1G52150	Lateral-Root Significant Genes
+AT2G19480	Lateral-Root Significant Genes
+AT2G06990	Lateral-Root Significant Genes
+AT2G23070	Lateral-Root Significant Genes
+AT5G60690	Lateral-Root Significant Genes
+AT5G60020	Lateral-Root Significant Genes
+AT5G57350	Lateral-Root Significant Genes
+AT5G40020	Lateral-Root Significant Genes
+AT4G22560	Lateral-Root Significant Genes
+AT3G25710	Lateral-Root Significant Genes
+AT1G02150	Lateral-Root Significant Genes
+AT1G70370	Lateral-Root Significant Genes
+AT2G25680	Lateral-Root Significant Genes
+AT5G28240	Lateral-Root Significant Genes
+AT3G59930;AT5G33355	Lateral-Root Significant Genes
+AT2G02820	Lateral-Root Significant Genes
+AT2G20570	Lateral-Root Significant Genes
+AT3G62730	Lateral-Root Significant Genes
+AT4G10960	Lateral-Root Significant Genes
+AT4G01070	Lateral-Root Significant Genes
+AT4G14360	Lateral-Root Significant Genes
+AT4G15110	Lateral-Root Significant Genes
+AT5G64813	Lateral-Root Significant Genes
+AT5G43280	Lateral-Root Significant Genes
+AT4G33010	Lateral-Root Significant Genes
+AT4G30470	Lateral-Root Significant Genes
+AT4G26940	Lateral-Root Significant Genes
+AT4G04650	Lateral-Root Significant Genes
+AT3G18810	Lateral-Root Significant Genes
+AT3G14650;AT3G14660	Lateral-Root Significant Genes
+AT3G23400	Lateral-Root Significant Genes
+AT3G02880	Lateral-Root Significant Genes
+AT1G20450	Lateral-Root Significant Genes
+AT1G53570	Lateral-Root Significant Genes
+AT1G63000	Lateral-Root Significant Genes
+AT1G80820	Lateral-Root Significant Genes
+AT1G60710	Lateral-Root Significant Genes
+AT1G23800	Lateral-Root Significant Genes
+AT2G25430	Lateral-Root Significant Genes
+AT2G47890	Lateral-Root Significant Genes
+AT1G75280	Lateral-Root Significant Genes
+AT1G13970	Lateral-Root Significant Genes
+AT5G28650	Lateral-Root Significant Genes
+AT1G51890	Lateral-Root Significant Genes
+AT5G55560	Lateral-Root Significant Genes
+AT5G47910	Lateral-Root Significant Genes
+AT5G38820	Lateral-Root Significant Genes
+AT5G13910	Lateral-Root Significant Genes
+AT3G58810	Lateral-Root Significant Genes
+AT3G47340	Lateral-Root Significant Genes
+AT4G26470	Lateral-Root Significant Genes
+AT4G23280	Lateral-Root Significant Genes
+AT4G19810	Lateral-Root Significant Genes
+AT4G10540;AT4G10510	Lateral-Root Significant Genes
+AT4G07820	Lateral-Root Significant Genes
+AT4G02410	Lateral-Root Significant Genes
+AT4G02330	Lateral-Root Significant Genes
+AT4G00670	Lateral-Root Significant Genes
+AT1G19850	Lateral-Root Significant Genes
+AT3G18250	Lateral-Root Significant Genes
+AT1G69880	Lateral-Root Significant Genes
+AT1G74760	Lateral-Root Significant Genes
+AT1G73010	Lateral-Root Significant Genes
+AT1G62560	Lateral-Root Significant Genes
+AT2G02120	Lateral-Root Significant Genes
+AT2G23150	Lateral-Root Significant Genes
+AT2G40890	Lateral-Root Significant Genes
+AT2G45200	Lateral-Root Significant Genes
+AT2G47470	Lateral-Root Significant Genes
+AT5G19690	Lateral-Root Significant Genes
+AT5G16800	Lateral-Root Significant Genes
+AT1G50740	Lateral-Root Significant Genes
+AT5G35180	Lateral-Root Significant Genes
+AT5G25560	Lateral-Root Significant Genes
+AT5G67360	Lateral-Root Significant Genes
+AT5G65710	Lateral-Root Significant Genes
+AT5G63400	Lateral-Root Significant Genes
+AT5G59820	Lateral-Root Significant Genes
+AT5G58920	Lateral-Root Significant Genes
+AT5G56630	Lateral-Root Significant Genes
+AT5G54750	Lateral-Root Significant Genes
+AT5G54840	Lateral-Root Significant Genes
+AT5G53850	Lateral-Root Significant Genes
+AT5G53420	Lateral-Root Significant Genes
+AT5G50760	Lateral-Root Significant Genes
+AT5G48930	Lateral-Root Significant Genes
+AT5G47180	Lateral-Root Significant Genes
+AT5G45760	Lateral-Root Significant Genes
+AT5G42740	Lateral-Root Significant Genes
+AT5G42000	Lateral-Root Significant Genes
+AT5G41560	Lateral-Root Significant Genes
+AT5G40760	Lateral-Root Significant Genes
+AT5G24400	Lateral-Root Significant Genes
+AT5G24380;AT5G24390	Lateral-Root Significant Genes
+AT5G24090	Lateral-Root Significant Genes
+AT5G18830	Lateral-Root Significant Genes
+AT5G18310	Lateral-Root Significant Genes
+AT5G14030	Lateral-Root Significant Genes
+AT5G08130	Lateral-Root Significant Genes
+AT5G06330	Lateral-Root Significant Genes
+AT5G02200	Lateral-Root Significant Genes
+AT3G62360	Lateral-Root Significant Genes
+AT3G57330	Lateral-Root Significant Genes
+AT3G55150	Lateral-Root Significant Genes
+AT3G45620	Lateral-Root Significant Genes
+AT4G39220	Lateral-Root Significant Genes
+AT4G38580	Lateral-Root Significant Genes
+AT4G35380	Lateral-Root Significant Genes
+AT4G34450	Lateral-Root Significant Genes
+AT4G33040	Lateral-Root Significant Genes
+AT4G32390	Lateral-Root Significant Genes
+AT4G30600	Lateral-Root Significant Genes
+AT4G30640	Lateral-Root Significant Genes
+AT4G24330	Lateral-Root Significant Genes
+AT4G23710	Lateral-Root Significant Genes
+AT4G12760	Lateral-Root Significant Genes
+AT4G09680	Lateral-Root Significant Genes
+AT4G03140	Lateral-Root Significant Genes
+AT4G02890	Lateral-Root Significant Genes
+AT1G25540	Lateral-Root Significant Genes
+AT1G25530	Lateral-Root Significant Genes
+AT2G30350	Lateral-Root Significant Genes
+AT1G22060	Lateral-Root Significant Genes
+AT1G07040	Lateral-Root Significant Genes
+AT1G51680	Lateral-Root Significant Genes
+AT3G23910;AT3G24255	Lateral-Root Significant Genes
+AT3G14205	Lateral-Root Significant Genes
+AT3G25040	Lateral-Root Significant Genes
+AT3G12750	Lateral-Root Significant Genes
+AT3G18440	Lateral-Root Significant Genes
+AT3G20810	Lateral-Root Significant Genes
+AT3G19490	Lateral-Root Significant Genes
+AT3G14720	Lateral-Root Significant Genes
+AT3G22370	Lateral-Root Significant Genes
+AT3G02630	Lateral-Root Significant Genes
+AT3G08040	Lateral-Root Significant Genes
+AT3G11840	Lateral-Root Significant Genes
+AT3G10500	Lateral-Root Significant Genes
+AT3G02150	Lateral-Root Significant Genes
+AT3G07780	Lateral-Root Significant Genes
+AT3G11410	Lateral-Root Significant Genes
+AT3G01150	Lateral-Root Significant Genes
+AT1G18910	Lateral-Root Significant Genes
+AT1G49820	Lateral-Root Significant Genes
+AT1G72180	Lateral-Root Significant Genes
+AT1G76400	Lateral-Root Significant Genes
+AT1G68100	Lateral-Root Significant Genes
+AT1G70490	Lateral-Root Significant Genes
+AT1G69700	Lateral-Root Significant Genes
+AT1G71692	Lateral-Root Significant Genes
+AT1G08510	Lateral-Root Significant Genes
+AT1G77920	Lateral-Root Significant Genes
+AT1G27580;AT1G27540	Lateral-Root Significant Genes
+AT1G47710	Lateral-Root Significant Genes
+AT1G21630	Lateral-Root Significant Genes
+AT1G21680	Lateral-Root Significant Genes
+AT1G14670	Lateral-Root Significant Genes
+AT1G23960	Lateral-Root Significant Genes
+AT1G03040	Lateral-Root Significant Genes
+AT2G22160	Lateral-Root Significant Genes
+AT2G36330	Lateral-Root Significant Genes
+AT2G22480	Lateral-Root Significant Genes
+AT1G78800	Lateral-Root Significant Genes
+AT1G61360	Lateral-Root Significant Genes
+AT2G17840	Lateral-Root Significant Genes
+AT2G17380	Lateral-Root Significant Genes
+AT1G55450	Lateral-Root Significant Genes
+AT2G37110	Lateral-Root Significant Genes
+AT2G15860	Lateral-Root Significant Genes
+AT2G27460	Lateral-Root Significant Genes
+AT2G23980	Lateral-Root Significant Genes
+AT2G44790	Lateral-Root Significant Genes
+AT2G39200	Lateral-Root Significant Genes
+AT2G38360	Lateral-Root Significant Genes
+AT2G30840	Lateral-Root Significant Genes
+AT2G33050	Lateral-Root Significant Genes
+AT2G26430	Lateral-Root Significant Genes
+AT2G26510	Lateral-Root Significant Genes
+AT5G23600;AT2G45330	Lateral-Root Significant Genes
+AT5G47200;AT4G17530	Lateral-Root Significant Genes
+AT4G17040	Lateral-Root Significant Genes
+AT1G25275	Lateral-Root Significant Genes
+AT1G45976	Lateral-Root Significant Genes
+AT5G20650	Lateral-Root Significant Genes
+AT5G10700	Lateral-Root Significant Genes
+AT5G20900	Lateral-Root Significant Genes
+AT5G32440	Lateral-Root Significant Genes
+AT4G36730	Lateral-Root Significant Genes
+AT4G37260;AT4G37270	Lateral-Root Significant Genes
+AT3G56800	Lateral-Root Significant Genes
+AT3G56860	Lateral-Root Significant Genes
+AT5G16880	Lateral-Root Significant Genes
+AT5G35200	Lateral-Root Significant Genes
+AT5G67380	Lateral-Root Significant Genes
+AT5G66380	Lateral-Root Significant Genes
+AT5G64500	Lateral-Root Significant Genes
+AT5G63670	Lateral-Root Significant Genes
+AT5G63800	Lateral-Root Significant Genes
+AT5G61450	Lateral-Root Significant Genes
+AT5G61530	Lateral-Root Significant Genes
+AT5G60360	Lateral-Root Significant Genes
+AT5G59520	Lateral-Root Significant Genes
+AT5G59830	Lateral-Root Significant Genes
+AT5G59160	Lateral-Root Significant Genes
+AT5G58375	Lateral-Root Significant Genes
+AT5G58350	Lateral-Root Significant Genes
+AT5G58200	Lateral-Root Significant Genes
+AT5G56460	Lateral-Root Significant Genes
+AT5G55640	Lateral-Root Significant Genes
+AT5G55500	Lateral-Root Significant Genes
+AT5G54730	Lateral-Root Significant Genes
+AT5G54310	Lateral-Root Significant Genes
+AT5G53650	Lateral-Root Significant Genes
+AT5G50230	Lateral-Root Significant Genes
+AT5G46250	Lateral-Root Significant Genes
+AT5G45130	Lateral-Root Significant Genes
+AT5G44070	Lateral-Root Significant Genes
+AT5G43460	Lateral-Root Significant Genes
+AT5G42190	Lateral-Root Significant Genes
+AT5G42030	Lateral-Root Significant Genes
+AT5G39590	Lateral-Root Significant Genes
+AT5G23340	Lateral-Root Significant Genes
+AT5G23590	Lateral-Root Significant Genes
+AT5G16590	Lateral-Root Significant Genes
+AT5G14390	Lateral-Root Significant Genes
+AT5G11560	Lateral-Root Significant Genes
+AT5G05710	Lateral-Root Significant Genes
+AT5G05980	Lateral-Root Significant Genes
+AT5G05080	Lateral-Root Significant Genes
+AT5G05100	Lateral-Root Significant Genes
+AT5G04420	Lateral-Root Significant Genes
+AT5G01750	Lateral-Root Significant Genes
+AT3G63080	Lateral-Root Significant Genes
+AT3G61600	Lateral-Root Significant Genes
+AT3G61390	Lateral-Root Significant Genes
+AT3G60600	Lateral-Root Significant Genes
+AT3G60320	Lateral-Root Significant Genes
+AT3G57170	Lateral-Root Significant Genes
+AT3G55960	Lateral-Root Significant Genes
+AT3G54500	Lateral-Root Significant Genes
+AT3G51630	Lateral-Root Significant Genes
+AT3G51430	Lateral-Root Significant Genes
+AT3G51310	Lateral-Root Significant Genes
+AT3G48890	Lateral-Root Significant Genes
+AT3G46060	Lateral-Root Significant Genes
+AT4G38670	Lateral-Root Significant Genes
+AT4G38800	Lateral-Root Significant Genes
+AT4G36040	Lateral-Root Significant Genes
+AT4G35600	Lateral-Root Significant Genes
+AT4G34460	Lateral-Root Significant Genes
+AT4G34180	Lateral-Root Significant Genes
+AT4G33940	Lateral-Root Significant Genes
+AT4G33510	Lateral-Root Significant Genes
+AT4G33080	Lateral-Root Significant Genes
+AT4G31875	Lateral-Root Significant Genes
+AT4G32150	Lateral-Root Significant Genes
+AT4G31530	Lateral-Root Significant Genes
+AT4G30310	Lateral-Root Significant Genes
+AT4G29480	Lateral-Root Significant Genes
+AT4G27130	Lateral-Root Significant Genes
+AT4G26710	Lateral-Root Significant Genes
+AT4G24690	Lateral-Root Significant Genes
+AT4G22750	Lateral-Root Significant Genes
+AT4G21790	Lateral-Root Significant Genes
+AT4G20850	Lateral-Root Significant Genes
+AT4G09830	Lateral-Root Significant Genes
+AT4G10100	Lateral-Root Significant Genes
+AT4G03030	Lateral-Root Significant Genes
+AT4G02480	Lateral-Root Significant Genes
+AT4G10180	Lateral-Root Significant Genes
+AT1G20760	Lateral-Root Significant Genes
+AT3G12400	Lateral-Root Significant Genes
+AT1G69510	Lateral-Root Significant Genes
+AT1G76850	Lateral-Root Significant Genes
+AT3G29270	Lateral-Root Significant Genes
+AT3G28690	Lateral-Root Significant Genes
+AT3G19190	Lateral-Root Significant Genes
+AT3G13870	Lateral-Root Significant Genes
+AT3G26210	Lateral-Root Significant Genes
+AT3G12760	Lateral-Root Significant Genes
+AT3G25070	Lateral-Root Significant Genes
+AT3G20840	Lateral-Root Significant Genes
+AT3G25920;AT3G25910	Lateral-Root Significant Genes
+AT3G14595	Lateral-Root Significant Genes
+AT3G23640	Lateral-Root Significant Genes
+AT3G17850	Lateral-Root Significant Genes
+AT3G17880	Lateral-Root Significant Genes
+AT3G14270	Lateral-Root Significant Genes
+AT3G02780	Lateral-Root Significant Genes
+AT3G07870	Lateral-Root Significant Genes
+AT3G09900	Lateral-Root Significant Genes
+AT3G08550	Lateral-Root Significant Genes
+AT3G09735	Lateral-Root Significant Genes
+AT3G09740	Lateral-Root Significant Genes
+AT3G10770	Lateral-Root Significant Genes
+AT3G10850	Lateral-Root Significant Genes
+AT3G04720	Lateral-Root Significant Genes
+AT3G03380	Lateral-Root Significant Genes
+AT3G01310	Lateral-Root Significant Genes
+AT3G09030	Lateral-Root Significant Genes
+AT1G06400	Lateral-Root Significant Genes
+AT1G19110	Lateral-Root Significant Genes
+AT1G12360	Lateral-Root Significant Genes
+AT1G53730	Lateral-Root Significant Genes
+AT1G68000	Lateral-Root Significant Genes
+AT1G78130	Lateral-Root Significant Genes
+AT1G52740	Lateral-Root Significant Genes
+AT1G71980	Lateral-Root Significant Genes
+AT1G71950	Lateral-Root Significant Genes
+AT1G70620	Lateral-Root Significant Genes
+AT1G69340	Lateral-Root Significant Genes
+AT1G70530	Lateral-Root Significant Genes
+AT1G51540	Lateral-Root Significant Genes
+AT2G41740	Lateral-Root Significant Genes
+AT2G47320	Lateral-Root Significant Genes
+AT2G43430	Lateral-Root Significant Genes
+AT1G53210	Lateral-Root Significant Genes
+AT1G53320	Lateral-Root Significant Genes
+AT1G53240	Lateral-Root Significant Genes
+AT1G48550	Lateral-Root Significant Genes
+AT1G79590	Lateral-Root Significant Genes
+AT1G14400	Lateral-Root Significant Genes
+AT1G01820	Lateral-Root Significant Genes
+AT1G08460	Lateral-Root Significant Genes
+AT1G76320	Lateral-Root Significant Genes
+AT1G16010	Lateral-Root Significant Genes
+AT1G80780	Lateral-Root Significant Genes
+AT1G56010	Lateral-Root Significant Genes
+AT2G01100	Lateral-Root Significant Genes
+AT1G73030	Lateral-Root Significant Genes
+AT1G49300	Lateral-Root Significant Genes
+AT1G34210;AT1G34220	Lateral-Root Significant Genes
+AT1G15370	Lateral-Root Significant Genes
+AT1G14740	Lateral-Root Significant Genes
+AT1G59910	Lateral-Root Significant Genes
+AT1G59900	Lateral-Root Significant Genes
+AT1G59960	Lateral-Root Significant Genes
+AT2G17520	Lateral-Root Significant Genes
+AT1G30640	Lateral-Root Significant Genes
+AT2G31510	Lateral-Root Significant Genes
+AT2G42570	Lateral-Root Significant Genes
+AT2G24860	Lateral-Root Significant Genes
+AT2G46470	Lateral-Root Significant Genes
+AT2G36960	Lateral-Root Significant Genes
+AT1G60170	Lateral-Root Significant Genes
+AT1G43190	Lateral-Root Significant Genes
+AT1G27450	Lateral-Root Significant Genes
+AT1G27320	Lateral-Root Significant Genes
+AT1G60740;AT1G65970	Lateral-Root Significant Genes
+AT1G51390	Lateral-Root Significant Genes
+AT1G51200	Lateral-Root Significant Genes
+AT1G23820	Lateral-Root Significant Genes
+AT2G22690	Lateral-Root Significant Genes
+AT3G11810;AT2G03330	Lateral-Root Significant Genes
+AT2G17990	Lateral-Root Significant Genes
+AT2G18090	Lateral-Root Significant Genes
+AT2G17975	Lateral-Root Significant Genes
+	Lateral-Root Significant Genes
+AT2G02180	Lateral-Root Significant Genes
+AT2G28910	Lateral-Root Significant Genes
+AT2G29340	Lateral-Root Significant Genes
+AT2G16850	Lateral-Root Significant Genes
+AT2G25850	Lateral-Root Significant Genes
+AT2G19790	Lateral-Root Significant Genes
+AT2G02970	Lateral-Root Significant Genes
+AT2G29020	Lateral-Root Significant Genes
+AT2G02960	Lateral-Root Significant Genes
+AT2G34690	Lateral-Root Significant Genes
+AT2G26240	Lateral-Root Significant Genes
+AT2G02760	Lateral-Root Significant Genes
+AT2G45620	Lateral-Root Significant Genes
+AT5G09220	Lateral-Root Significant Genes
+AT3G51840	Lateral-Root Significant Genes
+AT3G51880	Lateral-Root Significant Genes
+AT3G56680	Lateral-Root Significant Genes
+AT3G44890	Lateral-Root Significant Genes
+AT5G54690	Lateral-Root Significant Genes
+AT5G44380	Lateral-Root Significant Genes
+AT5G42250	Lateral-Root Significant Genes
+AT5G17870	Lateral-Root Significant Genes
+AT5G02250	Lateral-Root Significant Genes
+AT3G53460	Lateral-Root Significant Genes
+AT4G35350	Lateral-Root Significant Genes
+AT4G02510	Lateral-Root Significant Genes
+AT3G27180	Lateral-Root Significant Genes
+AT3G18680	Lateral-Root Significant Genes
+AT3G26070	Lateral-Root Significant Genes
+AT3G08740	Lateral-Root Significant Genes
+AT3G11630	Lateral-Root Significant Genes
+AT1G36980	Lateral-Root Significant Genes
+AT1G20850	Lateral-Root Significant Genes
+AT2G38800	Lateral-Root Significant Genes
+AT1G78720	Lateral-Root Significant Genes
+AT2G38080	Lateral-Root Significant Genes
+AT2G34790	Lateral-Root Significant Genes
+AT2G26670	Lateral-Root Significant Genes
+AT5G46320	Lateral-Root Significant Genes
+AT5G40730	Lateral-Root Significant Genes
+AT5G24140	Lateral-Root Significant Genes
+AT3G63490	Lateral-Root Significant Genes
+AT3G54590	Lateral-Root Significant Genes
+AT4G24770	Lateral-Root Significant Genes
+AT4G08160	Lateral-Root Significant Genes
+AT4G07450	Lateral-Root Significant Genes
+AT3G22570	Lateral-Root Significant Genes
+AT3G23050	Lateral-Root Significant Genes
+AT3G06420	Lateral-Root Significant Genes
+AT1G67870	Lateral-Root Significant Genes
+AT1G32990	Lateral-Root Significant Genes
+AT1G60000	Lateral-Root Significant Genes
+AT5G64130	Lateral-Root Significant Genes
+AT5G44610	Lateral-Root Significant Genes
+AT3G48530	Lateral-Root Significant Genes
+AT4G27450	Lateral-Root Significant Genes
+AT4G36410	Lateral-Root Significant Genes
+AT3G54580	Lateral-Root Significant Genes
+AT5G53590	Lateral-Root Significant Genes
+AT1G22885	Lateral-Root Significant Genes
+AT5G17050	Lateral-Root Significant Genes
+AT5G66420	Lateral-Root Significant Genes
+AT5G44530	Lateral-Root Significant Genes
+AT5G41600	Lateral-Root Significant Genes
+AT5G17990	Lateral-Root Significant Genes
+AT5G13710	Lateral-Root Significant Genes
+AT4G38320;AT4G37680	Lateral-Root Significant Genes
+AT4G19960	Lateral-Root Significant Genes
+AT1G67030	Lateral-Root Significant Genes
+AT3G12090	Lateral-Root Significant Genes
+AT1G30360	Lateral-Root Significant Genes
+AT3G15480	Lateral-Root Significant Genes
+AT1G13830	Lateral-Root Significant Genes
+AT1G20440	Lateral-Root Significant Genes
+AT1G53500	Lateral-Root Significant Genes
+AT1G07420	Lateral-Root Significant Genes
+AT1G27770	Lateral-Root Significant Genes
+AT1G05620	Lateral-Root Significant Genes
+AT1G10090	Lateral-Root Significant Genes
+AT2G28160	Lateral-Root Significant Genes
+AT2G26730	Lateral-Root Significant Genes
+AT1G22170	Lateral-Root Significant Genes
+AT5G53880	Lateral-Root Significant Genes
+AT5G46230	Lateral-Root Significant Genes
+AT5G02780	Lateral-Root Significant Genes
+AT3G61930	Lateral-Root Significant Genes
+AT3G45130	Lateral-Root Significant Genes
+AT4G31950;AT4G31940;AT4G31970	Lateral-Root Significant Genes
+AT4G19370	Lateral-Root Significant Genes
+AT2G40610	Lateral-Root Significant Genes
+AT3G12900	Lateral-Root Significant Genes
+AT3G12820	Lateral-Root Significant Genes
+AT3G06890	Lateral-Root Significant Genes
+AT1G49000	Lateral-Root Significant Genes
+AT1G09790	Lateral-Root Significant Genes
+AT1G60470	Lateral-Root Significant Genes
+AT1G62480	Lateral-Root Significant Genes
+AT2G45290	Lateral-Root Significant Genes
+AT4G16340	Lateral-Root Significant Genes
+AT4G36940	Lateral-Root Significant Genes
+AT5G62630	Lateral-Root Significant Genes
+AT5G61660	Lateral-Root Significant Genes
+AT5G50120	Lateral-Root Significant Genes
+AT5G23550	Lateral-Root Significant Genes
+AT5G16510	Lateral-Root Significant Genes
+AT5G12040	Lateral-Root Significant Genes
+AT5G03200	Lateral-Root Significant Genes
+AT5G01600	Lateral-Root Significant Genes
+AT3G61590	Lateral-Root Significant Genes
+AT3G50740	Lateral-Root Significant Genes
+AT3G49860	Lateral-Root Significant Genes
+AT3G48185	Lateral-Root Significant Genes
+AT3G43790	Lateral-Root Significant Genes
+AT4G31750	Lateral-Root Significant Genes
+AT4G29220	Lateral-Root Significant Genes
+AT4G25300	Lateral-Root Significant Genes
+AT4G03960	Lateral-Root Significant Genes
+AT1G20380	Lateral-Root Significant Genes
+AT3G28050	Lateral-Root Significant Genes
+AT3G21240	Lateral-Root Significant Genes
+AT3G04110	Lateral-Root Significant Genes
+AT3G06350	Lateral-Root Significant Genes
+AT3G02020	Lateral-Root Significant Genes
+AT3G10190	Lateral-Root Significant Genes
+AT3G01220	Lateral-Root Significant Genes
+AT1G63290	Lateral-Root Significant Genes
+AT1G63350	Lateral-Root Significant Genes
+AT1G52760	Lateral-Root Significant Genes
+AT1G74520	Lateral-Root Significant Genes
+AT1G68540	Lateral-Root Significant Genes
+AT1G80360	Lateral-Root Significant Genes
+AT1G68220	Lateral-Root Significant Genes
+AT1G18840	Lateral-Root Significant Genes
+AT1G76260	Lateral-Root Significant Genes
+AT1G11540	Lateral-Root Significant Genes
+AT1G50560	Lateral-Root Significant Genes
+AT1G22540	Lateral-Root Significant Genes
+AT1G47480	Lateral-Root Significant Genes
+AT1G15210	Lateral-Root Significant Genes
+AT1G62800	Lateral-Root Significant Genes
+AT1G10410	Lateral-Root Significant Genes
+AT1G09780	Lateral-Root Significant Genes
+AT2G17265	Lateral-Root Significant Genes
+AT1G23140	Lateral-Root Significant Genes
+AT1G62610;AT1G63380	Lateral-Root Significant Genes
+AT1G05000	Lateral-Root Significant Genes
+AT2G27360	Lateral-Root Significant Genes
+AT2G01170	Lateral-Root Significant Genes
+AT2G01680	Lateral-Root Significant Genes
+AT2G05830	Lateral-Root Significant Genes
+AT2G38940	Lateral-Root Significant Genes
+	Lateral-Root Significant Genes
+AT2G31160	Lateral-Root Significant Genes
+AT2G35150	Lateral-Root Significant Genes
+AT2G46750	Lateral-Root Significant Genes
+AT2G38170	Lateral-Root Significant Genes
+AT2G32720	Lateral-Root Significant Genes
+AT2G45590	Lateral-Root Significant Genes
+AT2G42070;AT2G42060	Lateral-Root Significant Genes
+AT2G26750;AT2G26740	Lateral-Root Significant Genes
+AT4G17790	Lateral-Root Significant Genes
+AT4G14580	Lateral-Root Significant Genes
+AT1G56700	Lateral-Root Significant Genes
+AT1G51070	Lateral-Root Significant Genes
+AT1G32150	Lateral-Root Significant Genes
+AT5G20660	Lateral-Root Significant Genes
+AT4G36380	Lateral-Root Significant Genes
+AT1G31780;AT1G31790	Lateral-Root Significant Genes
+AT1G57620	Lateral-Root Significant Genes
+AT5G15930	Lateral-Root Significant Genes
+AT5G15730	Lateral-Root Significant Genes
+AT5G65650	Lateral-Root Significant Genes
+AT5G64920	Lateral-Root Significant Genes
+AT5G62790	Lateral-Root Significant Genes
+AT5G59260	Lateral-Root Significant Genes
+AT5G57740	Lateral-Root Significant Genes
+AT5G57160;AT5G57150	Lateral-Root Significant Genes
+AT5G54855	Lateral-Root Significant Genes
+AT5G48810	Lateral-Root Significant Genes
+AT5G47560	Lateral-Root Significant Genes
+AT5G46270	Lateral-Root Significant Genes
+AT5G45170	Lateral-Root Significant Genes
+AT5G39410	Lateral-Root Significant Genes
+AT5G18680	Lateral-Root Significant Genes
+AT5G17330	Lateral-Root Significant Genes
+AT5G12200	Lateral-Root Significant Genes
+AT5G11280	Lateral-Root Significant Genes
+AT5G08520	Lateral-Root Significant Genes
+AT5G03380	Lateral-Root Significant Genes
+AT5G03570	Lateral-Root Significant Genes
+AT5G01500	Lateral-Root Significant Genes
+AT5G01020	Lateral-Root Significant Genes
+AT3G62270	Lateral-Root Significant Genes
+AT3G61990	Lateral-Root Significant Genes
+AT3G61530	Lateral-Root Significant Genes
+AT3G59300	Lateral-Root Significant Genes
+AT3G57785	Lateral-Root Significant Genes
+AT3G56950	Lateral-Root Significant Genes
+AT3G57050	Lateral-Root Significant Genes
+AT3G54040	Lateral-Root Significant Genes
+AT3G53610	Lateral-Root Significant Genes
+AT3G51540	Lateral-Root Significant Genes
+AT3G50960;AT3G50950	Lateral-Root Significant Genes
+AT3G49720	Lateral-Root Significant Genes
+AT3G48410	Lateral-Root Significant Genes
+AT3G45600	Lateral-Root Significant Genes
+AT4G35920	Lateral-Root Significant Genes
+AT4G34215	Lateral-Root Significant Genes
+AT4G33640	Lateral-Root Significant Genes
+AT4G33300	Lateral-Root Significant Genes
+AT4G32850	Lateral-Root Significant Genes
+AT4G31150	Lateral-Root Significant Genes
+AT4G30810	Lateral-Root Significant Genes
+AT4G28260	Lateral-Root Significant Genes
+AT4G27470	Lateral-Root Significant Genes
+AT4G26160	Lateral-Root Significant Genes
+AT4G24620	Lateral-Root Significant Genes
+AT4G22540	Lateral-Root Significant Genes
+AT4G18120	Lateral-Root Significant Genes
+AT4G12880	Lateral-Root Significant Genes
+AT4G08870	Lateral-Root Significant Genes
+AT4G00355	Lateral-Root Significant Genes
+AT1G25390	Lateral-Root Significant Genes
+AT1G33990	Lateral-Root Significant Genes
+AT1G55130	Lateral-Root Significant Genes
+AT3G12490	Lateral-Root Significant Genes
+AT1G69450	Lateral-Root Significant Genes
+AT3G13550	Lateral-Root Significant Genes
+AT3G27190	Lateral-Root Significant Genes
+AT3G13110	Lateral-Root Significant Genes
+AT3G27890	Lateral-Root Significant Genes
+AT2G28890	Lateral-Root Significant Genes
+AT1G14820	Lateral-Root Significant Genes
+AT3G27420	Lateral-Root Significant Genes
+AT3G18500	Lateral-Root Significant Genes
+AT3G18370	Lateral-Root Significant Genes
+AT3G17020	Lateral-Root Significant Genes
+AT3G23570	Lateral-Root Significant Genes
+AT3G18215	Lateral-Root Significant Genes
+AT3G17940	Lateral-Root Significant Genes
+AT3G21610	Lateral-Root Significant Genes
+AT3G15820	Lateral-Root Significant Genes
+AT3G23340	Lateral-Root Significant Genes
+AT3G17380;AT3G17390	Lateral-Root Significant Genes
+AT3G08650	Lateral-Root Significant Genes
+AT3G07180	Lateral-Root Significant Genes
+AT3G01850	Lateral-Root Significant Genes
+AT3G02180	Lateral-Root Significant Genes
+AT3G01560	Lateral-Root Significant Genes
+AT1G01490	Lateral-Root Significant Genes
+AT1G02300	Lateral-Root Significant Genes
+AT1G19130	Lateral-Root Significant Genes
+AT1G64260	Lateral-Root Significant Genes
+AT1G72500	Lateral-Root Significant Genes
+AT1G12120	Lateral-Root Significant Genes
+AT1G75440	Lateral-Root Significant Genes
+AT1G80830	Lateral-Root Significant Genes
+AT1G64650	Lateral-Root Significant Genes
+AT1G33780	Lateral-Root Significant Genes
+AT1G17210	Lateral-Root Significant Genes
+AT1G79500	Lateral-Root Significant Genes
+AT1G54340	Lateral-Root Significant Genes
+AT1G23260	Lateral-Root Significant Genes
+AT2G05260	Lateral-Root Significant Genes
+AT2G18160	Lateral-Root Significant Genes
+AT2G27190	Lateral-Root Significant Genes
+AT1G54030	Lateral-Root Significant Genes
+AT1G05720	Lateral-Root Significant Genes
+AT2G31670	Lateral-Root Significant Genes
+AT2G16400	Lateral-Root Significant Genes
+AT2G40270	Lateral-Root Significant Genes
+AT2G35920	Lateral-Root Significant Genes
+AT1G10350	Lateral-Root Significant Genes
+AT1G24280	Lateral-Root Significant Genes
+AT2G28200	Lateral-Root Significant Genes
+AT2G27230	Lateral-Root Significant Genes
+AT2G37975	Lateral-Root Significant Genes
+AT2G39000	Lateral-Root Significant Genes
+AT2G27860	Lateral-Root Significant Genes
+AT2G43210	Lateral-Root Significant Genes
+AT2G35120	Lateral-Root Significant Genes
+AT2G29700	Lateral-Root Significant Genes
+AT2G26080	Lateral-Root Significant Genes
+AT2G32520	Lateral-Root Significant Genes
+AT2G30930	Lateral-Root Significant Genes
+AT2G30080	Lateral-Root Significant Genes
+AT2G34680	Lateral-Root Significant Genes
+AT2G35000	Lateral-Root Significant Genes
+AT2G30710	Lateral-Root Significant Genes
+AT4G14880	Lateral-Root Significant Genes
+AT4G17080	Lateral-Root Significant Genes
+	Lateral-Root Significant Genes
+AT1G32160	Lateral-Root Significant Genes
+AT5G28770	Lateral-Root Significant Genes
+AT5G19590	Lateral-Root Significant Genes
+AT3G51820	Lateral-Root Significant Genes
+AT5G33280	Lateral-Root Significant Genes
+AT5G28050	Lateral-Root Significant Genes
+AT5G27410	Lateral-Root Significant Genes
+AT5G66770	Lateral-Root Significant Genes
+AT5G65810	Lateral-Root Significant Genes
+AT5G62200	Lateral-Root Significant Genes
+AT5G59730	Lateral-Root Significant Genes
+AT5G58540	Lateral-Root Significant Genes
+AT5G56760	Lateral-Root Significant Genes
+AT5G54540	Lateral-Root Significant Genes
+AT5G54600	Lateral-Root Significant Genes
+AT5G53160	Lateral-Root Significant Genes
+AT5G46800	Lateral-Root Significant Genes
+AT5G46780	Lateral-Root Significant Genes
+AT5G42320	Lateral-Root Significant Genes
+AT5G36170	Lateral-Root Significant Genes
+AT5G18650	Lateral-Root Significant Genes
+AT5G14260	Lateral-Root Significant Genes
+AT5G11580	Lateral-Root Significant Genes
+AT5G10280	Lateral-Root Significant Genes
+AT5G06850	Lateral-Root Significant Genes
+AT5G06570	Lateral-Root Significant Genes
+AT5G05190	Lateral-Root Significant Genes
+AT5G05170	Lateral-Root Significant Genes
+AT3G62650	Lateral-Root Significant Genes
+AT3G54210	Lateral-Root Significant Genes
+AT3G49360	Lateral-Root Significant Genes
+AT4G38550	Lateral-Root Significant Genes
+AT4G38470	Lateral-Root Significant Genes
+AT4G37550	Lateral-Root Significant Genes
+AT4G34620	Lateral-Root Significant Genes
+AT4G32410	Lateral-Root Significant Genes
+AT4G30690	Lateral-Root Significant Genes
+AT4G25650	Lateral-Root Significant Genes
+AT4G24220;AT4G24230	Lateral-Root Significant Genes
+AT4G23400	Lateral-Root Significant Genes
+AT4G21860	Lateral-Root Significant Genes
+AT4G20360	Lateral-Root Significant Genes
+AT4G20140	Lateral-Root Significant Genes
+AT4G08920	Lateral-Root Significant Genes
+AT4G05150	Lateral-Root Significant Genes
+AT4G01850	Lateral-Root Significant Genes
+AT4G02050	Lateral-Root Significant Genes
+AT1G32070	Lateral-Root Significant Genes
+AT1G07110	Lateral-Root Significant Genes
+AT1G13640	Lateral-Root Significant Genes
+AT1G30130	Lateral-Root Significant Genes
+AT1G54920	Lateral-Root Significant Genes
+AT1G75220	Lateral-Root Significant Genes
+AT3G22890	Lateral-Root Significant Genes
+AT1G55360	Lateral-Root Significant Genes
+AT2G33990	Lateral-Root Significant Genes
+AT3G13040	Lateral-Root Significant Genes
+AT3G19930	Lateral-Root Significant Genes
+AT3G15360	Lateral-Root Significant Genes
+AT3G10230	Lateral-Root Significant Genes
+AT1G28050	Lateral-Root Significant Genes
+AT1G76730	Lateral-Root Significant Genes
+AT1G72510	Lateral-Root Significant Genes
+AT1G62380	Lateral-Root Significant Genes
+AT1G06760	Lateral-Root Significant Genes
+AT1G14290	Lateral-Root Significant Genes
+AT1G11530	Lateral-Root Significant Genes
+AT1G78010	Lateral-Root Significant Genes
+AT1G68660	Lateral-Root Significant Genes
+AT1G15350	Lateral-Root Significant Genes
+AT1G76020	Lateral-Root Significant Genes
+AT1G28580	Lateral-Root Significant Genes
+AT1G23870	Lateral-Root Significant Genes
+AT1G05570	Lateral-Root Significant Genes
+AT1G30650	Lateral-Root Significant Genes
+AT2G22190	Lateral-Root Significant Genes
+AT2G22125	Lateral-Root Significant Genes
+AT2G04890;AT2G04880	Lateral-Root Significant Genes
+AT2G24550	Lateral-Root Significant Genes
+AT2G36320	Lateral-Root Significant Genes
+AT2G42880	Lateral-Root Significant Genes
+AT1G61740	Lateral-Root Significant Genes
+AT1G03850	Lateral-Root Significant Genes
+AT1G62660	Lateral-Root Significant Genes
+AT2G20890	Lateral-Root Significant Genes
+AT2G32080	Lateral-Root Significant Genes
+AT2G24150	Lateral-Root Significant Genes
+AT2G35500	Lateral-Root Significant Genes
+AT2G35410	Lateral-Root Significant Genes
+AT2G25940;AT2G25930	Lateral-Root Significant Genes
+AT2G41430	Lateral-Root Significant Genes
+AT2G37750	Lateral-Root Significant Genes
+AT2G26340	Lateral-Root Significant Genes
+AT2G33800	Lateral-Root Significant Genes
+AT3G56910	Lateral-Root Significant Genes
+AT5G53580	Lateral-Root Significant Genes
+AT5G51110	Lateral-Root Significant Genes
+AT5G45930;AT5G45940	Lateral-Root Significant Genes
+AT5G42240	Lateral-Root Significant Genes
+AT5G14320	Lateral-Root Significant Genes
+AT5G04810	Lateral-Root Significant Genes
+AT3G55630	Lateral-Root Significant Genes
+AT3G52150	Lateral-Root Significant Genes
+AT3G47650	Lateral-Root Significant Genes
+AT4G18480	Lateral-Root Significant Genes
+AT4G13670	Lateral-Root Significant Genes
+AT4G12550	Lateral-Root Significant Genes
+AT4G01310	Lateral-Root Significant Genes
+AT2G33450	Lateral-Root Significant Genes
+AT3G25690	Lateral-Root Significant Genes
+AT3G24430	Lateral-Root Significant Genes
+AT3G27850;AT3G27830	Lateral-Root Significant Genes
+AT3G25920	Lateral-Root Significant Genes
+AT1G29070	Lateral-Root Significant Genes
+AT1G01320	Lateral-Root Significant Genes
+AT1G07320	Lateral-Root Significant Genes
+AT1G75350	Lateral-Root Significant Genes
+AT1G64510	Lateral-Root Significant Genes
+AT1G74970	Lateral-Root Significant Genes
+AT1G68590	Lateral-Root Significant Genes
+AT1G70890	Lateral-Root Significant Genes
+AT1G78630	Lateral-Root Significant Genes
+AT1G05190	Lateral-Root Significant Genes
+AT1G70110	Lateral-Root Significant Genes
+AT1G03680	Lateral-Root Significant Genes
+AT2G43030	Lateral-Root Significant Genes
+AT5G05750;AT5G05760	Lateral-Root Significant Genes
+AT4G35870	Lateral-Root Significant Genes
+AT1G01190	Lateral-Root Significant Genes
+AT4G25820	Lateral-Root Significant Genes
+AT3G15650	Lateral-Root Significant Genes
+AT2G23680	Lateral-Root Significant Genes
+AT4G15480	Lateral-Root Significant Genes
+AT5G17040	Lateral-Root Significant Genes
+AT5G42860	Lateral-Root Significant Genes
+AT3G51240	Lateral-Root Significant Genes
+AT4G30650	Lateral-Root Significant Genes
+AT1G06550	Lateral-Root Significant Genes
+AT2G22590	Lateral-Root Significant Genes
+AT2G32860	Lateral-Root Significant Genes
+AT4G14630	Lateral-Root Significant Genes
+AT1G26250	Lateral-Root Significant Genes
+AT5G25460	Lateral-Root Significant Genes
+AT5G03680	Lateral-Root Significant Genes
+AT3G46270	Lateral-Root Significant Genes
+AT3G26610	Lateral-Root Significant Genes
+AT1G52700	Lateral-Root Significant Genes
+AT2G28780	Lateral-Root Significant Genes
+AT5G40590	Lateral-Root Significant Genes
+AT5G38780	Lateral-Root Significant Genes
+AT3G61490	Lateral-Root Significant Genes
+AT4G37340	Lateral-Root Significant Genes
+AT4G25090	Lateral-Root Significant Genes
+AT4G12500	Lateral-Root Significant Genes
+AT2G43840	Lateral-Root Significant Genes
+AT1G07560	Lateral-Root Significant Genes
+AT1G49750	Lateral-Root Significant Genes
+AT1G64170	Lateral-Root Significant Genes
+AT1G05700	Lateral-Root Significant Genes
+AT2G01880	Lateral-Root Significant Genes
+AT5G64110	Lateral-Root Significant Genes
+AT5G59680	Lateral-Root Significant Genes
+AT5G44720	Lateral-Root Significant Genes
+AT5G10170	Lateral-Root Significant Genes
+AT5G01810	Lateral-Root Significant Genes
+AT3G61400	Lateral-Root Significant Genes
+AT4G13430	Lateral-Root Significant Genes
+AT4G12030	Lateral-Root Significant Genes
+AT1G07090	Lateral-Root Significant Genes
+AT1G66800	Lateral-Root Significant Genes
+AT3G03190	Lateral-Root Significant Genes
+AT1G52720	Lateral-Root Significant Genes
+AT1G31180;AT5G14200	Lateral-Root Significant Genes
+AT2G36570	Lateral-Root Significant Genes
+AT2G41010	Lateral-Root Significant Genes
+AT2G44370	Lateral-Root Significant Genes
+AT2G41560	Lateral-Root Significant Genes
+AT4G25620;AT4G25610	Lateral-Root Significant Genes
+AT5G28310	Lateral-Root Significant Genes
+AT5G65970	Lateral-Root Significant Genes
+AT5G63980	Lateral-Root Significant Genes
+AT5G62720	Lateral-Root Significant Genes
+AT5G38450	Lateral-Root Significant Genes
+AT5G24165	Lateral-Root Significant Genes
+AT5G07830	Lateral-Root Significant Genes
+AT5G04590	Lateral-Root Significant Genes
+AT3G50350	Lateral-Root Significant Genes
+AT3G49940	Lateral-Root Significant Genes
+AT3G45710	Lateral-Root Significant Genes
+AT3G43800	Lateral-Root Significant Genes
+AT4G34950	Lateral-Root Significant Genes
+AT4G18610	Lateral-Root Significant Genes
+AT4G17870	Lateral-Root Significant Genes
+AT1G13670	Lateral-Root Significant Genes
+AT3G11280	Lateral-Root Significant Genes
+AT3G15810	Lateral-Root Significant Genes
+AT1G13300	Lateral-Root Significant Genes
+AT1G72360	Lateral-Root Significant Genes
+AT1G49660	Lateral-Root Significant Genes
+AT1G74710	Lateral-Root Significant Genes
+AT1G47600;AT1G51470	Lateral-Root Significant Genes
+AT2G24762	Lateral-Root Significant Genes
+AT1G31230	Lateral-Root Significant Genes
+AT2G20610	Lateral-Root Significant Genes
+AT2G38310	Lateral-Root Significant Genes
+AT5G49770	Lateral-Root Significant Genes
+AT5G07580	Lateral-Root Significant Genes
+AT5G05270	Lateral-Root Significant Genes
+AT3G62930	Lateral-Root Significant Genes
+AT4G39070	Lateral-Root Significant Genes
+AT4G23496	Lateral-Root Significant Genes
+AT1G19050	Lateral-Root Significant Genes
+AT5G07460	Lateral-Root Significant Genes
+AT1G21860;AT1G21850	Lateral-Root Significant Genes
+AT2G31110	Lateral-Root Significant Genes
+AT5G14130;AT5G14120	Lateral-Root Significant Genes
+AT2G43140	Lateral-Root Significant Genes
+AT3G14415;AT3G14420	Lateral-Root Significant Genes
+AT2G39705	Lateral-Root Significant Genes
+AT5G35190	Lateral-Root Significant Genes
+AT1G30870	Lateral-Root Significant Genes
+AT3G43630	Lateral-Root Significant Genes
+AT5G58670	Lateral-Root Significant Genes
+AT5G01820	Lateral-Root Significant Genes
+AT3G47510	Lateral-Root Significant Genes
+AT3G44720	Lateral-Root Significant Genes
+AT4G25434	Lateral-Root Significant Genes
+AT3G29575	Lateral-Root Significant Genes
+AT3G17790;AT3G17800	Lateral-Root Significant Genes
+AT1G77450	Lateral-Root Significant Genes
+AT1G14730	Lateral-Root Significant Genes
+AT1G62180	Lateral-Root Significant Genes
+AT2G44300	Lateral-Root Significant Genes
+AT4G14010	Lateral-Root Significant Genes
+AT5G49900	Lateral-Root Significant Genes
+AT5G23220	Lateral-Root Significant Genes
+AT5G22850	Lateral-Root Significant Genes
+AT5G03610	Lateral-Root Significant Genes
+AT3G47860	Lateral-Root Significant Genes
+AT4G37790	Lateral-Root Significant Genes
+AT4G35560	Lateral-Root Significant Genes
+AT4G33660	Lateral-Root Significant Genes
+AT4G28110	Lateral-Root Significant Genes
+AT4G27410	Lateral-Root Significant Genes
+AT4G27520	Lateral-Root Significant Genes
+AT4G22120	Lateral-Root Significant Genes
+AT1G16860	Lateral-Root Significant Genes
+AT3G11580	Lateral-Root Significant Genes
+AT1G21120	Lateral-Root Significant Genes
+AT2G01850	Lateral-Root Significant Genes
+AT1G23760	Lateral-Root Significant Genes
+AT2G37870	Lateral-Root Significant Genes
+AT2G23610	Lateral-Root Significant Genes
+AT2G23120	Lateral-Root Significant Genes
+AT5G04150	Lateral-Root Significant Genes
+AT4G36470	Lateral-Root Significant Genes
+AT5G10180	Lateral-Root Significant Genes
+AT5G02020	Lateral-Root Significant Genes
+AT4G30270	Lateral-Root Significant Genes
+AT4G23700	Lateral-Root Significant Genes
+AT4G21620	Lateral-Root Significant Genes
+AT4G11650	Lateral-Root Significant Genes
+AT3G52270	Lateral-Root Significant Genes
+AT3G08860	Lateral-Root Significant Genes
+AT1G19960	Lateral-Root Significant Genes
+AT1G15380	Lateral-Root Significant Genes
+AT1G60380	Lateral-Root Significant Genes
+AT1G28230	Lateral-Root Significant Genes
+AT1G66890	Lateral-Root Significant Genes
+AT1G30260	Lateral-Root Significant Genes
+AT5G14940	Lateral-Root Significant Genes
+AT5G25110	Lateral-Root Significant Genes
+AT5G24800	Lateral-Root Significant Genes
+AT5G58510	Lateral-Root Significant Genes
+AT5G57900	Lateral-Root Significant Genes
+AT5G54390	Lateral-Root Significant Genes
+AT5G51050	Lateral-Root Significant Genes
+AT5G49660	Lateral-Root Significant Genes
+AT5G22630	Lateral-Root Significant Genes
+AT5G04080	Lateral-Root Significant Genes
+AT3G54390	Lateral-Root Significant Genes
+AT3G49220	Lateral-Root Significant Genes
+AT3G47540	Lateral-Root Significant Genes
+AT3G44510	Lateral-Root Significant Genes
+AT4G34000	Lateral-Root Significant Genes
+AT4G33420	Lateral-Root Significant Genes
+AT4G21990	Lateral-Root Significant Genes
+AT1G17960	Lateral-Root Significant Genes
+AT1G50940	Lateral-Root Significant Genes
+AT3G27880	Lateral-Root Significant Genes
+AT3G04910	Lateral-Root Significant Genes
+AT1G47960	Lateral-Root Significant Genes
+AT1G71960	Lateral-Root Significant Genes
+AT1G12200	Lateral-Root Significant Genes
+AT1G28520	Lateral-Root Significant Genes
+AT1G64660	Lateral-Root Significant Genes
+AT1G70900	Lateral-Root Significant Genes
+AT1G75820	Lateral-Root Significant Genes
+AT2G36950	Lateral-Root Significant Genes
+AT1G55740	Lateral-Root Significant Genes
+AT2G16720	Lateral-Root Significant Genes
+AT2G46600	Lateral-Root Significant Genes
+AT2G37630	Lateral-Root Significant Genes
+AT2G44450	Lateral-Root Significant Genes
+AT2G41530	Lateral-Root Significant Genes
+AT1G67710	Lateral-Root Significant Genes
+AT4G16520	Lateral-Root Significant Genes
+AT4G14270	Lateral-Root Significant Genes
+AT1G58030	Lateral-Root Significant Genes
+AT5G20380	Lateral-Root Significant Genes
+AT1G58180	Lateral-Root Significant Genes
+AT5G27360	Lateral-Root Significant Genes
+AT5G27280	Lateral-Root Significant Genes
+AT5G67490	Lateral-Root Significant Genes
+AT5G66930	Lateral-Root Significant Genes
+AT5G66030	Lateral-Root Significant Genes
+AT5G66290	Lateral-Root Significant Genes
+AT5G65910	Lateral-Root Significant Genes
+AT5G66250	Lateral-Root Significant Genes
+AT5G64180	Lateral-Root Significant Genes
+AT5G63190	Lateral-Root Significant Genes
+AT5G60680	Lateral-Root Significant Genes
+AT5G60460	Lateral-Root Significant Genes
+AT5G58950	Lateral-Root Significant Genes
+AT5G55970	Lateral-Root Significant Genes
+AT5G56020	Lateral-Root Significant Genes
+AT5G54080	Lateral-Root Significant Genes
+AT5G51070	Lateral-Root Significant Genes
+AT5G49710	Lateral-Root Significant Genes
+AT5G49650	Lateral-Root Significant Genes
+AT5G47620	Lateral-Root Significant Genes
+AT5G47040	Lateral-Root Significant Genes
+AT5G47050	Lateral-Root Significant Genes
+AT5G44790	Lateral-Root Significant Genes
+AT5G44920	Lateral-Root Significant Genes
+AT5G43930	Lateral-Root Significant Genes
+AT5G40250	Lateral-Root Significant Genes
+AT5G39660	Lateral-Root Significant Genes
+AT5G23670	Lateral-Root Significant Genes
+AT5G14540	Lateral-Root Significant Genes
+AT5G08100	Lateral-Root Significant Genes
+AT5G08240	Lateral-Root Significant Genes
+AT5G07250	Lateral-Root Significant Genes
+AT5G06130	Lateral-Root Significant Genes
+AT3G63000	Lateral-Root Significant Genes
+AT3G61630	Lateral-Root Significant Genes
+AT3G56140	Lateral-Root Significant Genes
+AT3G55770	Lateral-Root Significant Genes
+AT3G51370	Lateral-Root Significant Genes
+AT3G47500	Lateral-Root Significant Genes
+AT3G46640	Lateral-Root Significant Genes
+AT3G45640	Lateral-Root Significant Genes
+AT4G38090	Lateral-Root Significant Genes
+AT4G37530;AT4G37520	Lateral-Root Significant Genes
+AT4G35780	Lateral-Root Significant Genes
+AT4G35770	Lateral-Root Significant Genes
+AT4G34030	Lateral-Root Significant Genes
+AT4G33150	Lateral-Root Significant Genes
+AT4G30200	Lateral-Root Significant Genes
+AT4G29950	Lateral-Root Significant Genes
+AT4G28240;AT4G28220	Lateral-Root Significant Genes
+AT4G26400	Lateral-Root Significant Genes
+AT4G20270	Lateral-Root Significant Genes
+AT4G19860	Lateral-Root Significant Genes
+AT4G13830	Lateral-Root Significant Genes
+AT4G13250	Lateral-Root Significant Genes
+AT4G10840	Lateral-Root Significant Genes
+AT4G01026	Lateral-Root Significant Genes
+AT4G01120	Lateral-Root Significant Genes
+AT1G12680	Lateral-Root Significant Genes
+AT3G19553	Lateral-Root Significant Genes
+AT2G34070	Lateral-Root Significant Genes
+AT3G29180	Lateral-Root Significant Genes
+AT3G15290	Lateral-Root Significant Genes
+AT3G24315	Lateral-Root Significant Genes
+AT3G14430	Lateral-Root Significant Genes
+AT3G26580	Lateral-Root Significant Genes
+AT3G16850	Lateral-Root Significant Genes
+AT3G13310	Lateral-Root Significant Genes
+AT3G13340	Lateral-Root Significant Genes
+AT3G16910	Lateral-Root Significant Genes
+AT3G16940	Lateral-Root Significant Genes
+AT3G19290	Lateral-Root Significant Genes
+AT3G26100	Lateral-Root Significant Genes
+AT3G06590	Lateral-Root Significant Genes
+AT3G04350	Lateral-Root Significant Genes
+AT3G04530	Lateral-Root Significant Genes
+AT3G09470	Lateral-Root Significant Genes
+AT3G04060	Lateral-Root Significant Genes
+AT3G06330	Lateral-Root Significant Genes
+AT3G10420	Lateral-Root Significant Genes
+AT3G01970	Lateral-Root Significant Genes
+AT3G01520	Lateral-Root Significant Genes
+AT3G03870	Lateral-Root Significant Genes
+AT1G13450	Lateral-Root Significant Genes
+AT1G15740	Lateral-Root Significant Genes
+AT1G72200	Lateral-Root Significant Genes
+AT1G76670	Lateral-Root Significant Genes
+AT1G29970	Lateral-Root Significant Genes
+AT1G70660	Lateral-Root Significant Genes
+AT1G63840	Lateral-Root Significant Genes
+AT1G69360	Lateral-Root Significant Genes
+AT1G51540;AT1G51550	Lateral-Root Significant Genes
+AT2G43750	Lateral-Root Significant Genes
+AT2G43680	Lateral-Root Significant Genes
+AT1G29260	Lateral-Root Significant Genes
+AT1G06110	Lateral-Root Significant Genes
+AT1G26580	Lateral-Root Significant Genes
+AT1G19660	Lateral-Root Significant Genes
+AT1G05840	Lateral-Root Significant Genes
+AT1G48430	Lateral-Root Significant Genes
+AT1G53000	Lateral-Root Significant Genes
+AT1G47330	Lateral-Root Significant Genes
+AT1G32700	Lateral-Root Significant Genes
+AT1G08320	Lateral-Root Significant Genes
+AT1G22530	Lateral-Root Significant Genes
+AT1G59590	Lateral-Root Significant Genes
+AT1G59580	Lateral-Root Significant Genes
+AT1G74920	Lateral-Root Significant Genes
+AT1G78050;AT1G78060	Lateral-Root Significant Genes
+AT1G48300;AT1G48310	Lateral-Root Significant Genes
+AT1G48420	Lateral-Root Significant Genes
+AT1G70990	Lateral-Root Significant Genes
+AT1G15400	Lateral-Root Significant Genes
+AT1G21000	Lateral-Root Significant Genes
+AT1G79380	Lateral-Root Significant Genes
+AT2G31350	Lateral-Root Significant Genes
+AT2G15240	Lateral-Root Significant Genes
+AT2G15320	Lateral-Root Significant Genes
+AT2G31800	Lateral-Root Significant Genes
+AT2G16990	Lateral-Root Significant Genes
+AT2G21410	Lateral-Root Significant Genes
+AT2G40420	Lateral-Root Significant Genes
+AT2G36900	Lateral-Root Significant Genes
+AT2G42750	Lateral-Root Significant Genes
+AT2G21185	Lateral-Root Significant Genes
+AT2G22540	Lateral-Root Significant Genes
+AT1G78680	Lateral-Root Significant Genes
+AT1G78820	Lateral-Root Significant Genes
+AT2G25080	Lateral-Root Significant Genes
+AT1G10210	Lateral-Root Significant Genes
+AT1G10070	Lateral-Root Significant Genes
+AT1G55760	Lateral-Root Significant Genes
+AT1G09910	Lateral-Root Significant Genes
+AT1G70250	Lateral-Root Significant Genes
+AT1G22930	Lateral-Root Significant Genes
+AT2G17430	Lateral-Root Significant Genes
+AT1G67310	Lateral-Root Significant Genes
+AT2G42890	Lateral-Root Significant Genes
+AT2G20920	Lateral-Root Significant Genes
+AT2G15570	Lateral-Root Significant Genes
+AT2G20040	Lateral-Root Significant Genes
+AT2G35680;AT2G35670	Lateral-Root Significant Genes
+AT2G25590	Lateral-Root Significant Genes
+AT2G29400	Lateral-Root Significant Genes
+AT2G27830	Lateral-Root Significant Genes
+AT2G41250	Lateral-Root Significant Genes
+AT2G38740	Lateral-Root Significant Genes
+AT2G07180	Lateral-Root Significant Genes
+AT2G46030	Lateral-Root Significant Genes
+AT2G45820	Lateral-Root Significant Genes
+AT2G45980	Lateral-Root Significant Genes
+AT2G40970	Lateral-Root Significant Genes
+AT2G44310	Lateral-Root Significant Genes
+AT2G47600	Lateral-Root Significant Genes
+AT1G67740	Lateral-Root Significant Genes
+AT4G17730	Lateral-Root Significant Genes
+AT1G28330	Lateral-Root Significant Genes
+AT5G09440	Lateral-Root Significant Genes
+AT5G21170	Lateral-Root Significant Genes
+AT5G66050	Lateral-Root Significant Genes
+AT5G65020	Lateral-Root Significant Genes
+AT5G64860	Lateral-Root Significant Genes
+AT5G61410	Lateral-Root Significant Genes
+AT5G61600	Lateral-Root Significant Genes
+AT5G51970	Lateral-Root Significant Genes
+AT5G49720	Lateral-Root Significant Genes
+AT5G47390	Lateral-Root Significant Genes
+AT5G43600	Lateral-Root Significant Genes
+AT5G42200	Lateral-Root Significant Genes
+AT5G40890	Lateral-Root Significant Genes
+AT5G40690	Lateral-Root Significant Genes
+AT5G18640	Lateral-Root Significant Genes
+AT5G18140	Lateral-Root Significant Genes
+AT5G18200	Lateral-Root Significant Genes
+AT5G17300	Lateral-Root Significant Genes
+AT5G05690	Lateral-Root Significant Genes
+AT5G02840	Lateral-Root Significant Genes
+AT5G01530	Lateral-Root Significant Genes
+AT3G61260	Lateral-Root Significant Genes
+AT3G53920	Lateral-Root Significant Genes
+AT3G52070	Lateral-Root Significant Genes
+AT3G45300	Lateral-Root Significant Genes
+AT3G45310	Lateral-Root Significant Genes
+AT4G38060	Lateral-Root Significant Genes
+AT4G34138	Lateral-Root Significant Genes
+AT4G33670	Lateral-Root Significant Genes
+AT4G32940	Lateral-Root Significant Genes
+AT4G28030	Lateral-Root Significant Genes
+AT4G25660	Lateral-Root Significant Genes
+AT4G19410	Lateral-Root Significant Genes
+AT4G05070	Lateral-Root Significant Genes
+AT4G00880	Lateral-Root Significant Genes
+AT4G00560	Lateral-Root Significant Genes
+AT1G69526	Lateral-Root Significant Genes
+AT3G11100	Lateral-Root Significant Genes
+AT1G10660	Lateral-Root Significant Genes
+AT3G19900	Lateral-Root Significant Genes
+AT3G19860	Lateral-Root Significant Genes
+AT3G18035	Lateral-Root Significant Genes
+AT3G14050	Lateral-Root Significant Genes
+AT3G27770	Lateral-Root Significant Genes
+AT3G26890	Lateral-Root Significant Genes
+AT3G26900	Lateral-Root Significant Genes
+AT3G17650	Lateral-Root Significant Genes
+AT3G14350	Lateral-Root Significant Genes
+AT3G14230	Lateral-Root Significant Genes
+AT3G02690	Lateral-Root Significant Genes
+AT3G06510	Lateral-Root Significant Genes
+AT3G10740	Lateral-Root Significant Genes
+AT1G02305	Lateral-Root Significant Genes
+AT1G19000	Lateral-Root Significant Genes
+AT1G69580	Lateral-Root Significant Genes
+AT1G76490	Lateral-Root Significant Genes
+AT2G47400	Lateral-Root Significant Genes
+AT1G49220;AT1G49200;AT1G49210	Lateral-Root Significant Genes
+AT1G21360	Lateral-Root Significant Genes
+AT1G19680	Lateral-Root Significant Genes
+AT1G19770	Lateral-Root Significant Genes
+AT1G12790	Lateral-Root Significant Genes
+AT1G44770	Lateral-Root Significant Genes
+AT1G18880;AT1G18890	Lateral-Root Significant Genes
+AT1G01780	Lateral-Root Significant Genes
+AT1G01170	Lateral-Root Significant Genes
+AT1G18330;AT3G10113	Lateral-Root Significant Genes
+AT1G50490;AT1G50480	Lateral-Root Significant Genes
+AT1G68670	Lateral-Root Significant Genes
+AT1G21780	Lateral-Root Significant Genes
+AT1G23310	Lateral-Root Significant Genes
+AT1G03130	Lateral-Root Significant Genes
+AT1G78660	Lateral-Root Significant Genes
+AT2G04240	Lateral-Root Significant Genes
+AT2G24790	Lateral-Root Significant Genes
+AT1G04400	Lateral-Root Significant Genes
+AT2G28470	Lateral-Root Significant Genes
+AT1G22740	Lateral-Root Significant Genes
+AT1G61820	Lateral-Root Significant Genes
+AT1G78890	Lateral-Root Significant Genes
+AT2G25090	Lateral-Root Significant Genes
+AT1G11860	Lateral-Root Significant Genes
+AT1G10150	Lateral-Root Significant Genes
+AT1G67280	Lateral-Root Significant Genes
+AT1G51360	Lateral-Root Significant Genes
+AT2G43050	Lateral-Root Significant Genes
+AT2G46490	Lateral-Root Significant Genes
+AT2G46550	Lateral-Root Significant Genes
+AT2G40110	Lateral-Root Significant Genes
+AT2G37480	Lateral-Root Significant Genes
+AT2G28800	Lateral-Root Significant Genes
+AT2G28840	Lateral-Root Significant Genes
+AT2G01530	Lateral-Root Significant Genes
+AT2G14910	Lateral-Root Significant Genes
+AT2G46900	Lateral-Root Significant Genes
+AT2G45960	Lateral-Root Significant Genes
+AT2G39570	Lateral-Root Significant Genes
+AT2G39730	Lateral-Root Significant Genes
+AT5G66570	Lateral-Root Significant Genes
+AT5G66190	Lateral-Root Significant Genes
+AT5G05600	Lateral-Root Significant Genes
+AT3G54890	Lateral-Root Significant Genes
+AT4G30950	Lateral-Root Significant Genes
+AT4G28750	Lateral-Root Significant Genes
+AT4G03280	Lateral-Root Significant Genes
+AT3G26650	Lateral-Root Significant Genes
+AT1G42970	Lateral-Root Significant Genes
+AT1G52400	Lateral-Root Significant Genes
+AT1G64370	Lateral-Root Significant Genes
+AT1G76450	Lateral-Root Significant Genes
+AT1G68010	Lateral-Root Significant Genes
+AT1G31330	Lateral-Root Significant Genes
+AT1G64720	Lateral-Root Significant Genes
+AT2G35980	Lateral-Root Significant Genes
+AT1G67090	Lateral-Root Significant Genes
+AT1G03600	Lateral-Root Significant Genes
+AT1G60550	Lateral-Root Significant Genes
+AT1G55480	Lateral-Root Significant Genes
+AT2G20260	Lateral-Root Significant Genes
+AT2G35370	Lateral-Root Significant Genes
+AT2G22990	Lateral-Root Significant Genes
+AT2G30570	Lateral-Root Significant Genes
+AT5G27420	Lateral-Root Significant Genes
+AT5G56100	Lateral-Root Significant Genes
+AT5G23380	Lateral-Root Significant Genes
+AT5G18490	Lateral-Root Significant Genes
+AT3G60300	Lateral-Root Significant Genes
+AT3G59950;AT3G59940	Lateral-Root Significant Genes
+AT1G56200	Lateral-Root Significant Genes
+AT3G26510	Lateral-Root Significant Genes
+AT3G26740	Lateral-Root Significant Genes
+AT3G26720	Lateral-Root Significant Genes
+AT3G07310	Lateral-Root Significant Genes
+AT3G09020	Lateral-Root Significant Genes
+AT3G01175	Lateral-Root Significant Genes
+AT1G72150	Lateral-Root Significant Genes
+AT1G80440	Lateral-Root Significant Genes
+AT1G19530	Lateral-Root Significant Genes
+AT1G49240	Lateral-Root Significant Genes
+AT1G26670	Lateral-Root Significant Genes
+AT1G80180	Lateral-Root Significant Genes
+AT1G03090	Lateral-Root Significant Genes
+AT1G05575	Lateral-Root Significant Genes
+AT1G70420	Lateral-Root Significant Genes
+AT1G10140	Lateral-Root Significant Genes
+AT2G18280	Lateral-Root Significant Genes
+AT2G32150	Lateral-Root Significant Genes
+AT2G18050	Lateral-Root Significant Genes
+AT2G46220	Lateral-Root Significant Genes
+AT2G34500	Lateral-Root Significant Genes
+AT5G41380	Lateral-Root Significant Genes
+AT2G22980	Lateral-Root Significant Genes
+AT5G58010	Lateral-Root Significant Genes
+AT3G44470	Lateral-Root Significant Genes
+AT2G41480	Lateral-Root Significant Genes
+AT3G47420	Lateral-Root Significant Genes
+AT1G21140	Lateral-Root Significant Genes
+AT3G53100	Lateral-Root Significant Genes
+AT3G45210	Lateral-Root Significant Genes
+AT4G33550	Lateral-Root Significant Genes
+AT4G30460	Lateral-Root Significant Genes
+AT2G40460	Lateral-Root Significant Genes
+AT3G12955	Lateral-Root Significant Genes
+AT3G21190	Lateral-Root Significant Genes
+AT1G21120;AT1G21110	Lateral-Root Significant Genes
+AT1G03840	Lateral-Root Significant Genes
+AT2G44940	Lateral-Root Significant Genes
+AT2G23560	Lateral-Root Significant Genes
+AT4G03190;AT4G03180	Lateral-Root Significant Genes
+AT4G01430	Lateral-Root Significant Genes
+AT4G00910	Lateral-Root Significant Genes
+AT3G12830	Lateral-Root Significant Genes
+AT3G21500	Lateral-Root Significant Genes
+AT3G27650	Lateral-Root Significant Genes
+AT1G76800	Lateral-Root Significant Genes
+AT1G20070	Lateral-Root Significant Genes
+AT1G59730	Lateral-Root Significant Genes
+AT2G38600	Lateral-Root Significant Genes
+AT2G40900	Lateral-Root Significant Genes
+AT5G64700	Lateral-Root Significant Genes
+AT5G43180	Lateral-Root Significant Genes
+AT5G18690	Lateral-Root Significant Genes
+AT5G09760	Lateral-Root Significant Genes
+AT5G05790	Lateral-Root Significant Genes
+AT4G37730	Lateral-Root Significant Genes
+AT4G13290	Lateral-Root Significant Genes
+AT4G04610	Lateral-Root Significant Genes
+AT4G10310	Lateral-Root Significant Genes
+AT3G29780	Lateral-Root Significant Genes
+AT3G25190	Lateral-Root Significant Genes
+AT3G02040;AT3G02030	Lateral-Root Significant Genes
+AT1G49470	Lateral-Root Significant Genes
+AT1G27030	Lateral-Root Significant Genes
+AT1G31050	Lateral-Root Significant Genes
+AT5G19970	Lateral-Root Significant Genes
+AT5G28080	Lateral-Root Significant Genes
+AT5G65870	Lateral-Root Significant Genes
+AT5G63710	Lateral-Root Significant Genes
+AT5G61250	Lateral-Root Significant Genes
+AT5G54980	Lateral-Root Significant Genes
+AT5G48900	Lateral-Root Significant Genes
+AT5G42690	Lateral-Root Significant Genes
+AT5G37260	Lateral-Root Significant Genes
+AT5G10580	Lateral-Root Significant Genes
+AT3G62040	Lateral-Root Significant Genes
+AT4G37800	Lateral-Root Significant Genes
+AT4G34600	Lateral-Root Significant Genes
+AT4G30530	Lateral-Root Significant Genes
+AT4G24180	Lateral-Root Significant Genes
+AT4G20070	Lateral-Root Significant Genes
+AT4G02590	Lateral-Root Significant Genes
+AT1G48760;AT1G48750	Lateral-Root Significant Genes
+AT1G72070	Lateral-Root Significant Genes
+AT1G66140	Lateral-Root Significant Genes
+AT3G18280	Lateral-Root Significant Genes
+AT3G21770	Lateral-Root Significant Genes
+AT3G25560	Lateral-Root Significant Genes
+AT3G19370	Lateral-Root Significant Genes
+AT3G18080	Lateral-Root Significant Genes
+AT3G23430	Lateral-Root Significant Genes
+AT3G06035	Lateral-Root Significant Genes
+AT3G05640	Lateral-Root Significant Genes
+AT3G03520	Lateral-Root Significant Genes
+AT3G07600	Lateral-Root Significant Genes
+AT1G20620	Lateral-Root Significant Genes
+AT1G69600	Lateral-Root Significant Genes
+AT1G45130	Lateral-Root Significant Genes
+AT1G12780	Lateral-Root Significant Genes
+AT1G68740	Lateral-Root Significant Genes
+AT1G14190	Lateral-Root Significant Genes
+AT2G04795	Lateral-Root Significant Genes
+AT2G04800	Lateral-Root Significant Genes
+AT1G78780	Lateral-Root Significant Genes
+AT2G17820	Lateral-Root Significant Genes
+AT1G60680	Lateral-Root Significant Genes
+AT1G77020	Lateral-Root Significant Genes
+AT2G18570	Lateral-Root Significant Genes
+AT2G37330	Lateral-Root Significant Genes
+AT2G19110	Lateral-Root Significant Genes
+AT2G45210	Lateral-Root Significant Genes
+AT4G15560	Lateral-Root Significant Genes
+AT4G37150	Lateral-Root Significant Genes
+AT5G15830	Lateral-Root Significant Genes
+AT1G31770	Lateral-Root Significant Genes
+AT5G14880	Lateral-Root Significant Genes
+AT5G25630	Lateral-Root Significant Genes
+AT5G25160	Lateral-Root Significant Genes
+AT5G63410	Lateral-Root Significant Genes
+AT5G60890	Lateral-Root Significant Genes
+AT5G59780	Lateral-Root Significant Genes
+AT5G59090	Lateral-Root Significant Genes
+AT5G58787	Lateral-Root Significant Genes
+AT5G58500	Lateral-Root Significant Genes
+AT5G47720	Lateral-Root Significant Genes
+AT5G47450	Lateral-Root Significant Genes
+AT5G23050	Lateral-Root Significant Genes
+AT5G16480	Lateral-Root Significant Genes
+AT5G13770	Lateral-Root Significant Genes
+AT3G63210	Lateral-Root Significant Genes
+AT3G63200	Lateral-Root Significant Genes
+AT3G61460	Lateral-Root Significant Genes
+AT3G61430	Lateral-Root Significant Genes
+AT3G60690	Lateral-Root Significant Genes
+AT3G60490	Lateral-Root Significant Genes
+AT3G56620	Lateral-Root Significant Genes
+AT3G53950	Lateral-Root Significant Genes
+AT3G50820	Lateral-Root Significant Genes
+AT3G50440	Lateral-Root Significant Genes
+AT3G49780	Lateral-Root Significant Genes
+AT3G47160	Lateral-Root Significant Genes
+AT4G39350	Lateral-Root Significant Genes
+AT4G35750	Lateral-Root Significant Genes
+AT4G35030	Lateral-Root Significant Genes
+AT4G33770	Lateral-Root Significant Genes
+AT4G33980	Lateral-Root Significant Genes
+AT4G31730	Lateral-Root Significant Genes
+AT4G25080	Lateral-Root Significant Genes
+AT4G23690	Lateral-Root Significant Genes
+AT4G23410	Lateral-Root Significant Genes
+AT4G20840	Lateral-Root Significant Genes
+AT4G19420	Lateral-Root Significant Genes
+AT4G11360	Lateral-Root Significant Genes
+AT4G04830	Lateral-Root Significant Genes
+AT4G04955	Lateral-Root Significant Genes
+AT4G01330	Lateral-Root Significant Genes
+AT1G58290	Lateral-Root Significant Genes
+AT1G56220	Lateral-Root Significant Genes
+AT1G76890	Lateral-Root Significant Genes
+AT3G10985	Lateral-Root Significant Genes
+AT3G26520	Lateral-Root Significant Genes
+AT3G17510	Lateral-Root Significant Genes
+AT3G11930	Lateral-Root Significant Genes
+AT3G05120	Lateral-Root Significant Genes
+AT3G16470	Lateral-Root Significant Genes
+AT1G01620	Lateral-Root Significant Genes
+AT1G76590	Lateral-Root Significant Genes
+AT1G67910	Lateral-Root Significant Genes
+AT1G63800	Lateral-Root Significant Genes
+AT1G53400	Lateral-Root Significant Genes
+AT1G29050	Lateral-Root Significant Genes
+AT1G17430	Lateral-Root Significant Genes
+AT1G32640	Lateral-Root Significant Genes
+AT1G80920	Lateral-Root Significant Genes
+AT1G74840	Lateral-Root Significant Genes
+AT1G74940	Lateral-Root Significant Genes
+AT1G72890	Lateral-Root Significant Genes
+AT1G75750	Lateral-Root Significant Genes
+AT2G42620	Lateral-Root Significant Genes
+AT2G01910	Lateral-Root Significant Genes
+AT2G01890	Lateral-Root Significant Genes
+AT2G01830	Lateral-Root Significant Genes
+AT2G04690	Lateral-Root Significant Genes
+AT2G36830	Lateral-Root Significant Genes
+AT2G17440	Lateral-Root Significant Genes
+AT1G76990	Lateral-Root Significant Genes
+AT1G51400	Lateral-Root Significant Genes
+AT2G01950	Lateral-Root Significant Genes
+AT2G15890	Lateral-Root Significant Genes
+AT2G42320	Lateral-Root Significant Genes
+AT2G18700	Lateral-Root Significant Genes
+AT2G35260	Lateral-Root Significant Genes
+AT2G35470	Lateral-Root Significant Genes
+AT2G22850	Lateral-Root Significant Genes
+AT2G38400	Lateral-Root Significant Genes
+AT2G14750	Lateral-Root Significant Genes
+AT2G26500	Lateral-Root Significant Genes
+AT4G14890	Lateral-Root Significant Genes
+AT1G31710	Lateral-Root Significant Genes
+AT5G64570	Lateral-Root Significant Genes
+AT5G64040	Lateral-Root Significant Genes
+AT5G57150	Lateral-Root Significant Genes
+AT5G54770	Lateral-Root Significant Genes
+AT5G54280;AT5G54270	Lateral-Root Significant Genes
+AT5G49360	Lateral-Root Significant Genes
+AT5G47950	Lateral-Root Significant Genes
+AT5G47110	Lateral-Root Significant Genes
+AT5G44410	Lateral-Root Significant Genes
+AT5G23060	Lateral-Root Significant Genes
+AT3G61470	Lateral-Root Significant Genes
+AT2G45470	Lateral-Root Significant Genes
+AT3G56940	Lateral-Root Significant Genes
+AT3G57040	Lateral-Root Significant Genes
+AT3G56080	Lateral-Root Significant Genes
+AT3G47470	Lateral-Root Significant Genes
+AT3G45700	Lateral-Root Significant Genes
+AT4G39950	Lateral-Root Significant Genes
+AT4G38970	Lateral-Root Significant Genes
+AT4G27700	Lateral-Root Significant Genes
+AT4G21280	Lateral-Root Significant Genes
+AT4G12800	Lateral-Root Significant Genes
+AT4G11310	Lateral-Root Significant Genes
+AT4G10340	Lateral-Root Significant Genes
+AT4G08290	Lateral-Root Significant Genes
+AT4G04640	Lateral-Root Significant Genes
+AT4G02770	Lateral-Root Significant Genes
+AT1G32060	Lateral-Root Significant Genes
+AT1G20340	Lateral-Root Significant Genes
+AT1G30380	Lateral-Root Significant Genes
+AT3G29240	Lateral-Root Significant Genes
+AT3G05800	Lateral-Root Significant Genes
+AT3G08940	Lateral-Root Significant Genes
+AT3G16350	Lateral-Root Significant Genes
+AT1G15820;AT1G15810	Lateral-Root Significant Genes
+AT1G60950	Lateral-Root Significant Genes
+AT1G35420	Lateral-Root Significant Genes
+AT1G15550	Lateral-Root Significant Genes
+AT1G78020	Lateral-Root Significant Genes
+AT1G49500	Lateral-Root Significant Genes
+AT1G06680	Lateral-Root Significant Genes
+AT1G54500	Lateral-Root Significant Genes
+AT1G75690	Lateral-Root Significant Genes
+AT2G05100;AT2G05070	Lateral-Root Significant Genes
+AT2G28670	Lateral-Root Significant Genes
+AT2G24580	Lateral-Root Significant Genes
+AT2G22330	Lateral-Root Significant Genes
+AT1G79040	Lateral-Root Significant Genes
+AT1G54780	Lateral-Root Significant Genes
+AT1G22700	Lateral-Root Significant Genes
+AT1G55670	Lateral-Root Significant Genes
+AT1G61520	Lateral-Root Significant Genes
+AT2G06510;AT2G06520	Lateral-Root Significant Genes
+AT2G32300	Lateral-Root Significant Genes
+AT2G34430	Lateral-Root Significant Genes
+AT2G23340	Lateral-Root Significant Genes
+AT5G25280	Lateral-Root Significant Genes
+AT5G51390	Lateral-Root Significant Genes
+AT5G40850	Lateral-Root Significant Genes
+AT5G01520	Lateral-Root Significant Genes
+AT1G76410	Lateral-Root Significant Genes
+AT1G80050	Lateral-Root Significant Genes
+AT1G14960	Lateral-Root Significant Genes
+AT1G70290	Lateral-Root Significant Genes
+AT2G15960	Lateral-Root Significant Genes
+AT2G22860	Lateral-Root Significant Genes
+AT2G44130;AT2G44140	Lateral-Root Significant Genes
+AT2G33830	Lateral-Root Significant Genes
+AT2G30540	Lateral-Root Significant Genes
+AT4G14130	Lateral-Root Significant Genes
+AT4G17340	Lateral-Root Significant Genes
+AT5G08370	Lateral-Root Significant Genes
+AT5G61590	Lateral-Root Significant Genes
+AT5G56870	Lateral-Root Significant Genes
+AT5G56540	Lateral-Root Significant Genes
+AT5G44020	Lateral-Root Significant Genes
+AT4G26320	Lateral-Root Significant Genes
+AT1G33055	Lateral-Root Significant Genes
+AT1G78460	Lateral-Root Significant Genes
+AT1G05260	Lateral-Root Significant Genes
+AT5G35470	Lateral-Root Significant Genes
+AT5G23660	Lateral-Root Significant Genes
+AT3G48740	Lateral-Root Significant Genes
+AT1G29920;AT1G29910;AT1G29930	Lateral-Root Significant Genes
+AT1G73220	Lateral-Root Significant Genes
+AT5G19730	Lateral-Root Significant Genes
+AT3G50300	Lateral-Root Significant Genes
+AT1G71880	Lateral-Root Significant Genes
+AT3G54820	Lateral-Root Significant Genes
+AT4G13770	Lateral-Root Significant Genes
+AT3G19710	Lateral-Root Significant Genes
+AT3G45160	Lateral-Root Significant Genes
+AT1G32450	Lateral-Root Significant Genes
+AT1G21440	Lateral-Root Significant Genes
+AT5G23020	Lateral-Root Significant Genes
+AT3G58990	Lateral-Root Significant Genes
+AT4G30450	Lateral-Root Significant Genes
+AT4G30110	Lateral-Root Significant Genes
+AT1G18590	Lateral-Root Significant Genes
+AT3G20015	Lateral-Root Significant Genes
+AT1G78090	Lateral-Root Significant Genes
+AT1G74090	Lateral-Root Significant Genes
+AT1G49230	Lateral-Root Significant Genes
+AT2G46650	Lateral-Root Significant Genes
+AT2G43100	Lateral-Root Significant Genes
+AT2G34490	Lateral-Root Significant Genes
+AT1G25230	Lateral-Root Significant Genes
+AT5G61480	Lateral-Root Significant Genes
+AT5G61420	Lateral-Root Significant Genes
+AT3G02850	Lateral-Root Significant Genes
+AT3G01260	Lateral-Root Significant Genes
+AT1G02640	Lateral-Root Significant Genes
+AT1G16410;AT1G16400	Lateral-Root Significant Genes
+AT2G31790	Lateral-Root Significant Genes
+AT2G21560	Lateral-Root Significant Genes
+AT5G62920	Lateral-Root Significant Genes
+AT5G52250	Lateral-Root Significant Genes
+AT3G48100	Lateral-Root Significant Genes
+AT4G39940	Lateral-Root Significant Genes
+AT3G13730	Lateral-Root Significant Genes
+AT1G28100	Lateral-Root Significant Genes
+AT1G15100	Lateral-Root Significant Genes
+AT1G30840	Lateral-Root Significant Genes
+AT2G34610	Lateral-Root Significant Genes
+AT5G23010	Lateral-Root Significant Genes
+AT3G46130	Lateral-Root Significant Genes
+AT3G23800	Lateral-Root Significant Genes
+AT1G67110	Lateral-Root Significant Genes
+AT3G63110	Lateral-Root Significant Genes
+AT4G39675	Lateral-Root Significant Genes
+AT4G30170	Lateral-Root Significant Genes
+AT4G12510;AT4G12520	Lateral-Root Significant Genes
+AT3G62680	Lateral-Root Significant Genes
+AT4G11190	Lateral-Root Significant Genes
+AT4G08300	Lateral-Root Significant Genes
+AT1G72100	Lateral-Root Significant Genes
+AT3G05770	Lateral-Root Significant Genes
+AT3G11550	Lateral-Root Significant Genes
+AT2G36100	Lateral-Root Significant Genes
+AT2G39795	LRI Genes
+AT2G23170	LRI Genes
+AT2G23350	LRI Genes
+AT2G41650	LRI Genes
+AT2G47610	LRI Genes
+AT2G45420	LRI Genes
+AT2G45400	LRI Genes
+AT2G45240	LRI Genes
+AT2G45440	LRI Genes
+AT1G67750	LRI Genes
+AT5G12330	LRI Genes
+AT4G14320	LRI Genes
+AT4G15000	LRI Genes
+AT4G17785	LRI Genes
+AT4G17520	LRI Genes
+AT4G14560	LRI Genes
+AT4G17350	LRI Genes
+AT4G16700	LRI Genes
+AT4G15640	LRI Genes
+AT4G15770	LRI Genes
+AT4G14350	LRI Genes
+AT4G14380	LRI Genes
+AT4G14390	LRI Genes
+AT1G25280	LRI Genes
+AT1G25260	LRI Genes
+AT1G28210	LRI Genes
+AT1G28290	LRI Genes
+AT1G35140	LRI Genes
+AT1G30240	LRI Genes
+AT1G73540	LRI Genes
+AT5G13490	LRI Genes
+AT1G26260	LRI Genes
+AT5G09420	LRI Genes
+AT5G09510	LRI Genes
+AT5G09250	LRI Genes
+AT5G19750	LRI Genes
+AT5G10720	LRI Genes
+AT5G19290	LRI Genes
+AT5G19320	LRI Genes
+AT5G20160	LRI Genes
+AT5G20540	LRI Genes
+AT5G20600	LRI Genes
+AT5G19300	LRI Genes
+AT5G20040	LRI Genes
+AT5G28370;AT3G61520;AT5G28460	LRI Genes
+AT5G20890	LRI Genes
+AT4G37090	LRI Genes
+AT4G37210	LRI Genes
+AT4G37280	LRI Genes
+AT4G36680	LRI Genes
+AT1G31860	LRI Genes
+AT3G51800	LRI Genes
+AT3G56900	LRI Genes
+AT3G43590	LRI Genes
+AT3G44820	LRI Genes
+AT1G51950	LRI Genes
+AT5G17160	LRI Genes
+AT5G16750	LRI Genes
+AT5G16930	LRI Genes
+AT5G15980	LRI Genes
+AT5G16070	LRI Genes
+AT5G16040	LRI Genes
+AT5G15810	LRI Genes
+AT5G15750	LRI Genes
+AT5G15920	LRI Genes
+AT5G15520	LRI Genes
+AT5G15550	LRI Genes
+AT1G31660	LRI Genes
+AT1G31650	LRI Genes
+AT1G48920	LRI Genes
+AT5G27990	LRI Genes
+AT5G27740	LRI Genes
+AT5G27770	LRI Genes
+AT5G27330	LRI Genes
+AT5G26930	LRI Genes
+AT5G26830	LRI Genes
+AT5G27120;AT5G27140	LRI Genes
+AT5G26710	LRI Genes
+AT5G26860	LRI Genes
+AT5G27640;AT5G25780	LRI Genes
+AT5G26180	LRI Genes
+AT5G25475	LRI Genes
+AT5G04870;AT3G10660	LRI Genes
+AT5G24840	LRI Genes
+AT5G67510	LRI Genes
+AT5G67100	LRI Genes
+AT5G67240	LRI Genes
+AT5G67260	LRI Genes
+AT5G67070	LRI Genes
+AT5G66540	LRI Genes
+AT5G66440	LRI Genes
+AT5G66750	LRI Genes
+AT5G65900	LRI Genes
+AT5G65860	LRI Genes
+AT5G65320	LRI Genes
+AT5G65500	LRI Genes
+AT5G65120	LRI Genes
+AT5G64680	LRI Genes
+AT5G64140	LRI Genes
+AT5G64340	LRI Genes
+AT5G63850	LRI Genes
+AT5G63950	LRI Genes
+AT5G63810	LRI Genes
+AT5G62290	LRI Genes
+AT5G62440	LRI Genes
+AT5G62440	LRI Genes
+AT5G61880	LRI Genes
+AT5G61770	LRI Genes
+AT5G61020	LRI Genes
+AT5G61170	LRI Genes
+AT5G61030	LRI Genes
+AT5G60670	LRI Genes
+AT5G61000	LRI Genes
+AT5G60960	LRI Genes
+AT5G60990	LRI Genes
+AT5G60450	LRI Genes
+AT5G59850	LRI Genes
+AT5G59740	LRI Genes
+AT5G59480	LRI Genes
+AT5G59240	LRI Genes
+AT5G59180	LRI Genes
+AT5G57990	LRI Genes
+AT5G58210	LRI Genes
+AT5G57290	LRI Genes
+AT5G57390	LRI Genes
+AT5G57280	LRI Genes
+AT5G56940	LRI Genes
+AT5G56580	LRI Genes
+AT5G56740	LRI Genes
+AT5G55920	LRI Genes
+AT5G55200	LRI Genes
+AT5G55280	LRI Genes
+AT5G55050	LRI Genes
+AT5G54900	LRI Genes
+AT5G54510	LRI Genes
+AT5G54580	LRI Genes
+AT5G54130	LRI Genes
+AT5G53620	LRI Genes
+AT5G53900	LRI Genes
+AT5G53290	LRI Genes
+AT5G53320	LRI Genes
+AT5G53280	LRI Genes
+AT5G52900	LRI Genes
+AT5G53070	LRI Genes
+AT5G52810	LRI Genes
+AT5G52650	LRI Genes
+AT5G52380	LRI Genes
+AT5G52470	LRI Genes
+AT5G52050	LRI Genes
+AT5G51550	LRI Genes
+AT5G48760	LRI Genes
+AT5G48030	LRI Genes
+AT5G48240	LRI Genes
+AT5G47455	LRI Genes
+AT5G47550	LRI Genes
+AT5G47440	LRI Genes
+AT5G47210	LRI Genes
+AT5G47060	LRI Genes
+AT5G46840	LRI Genes
+AT5G46280	LRI Genes
+AT5G46100	LRI Genes
+AT5G45590	LRI Genes
+AT5G44710	LRI Genes
+AT5G43700	LRI Genes
+AT5G42150	LRI Genes
+AT5G41970	LRI Genes
+AT5G41620	LRI Genes
+AT5G41880	LRI Genes
+AT5G41190	LRI Genes
+AT5G40770	LRI Genes
+AT5G40780	LRI Genes
+AT5G40480	LRI Genes
+AT5G40200	LRI Genes
+AT5G39850	LRI Genes
+AT5G39740	LRI Genes
+AT5G38890	LRI Genes
+AT5G38690	LRI Genes
+AT5G35530	LRI Genes
+AT5G35620	LRI Genes
+AT5G24330	LRI Genes
+AT5G23850	LRI Genes
+AT5G23250	LRI Genes
+AT5G22840	LRI Genes
+AT5G22860	LRI Genes
+AT5G22650	LRI Genes
+AT5G22740	LRI Genes
+AT5G22440	LRI Genes
+AT5G19040	LRI Genes
+AT5G18470	LRI Genes
+AT5G18400	LRI Genes
+AT5G18550	LRI Genes
+AT5G18560	LRI Genes
+AT5G18440	LRI Genes
+AT5G17340	LRI Genes
+AT5G15350	LRI Genes
+AT5G16290	LRI Genes
+AT5G14610	LRI Genes
+AT5G14650	LRI Genes
+AT5G14520	LRI Genes
+AT5G14050	LRI Genes
+AT5G11690	LRI Genes
+AT5G11740	LRI Genes
+AT5G11200;AT5G11170	LRI Genes
+AT5G10920	LRI Genes
+AT5G11010	LRI Genes
+AT5G11240	LRI Genes
+AT5G10510	LRI Genes
+AT5G10360	LRI Genes
+AT5G10010	LRI Genes
+AT5G10240	LRI Genes
+AT5G09790	LRI Genes
+AT5G09800	LRI Genes
+AT5G09770	LRI Genes
+AT5G08570	LRI Genes
+AT5G08600	LRI Genes
+AT5G08180	LRI Genes
+AT5G07090;AT5G58420;AT2G17360	LRI Genes
+AT5G06860	LRI Genes
+AT5G06550	LRI Genes
+AT5G06360	LRI Genes
+AT5G06080	LRI Genes
+AT5G06460	LRI Genes
+AT5G05430	LRI Genes
+AT5G05470	LRI Genes
+AT5G04980	LRI Genes
+AT5G05160	LRI Genes
+AT5G05180	LRI Genes
+AT5G05210	LRI Genes
+AT5G04600	LRI Genes
+AT5G03970	LRI Genes
+AT5G03490	LRI Genes
+AT5G02830;AT5G02820	LRI Genes
+AT5G02590	LRI Genes
+AT5G02610	LRI Genes
+AT5G02450	LRI Genes
+AT5G02050	LRI Genes
+AT5G01470	LRI Genes
+AT5G01230	LRI Genes
+AT3G62940	LRI Genes
+AT3G63130	LRI Genes
+AT3G63440	LRI Genes
+AT3G62870	LRI Genes
+AT3G62530;AT3G62460	LRI Genes
+AT3G62100	LRI Genes
+AT3G62310	LRI Genes
+AT3G61820	LRI Genes
+AT3G61620	LRI Genes
+AT3G60770	LRI Genes
+AT3G61160	LRI Genes
+AT3G60660	LRI Genes
+AT3G60900	LRI Genes
+AT3G60220	LRI Genes
+AT3G59670	LRI Genes
+AT3G59650	LRI Genes
+AT3G59540	LRI Genes
+AT3G59420	LRI Genes
+AT3G59430	LRI Genes
+AT3G58660	LRI Genes
+AT3G58700	LRI Genes
+AT3G58190	LRI Genes
+AT3G58180	LRI Genes
+AT3G57660	LRI Genes
+AT3G57610	LRI Genes
+AT3G57940	LRI Genes
+AT3G57950	LRI Genes
+AT3G57560	LRI Genes
+AT3G57550	LRI Genes
+AT3G57000	LRI Genes
+AT3G57150	LRI Genes
+AT3G56990	LRI Genes
+AT3G56090	LRI Genes
+AT3G56340	LRI Genes
+AT3G56150	LRI Genes
+AT3G56070	LRI Genes
+AT3G55690	LRI Genes
+AT3G55605	LRI Genes
+AT3G55620	LRI Genes
+AT3G55280	LRI Genes
+AT3G55410	LRI Genes
+AT3G55510	LRI Genes
+AT3G55400	LRI Genes
+AT3G55090	LRI Genes
+AT3G55010	LRI Genes
+AT3G54960	LRI Genes
+AT3G54750	LRI Genes
+AT3G54790	LRI Genes
+AT3G53900	LRI Genes
+AT3G53890	LRI Genes
+AT3G54000	LRI Genes
+AT3G54090	LRI Genes
+AT3G53020	LRI Genes
+AT3G52780	LRI Genes
+AT3G52140	LRI Genes
+AT3G52040	LRI Genes
+AT3G52580	LRI Genes
+AT3G51670	LRI Genes
+AT3G50660	LRI Genes
+AT3G49180	LRI Genes
+AT3G49320	LRI Genes
+AT3G49080	LRI Genes
+AT3G48970	LRI Genes
+AT3G48930	LRI Genes
+AT3G48150	LRI Genes
+AT3G48250	LRI Genes
+AT3G48425	LRI Genes
+AT3G46940	LRI Genes
+AT3G46560	LRI Genes
+AT3G46210	LRI Genes
+AT3G46040	LRI Genes
+AT3G44750	LRI Genes
+AT3G44590	LRI Genes
+AT4G39230	LRI Genes
+AT4G39280	LRI Genes
+AT4G39300	LRI Genes
+AT4G38100	LRI Genes
+AT4G38210	LRI Genes
+AT4G37910	LRI Genes
+AT4G37290	LRI Genes
+AT4G37295	LRI Genes
+AT4G37590	LRI Genes
+AT4G36360	LRI Genes
+AT4G35850	LRI Genes
+AT4G36020	LRI Genes
+AT4G35550	LRI Genes
+AT4G34555	LRI Genes
+AT4G34910	LRI Genes
+AT4G34265	LRI Genes
+AT4G34670	LRI Genes
+AT4G34740	LRI Genes
+AT4G33680	LRI Genes
+AT4G33400	LRI Genes
+AT4G33180	LRI Genes
+AT4G33350	LRI Genes
+AT4G32720	LRI Genes
+AT4G32280	LRI Genes
+AT4G32460	LRI Genes
+AT4G32520	LRI Genes
+AT4G32610	LRI Genes
+AT4G32290	LRI Genes
+AT4G31700	LRI Genes
+AT4G31790	LRI Genes
+AT4G30930	LRI Genes
+AT4G30890	LRI Genes
+AT4G31160	LRI Genes
+AT4G31210	LRI Genes
+AT4G30840	LRI Genes
+AT4G30800	LRI Genes
+AT4G30990	LRI Genes
+AT4G30140	LRI Genes
+AT4G30080	LRI Genes
+AT4G30220	LRI Genes
+AT4G29510	LRI Genes
+AT4G29390	LRI Genes
+AT4G29410	LRI Genes
+AT4G29360	LRI Genes
+AT4G28450	LRI Genes
+AT4G28490	LRI Genes
+AT4G28640	LRI Genes
+AT4G27490	LRI Genes
+AT4G27660	LRI Genes
+AT4G27180	LRI Genes
+AT4G27260	LRI Genes
+AT4G27280	LRI Genes
+AT4G26900	LRI Genes
+AT4G26690	LRI Genes
+AT4G26870	LRI Genes
+AT4G26780	LRI Genes
+AT4G26600	LRI Genes
+AT4G26110	LRI Genes
+AT4G26050	LRI Genes
+AT4G26140	LRI Genes
+AT4G25890	LRI Genes
+AT4G25810	LRI Genes
+AT4G25740	LRI Genes
+AT4G25280	LRI Genes
+AT4G25340	LRI Genes
+AT4G25730	LRI Genes
+AT4G25630	LRI Genes
+AT4G24940	LRI Genes
+AT4G24780	LRI Genes
+AT4G24570	LRI Genes
+AT4G24830	LRI Genes
+AT4G23620	LRI Genes
+AT4G23750	LRI Genes
+AT4G23540	LRI Genes
+AT4G22850	LRI Genes
+AT4G22970	LRI Genes
+AT4G22780	LRI Genes
+AT4G22530	LRI Genes
+AT4G22620	LRI Genes
+AT4G22710;AT4G22690	LRI Genes
+AT4G22380	LRI Genes
+AT4G21700	LRI Genes
+AT4G21680	LRI Genes
+AT4G21400	LRI Genes
+AT4G21410	LRI Genes
+AT4G21100	LRI Genes
+AT4G20440	LRI Genes
+AT4G20020	LRI Genes
+AT4G19610	LRI Genes
+AT4G19710	LRI Genes
+AT4G18910	LRI Genes
+AT4G18730	LRI Genes
+AT4G18040	LRI Genes
+AT4G13740	LRI Genes
+AT4G13750	LRI Genes
+AT4G13130	LRI Genes
+AT4G13210	LRI Genes
+AT4G13170	LRI Genes
+AT4G12840	LRI Genes
+AT4G12410	LRI Genes
+AT4G12420	LRI Genes
+AT4G12600	LRI Genes
+AT4G12060	LRI Genes
+AT4G12110	LRI Genes
+AT4G11420	LRI Genes
+AT4G11160	LRI Genes
+AT4G11280	LRI Genes
+AT4G10450	LRI Genes
+AT4G10480	LRI Genes
+AT4G10090	LRI Genes
+AT4G09570	LRI Genes
+AT4G08850	LRI Genes
+AT4G08040	LRI Genes
+AT4G07410	LRI Genes
+AT4G05400	LRI Genes
+AT4G05410	LRI Genes
+AT4G05120;AT4G05110	LRI Genes
+AT4G04940	LRI Genes
+AT4G04180	LRI Genes
+AT4G03550	LRI Genes
+AT4G02820	LRI Genes
+AT4G02930	LRI Genes
+AT4G02060	LRI Genes
+AT4G02290	LRI Genes
+AT4G01990	LRI Genes
+AT4G01250	LRI Genes
+AT4G01560	LRI Genes
+AT4G01630	LRI Genes
+AT4G00940	LRI Genes
+AT4G00810	LRI Genes
+AT4G00238	LRI Genes
+AT4G00620;AT4G00600	LRI Genes
+AT4G00100	LRI Genes
+AT1G25570	LRI Genes
+AT1G31970	LRI Genes
+AT1G18570	LRI Genes
+AT1G16740	LRI Genes
+AT1G18540	LRI Genes
+AT2G33310	LRI Genes
+AT2G33370	LRI Genes
+AT2G33620	LRI Genes
+AT2G40590	LRI Genes
+AT2G40540	LRI Genes
+AT2G40550	LRI Genes
+AT2G40480	LRI Genes
+AT1G20300	LRI Genes
+AT1G22030	LRI Genes
+AT1G21980	LRI Genes
+AT1G22270	LRI Genes
+AT1G34030	LRI Genes
+AT1G19220	LRI Genes
+AT1G58340	LRI Genes
+AT1G07070	LRI Genes
+AT1G13730	LRI Genes
+AT1G16870	LRI Genes
+AT1G48830	LRI Genes
+AT1G48630	LRI Genes
+AT3G12340	LRI Genes
+AT3G11250	LRI Genes
+AT3G12270	LRI Genes
+AT1G69530	LRI Genes
+AT1G54990	LRI Genes
+AT1G72040	LRI Genes
+AT4G26300;AT1G66530	LRI Genes
+AT5G05580;AT3G11170	LRI Genes
+AT1G33420	LRI Genes
+AT3G11150	LRI Genes
+AT3G11110	LRI Genes
+AT4G18440	LRI Genes
+AT1G33410	LRI Genes
+AT3G20000	LRI Genes
+AT3G13570	LRI Genes
+AT3G11964	LRI Genes
+AT2G34050	LRI Genes
+AT3G13790	LRI Genes
+AT3G13672	LRI Genes
+AT3G18600	LRI Genes
+AT3G23940	LRI Genes
+AT3G26410	LRI Genes
+AT3G23830	LRI Genes
+AT3G23990	LRI Genes
+AT3G22500	LRI Genes
+AT3G13560	LRI Genes
+AT3G13380	LRI Genes
+AT3G14070	LRI Genes
+AT3G19200	LRI Genes
+AT3G19130	LRI Genes
+AT3G19720	LRI Genes
+AT3G20050	LRI Genes
+AT3G28860	LRI Genes
+AT3G28900	LRI Genes
+AT3G27280	LRI Genes
+AT3G13160	LRI Genes
+AT3G15080	LRI Genes
+AT3G15000	LRI Genes
+AT3G24240	LRI Genes
+AT2G42440	LRI Genes
+AT1G71850	LRI Genes
+AT1G69040	LRI Genes
+AT3G02800	LRI Genes
+AT1G66480	LRI Genes
+AT3G13860	LRI Genes
+AT3G16810	LRI Genes
+AT3G13230	LRI Genes
+AT3G20430	LRI Genes
+AT3G20330	LRI Genes
+AT3G12860	LRI Genes
+AT3G12670	LRI Genes
+AT3G18524	LRI Genes
+AT3G18710	LRI Genes
+AT3G18760	LRI Genes
+AT3G26980	LRI Genes
+AT3G27080	LRI Genes
+AT3G27060	LRI Genes
+AT3G27070	LRI Genes
+AT3G25290	LRI Genes
+AT3G21700	LRI Genes
+AT3G25400	LRI Genes
+AT3G20830	LRI Genes
+AT3G19440	LRI Genes
+AT3G27580	LRI Genes
+AT3G25940	LRI Genes
+AT3G14600	LRI Genes
+AT3G23620	LRI Genes
+AT3G18130	LRI Genes
+AT3G13940	LRI Genes
+AT3G17970	LRI Genes
+AT3G15680	LRI Genes
+AT3G27740	LRI Genes
+AT3G15850	LRI Genes
+AT3G26760	LRI Genes
+AT3G16080	LRI Genes
+AT3G23325	LRI Genes
+AT3G22660	LRI Genes
+AT3G14390;AT5G11880	LRI Genes
+AT3G15460	LRI Genes
+AT3G15540	LRI Genes
+AT3G16780	LRI Genes
+AT3G22310	LRI Genes
+AT3G22300	LRI Genes
+AT3G02650	LRI Genes
+AT3G02530	LRI Genes
+AT3G02560	LRI Genes
+AT3G02490	LRI Genes
+AT3G06530	LRI Genes
+AT3G06680	LRI Genes
+AT3G06790	LRI Genes
+AT3G06730	LRI Genes
+AT3G07050	LRI Genes
+AT3G06930	LRI Genes
+AT3G02760	LRI Genes
+AT3G02920	LRI Genes
+AT3G02885	LRI Genes
+AT3G02790	LRI Genes
+AT3G08030	LRI Genes
+AT3G09920	LRI Genes
+AT3G08760	LRI Genes
+AT3G09720	LRI Genes
+AT3G09630	LRI Genes
+AT3G05900	LRI Genes
+AT3G10870	LRI Genes
+AT3G11830	LRI Genes
+AT3G04710	LRI Genes
+AT3G04770	LRI Genes
+AT3G03960	LRI Genes
+AT3G07110	LRI Genes
+AT3G02080	LRI Genes
+AT3G03060	LRI Genes
+AT3G03170	LRI Genes
+AT3G10050	LRI Genes
+AT3G05590	LRI Genes
+AT3G06370	LRI Genes
+AT3G10610	LRI Genes
+AT3G10090	LRI Genes
+AT3G10600	LRI Genes
+AT3G10690	LRI Genes
+AT3G01790	LRI Genes
+AT3G01820	LRI Genes
+AT3G07390	LRI Genes
+AT3G11710	LRI Genes
+AT3G04820	LRI Genes
+AT3G04920	LRI Genes
+AT3G04840	LRI Genes
+AT3G02220	LRI Genes
+AT3G07750	LRI Genes
+AT3G11510	LRI Genes
+AT3G07770	LRI Genes
+AT3G01070	LRI Genes
+AT5G15080	LRI Genes
+AT3G01160	LRI Genes
+AT3G05060	LRI Genes
+AT3G03920	LRI Genes
+AT1G13380	LRI Genes
+AT1G69070	LRI Genes
+AT1G17690	LRI Genes
+AT1G20590;AT1G20610	LRI Genes
+AT1G68990	LRI Genes
+AT1G77690	LRI Genes
+AT1G63160	LRI Genes
+AT1G77670	LRI Genes
+AT1G77470	LRI Genes
+AT1G64405	LRI Genes
+AT1G64390	LRI Genes
+AT1G64400	LRI Genes
+AT1G77550	LRI Genes
+AT1G66250	LRI Genes
+AT1G73590	LRI Genes
+AT1G68400	LRI Genes
+AT1G71210	LRI Genes
+AT1G72550	LRI Genes
+AT1G71260	LRI Genes
+AT1G71400	LRI Genes
+AT1G76540	LRI Genes
+AT1G29940	LRI Genes
+AT1G78100	LRI Genes
+AT1G73240	LRI Genes
+AT1G73177	LRI Genes
+AT1G52930	LRI Genes
+AT1G67630	LRI Genes
+AT1G67620	LRI Genes
+AT1G74440	LRI Genes
+AT1G74660	LRI Genes
+AT1G74560	LRI Genes
+AT1G74260	LRI Genes
+AT1G74240	LRI Genes
+AT1G63660	LRI Genes
+AT1G63810	LRI Genes
+AT1G63780	LRI Genes
+AT1G80370	LRI Genes
+AT1G80270	LRI Genes
+AT1G70470	LRI Genes
+AT1G69250	LRI Genes
+AT1G72320	LRI Genes
+AT1G72440	LRI Genes
+AT1G72310	LRI Genes
+AT2G41820	LRI Genes
+AT1G51420	LRI Genes
+AT2G47260	LRI Genes
+AT2G43660	LRI Genes
+AT2G43650	LRI Genes
+AT1G55900	LRI Genes
+AT1G48120	LRI Genes
+AT1G14620	LRI Genes
+AT1G78390	LRI Genes
+AT1G06770	LRI Genes
+AT1G06710	LRI Genes
+AT1G29195	LRI Genes
+AT1G43860	LRI Genes
+AT1G02690	LRI Genes
+AT1G53460	LRI Genes
+AT1G01340	LRI Genes
+AT1G07370	LRI Genes
+AT1G04870	LRI Genes
+AT1G04940	LRI Genes
+AT1G12830	LRI Genes
+AT1G20220	LRI Genes
+AT1G05810	LRI Genes
+AT1G05910	LRI Genes
+AT1G26750	LRI Genes
+AT1G48460	LRI Genes
+AT1G48570	LRI Genes
+AT1G52980	LRI Genes
+AT1G44780	LRI Genes
+AT1G18850	LRI Genes
+AT1G05470	LRI Genes
+AT1G18800	LRI Genes
+AT1G18670	LRI Genes
+AT1G28395	LRI Genes
+AT1G21060	LRI Genes
+AT1G14350	LRI Genes
+AT1G28360	LRI Genes
+AT1G71840	LRI Genes
+AT1G14300	LRI Genes
+AT1G01140	LRI Genes
+AT1G49740	LRI Genes
+AT1G49760	LRI Genes
+AT1G18320;AT3G10110	LRI Genes
+AT1G18480	LRI Genes
+AT1G08360	LRI Genes
+AT1G76300	LRI Genes
+AT1G76090	LRI Genes
+AT1G15660	LRI Genes
+AT1G15580	LRI Genes
+AT1G15930	LRI Genes
+AT1G08130	LRI Genes
+AT1G08280	LRI Genes
+AT1G50570;AT1G50560	LRI Genes
+AT1G80840	LRI Genes
+AT1G80750	LRI Genes
+AT1G33700	LRI Genes
+AT1G64450	LRI Genes
+AT1G64550	LRI Genes
+AT1G56110	LRI Genes
+AT4G37390;AT1G59500	LRI Genes
+AT1G02870	LRI Genes
+AT1G02850	LRI Genes
+AT1G77840	LRI Genes
+AT1G70940	LRI Genes
+AT1G42440	LRI Genes
+AT1G34750	LRI Genes
+AT1G49400	LRI Genes
+AT1G49310	LRI Genes
+AT1G11240	LRI Genes
+AT1G15420	LRI Genes
+AT1G15440	LRI Genes
+AT1G06670	LRI Genes
+AT1G62770	LRI Genes
+AT1G16280	LRI Genes
+AT1G28680	LRI Genes
+AT1G13195	LRI Genes
+AT1G11670	LRI Genes
+AT1G14810	LRI Genes
+AT1G64790	LRI Genes
+AT1G64700	LRI Genes
+AT1G64880	LRI Genes
+AT1G65700	LRI Genes
+AT1G75670	LRI Genes
+AT1G75640	LRI Genes
+AT1G54330	LRI Genes
+AT1G23280	LRI Genes
+AT2G05120	LRI Genes
+AT1G03110	LRI Genes
+AT1G78650	LRI Genes
+AT1G30620	LRI Genes
+AT1G05577	LRI Genes
+AT2G16570	LRI Genes
+AT2G31410	LRI Genes
+AT1G10490	LRI Genes
+AT2G36160	LRI Genes
+AT2G36170	LRI Genes
+AT2G03820	LRI Genes
+AT2G20490	LRI Genes
+AT2G20450	LRI Genes
+AT2G20530	LRI Genes
+AT2G31610	LRI Genes
+AT2G04160	LRI Genes
+AT2G17250	LRI Genes
+AT2G17230	LRI Genes
+AT2G31530	LRI Genes
+AT2G28600	LRI Genes
+AT2G28690	LRI Genes
+AT2G31660	LRI Genes
+AT2G31740	LRI Genes
+AT2G21580	LRI Genes
+AT5G37350;AT2G24990	LRI Genes
+AT2G16440	LRI Genes
+AT2G11910	LRI Genes
+AT2G25270	LRI Genes
+AT1G04330	LRI Genes
+AT1G04510	LRI Genes
+AT1G59990	LRI Genes
+AT1G26910	LRI Genes
+AT1G26880	LRI Genes
+AT2G20585	LRI Genes
+AT1G60080	LRI Genes
+AT1G60010	LRI Genes
+AT2G40360	LRI Genes
+AT2G36930	LRI Genes
+AT2G36910	LRI Genes
+AT2G21790	LRI Genes
+AT2G36250	LRI Genes
+AT2G36220	LRI Genes
+AT2G36070	LRI Genes
+AT2G42740	LRI Genes
+AT2G21160	LRI Genes
+AT2G21060	LRI Genes
+AT2G03740	LRI Genes
+AT2G03730	LRI Genes
+AT2G22410	LRI Genes
+AT2G22400	LRI Genes
+AT1G79140	LRI Genes
+AT1G79150	LRI Genes
+AT1G02110	LRI Genes
+AT1G54690	LRI Genes
+AT1G22780	LRI Genes
+AT1G61870	LRI Genes
+AT1G70410	LRI Genes
+AT1G04190	LRI Genes
+AT1G04170	LRI Genes
+AT1G03360	LRI Genes
+AT1G12020	LRI Genes
+AT1G61730	LRI Genes
+AT1G27400	LRI Genes
+AT1G10270	LRI Genes
+AT1G77280	LRI Genes
+AT1G27390	LRI Genes
+	LRI Genes
+AT1G55610	LRI Genes
+AT2G17670	LRI Genes
+AT1G04680	LRI Genes
+AT1G09830	LRI Genes
+AT1G09620	LRI Genes
+AT1G61350	LRI Genes
+AT1G08580	LRI Genes
+AT1G08640	LRI Genes
+AT1G03530	LRI Genes
+AT1G23220	LRI Genes
+AT1G23080	LRI Genes
+AT2G17280	LRI Genes
+AT1G60770	LRI Genes
+AT1G77000	LRI Genes
+AT1G67320	LRI Genes
+AT1G27050	LRI Genes
+AT1G61667	LRI Genes
+AT1G61570	LRI Genes
+AT1G61580	LRI Genes
+AT1G55500	LRI Genes
+AT1G03820	LRI Genes
+AT1G55430	LRI Genes
+AT1G30860	LRI Genes
+AT2G36620	LRI Genes
+AT2G18220	LRI Genes
+AT2G18210	LRI Genes
+AT2G18400	LRI Genes
+AT2G18330	LRI Genes
+AT2G16780	LRI Genes
+AT2G16660	LRI Genes
+AT2G37190	LRI Genes
+AT2G46520	LRI Genes
+AT2G15690	LRI Genes
+AT2G28210	LRI Genes
+AT2G20060	LRI Genes
+AT2G25355	LRI Genes
+AT2G24500	LRI Genes
+AT2G32060	LRI Genes
+AT2G32070	LRI Genes
+AT2G03450	LRI Genes
+AT2G32100	LRI Genes
+AT2G01250	LRI Genes
+AT2G01290	LRI Genes
+AT2G35790	LRI Genes
+AT2G35770	LRI Genes
+AT2G42430	LRI Genes
+AT2G01630	LRI Genes
+AT2G15000	LRI Genes
+AT2G25670	LRI Genes
+AT2G19520	LRI Genes
+AT2G19540	LRI Genes
+AT2G37280	LRI Genes
+AT2G40660	LRI Genes
+AT2G40700	LRI Genes
+AT2G37860	LRI Genes
+AT2G38020;AT2G38010	LRI Genes
+AT2G37990	LRI Genes
+AT2G39020	LRI Genes
+AT2G28900	LRI Genes
+AT2G29540	LRI Genes
+AT2G27840	LRI Genes
+AT2G27810	LRI Genes
+AT2G27710	LRI Genes
+AT2G27775	LRI Genes
+AT2G29140	LRI Genes
+AT2G01430	LRI Genes
+AT2G31060	LRI Genes
+AT2G47860	LRI Genes
+AT2G47990	LRI Genes
+AT2G47680	LRI Genes
+AT2G35270	LRI Genes
+AT2G46230	LRI Genes
+AT2G14880	LRI Genes
+AT2G14960	LRI Genes
+AT2G35600	LRI Genes
+AT2G35605	LRI Genes
+AT2G25790	LRI Genes
+AT2G19730	LRI Genes
+AT2G19750	LRI Genes
+AT2G47140	LRI Genes
+AT2G46990	LRI Genes
+AT2G47130	LRI Genes
+AT2G28960	LRI Genes
+AT2G22880;AT2G22870	LRI Genes
+AT2G44860	LRI Genes
+AT2G44640	LRI Genes
+AT2G34570	LRI Genes
+AT2G34650	LRI Genes
+AT2G18900	LRI Genes
+AT2G39370	LRI Genes
+AT2G39380	LRI Genes
+AT2G39420	LRI Genes
+AT2G39390	LRI Genes
+AT2G34260	LRI Genes
+AT2G34357	LRI Genes
+AT2G41110	LRI Genes
+AT2G41100	LRI Genes
+AT2G38120	LRI Genes
+AT2G23450	LRI Genes
+AT2G37690	LRI Genes
+AT2G37600	LRI Genes
+AT2G23360	LRI Genes
+AT2G44120	LRI Genes
+AT2G19385	LRI Genes
+AT2G39990	LRI Genes
+AT2G39870	LRI Genes
+AT2G40010	LRI Genes
+AT2G35020	LRI Genes
+AT2G33720	LRI Genes
+AT2G45520	LRI Genes
+AT2G45710	LRI Genes
+AT2G41950	LRI Genes
+AT2G39700	LRI Genes
+AT2G39710	LRI Genes
+AT2G26710	LRI Genes
+At5g04730	Root Morphogenesis
+At1g61080	Root Morphogenesis
+At3g46370	Root Morphogenesis
+At1g49100	Root Morphogenesis
+At4g25220	Root Morphogenesis
+At5g26080	Root Morphogenesis
+At5g49770	Root Morphogenesis
+At3g16220	Root Morphogenesis
+At3g18450	Root Morphogenesis
+At4g28850	Root Morphogenesis
+At1g61950	Root Morphogenesis
+At5g54790	Root Morphogenesis
+At4g08620	Root Morphogenesis
+At4g00130	Root Morphogenesis
+At3g20850	Root Morphogenesis
+At5g19560	Root Morphogenesis
+At3g20460	Root Morphogenesis
+At1g26250	Root Morphogenesis
+At5g24570	Root Morphogenesis
+At3g58000	Root Morphogenesis
+At1g34760	Root Morphogenesis
+At4g10550	Root Morphogenesis
+At2g20520	Root Morphogenesis
+At4g29180	Root Morphogenesis
+At4g04900	Root Morphogenesis
+At1g64400	Root Morphogenesis
+At1g51880	Root Morphogenesis
+At5g44610	Root Morphogenesis
+At5g51310	Root Morphogenesis
+At5g26070	Root Morphogenesis
+At4g20450	Root Morphogenesis
+At3g07490	Root Morphogenesis
+At2g26410	Root Morphogenesis
+At3g01730	Root Morphogenesis
+At4g30320	Root Morphogenesis
+At5g61650	Root Morphogenesis
+At1g33890	Root Morphogenesis
+At2g37820	Root Morphogenesis
+At4g13390	Root Morphogenesis
+At2g25240	Root Morphogenesis
+At5g49870	Root Morphogenesis
+At5g51060	Root Morphogenesis
+At5g24313	Root Morphogenesis
+At1g34510	Root Morphogenesis
+At1g05340	Root Morphogenesis
+At4g25790	Root Morphogenesis
+At3g54580	Root Morphogenesis
+At2g21880	Root Morphogenesis
+At4g08400	Root Morphogenesis
+At4g33730	Root Morphogenesis
+At3g10710	Root Morphogenesis
+At1g79330	Root Morphogenesis
+At3g60280	Root Morphogenesis
+At3g17600	Root Morphogenesis
+At2g35890	Root Morphogenesis
+At3g48940	Root Morphogenesis
+At5g05400	Root Morphogenesis
+At2g34330	Root Morphogenesis
+At1g05990	Root Morphogenesis
+At5g07780	Root Morphogenesis
+At1g33700	Root Morphogenesis
+At3g46340	Root Morphogenesis
+At2g03260	Root Morphogenesis
+At5g19800	Root Morphogenesis
+At3g62780	Root Morphogenesis
+At5g19790	Root Morphogenesis
+At2g44110	Root Morphogenesis
+At4g28550	Root Morphogenesis
+At5g67400	Root Morphogenesis
+At5g44130	Root Morphogenesis
+At5g61350	Root Morphogenesis
+At5g36270	Root Morphogenesis
+At4g30560	Root Morphogenesis
+At5g03640	Root Morphogenesis
+At5g58010	Root Morphogenesis
+At5g57530	Root Morphogenesis
+At4g16350	Root Morphogenesis
+At3g04060	Root Morphogenesis
+At4g25820	Root Morphogenesis
+At2g03720	Root Morphogenesis
+At5g04960	Root Morphogenesis
+At1g12040	Root Morphogenesis
+At1g62320	Root Morphogenesis
+At1g33870	Root Morphogenesis
+At1g12560	Root Morphogenesis
+At2g39510	Root Morphogenesis
+At4g03330	Root Morphogenesis
+At1g62980	Root Morphogenesis
+At5g23750	Root Morphogenesis
+At1g01780	Root Morphogenesis
+At5g13150	Root Morphogenesis
+At5g55400	Root Morphogenesis
+At1g18180	Root Morphogenesis
+At1g49030	Root Morphogenesis
+At4g22080	Root Morphogenesis
+At2g18450	Root Morphogenesis
+At5g54050	Root Morphogenesis
+At4g03500	Root Morphogenesis
+At4g15480	Root Morphogenesis
+At1g13970	Root Morphogenesis
+At1g45145	Root Morphogenesis
+At5g48850	Root Morphogenesis
+At5g01060	Root Morphogenesis
+At3g60330	Root Morphogenesis
+At4g30670	Root Morphogenesis
+At1g18940	Root Morphogenesis
+At1g64210	Root Morphogenesis
+At2g23620	Root Morphogenesis
+At3g12540	Root Morphogenesis
+At1g63600	Root Morphogenesis
+At1g22335	Root Morphogenesis
+At2g05160	Root Morphogenesis
+At5g45840	Root Morphogenesis
+At3g46240	Root Morphogenesis
+At2g25090	Root Morphogenesis
+At1g01660	Root Morphogenesis
+At5g16900	Root Morphogenesis
+At1g54450	Root Morphogenesis
+At4g38390	Root Morphogenesis
+At1g34540	Root Morphogenesis
+At2g04080	Root Morphogenesis
+At4g22460	Root Morphogenesis
+At2g28990	Root Morphogenesis
+At1g52240	Root Morphogenesis
+At1g64480	Root Morphogenesis
+At1g04160	Root Morphogenesis
+At4g40090	Root Morphogenesis
+At5g65160	Root Morphogenesis
+At4g15740	Root Morphogenesis
+At3g54870	Root Morphogenesis
+At5g36260	Root Morphogenesis
+At2g27080	Root Morphogenesis
+At3g01810	Root Morphogenesis
+At1g22530	Root Morphogenesis
+At1g30850	Root Morphogenesis
+At5g28630	Root Morphogenesis
+At1g10020	Root Morphogenesis
+At3g61760	Root Morphogenesis
+At4g22640	Root Morphogenesis
+At5g58750	Root Morphogenesis
+At5g15600	Root Morphogenesis
+At1g11160	Root Morphogenesis
+At1g57570	Root Morphogenesis
+At3g51570	Root Morphogenesis
+At3g07070	Root Morphogenesis
+At5g57540	Root Morphogenesis
+At4g23070	Root Morphogenesis
+At2g17590	Root Morphogenesis
+At3g23870	Root Morphogenesis
+At4g18640	Root Morphogenesis
+At5g43230	Root Morphogenesis
+At4g00680	Root Morphogenesis
+At3g51360	Root Morphogenesis
+At2g21540	Root Morphogenesis
+At2g24610	Root Morphogenesis
+At1g78260	Root Morphogenesis
+At4g35320	Root Morphogenesis
+At4g26010	Root Morphogenesis
+At2g46860	Root Morphogenesis
+At4g26690	Root Morphogenesis
+At3g49840	Root Morphogenesis
+At5g11110	Root Morphogenesis
+At3g09240	Root Morphogenesis
+At5g54670	Root Morphogenesis
+At4g31250	Root Morphogenesis
+At2g33460	Root Morphogenesis
+At1g70460	Root Morphogenesis
+At4g19680	Root Morphogenesis
+At5g48780	Root Morphogenesis
+At4g08410	Root Morphogenesis
+At1g55640	Root Morphogenesis
+At1g48240	Root Morphogenesis
+At1g50390	Root Morphogenesis
+At1g13950	Root Morphogenesis
+At2g25150	Root Morphogenesis
+At1g59725	Root Morphogenesis
+At1g09170	Root Morphogenesis
+At4g03440	Root Morphogenesis
+At5g46040	Root Morphogenesis
+At2g30930	Root Morphogenesis
+At5g40510	Root Morphogenesis
+At1g70450	Root Morphogenesis
+At4g40010	Root Morphogenesis
+At3g51330	Root Morphogenesis
+At4g38950	Root Morphogenesis
+At5g61260	Root Morphogenesis
+At4g39070	Root Morphogenesis
+At5g58940	Root Morphogenesis
+At4g02390	Root Morphogenesis
+At3g20410	Root Morphogenesis
+At4g25830	Root Morphogenesis
+At3g47740	Root Morphogenesis
+At3g48020	Root Morphogenesis
+At4g02270	Root Morphogenesis
+At3g05490	Root Morphogenesis
+At1g53680	Root Morphogenesis
+At1g02570	Root Morphogenesis
+At3g05580	Root Morphogenesis
+At3g21180	Root Morphogenesis
+At5g06640	Root Morphogenesis
+At5g49080	Root Morphogenesis
+At1g48640	Root Morphogenesis
+At1g03660	Root Morphogenesis
+At2g19880	Root Morphogenesis
+At1g75620	Root Morphogenesis
+At4g26770	Root Morphogenesis
+At1g65180	Root Morphogenesis
+At3g59340	Root Morphogenesis
+At1g16420	Root Morphogenesis
+At3g61260	Root Morphogenesis
+At2g38100	Root Morphogenesis
+At5g01280	Root Morphogenesis
+At5g23030	Root Morphogenesis
+At3g61410	Root Morphogenesis
+At2g38320	Root Morphogenesis
+At1g47740	Root Morphogenesis
+At5g60860	Root Morphogenesis
+At4g11230	Root Morphogenesis
+At1g50930	Root Morphogenesis
+At3g49650	Root Morphogenesis
+At5g06800	Root Morphogenesis
+At1g71530	Root Morphogenesis
+At1g26970	Root Morphogenesis
+At1g32950	Root Morphogenesis
+At5g06630	Root Morphogenesis
+At3g05990	Root Morphogenesis
+At1g50630	Root Morphogenesis
+At5g35190	Root Morphogenesis
+At1g79270	Root Morphogenesis
+At1g52250	Root Morphogenesis
+At3g62680	Root Morphogenesis
+At1g35670	Root Morphogenesis
+At3g51470	Root Morphogenesis
+At1g05250	Root Morphogenesis
+At5g14120	Root Morphogenesis
+At5g05500	Root Morphogenesis
+At2g39530	Root Morphogenesis
+At1g05960	Root Morphogenesis
+At2g02250	Root Morphogenesis
+At1g05810	Root Morphogenesis
+At1g48930	Root Morphogenesis
+At2g25620	Root Morphogenesis
+At4g18800	Root Morphogenesis
+At3g14470	Root Morphogenesis
+At3g23190	Root Morphogenesis
+At5g65090	Root Morphogenesis
+At2g40150	Root Morphogenesis
+At3g17990	Root Morphogenesis
+At1g54970	Root Morphogenesis
+At5g15180	Root Morphogenesis
+At4g05330	Root Morphogenesis
+At4g35500	Root Morphogenesis
+At2g38480	Root Morphogenesis
+At3g12040	Root Morphogenesis
+At1g29020	Root Morphogenesis
+At1g55290	Root Morphogenesis
+At5g56160	Root Morphogenesis
+At5g22410	Root Morphogenesis
+At2g41970	Root Morphogenesis
+At1g27200	Root Morphogenesis
+At3g17440	Root Morphogenesis
+At5g01610	Root Morphogenesis
+At5g61980	Root Morphogenesis
+At2g16380	Root Morphogenesis
+At5g50450	Root Morphogenesis
+At3g04810	Root Morphogenesis
+At2g24980	Root Morphogenesis
+At1g63220	Root Morphogenesis
+At4g33530	Root Morphogenesis
+At3g53600	Root Morphogenesis
+At1g10200	Root Morphogenesis
+At4g36030	Root Morphogenesis
+At4g10770	Root Morphogenesis
+At4g25090	Root Morphogenesis
+At4g03110	Root Morphogenesis
+At1g69990	Root Morphogenesis
+At1g68940	Root Morphogenesis
+At5g12880	Root Morphogenesis
+At2g02680	Root Morphogenesis
+At3g29180	Root Morphogenesis
+At1g12750	Root Morphogenesis
+At3g55940	Root Morphogenesis
+At5g59930	Root Morphogenesis
+At2g35730	Root Morphogenesis
+At3g54590	Root Morphogenesis
+At5g55770	Root Morphogenesis
+At5g62310	Root Morphogenesis
+At5g01450	Root Morphogenesis
+At3g56930	Root Morphogenesis
+At2g27440	Root Morphogenesis
+At5g65040	Root Morphogenesis
+At1g01750	Root Morphogenesis
+At5g18270	Root Morphogenesis
+At3g16690	Root Morphogenesis
+At1g49320	Root Morphogenesis
+At1g01440	Root Morphogenesis
+At3g26700	Root Morphogenesis
+At4g09100	Root Morphogenesis
+At3g13720	Root Morphogenesis
+At3g12110	Root Morphogenesis
+At4g30160	Root Morphogenesis
+At3g43220	Root Morphogenesis
+At3g49860	Root Morphogenesis
+At3g46810	Root Morphogenesis
+At1g06840	Root Morphogenesis
+At1g12680	Root Morphogenesis
+At2g46170	Root Morphogenesis
+At2g04780	Root Morphogenesis
+At5g23730	Root Morphogenesis
+At4g18430	Root Morphogenesis
+At1g22050	Root Morphogenesis
+At4g27350	Root Morphogenesis
+At5g06300	Root Morphogenesis
+At2g19760	Root Morphogenesis
+At5g43760	Root Morphogenesis
+At1g30690	Root Morphogenesis
+At1g62570	Root Morphogenesis
+At1g62045	Root Morphogenesis
+At5g40860	Root Morphogenesis
+At3g25250	Root Morphogenesis
+At2g39900	Root Morphogenesis
+At3g07880	Root Morphogenesis
+At5g45650	Root Morphogenesis
+At3g10300	Root Morphogenesis
+At4g25870	Root Morphogenesis
+At3g07360	Root Morphogenesis
+At5g56170	Root Morphogenesis
+At1g17090	Root Morphogenesis
+At1g73480	Root Morphogenesis
+At5g56950	Root Morphogenesis
+At5g57000	Root Morphogenesis
+At3g15020	Root Morphogenesis
+At4g16985	Root Morphogenesis
+At5g59650	Root Morphogenesis
+At2g32930	Root Morphogenesis
+At1g60810	Root Morphogenesis
+At4g39890	Root Morphogenesis
+At5g53250	Root Morphogenesis
+At1g64460	Root Morphogenesis
+At1g04990	Root Morphogenesis
+At2g31260	Root Morphogenesis
+At1g75440	Root Morphogenesis
+At3g01520	Root Morphogenesis
+At3g56000	Root Morphogenesis
+At3g01640	Root Morphogenesis
+At1g15490	Root Morphogenesis
+At3g06420	Root Morphogenesis
+At3g45240	Root Morphogenesis
+At2g44770	Root Morphogenesis
+At2g36410	Root Morphogenesis
+At4g33020	Root Morphogenesis
+At3g19340	Root Morphogenesis
+At2g35000	Root Morphogenesis
+At4g23710	Root Morphogenesis
+At5g63220	Root Morphogenesis
+At5g47180	Root Morphogenesis
+At5g20250	Root Morphogenesis
+At5g54850	Root Morphogenesis
+At4g00300	Root Morphogenesis
+At3g02880	Root Morphogenesis
+At1g75750	Root Morphogenesis
+At2g40620	Root Morphogenesis
+At5g64850	Root Morphogenesis
+At4g19200	Root Morphogenesis
+At3g14595	Root Morphogenesis
+At1g23480	Root Morphogenesis
+At3g11800	Root Morphogenesis
+At4g01575	Root Morphogenesis
+At2g39050	Root Morphogenesis
+At3g50830	Root Morphogenesis
+At5g01460	Root Morphogenesis
+At3g23805	Root Morphogenesis
+At1g62480	Root Morphogenesis
+At1g53400	Root Morphogenesis
+At5g46860	Root Morphogenesis
+At1g22540	Root Morphogenesis
+At1g20440	Root Morphogenesis
+At1g64740	Root Morphogenesis
+At5g14720	Root Morphogenesis
+At1g27210	Root Morphogenesis
+At3g54860	Root Morphogenesis
+At3g60980	Root Morphogenesis
+At5g50565	Root Morphogenesis
+At2g35736	Root Morphogenesis
+At1g65610	Root Morphogenesis
+At4g33650	Root Morphogenesis
+At4g13130	Root Morphogenesis
+At1g72700	Root Morphogenesis
+At3g10910	Root Morphogenesis
+At1g23020	Root Morphogenesis
+At5g35700	Root Morphogenesis
+At3g15430	Root Morphogenesis
+At3g45700	Root Morphogenesis
+At1g07610	Root Morphogenesis
+At3g45070	Root Morphogenesis
+At4g17350	Root Morphogenesis
+At4g00720	Root Morphogenesis
+At2g44450	Root Morphogenesis
+At5g44020	Root Morphogenesis
+At1g69810	Root Morphogenesis
+At4g39270	Root Morphogenesis
+At4g34390	Root Morphogenesis
+At3g06370	Root Morphogenesis
+At3g52060	Root Morphogenesis
+At2g39770	Root Morphogenesis
+At1g20090	Root Morphogenesis
+At1g57680	Root Morphogenesis
+At3g51630	Root Morphogenesis
+At2g19450	Root Morphogenesis
+At4g14310	Root Morphogenesis
+At2g20760	Root Morphogenesis
+At4g34490	Root Morphogenesis
+At1g12810	Root Morphogenesis
+At2g18730	Root Morphogenesis
+At5g15740	Root Morphogenesis
+At4g25110	Root Morphogenesis
+At3g46930	Root Morphogenesis
+At4g11220	Root Morphogenesis
+At5g42840	Root Morphogenesis
+At4g04910	Root Morphogenesis
+At4g35950	Root Morphogenesis
+At5g57110	Root Morphogenesis
+At1g69640	Root Morphogenesis
+At3g51680	Root Morphogenesis
+At4g30640	Root Morphogenesis
+At2g30330	Root Morphogenesis
+At3g15160	Root Morphogenesis
+At4g21980	Root Morphogenesis
+At5g63990	Root Morphogenesis
+At5g57490	Root Morphogenesis
+At4g10360	Root Morphogenesis
+At4g28370	Root Morphogenesis
+At4g02540	Root Morphogenesis
+At2g19830	Root Morphogenesis
+At3g23170	Root Morphogenesis
+At1g12370	Root Morphogenesis
+At1g74790	Root Morphogenesis
+At5g52510	Root Morphogenesis
+At5g57830	Root Morphogenesis
+At2g47500	Root Morphogenesis
+At5g09400	Root Morphogenesis
+At1g10080	Root Morphogenesis
+At2g35020	Root Morphogenesis
+At1g15100	Root Morphogenesis
+At5g26734	Root Morphogenesis
+At1g66540	Root Morphogenesis
+At1g28100	Root Morphogenesis
+At5g56230	Root Morphogenesis
+At5g10260	Root Morphogenesis
+At3g17130	Root Morphogenesis
+At5g06560	Root Morphogenesis
+At3g05850	Root Morphogenesis
+At1g10050	Root Morphogenesis
+At3g59370	Root Morphogenesis
+At2g36810	Root Morphogenesis
+At1g17340	Root Morphogenesis
+At3g18040	Root Morphogenesis
+At1g30900	Root Morphogenesis
+At2g38740	Root Morphogenesis
+At4g39990	Root Morphogenesis
+At3g17780	Root Morphogenesis
+At3g28715	Root Morphogenesis
+At5g02420	Root Morphogenesis
+At5g02350	Root Morphogenesis
+At2g42060	Root Morphogenesis
+At5g12430	Root Morphogenesis
+At3g52460	Root Morphogenesis
+At1g08190	Root Morphogenesis
+At4g28770	Root Morphogenesis
+At1g16170	Root Morphogenesis
+At4g19960	Root Morphogenesis
+At1g79510	Root Morphogenesis
+At4g26850	Root Morphogenesis
+At4g09720	Root Morphogenesis
+At5g19820	Root Morphogenesis
+At1g68820	Root Morphogenesis
+At4g35790	Root Morphogenesis
+At3g63120	Root Morphogenesis
+At3g13380	Root Morphogenesis
+At5g12290	Root Morphogenesis
+At3g11730	Root Morphogenesis
+At1g80690	Root Morphogenesis
+At2g31090	Root Morphogenesis
+At1g80230	Root Morphogenesis
+At5g35200	Root Morphogenesis
+At5g06970	Root Morphogenesis
+At1g12470	Root Morphogenesis
+At1g47530	Root Morphogenesis
+At3g15620	Root Morphogenesis
+At1g44170	Root Morphogenesis
+At1g71780	Root Morphogenesis
+At3g58620	Root Morphogenesis
+At2g40800	Root Morphogenesis
+At3g53000	Root Morphogenesis
+At5g01220	Root Morphogenesis
+At5g21170	Root Morphogenesis
+At1g19110	Root Morphogenesis
+At5g08160	Root Morphogenesis
+At3g55150	Root Morphogenesis
+At2g40420	Root Morphogenesis
+At2g47700	Root Morphogenesis
+At4g35860	Root Morphogenesis
+At1g15110	Root Morphogenesis
+At5g66250	Root Morphogenesis
+At3g06780	Root Morphogenesis
+At3g48880	Root Morphogenesis
+At1g79340	Root Morphogenesis
+At5g62860	Root Morphogenesis
+At1g12360	Root Morphogenesis
+At4g26910	Root Morphogenesis
+At2g38020	Root Morphogenesis
+At1g23760	Root Morphogenesis
+At4g10810	Root Morphogenesis
+At1g53590	Root Morphogenesis
+At1g71090	Root Morphogenesis
+At3g09740	Root Morphogenesis
+At5g46250	Root Morphogenesis
+At1g11660	Root Morphogenesis
+At2g28430	Root Morphogenesis
+At1g08770	Root Morphogenesis
+At4g11190	Root Morphogenesis
+At1g18740	Root Morphogenesis
+At3g49370	Root Morphogenesis
+At3g16350	Root Morphogenesis
+At4g27780	Root Morphogenesis
+At2g41160	Root Morphogenesis
+At5g50020	Root Morphogenesis
+At3g53670	Root Morphogenesis
+At3g17920	Root Morphogenesis
+At1g62770	Root Morphogenesis
+At3g07340	Root Morphogenesis
+At5g10650	Root Morphogenesis
+At1g34750	Root Morphogenesis
+At5g24810	Root Morphogenesis
+At3g08630	Root Morphogenesis
+At3g63080	Root Morphogenesis
+At5g51570	Root Morphogenesis
+At4g08930	Root Morphogenesis
+At2g01910	Root Morphogenesis
+At1g26300	Root Morphogenesis
+At4g26650	Root Morphogenesis
+At1g29230	Root Morphogenesis
+At2g39570	Root Morphogenesis
+At5g62500	Root Morphogenesis
+At1g13960	Root Morphogenesis
+At5g32440	Root Morphogenesis
+At2g27600	Root Morphogenesis
+At3g27470	Root Morphogenesis
+At3g20570	Root Morphogenesis
+At4g26750	Root Morphogenesis
+At3g55320	Root Morphogenesis
+At3g57450	Root Morphogenesis
+At1g18470	Root Morphogenesis
+At4g26710	Root Morphogenesis
+At5g40230	Root Morphogenesis
+At4g00330	Root Morphogenesis
+At1g53760	Root Morphogenesis
+At5g24120	Root Morphogenesis
+At4g13440	Root Morphogenesis
+At2g26830	Root Morphogenesis
+At3g50600	Root Morphogenesis
+At3g52560	Root Morphogenesis
+At2g31570	Root Morphogenesis
+At3g03570	Root Morphogenesis
+At3g55260	Root Morphogenesis
+At1g34000	Root Morphogenesis
+At1g75540	Root Morphogenesis
+At1g51200	Root Morphogenesis
+At2g46900	Root Morphogenesis
+At1g43020	Root Morphogenesis
+At2g17030	Root Morphogenesis
+At3g05890	Root Morphogenesis
+At5g53485	Root Morphogenesis
+At4g23730	Root Morphogenesis
+At1g01340	Root Morphogenesis
+At1g32100	Root Morphogenesis
+At3g47940	Root Morphogenesis
+At4g32660	Root Morphogenesis
+At1g52080	Root Morphogenesis
+At5g63510	Root Morphogenesis
+At3g05690	Root Morphogenesis
+At5g45370	Root Morphogenesis
+At5g46900	Root Morphogenesis
+At1g08780	Root Morphogenesis
+At4g11600	Root Morphogenesis
+At2g37490	Root Morphogenesis
+At3g19460	Root Morphogenesis
+At4g30993	Root Morphogenesis
+At1g24340	Root Morphogenesis
+At4g37880	Root Morphogenesis
+At4g24200	Root Morphogenesis
+At3g01100	Root Morphogenesis
+At5g40950	Root Morphogenesis
+At2g25950	Root Morphogenesis
+At3g20290	Root Morphogenesis
+At2g02050	Root Morphogenesis
+At2g03220	Root Morphogenesis
+At3g59950	Root Morphogenesis
+At1g14780	Root Morphogenesis
+At3g08510	Root Morphogenesis
+At4g26510	Root Morphogenesis
+At3g26360	Root Morphogenesis
+At4g13020	Root Morphogenesis
+At3g08850	Root Morphogenesis
+At1g24350	Root Morphogenesis
+At1g20880	Root Morphogenesis
+AT5G05170 	Primary Cell Wall Synthesis - Persson
+AT4G32410 	Primary Cell Wall Synthesis - Persson
+AT5G64740 	Primary Cell Wall Synthesis - Persson
+AT5G60920 	Primary Cell Wall Synthesis - Persson
+AT1G76670 	Primary Cell Wall Synthesis - Persson
+AT1G04430 	Primary Cell Wall Synthesis - Persson
+AT1G05850 	Primary Cell Wall Synthesis - Persson
+AT4G26690 	Primary Cell Wall Synthesis - Persson
+AT1G29470 	Primary Cell Wall Synthesis - Persson
+AT4G39350 	Primary Cell Wall Synthesis - Persson
+AT1G12500 	Primary Cell Wall Synthesis - Persson
+AT5G35160 	Primary Cell Wall Synthesis - Persson
+AT3G62660 	Primary Cell Wall Synthesis - Persson
+AT4G39840 	Primary Cell Wall Synthesis - Persson
+AT2G41770 	Primary Cell Wall Synthesis - Persson
+AT1G58440 	Primary Cell Wall Synthesis - Persson
+AT4G31590 	Primary Cell Wall Synthesis - Persson
+AT4G18030 	Primary Cell Wall Synthesis - Persson
+AT5G01460 	Primary Cell Wall Synthesis - Persson
+AT4G03390 	Primary Cell Wall Synthesis - Persson
+AT1G45688 	Primary Cell Wall Synthesis - Persson
+AT2G42880 	Primary Cell Wall Synthesis - Persson
+AT3G07330 	Primary Cell Wall Synthesis - Persson
+AT5G06700 	Primary Cell Wall Synthesis - Persson
+AT5G19780 	Primary Cell Wall Synthesis - Persson
+AT1G12850 	Primary Cell Wall Synthesis - Persson
+AT5G12850 	Primary Cell Wall Synthesis - Persson
+AT3G05070 	Primary Cell Wall Synthesis - Persson
+AT3G17390 	Primary Cell Wall Synthesis - Persson
+AT1G14670 	Primary Cell Wall Synthesis - Persson
+AT4G27430 	Primary Cell Wall Synthesis - Persson
+AT3G26700 	Primary Cell Wall Synthesis - Persson
+AT5G49720 	Primary Cell Wall Synthesis - Persson
+AT2G22125 	Primary Cell Wall Synthesis - Persson
+AT3G11745 	Primary Cell Wall Synthesis - Persson
+AT5G17920 	Primary Cell Wall Synthesis - Persson
+AT5G53500 	Primary Cell Wall Synthesis - Persson
+AT1G06850 	Primary Cell Wall Synthesis - Persson
+AT1G12750 	Primary Cell Wall Synthesis - Persson
+AT3G28180	Primary Cell Wall Synthesis - Persson
+AT5G44030 	Secondary Cell Wall Synthesis - Persson
+AT4G18780 	Secondary Cell Wall Synthesis - Persson
+AT5G54690 	Secondary Cell Wall Synthesis - Persson
+AT5G17420 	Secondary Cell Wall Synthesis - Persson
+AT2G38080 	Secondary Cell Wall Synthesis - Persson
+AT3G16920 	Secondary Cell Wall Synthesis - Persson
+AT5G15630 	Secondary Cell Wall Synthesis - Persson
+AT5G03170 	Secondary Cell Wall Synthesis - Persson
+AT2G37090 	Secondary Cell Wall Synthesis - Persson
+AT3G18660 	Secondary Cell Wall Synthesis - Persson
+AT4G27435 	Secondary Cell Wall Synthesis - Persson
+AT5G60720 	Secondary Cell Wall Synthesis - Persson
+AT3G62020 	Secondary Cell Wall Synthesis - Persson
+AT4G28500 	Secondary Cell Wall Synthesis - Persson
+AT5G60020 	Secondary Cell Wall Synthesis - Persson
+AT5G60490 	Secondary Cell Wall Synthesis - Persson
+AT1G79620 	Secondary Cell Wall Synthesis - Persson
+AT1G27440 	Secondary Cell Wall Synthesis - Persson
+AT1G09610 	Secondary Cell Wall Synthesis - Persson
+AT1G79420 	Secondary Cell Wall Synthesis - Persson
+AT3G50220 	Secondary Cell Wall Synthesis - Persson
+AT1G54790 	Secondary Cell Wall Synthesis - Persson
+AT4G18640 	Secondary Cell Wall Synthesis - Persson
+AT1G08340 	Secondary Cell Wall Synthesis - Persson
+AT4G23496 	Secondary Cell Wall Synthesis - Persson
+AT2G41610 	Secondary Cell Wall Synthesis - Persson
+AT1G72230 	Secondary Cell Wall Synthesis - Persson
+AT2G29130 	Secondary Cell Wall Synthesis - Persson
+AT3G15050 	Secondary Cell Wall Synthesis - Persson
+AT2G28760 	Secondary Cell Wall Synthesis - Persson
+AT1G62990 	Secondary Cell Wall Synthesis - Persson
+AT5G01190 	Secondary Cell Wall Synthesis - Persson
+AT5G01360 	Secondary Cell Wall Synthesis - Persson
+AT1G27380 	Secondary Cell Wall Synthesis - Persson
+AT1G73640 	Secondary Cell Wall Synthesis - Persson
+AT1G25530 	Secondary Cell Wall Synthesis - Persson
+AT2G47500 	Secondary Cell Wall Synthesis - Persson
+AT5G16600 	Secondary Cell Wall Synthesis - Persson
+AT3G42950 	Secondary Cell Wall Synthesis - Persson
+AT2G40480	Secondary Cell Wall Synthesis - Persson
+At5g17420 	Secondary Cell Wall Synthesis - Brown
+At2g38080 	Secondary Cell Wall Synthesis - Brown
+At2g37090 	Secondary Cell Wall Synthesis - Brown
+At5g44030 	Secondary Cell Wall Synthesis - Brown
+At5g15630 	Secondary Cell Wall Synthesis - Brown
+At1g19940 	Secondary Cell Wall Synthesis - Brown
+At1g09610 	Secondary Cell Wall Synthesis - Brown
+At3g16920 	Secondary Cell Wall Synthesis - Brown
+At1g62990 	Secondary Cell Wall Synthesis - Brown
+At4g33330 	Secondary Cell Wall Synthesis - Brown
+At5g54690 	Secondary Cell Wall Synthesis - Brown
+At4g27435 	Secondary Cell Wall Synthesis - Brown
+At2g45900 	Secondary Cell Wall Synthesis - Brown
+At1g27440 	Secondary Cell Wall Synthesis - Brown
+At4g18780 	Secondary Cell Wall Synthesis - Brown
+At1g33800 	Secondary Cell Wall Synthesis - Brown
+At3g12955 	Secondary Cell Wall Synthesis - Brown
+At5g60720 	Secondary Cell Wall Synthesis - Brown
+At1g72220 	Secondary Cell Wall Synthesis - Brown
+At5g46340 	Secondary Cell Wall Synthesis - Brown
+At1g62800 	Secondary Cell Wall Synthesis - Brown
+At1g27380 	Secondary Cell Wall Synthesis - Brown
+At5g54160 	Secondary Cell Wall Synthesis - Brown
+At3g59690 	Secondary Cell Wall Synthesis - Brown
+At2g28110 	Secondary Cell Wall Synthesis - Brown

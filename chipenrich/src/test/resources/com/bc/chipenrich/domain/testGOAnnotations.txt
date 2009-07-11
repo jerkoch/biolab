@@ -1,0 +1,6 @@
+AGI	object name	GO term	GO ID	Aspect	GOslim term
+AT1G01010	AT1G01010.1	transcription factor activity	GO:0003700	func	transcription factor activity
+AT1G01010	AT1G01010.1	development	GO:0007275	proc	developmental processes
+AT1G01010	AT1G01010.1	cellular component unknown	GO:0008372	comp	cellular component unknown
+AT1G01030	AT1G01030.1	transcription factor activity	GO:0003700	func	transcription factor activity
+AT1G01030	AT1G01030.1	cellular component unknown	GO:0008372	comp	cellular component unknown
