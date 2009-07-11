@@ -66,6 +66,12 @@ public abstract class AbstractRunner extends Thread {
       gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
             "families_summary.txt"), backgroundChip);
       processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "tff", gdMap);
+
+      statusLabel.setText(getRunnerName() + ": Processing Metabolics...");
+      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
+            "metabolicpathways2008.txt"), backgroundChip);
+      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "metabolic", gdMap);
+   
    }
 
    public void processEnrichment(ChipEnrichService ces, BackgroundChip backgroundChip,
