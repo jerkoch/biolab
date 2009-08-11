@@ -24,10 +24,18 @@ public class UpstreamReader {
    public AGIUpstream nextAGIUpstream() {
       try {
          String line = reader.readLine();
+         if (line == null)	//end of file
+        	 return null;
          String agiId = line.substring(0, line.indexOf(' '));
          String upstream = readUntil('>');
          return new AGIUpstream(AGI.createAGI(agiId), upstream);
-      } catch (Exception e) {
+      } 
+      	catch (IllegalArgumentException e) {
+      		//Ignore errors from AGI IDs on chromosome C, M, etc.
+      		//Need to fix so that it catches real IllegalArgumentExceptions
+      		return null;
+      	}
+      	catch (Exception e) {
          e.printStackTrace();
          return null;
       }
