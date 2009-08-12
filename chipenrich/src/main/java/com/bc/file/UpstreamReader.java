@@ -28,12 +28,14 @@ public class UpstreamReader {
         	 return null;
          String agiId = line.substring(0, line.indexOf(' '));
          String upstream = readUntil('>');
-         return new AGIUpstream(AGI.createAGI(agiId), upstream);
-      } 
-      	catch (IllegalArgumentException e) {
-      		//Ignore errors from AGI IDs on chromosome C, M, etc.
-      		//Need to fix so that it catches real IllegalArgumentExceptions
-      		return null;
+         try {
+        	 AGI newId = AGI.createAGI(agiId);
+        	 return new AGIUpstream(newId, upstream);
+         }
+         catch(IllegalArgumentException e) {
+        	 //Non accepted AGI ID, skip and try next one
+        	 return nextAGIUpstream();
+         }
       	}
       	catch (Exception e) {
          e.printStackTrace();
