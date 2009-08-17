@@ -9,6 +9,7 @@ import com.bc.chipenrich.service.ChipEnrichService;
 import com.bc.chipenrich.service.ChipEnrichServiceImpl;
 import com.bc.core.BackgroundChip;
 import com.bc.util.ResourceUtil;
+import com.bc.file.AGIMotifReader;
 
 public class PromomerTableRunner extends TestCase{
    private BackgroundChip backgroundChip;
@@ -20,11 +21,17 @@ public class PromomerTableRunner extends TestCase{
       }
    }
    public void testFile() {
-	   System.out.println("Test Table");
-	   PromomerTable service = new PromomerTableImpl();
-	   service.getCisCount(backgroundChip, 
-			   new File("C:/Documents and Settings/Corey Harada/My Documents/workspace/chipenrich/AGI_Motif_Table.txt"),
-			   new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/test/test_Motif.txt"),
-			   ResourceUtil.getFiles("C:/Documents and Settings/Corey Harada/Desktop/Mac/to_process"));
+	   try {
+		   System.out.println("Test Table");
+		   PromomerTable service = new PromomerTableImpl();
+		   AGIMotifReader tableReader = new AGIMotifReader(new FileInputStream("C:/Documents and Settings/Corey Harada/My Documents/workspace/chipenrich/AGI_Motif_Table.txt"));
+		   service.getCisCount(backgroundChip,
+				   new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/test/test_Motif.txt"),
+				   ResourceUtil.getFiles("C:/Documents and Settings/Corey Harada/Desktop/Mac/to_process"),
+				   tableReader, "");
+	   } catch (Exception e) {
+		   e.printStackTrace();
+	   }
+
    }
 }

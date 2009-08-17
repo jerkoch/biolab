@@ -21,6 +21,11 @@ import com.bc.chipenrich.service.ChipEnrichService;
 import com.bc.chipenrich.service.ChipEnrichServiceImpl;
 import com.bc.chipenrich.ui.runner.Ath1ChipRunner;
 import com.bc.chipenrich.ui.runner.SingletonChipRunner;
+import com.bc.file.AGIMotifReader;
+import com.bc.promomer.service.runner.ATH1PromomerRunner;
+import com.bc.promomer.service.runner.SingletonPromomerRunner;
+
+import java.io.FileInputStream;
 
 /**
  * @author Jeremy Koch
@@ -53,6 +58,30 @@ public class StartAction extends AbstractAction {
             if (chooser.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
                return;
             }
+ 
+            /**************************************/
+            // Do the same for the motif finder files
+            // Motif File
+            JFileChooser chooserM = new JFileChooser();
+            chooserM.setCurrentDirectory(new java.io.File("."));
+            chooserM.setDialogTitle("Select motifs to find");
+            chooserM.setMultiSelectionEnabled(false);
+            chooserM.setApproveButtonText("Select");
+            
+            if (chooserM.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
+            	return;
+            }
+ 
+            JFileChooser chooserT = new JFileChooser();
+            chooserT.setCurrentDirectory(new java.io.File("."));
+            chooserT.setDialogTitle("Select AGI Motif Table");
+            chooserT.setMultiSelectionEnabled(false);
+            chooserT.setApproveButtonText("Select");
+
+            if (chooserT.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
+               return;
+            }
+            /**************************************/
 
             // create and display the dialog
             ProgressDialog progressDialog = new ProgressDialog();
@@ -63,7 +92,6 @@ public class StartAction extends AbstractAction {
                public void windowClosing(WindowEvent aEvent) {
                }
             });
-
 
             // start the first ath1 run...
             try {
@@ -82,7 +110,23 @@ public class StartAction extends AbstractAction {
                thread.join();
             } catch (Exception e) {
             }
-
+            
+            // Run promomer service
+            try {
+            	AGIMotifReader tableReader = new AGIMotifReader(new FileInputStream(chooserT.getSelectedFile()));
+            	Thread thread = new ATH1PromomerRunner(progressDialog.getStatusLabel(), ces, 
+            		tableReader, chooser.getSelectedFiles(), chooserM.getSelectedFile(), 
+            		chooser.getCurrentDirectory().getAbsolutePath());
+            	thread.start();
+            	thread.join();
+            	Thread thread2 = new SingletonPromomerRunner(progressDialog.getStatusLabel(), ces,
+            		tableReader, chooser.getSelectedFiles(), chooserM.getSelectedFile(),
+            		chooser.getCurrentDirectory().getAbsolutePath());
+            	thread2.start();
+            	thread2.join();
+            } catch (Exception e) {
+            	
+            }
             // kill the dialog
             progressDialog.dispose();
 

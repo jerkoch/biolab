@@ -1,15 +1,15 @@
 package com.bc.core;
 
 public class AGIMotif {
-	private AGI agi;
+	private String agi;
 	private int[] motifCount;
 
-	public AGIMotif(AGI agi, int[] motifCount) {
+	public AGIMotif(String agi, int[] motifCount) {
 		this.agi = agi;
 		this.motifCount = motifCount;
 	}
 	
-	public AGI getAGI() {
+	public String getAGI() {
 		return agi;
 	}
 	
