@@ -10,8 +10,7 @@ import com.bc.chipenrich.service.ChipEnrichServiceImpl;
 import com.bc.core.BackgroundChip;
 import com.bc.util.ResourceUtil;
 
-public class PromomerServiceRunner extends TestCase {
-
+public class PromomerTableRunner extends TestCase{
    private BackgroundChip backgroundChip;
    {
       try {
@@ -20,19 +19,11 @@ public class PromomerServiceRunner extends TestCase {
       } catch (Exception e) {
       }
    }
-/*
-   public void testCounting() {
-      PromomerService service = new PromomerServiceImpl();
-      service.getCisCount(backgroundChip, new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/TAIR9_upstream_1000_20090619.txt"),
-            "YACGTGGC", ResourceUtil.getFiles(
-                  "C:/Documents and Settings/Corey Harada/Desktop/Mac/to_process"));
-   }
-*/
    public void testFile() {
-	   System.out.println("Test Motif");
-	   PromomerService service = new PromomerServiceImpl();
-	   service.getMotifs(backgroundChip, 
-			   new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/TAIR9_upstream_1000_20090619.txt"),
+	   System.out.println("Test Table");
+	   PromomerTable service = new PromomerTableImpl();
+	   service.getCisCount(backgroundChip, 
+			   new File("C:/Documents and Settings/Corey Harada/My Documents/workspace/chipenrich/AGI_Motif_Table.txt"),
 			   new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/test/test_Motif.txt"),
 			   ResourceUtil.getFiles("C:/Documents and Settings/Corey Harada/Desktop/Mac/to_process"));
    }

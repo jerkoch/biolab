@@ -10,9 +10,22 @@ import com.bc.core.BackgroundChip;
 import com.bc.file.UpstreamReader;
 import com.bc.util.CisMatcherUtil;
 import com.bc.util.DistributionCalculator;
+import com.bc.file.MotifReader;
 
 public class PromomerServiceImpl implements PromomerService {
-
+   public void getMotifs(BackgroundChip backgroundChip, File upstreamFile, File motifFile,
+		 File[] inputFiles) {
+	   try {
+		   MotifReader reader = new MotifReader(new FileInputStream(motifFile));
+		   String nextMotif;
+		   while ((nextMotif = reader.getMotif()) != null) {
+			   getCisCount(backgroundChip, upstreamFile, nextMotif, inputFiles);
+		   }
+	   } catch (Exception e) {
+		   e.printStackTrace();
+	   }
+   }
+	
    public void getCisCount(BackgroundChip backgroundChip, File upstreamFile, String cis,
          File[] inputFiles) {
       try {
@@ -38,8 +51,10 @@ public class PromomerServiceImpl implements PromomerService {
                      found = true;
                   }
                   for (int i = 0; i < inputFiles.length; i++) {
-                     if (found && queryList[i].contains(agiUp.getAgi()))
+                     if (found && queryList[i].contains(agiUp.getAgi())) {
+//                    	 System.out.println(agiUp.getAgi());
                         foundInFiles[i]++;
+                     }
                   }
                }
             }
