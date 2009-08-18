@@ -60,18 +60,7 @@ public class StartAction extends AbstractAction {
             }
  
             /**************************************/
-            // Do the same for the motif finder files
-            // Motif File
-            JFileChooser chooserM = new JFileChooser();
-            chooserM.setCurrentDirectory(new java.io.File("."));
-            chooserM.setDialogTitle("Select motifs to find");
-            chooserM.setMultiSelectionEnabled(false);
-            chooserM.setApproveButtonText("Select");
-            
-            if (chooserM.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
-            	return;
-            }
- 
+            // Do the same for the motif finder files 
             JFileChooser chooserT = new JFileChooser();
             chooserT.setCurrentDirectory(new java.io.File("."));
             chooserT.setDialogTitle("Select AGI Motif Table");
@@ -115,13 +104,11 @@ public class StartAction extends AbstractAction {
             try {
             	AGIMotifReader tableReader = new AGIMotifReader(new FileInputStream(chooserT.getSelectedFile()));
             	Thread thread = new ATH1PromomerRunner(progressDialog.getStatusLabel(), ces, 
-            		tableReader, chooser.getSelectedFiles(), chooserM.getSelectedFile(), 
-            		chooser.getCurrentDirectory().getAbsolutePath());
+            		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
             	thread.start();
             	thread.join();
             	Thread thread2 = new SingletonPromomerRunner(progressDialog.getStatusLabel(), ces,
-            		tableReader, chooser.getSelectedFiles(), chooserM.getSelectedFile(),
-            		chooser.getCurrentDirectory().getAbsolutePath());
+            		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
             	thread2.start();
             	thread2.join();
             } catch (Exception e) {

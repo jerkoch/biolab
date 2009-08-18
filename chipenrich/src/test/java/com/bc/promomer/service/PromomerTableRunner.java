@@ -25,10 +25,10 @@ public class PromomerTableRunner extends TestCase{
 		   System.out.println("Test Table");
 		   PromomerTable service = new PromomerTableImpl();
 		   AGIMotifReader tableReader = new AGIMotifReader(new FileInputStream("C:/Documents and Settings/Corey Harada/My Documents/workspace/chipenrich/AGI_Motif_Table.txt"));
-		   service.getCisCount(backgroundChip,
-				   new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/test/test_Motif.txt"),
-				   ResourceUtil.getFiles("C:/Documents and Settings/Corey Harada/Desktop/Mac/to_process"),
-				   tableReader, "");
+//		   service.getCisCount(backgroundChip,
+//				   new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/test/test_Motif.txt"),
+//				   ResourceUtil.getFiles("C:/Documents and Settings/Corey Harada/Desktop/Mac/to_process"),
+//				   tableReader, "");
 	   } catch (Exception e) {
 		   e.printStackTrace();
 	   }
