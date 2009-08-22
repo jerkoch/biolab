@@ -7,18 +7,24 @@ import java.io.InputStreamReader;
 public class MotifReader {
 	
 	private BufferedReader reader;
+	private String nextMotif;
+	private String nextElement;
 	
 	public MotifReader(InputStream is) {
 		reader = new BufferedReader(new InputStreamReader(is));
+		nextMotif = "";
+		nextElement = "";
 	}
 	
-	public String getMotif() {
+	public boolean nextLine() {
 		String line = "";
 		try {
 			line = reader.readLine();
 			if (line == null)	//end of file
-				return null;
-			return line.substring(line.indexOf('\t')).trim();
+				return false;
+			nextMotif = line.substring(line.indexOf('\t')).trim();
+			nextElement = line.substring(0, line.lastIndexOf('\t')).trim();
+			return true;
 		} catch (Exception e) {
 			System.out.println(line);
 			System.out.print(line.indexOf('\t'));
@@ -27,8 +33,16 @@ public class MotifReader {
 			System.out.print('\n');
 			e.printStackTrace();
 			System.exit(1);
-			return null;
+			return false;
 		}
+	}
+	
+	public String getMotif() {
+		return nextMotif;
+	}
+	
+	public String getElement() {
+		return nextElement;
 	}
 	
 	public void close() {

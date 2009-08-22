@@ -38,12 +38,17 @@ public class PromomerTableImpl implements PromomerTable{
 			Set queryList = parser.getAGIs();
 			MotifReader motifReader = new MotifReader(motifFile);
 			String nextMotif;
+			String nextElement;
 			//For each motif in from queryfile
-			while ((nextMotif = motifReader.getMotif()) != null) {
+			while (motifReader.nextLine()) {
+				nextMotif = motifReader.getMotif();
+				nextElement = motifReader.getElement();
 				boolean found = false;
 				int foundBackground = 0;
 				int foundInFile = 0;
-				printerAGI.print(nextMotif);
+				boolean AGIprint = false;
+				String nextAGIs = "";
+				int numAGIs = 0;
 				//For each AGI:
 				for (int i = 0; i < tableReader.numAGIs(); i++) {
 					found = false;
@@ -57,12 +62,21 @@ public class PromomerTableImpl implements PromomerTable{
 						}
 			            if (found && queryList.contains(nextAGI)) {
 			            	foundInFile++;
-			            	printerAGI.print("\t" + nextAGI.getId());
+			            	if (AGIprint == false) {
+			            		AGIprint = true;
+			            	}
+			            	nextAGIs += (("\t") + nextAGI.getId());
+			            	numAGIs++;
 			            }
 					}
 				}
-				printerAGI.println("");
-			    printer.println(nextMotif
+				if (AGIprint) {
+					printerAGI.println(nextElement
+							+ "\t"
+							+ numAGIs
+							+ nextAGIs);
+				}
+			    printer.println(nextElement
 			            + "\t"
 			            + foundInFile
 			            + "\t"
