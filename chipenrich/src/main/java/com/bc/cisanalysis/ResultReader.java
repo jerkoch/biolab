@@ -4,9 +4,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.PrintStream;
 import java.util.Set;
-import java.util.Iterator;
+import java.util.HashMap;
 import com.bc.core.AGI;
 import com.bc.core.GO;
+import com.bc.core.GeneDescriptorMap;
 
 public class ResultReader {
 	private File GOResults;
@@ -21,12 +22,13 @@ public class ResultReader {
 		GOagi = AGIFile;
 	}
 	
-	public void parseGOResults() {
+	public GeneDescriptorMap<GO> parseGOResults() {
 		try {
 			String pattern = GOResults.getName();
 			pattern = pattern.substring(0, pattern.lastIndexOf(".txt.processed.txt"));
 			resultReader = new GOReader(new FileInputStream(GOResults));
 			agiReader = new GOagiReader(new FileInputStream(GOagi));
+			HashMap<GO, Set<AGI>> goMap = new HashMap<GO, Set<AGI>>();
 			GO nextGO;
 			int goNum = 1;
 			while ((nextGO = resultReader.getSignificantGO()) != null) {
@@ -35,14 +37,13 @@ public class ResultReader {
 				printer.println(pattern
 						+ '\t'
 						+ nextGO.getDescription());
-				Iterator<AGI> it = agis.iterator();
-				while (it.hasNext()) {
-					// Do something with AGIs
-					AGI nextAGI = it.next();
-				}
+				goMap.put(nextGO, agis);
 			}
+			GeneDescriptorMap<GO> gdMap = new GeneDescriptorMap<GO>(goMap);
+			return gdMap;
 		} catch (Exception e) {
 			e.printStackTrace();
+			return null;
 		}
 	}
 }

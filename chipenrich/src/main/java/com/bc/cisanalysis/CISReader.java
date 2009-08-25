@@ -7,6 +7,8 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.io.BufferedReader;
 import java.util.HashMap;
+import java.util.Set;
+import java.util.TreeSet;
 import com.bc.file.MotifReader;
 
 public class CISReader {
@@ -14,6 +16,7 @@ public class CISReader {
 	private HashMap<String,String> elementMotif;
 	private File patternFile;
 	private PrintStream CISwriter;
+	private Set<String> cis;
 	
 	public CISReader(File patternFile, PrintStream writer) {
 		this.patternFile = patternFile;
@@ -34,6 +37,7 @@ public class CISReader {
 	public File getSignificantMotif() {
 		File temp;
 		PrintStream tempwrite;
+		cis = new TreeSet<String>();
 		try {
 			temp = File.createTempFile("motif", ".tmp");
 			tempwrite = new PrintStream(temp);
@@ -65,14 +69,17 @@ public class CISReader {
 			double pval = Double.parseDouble(nextLine.substring(nextLine.lastIndexOf('\t')).trim());
 			if (pval < 0.001) {
 				sig = true;
-				String nextElement = nextLine.substring(0, nextLine.indexOf('\t'));
-				String motif = elementMotif.get(nextElement.trim());
-				CISwriter.println(pattern
+				String nextElement = nextLine.substring(0, nextLine.indexOf('\t')).trim();
+				String motif = elementMotif.get(nextElement);
+				if (CISwriter != null) {
+					CISwriter.println(pattern
 						+ '\t'
 						+ nextElement);
-				tempwrite.println(nextElement.trim()
+				}
+				tempwrite.println(nextElement
 						+ '\t'
 						+ motif);
+				cis.add(nextElement);
 			}
 			try {
 				nextLine = CISreader.readLine();
@@ -84,5 +91,9 @@ public class CISReader {
 			return temp;
 		}
 		else return null;
+	}
+	
+	public Set<String> returnSignificantMotifs() {
+		return cis;
 	}
 }

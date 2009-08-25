@@ -14,85 +14,95 @@ import com.bc.file.MotifReader;
 import com.bc.util.DistributionCalculator;
 
 public class PromomerTableImpl implements PromomerTable{
-	public void getCisCount(BackgroundChip backgroundChip, String motifFileName,
-			File inputFile, AGIMotifReader tableReader, String outputDir) {
+	private BackgroundChip backgroundChip;
+	private AGIMotifReader tableReader;
+	
+	public PromomerTableImpl(BackgroundChip backgroundChip, AGIMotifReader table) {
+		this.backgroundChip = backgroundChip;
+		this.tableReader = table;
+	}
+	public void getCisCount(String motifFileName,
+			File inputFile, String outputDir) {
 		try {
 			new File(outputDir).mkdir();
 			
 			InputStream motifFile = getClass().getClassLoader().getResourceAsStream(motifFileName);
 			
 			String outFileName = inputFile.getName() + ".processed.txt";
-//			FileOutputStream outfile = new FileOutputStream(outputDir + outFileName);
-//			PrintWriter printer = new PrintWriter(outfile);
 			File outfile = new File(outputDir, outFileName);
 			PrintStream printer = new PrintStream(outfile);
 			
 			String outFileNameAGI = inputFile.getName() + ".processed.agi_list.txt";
-//			FileOutputStream outfileAGI = new FileOutputStream(outputDir + outFileNameAGI);
-//			PrintWriter printerAGI = new PrintWriter(outfileAGI);
 			File outfileAGI = new File(outputDir, outFileNameAGI);
 			PrintStream printerAGI = new PrintStream(outfileAGI);
 			
 			AGIQueryListParser parser = new AGIQueryListParser();
 			parser.parse(new FileInputStream(inputFile));
-			Set queryList = parser.getAGIs();
+			Set<AGI> queryList = parser.getAGIs();
 			MotifReader motifReader = new MotifReader(motifFile);
-			String nextMotif;
-			String nextElement;
 			//For each motif in from queryfile
 			while (motifReader.nextLine()) {
-				nextMotif = motifReader.getMotif();
-				nextElement = motifReader.getElement();
-				boolean found = false;
-				int foundBackground = 0;
-				int foundInFile = 0;
-				boolean AGIprint = false;
-				String nextAGIs = "";
-				int numAGIs = 0;
-				//For each AGI:
-				for (int i = 0; i < tableReader.numAGIs(); i++) {
-					found = false;
-					AGI nextAGI = tableReader.getAGIat(i);
-					//If the AGI is in the background chip, check if motif is found in AGI
-					if (backgroundChip.getAGIs().contains(nextAGI)) {
-						//FIXME:  do something if getCount returns < 0 (not in AGI-Motif table)
-						if (tableReader.getCount(nextAGI.getId(), nextMotif) > 0) {
-							foundBackground++;
-							found = true;
-						}
-			            if (found && queryList.contains(nextAGI)) {
-			            	foundInFile++;
-			            	if (AGIprint == false) {
-			            		AGIprint = true;
-			            	}
-			            	nextAGIs += (("\t") + nextAGI.getId());
-			            	numAGIs++;
-			            }
-					}
-				}
-				if (AGIprint) {
-					printerAGI.println(nextElement
-							+ "\t"
-							+ numAGIs
-							+ nextAGIs);
-				}
-			    printer.println(nextElement
-			            + "\t"
-			            + foundInFile
-			            + "\t"
-			            + queryList.size()
-			            + "\t"
-			            + foundBackground
-			            + "\t"
-			            + backgroundChip.getNumAGIs()
-			            + "\t"
-			            + DistributionCalculator.probabilty(backgroundChip.getNumAGIs(), foundBackground,
-			                  queryList.size(), foundInFile));
+				parseLine(motifReader.getMotif(), motifReader.getElement(),
+						queryList, printer, printerAGI);
 			}	//end while
 			printer.close();
 			printerAGI.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public double parseLine(String nextMotif, String nextElement, 
+			Set<AGI> queryList, PrintStream printer, 
+			PrintStream printerAGI) {
+		boolean found = false;
+		int foundBackground = 0;
+		int foundInFile = 0;
+		boolean AGIprint = false;
+		String nextAGIs = "";
+		int numAGIs = 0;
+		//For each AGI:
+		for (int i = 0; i < tableReader.numAGIs(); i++) {
+			found = false;
+			AGI nextAGI = tableReader.getAGIat(i);
+			//If the AGI is in the background chip, check if motif is found in AGI
+			if (backgroundChip.getAGIs().contains(nextAGI)) {
+				//FIXME:  do something if getCount returns < 0 (not in AGI-Motif table)
+				if (tableReader.getCount(nextAGI.getId(), nextMotif) > 0) {
+					foundBackground++;
+					found = true;
+				}
+	            if (found && queryList.contains(nextAGI)) {
+	            	foundInFile++;
+	            	if (AGIprint == false) {
+	            		AGIprint = true;
+	            	}
+	            	nextAGIs += (("\t") + nextAGI.getId());
+	            	numAGIs++;
+	            }
+			}
+		}
+		if (AGIprint && (printerAGI != null)) {
+			printerAGI.println(nextElement
+					+ "\t"
+					+ numAGIs
+					+ nextAGIs);
+		}
+		double pval = DistributionCalculator.probabilty(backgroundChip.getNumAGIs(), foundBackground,
+                queryList.size(), foundInFile);
+		if (printer != null) {
+			printer.println(nextElement
+	            + "\t"
+	            + foundInFile
+	            + "\t"
+	            + queryList.size()
+	            + "\t"
+	            + foundBackground
+	            + "\t"
+	            + backgroundChip.getNumAGIs()
+	            + "\t"
+	            + pval);
+		}
+		return pval;
 	}
 }

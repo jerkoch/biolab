@@ -38,14 +38,14 @@ public abstract class PromomerRunner extends Thread {
 		status.setText(getRunnerName() + ": Processing background chip...");
 		BackgroundChip backgroundChip = ces.processBackgroundChip(getClass().getClassLoader().getResourceAsStream(
 	            backgroundChipFilename));
-		PromomerTable pt = new PromomerTableImpl();
+		PromomerTable pt = new PromomerTableImpl(backgroundChip, tableReader);
 		
 		String outputDir = baseOutputDir + "\\" + root + "\\motifs";
 		
 		status.setText(getRunnerName() + ": Processing Motifs");
 		for (int i = 0; i < queryFiles.length; i++) {
 			status.setText(getRunnerName() + ": Processing Motifs: " + queryFiles[i].getName());
-			pt.getCisCount(backgroundChip, motifFileName, queryFiles[i], tableReader, outputDir);
+			pt.getCisCount(motifFileName, queryFiles[i], outputDir);
 		}
 		
 		//output to motifs/ath1chip
