@@ -3,7 +3,9 @@ package com.bc.promomer.service;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
-import java.io.PrintStream;
+import java.io.PrintWriter;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.util.Set;
 
 import com.bc.chipenrich.domain.AGIQueryListParser;
@@ -23,21 +25,31 @@ public class PromomerTableImpl implements PromomerTable{
 	}
 	public void getCisCount(String motifFileName,
 			File inputFile, String outputDir) {
-		try {
 			new File(outputDir).mkdir();
 			
 			InputStream motifFile = getClass().getClassLoader().getResourceAsStream(motifFileName);
 			
 			String outFileName = inputFile.getName() + ".processed.txt";
 			File outfile = new File(outputDir, outFileName);
-			PrintStream printer = new PrintStream(outfile);
-			
 			String outFileNameAGI = inputFile.getName() + ".processed.agi_list.txt";
 			File outfileAGI = new File(outputDir, outFileNameAGI);
-			PrintStream printerAGI = new PrintStream(outfileAGI);
+			
+			PrintWriter printer = null;
+			PrintWriter printerAGI = null;
+			try {
+				printer = new PrintWriter(new BufferedWriter(new FileWriter(outfile)));
+				printerAGI = new PrintWriter(new BufferedWriter(new FileWriter(outfileAGI)));
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 			
 			AGIQueryListParser parser = new AGIQueryListParser();
-			parser.parse(new FileInputStream(inputFile));
+			try {
+				parser.parse(new FileInputStream(inputFile));
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
 			Set<AGI> queryList = parser.getAGIs();
 			MotifReader motifReader = new MotifReader(motifFile);
 			//For each motif in from queryfile
@@ -47,14 +59,11 @@ public class PromomerTableImpl implements PromomerTable{
 			}	//end while
 			printer.close();
 			printerAGI.close();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 	
 	public double parseLine(String nextMotif, String nextElement, 
-			Set<AGI> queryList, PrintStream printer, 
-			PrintStream printerAGI) {
+			Set<AGI> queryList, PrintWriter printer, 
+			PrintWriter printerAGI) {
 		boolean found = false;
 		int foundBackground = 0;
 		int foundInFile = 0;

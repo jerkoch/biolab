@@ -4,8 +4,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.PrintStream;
+import java.io.PrintWriter;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.util.HashMap;
 import java.util.Set;
 import java.util.TreeSet;
@@ -15,10 +17,10 @@ public class CISReader {
 	private BufferedReader CISreader;
 	private HashMap<String,String> elementMotif;
 	private File patternFile;
-	private PrintStream CISwriter;
+	private PrintWriter CISwriter;
 	private Set<String> cis;
 	
-	public CISReader(File patternFile, PrintStream writer) {
+	public CISReader(File patternFile, PrintWriter writer) {
 		this.patternFile = patternFile;
 		buildCISMap();
 		CISwriter = writer;
@@ -36,11 +38,11 @@ public class CISReader {
 	
 	public File getSignificantMotif() {
 		File temp;
-		PrintStream tempwrite;
+		PrintWriter tempwrite;
 		cis = new TreeSet<String>();
 		try {
 			temp = File.createTempFile("motif", ".tmp");
-			tempwrite = new PrintStream(temp);
+			tempwrite = new PrintWriter(new BufferedWriter(new FileWriter(temp)));
 		} catch (Exception e) {
 			return null;
 		}

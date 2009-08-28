@@ -47,9 +47,6 @@ public abstract class PromomerRunner extends Thread {
 			status.setText(getRunnerName() + ": Processing Motifs: " + queryFiles[i].getName());
 			pt.getCisCount(motifFileName, queryFiles[i], outputDir);
 		}
-		
-		//output to motifs/ath1chip
-		//output to motifs/singletons
 	}
 	
 	protected abstract String getRunnerName();

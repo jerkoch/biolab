@@ -2,7 +2,7 @@ package com.bc.file;
 
 import java.util.HashMap;
 import java.util.Set;
-import java.util.TreeSet;
+import java.util.HashSet;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
@@ -31,7 +31,7 @@ public class TFFReader {
 				TFFName = TFFName.substring(0, TFFName.indexOf('\t')).trim();
 				Set<AGI> newSet;
 				if (!TFFMap.containsKey(TFFName)) {
-					newSet = new TreeSet<AGI>();
+					newSet = new HashSet<AGI>();
 				}
 				else {
 					newSet = TFFMap.get(TFFName);

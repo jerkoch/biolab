@@ -24,8 +24,8 @@ import com.bc.chipenrich.ui.runner.SingletonChipRunner;
 import com.bc.file.AGIMotifReader;
 import com.bc.promomer.service.runner.ATH1PromomerRunner;
 import com.bc.promomer.service.runner.SingletonPromomerRunner;
+import com.bc.cisanalysis.CISAnalyzer;
 
-import java.io.FileInputStream;
 
 /**
  * @author Jeremy Koch
@@ -58,19 +58,6 @@ public class StartAction extends AbstractAction {
             if (chooser.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
                return;
             }
- 
-            /**************************************/
-            // Do the same for the motif finder files 
-            JFileChooser chooserT = new JFileChooser();
-            chooserT.setCurrentDirectory(new java.io.File("."));
-            chooserT.setDialogTitle("Select AGI Motif Table");
-            chooserT.setMultiSelectionEnabled(false);
-            chooserT.setApproveButtonText("Select");
-
-            if (chooserT.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
-               return;
-            }
-            /**************************************/
 
             // create and display the dialog
             ProgressDialog progressDialog = new ProgressDialog();
@@ -83,37 +70,38 @@ public class StartAction extends AbstractAction {
             });
 
             // start the first ath1 run...
-            try {
-               Thread thread = new Ath1ChipRunner(progressDialog.getStatusLabel(), ces, chooser.getSelectedFiles(),
-                     chooser.getCurrentDirectory().getAbsolutePath());
-               thread.start();
-               thread.join();
-            } catch (Exception e) {
-            }
+            Thread ath1 = new Ath1ChipRunner(progressDialog.getStatusLabel(), ces, chooser.getSelectedFiles(),
+                  chooser.getCurrentDirectory().getAbsolutePath());
+            ath1.start();
 
             // start the second singletons run...
-            try {
-               Thread thread = new SingletonChipRunner(progressDialog.getStatusLabel(), ces,
-                     chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
-               thread.start();
-               thread.join();
-            } catch (Exception e) {
-            }
-            
+            Thread singleton = new SingletonChipRunner(progressDialog.getStatusLabel(), ces,
+                 chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
+            singleton.start();
+
             // Run promomer service
-            try {
-            	AGIMotifReader tableReader = new AGIMotifReader(new FileInputStream(chooserT.getSelectedFile()));
-            	Thread thread = new ATH1PromomerRunner(progressDialog.getStatusLabel(), ces, 
-            		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
-            	thread.start();
-            	thread.join();
-            	Thread thread2 = new SingletonPromomerRunner(progressDialog.getStatusLabel(), ces,
-            		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
-            	thread2.start();
-            	thread2.join();
-            } catch (Exception e) {
-            	
-            }
+        	AGIMotifReader tableReader = new AGIMotifReader(getClass().getClassLoader().getResourceAsStream("AGI_Motif_Table.txt"));
+
+        	Thread ATH1Motif = new ATH1PromomerRunner(progressDialog.getStatusLabel(), ces, 
+        		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
+        	ATH1Motif.start();
+        	Thread singletonMotif = new SingletonPromomerRunner(progressDialog.getStatusLabel(), ces,
+        		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
+        	singletonMotif.start();
+        	
+        	try {
+        		ath1.join();
+        		singleton.join();
+        		ATH1Motif.join();
+        		singletonMotif.join();
+        	} catch (Exception e) {
+        		e.printStackTrace();
+        	}
+        	
+        	// Now do analysis...
+        	CISAnalyzer analysis = new CISAnalyzer(progressDialog.getStatusLabel(), chooser.getCurrentDirectory().getAbsolutePath());
+        	analysis.makeTable();
+        	
             // kill the dialog
             progressDialog.dispose();
 
