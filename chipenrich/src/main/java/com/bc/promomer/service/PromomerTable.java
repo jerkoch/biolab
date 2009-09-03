@@ -5,12 +5,23 @@ import java.io.PrintWriter;
 import java.util.Set;
 
 import com.bc.core.AGI;
+import com.bc.chipenrich.domain.EnrichmentSummary;
 
+/* 
+ * An interface to do CIS analysis via the precompiled table
+ */
 public interface PromomerTable {
+	/*
+	 * Outputs the motif analysis based on an input file
+	 */
 	public void getCisCount(String motifFileName,
-			File inputFile, String outputDir);
+			File inputFile, String outputDir, EnrichmentSummary summary);
 	
-	public double parseLine(String nextMotif, String nextElement, 
+	/*
+	 * Parses a motif given a querylist.  printer and printerAGI may be null.
+	 * Returns the pvalue of the association.
+	 */
+	public double parseLine(String patternName, String nextMotif, String nextElement, 
 			Set<AGI> queryList, PrintWriter printer, 
 			PrintWriter printerAGI);
 }

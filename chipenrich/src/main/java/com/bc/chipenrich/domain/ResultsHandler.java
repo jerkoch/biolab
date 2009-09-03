@@ -55,6 +55,7 @@ public class ResultsHandler {
                writer.println("");
             }
          }
+         writer.close();
       } catch (Exception e) {
          e.printStackTrace();
       }

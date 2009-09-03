@@ -2,32 +2,28 @@ package com.bc.promomer.service;
 
 import java.io.*;
 
-import com.bc.chipenrich.service.ChipEnrichService;
-import com.bc.chipenrich.service.ChipEnrichServiceImpl;
 import com.bc.core.AGIUpstream;
-import com.bc.core.BackgroundChip;
 import com.bc.file.UpstreamReader;
 import com.bc.util.CisMatcherUtil;
 import com.bc.file.MotifReader;
 
+/*
+ * This class constructs a table containing the number of instances a motif
+ * appears in a given upstream file.  If using a different set of motifs or
+ * upstream file, the table should be reconstructed using the makeTable 
+ * class.
+ */
 public class MotifTableMaker {
-	public MotifTableMaker() {
-		try {
-			ChipEnrichService ces = new ChipEnrichServiceImpl();
-			BackgroundChip backgroundChip = ces.processBackgroundChip(new FileInputStream(new File("C:/Documents and Settings/Corey Harada/My Documents/workspace/chipenrich/src/main/resources/ATH1Chip.txt")));
-			
-			makeTable(backgroundChip, new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/TAIR9_upstream_1000_20090619.txt"), 
-					new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/element_name_and_motif_IUPAC.txt"));
-		} catch (Exception e) {
-		}
+	public MotifTableMaker(String TAIRFileName, String MotifFileName) {		
+		makeTable(new File(TAIRFileName), new File(MotifFileName));
 	}
 	
 	public static void main(String[] args) {
-		new MotifTableMaker();
+		new MotifTableMaker("C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/TAIR9_upstream_1000_20090619.txt", 
+				"C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/element_name_and_motif_IUPAC.txt");
 	}
 	
-	public void makeTable(BackgroundChip backgroundChip, File upstreamFile,
-				File motifFile) {
+	public void makeTable(File upstreamFile, File motifFile) {
 		PrintWriter p;
 		try {
 			p = new PrintWriter(new BufferedWriter(new FileWriter("AGI_Motif_Table.txt")));

@@ -8,6 +8,11 @@ import java.util.ArrayList;
 import com.bc.core.AGI;
 import com.bc.core.AGIMotif;
 
+/*
+ * Reads from an AGI_Motif table.
+ * The AGI_Motif table stores the number of times a motif appears in the given AGI.
+ * 
+ */
 public class AGIMotifReader {
 	private BufferedReader reader;
 	private HashMap<String, Integer> motifCol;
@@ -63,10 +68,6 @@ public class AGIMotifReader {
 	
 	public AGI getAGIat(int index) {
 		return AGI.createAGI(tableRow.get(index));
-	}
-	
-	public String getAGIIdAt(int index) {
-		return tableRow.get(index);
 	}
 	
 	public int numAGIs() {

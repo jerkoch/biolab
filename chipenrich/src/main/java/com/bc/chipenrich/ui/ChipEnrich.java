@@ -85,6 +85,7 @@ public class ChipEnrich extends JFrame implements SettingsListener {
       }
 
       new ChipEnrich();
+
    }
 
    public String getVersion() {

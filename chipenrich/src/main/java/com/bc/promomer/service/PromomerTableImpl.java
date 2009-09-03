@@ -9,23 +9,33 @@ import java.io.FileWriter;
 import java.util.Set;
 
 import com.bc.chipenrich.domain.AGIQueryListParser;
+import com.bc.chipenrich.domain.EnrichmentSummary;
+import com.bc.chipenrich.domain.ProbabilityResult;
+import com.bc.core.CIS;
 import com.bc.core.AGI;
 import com.bc.core.BackgroundChip;
 import com.bc.file.AGIMotifReader;
 import com.bc.file.MotifReader;
 import com.bc.util.DistributionCalculator;
 
+/*
+ * Implementation of the abstract class PromomerTable.
+ * Calculates the enrichment of CIS elements in the querylist.
+ */
 public class PromomerTableImpl implements PromomerTable{
 	private BackgroundChip backgroundChip;
 	private AGIMotifReader tableReader;
+	private EnrichmentSummary summary;
 	
 	public PromomerTableImpl(BackgroundChip backgroundChip, AGIMotifReader table) {
 		this.backgroundChip = backgroundChip;
 		this.tableReader = table;
 	}
 	public void getCisCount(String motifFileName,
-			File inputFile, String outputDir) {
+			File inputFile, String outputDir, EnrichmentSummary summary) {
 			new File(outputDir).mkdir();
+			
+			this.summary = summary;
 			
 			InputStream motifFile = getClass().getClassLoader().getResourceAsStream(motifFileName);
 			
@@ -52,19 +62,18 @@ public class PromomerTableImpl implements PromomerTable{
 			
 			Set<AGI> queryList = parser.getAGIs();
 			MotifReader motifReader = new MotifReader(motifFile);
-			//For each motif in from queryfile
+			//For each motif, calculate the enrichment
 			while (motifReader.nextLine()) {
-				parseLine(motifReader.getMotif(), motifReader.getElement(),
+				parseLine(inputFile.getName(), motifReader.getMotif(), motifReader.getElement(),
 						queryList, printer, printerAGI);
 			}	//end while
 			printer.close();
 			printerAGI.close();
 	}
 	
-	public double parseLine(String nextMotif, String nextElement, 
+	public double parseLine(String patternName, String nextMotif, String nextElement, 
 			Set<AGI> queryList, PrintWriter printer, 
 			PrintWriter printerAGI) {
-		boolean found = false;
 		int foundBackground = 0;
 		int foundInFile = 0;
 		boolean AGIprint = false;
@@ -72,23 +81,19 @@ public class PromomerTableImpl implements PromomerTable{
 		int numAGIs = 0;
 		//For each AGI:
 		for (int i = 0; i < tableReader.numAGIs(); i++) {
-			found = false;
 			AGI nextAGI = tableReader.getAGIat(i);
 			//If the AGI is in the background chip, check if motif is found in AGI
 			if (backgroundChip.getAGIs().contains(nextAGI)) {
 				//FIXME:  do something if getCount returns < 0 (not in AGI-Motif table)
 				if (tableReader.getCount(nextAGI.getId(), nextMotif) > 0) {
 					foundBackground++;
-					found = true;
+		            if (queryList.contains(nextAGI)) {
+		            	foundInFile++;
+		            	AGIprint = true;
+		            	nextAGIs += (("\t") + nextAGI.getId());
+		            	numAGIs++;
+		            }
 				}
-	            if (found && queryList.contains(nextAGI)) {
-	            	foundInFile++;
-	            	if (AGIprint == false) {
-	            		AGIprint = true;
-	            	}
-	            	nextAGIs += (("\t") + nextAGI.getId());
-	            	numAGIs++;
-	            }
 			}
 		}
 		if (AGIprint && (printerAGI != null)) {
@@ -99,18 +104,26 @@ public class PromomerTableImpl implements PromomerTable{
 		}
 		double pval = DistributionCalculator.probabilty(backgroundChip.getNumAGIs(), foundBackground,
                 queryList.size(), foundInFile);
-		if (printer != null) {
-			printer.println(nextElement
-	            + "\t"
-	            + foundInFile
-	            + "\t"
-	            + queryList.size()
-	            + "\t"
-	            + foundBackground
-	            + "\t"
-	            + backgroundChip.getNumAGIs()
-	            + "\t"
-	            + pval);
+		CIS motif = new CIS(nextMotif, nextElement);
+		ProbabilityResult pr = ProbabilityResult.createProbabilityResult(motif, foundInFile, queryList.size(), foundBackground, backgroundChip.getNumAGIs());
+		if (pr.isSignificant()) {
+			if (summary != null) {
+				summary.add(patternName, pr);
+			}
+			if (printer != null) {
+				printer.println(nextElement
+		            + "\t" + foundInFile
+		            + "\t" + queryList.size()
+		            + "\t" + foundBackground
+		            + "\t" + backgroundChip.getNumAGIs()
+		            + "\t" + pval);
+			}
+		}
+		try {
+			printer.flush();
+			printerAGI.flush();
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 		return pval;
 	}

@@ -69,34 +69,41 @@ public class StartAction extends AbstractAction {
                }
             });
 
-            // start the first ath1 run...
-            Thread ath1 = new Ath1ChipRunner(progressDialog.getStatusLabel(), ces, chooser.getSelectedFiles(),
-                  chooser.getCurrentDirectory().getAbsolutePath());
-            ath1.start();
-
-            // start the second singletons run...
-            Thread singleton = new SingletonChipRunner(progressDialog.getStatusLabel(), ces,
-                 chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
-            singleton.start();
-
-            // Run promomer service
-        	AGIMotifReader tableReader = new AGIMotifReader(getClass().getClassLoader().getResourceAsStream("AGI_Motif_Table.txt"));
-
-        	Thread ATH1Motif = new ATH1PromomerRunner(progressDialog.getStatusLabel(), ces, 
-        		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
-        	ATH1Motif.start();
-        	Thread singletonMotif = new SingletonPromomerRunner(progressDialog.getStatusLabel(), ces,
-        		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
-        	singletonMotif.start();
-        	
         	try {
+                // start the first ath1 run...
+                Thread ath1 = new Ath1ChipRunner(progressDialog.getStatusLabel(), ces, chooser.getSelectedFiles(),
+                      chooser.getCurrentDirectory().getAbsolutePath());
+                ath1.start();
         		ath1.join();
+                // start the second singletons run...
+                Thread singleton = new SingletonChipRunner(progressDialog.getStatusLabel(), ces,
+                     chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
+                singleton.start();
         		singleton.join();
+        	} catch (Exception e) {
+        		e.printStackTrace();
+        	}
+        	
+        	Runtime r = Runtime.getRuntime();
+        	r.gc();
+        	
+        	try {	
+                // Run promomer service
+            	AGIMotifReader tableReader = new AGIMotifReader(getClass().getClassLoader().getResourceAsStream("AGI_Motif_Table.txt"));
+
+            	Thread ATH1Motif = new ATH1PromomerRunner(progressDialog.getStatusLabel(), ces, 
+            		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
+            	ATH1Motif.start();
         		ATH1Motif.join();
+            	Thread singletonMotif = new SingletonPromomerRunner(progressDialog.getStatusLabel(), ces,
+                		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
+                singletonMotif.start();
         		singletonMotif.join();
         	} catch (Exception e) {
         		e.printStackTrace();
         	}
+        	
+        	r.gc();
         	
         	// Now do analysis...
         	CISAnalyzer analysis = new CISAnalyzer(progressDialog.getStatusLabel(), chooser.getCurrentDirectory().getAbsolutePath());
