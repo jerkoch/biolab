@@ -1,0 +1,95 @@
+ABFs binding site motif	bZIP
+ABRE binding site motif	bZIP
+ABRE-like binding site motif	NA
+ACE promoter motif	NA
+AG binding site motif	MADS
+AG BS in AP3	MADS
+AG BS in SUP	MADS
+AGL3 binding site motif	MADS
+AP1 BS in AP3	MADS
+AP1 BS in SUP	MADS
+ARF binding site motif	ARF 
+ARF1 binding site motif	ARF
+ATHB1 binding site motif	HB
+ATHB2 binding site motif	HB
+ATHB5 binding site motif	HB
+ATHB6 binding site motif	HB
+AtMYB2 BS in RD22	MYB
+AtMYC2 BS in RD22	BHLH
+Box II promoter motif	TriHelix 
+CArG promoter motif	MADS
+CArG1 motif in AP3	MADS
+CArG2 motif in AP3	MADS
+CArG3 motif in AP3	MADS
+CBF1 BS in cor15a	AP2-EREBP
+CBF2 binding site motif	AP2-EREBP
+CCA1	bZIP
+CCA1 binding site motif	MYB-related
+CCA1 motif1 BS in CAB1	MYB-related
+CCA1 motif2 BS in CAB1	MYB-related
+DPBF1&2 binding site motif	bZIP
+DRE promoter motif	NA
+DREB1&2 BS in rd29a	AP2-EREBP
+DRE-like promoter motif	NA
+E2F binding site motif	E2F-DP
+E2F/DP BS in AtCDC6	E2F-DP
+E2F-varient binding site motif	E2F-DP
+EIL1 BS in ERF1	EIL
+EIL2 BS in ERF1	EIL
+EIL3 BS in ERF1	EIL
+EIN3 BS in ERF1	EIL
+ERE promoter motif	NA
+ERF1 BS in AtCHI-B	AP2-EREBP
+EveningElement promoter motif	NA
+GATA promoter motif	C2C2-GATA
+GBF1/2/3 BS in ADH1	NA
+G-box promoter motif	bZIP
+GCC-box promoter motif	NA
+Hexamer promoter motif	NA
+HSEs binding site motif	HSF
+Ibox promoter motif	NA
+JASE1 motif in OPR1	NA
+JASE2 motif in OPR2	NA
+L1-box promoter motif	NA
+LS5 promoter motif	NA
+LS7 promoter motif	NA
+LTRE promoter motif	NA
+MRE motif in CHS	MYB
+MYB binding site promoter	MYB
+MYB1 binding site motif	MYB
+MYB2 binding site motif	MYB
+MYB3 binding site motif	MYB
+MYB4 binding site motif	MYB
+Nonamer promoter motif	NA
+"OBF4,5 BS in GST6 "	bZIP
+"OBP-1,4,5 BS in GST6 "	C2C2-Dof
+octamer promoter motif	NA
+PI promoter motif	NA
+PRHA BS in PAL1	HB
+RAV1-A binding site motif	ABI3VP1
+RAV1-B binding site motif	ABI3VP1
+RY-repeat promoter motif	ABI3VP1
+SBP-box promoter motif	NA
+T-box promoter motif	NA
+TEF-box promoter motif	NA
+TELO-box promoter motif	NA
+TGA1 binding site motif	bZIP
+W-box promoter motif	WRKY
+Z-box promoter motif	NA
+AG BS in SPL/NOZ	MADS
+Bellringer/replumless/pennywise BS1 IN AG	HB
+Bellringer/replumless/pennywise BS2 IN AG	HB
+Bellringer/replumless/pennywise BS3 IN AG	HB
+AGL15 BS in AtGA2ox6	MADS
+ATB2/AtbZIP53/AtbZIP44/GBF5 BS in ProDH	bZIP
+LFY BS in AP3	Orphan
+SORLREP1	NA
+SORLREP2	NA
+SORLREP3	NA
+SORLREP4	NA
+SORLREP5	NA
+SORLIP1	NA
+SORLIP2	NA
+SORLIP3	NA
+SORLIP4	NA
+SORLIP5	NA

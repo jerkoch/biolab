@@ -26,7 +26,14 @@ public class MotifTableMaker {
 	public void makeTable(File upstreamFile, File motifFile) {
 		PrintWriter p;
 		try {
-			p = new PrintWriter(new BufferedWriter(new FileWriter("AGI_Motif_Table.txt")));
+			String outName = "AGI_Motif_Table";
+			File outFile = new File(outName + ".txt");
+			int append = 1;
+			while (outFile.exists()) {
+				outFile = new File(outName + String.valueOf(append) + ".txt");
+				append++;
+			}
+			p = new PrintWriter(new BufferedWriter(new FileWriter(outFile)));
 
 			UpstreamReader reader = new UpstreamReader(new FileInputStream(upstreamFile));
 			MotifReader mReader = new MotifReader(new FileInputStream(motifFile));

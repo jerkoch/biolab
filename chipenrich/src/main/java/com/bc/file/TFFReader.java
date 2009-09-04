@@ -23,12 +23,12 @@ public class TFFReader {
 		TFFMap = new HashMap<String,Set<AGI>>();
 		String nextLine = null;
 		try {
-			nextLine = reader.readLine();	//Skip 1st line - header
+//			nextLine = reader.readLine();	//Skip 1st line - header
 			while ((nextLine = reader.readLine()) != null) {
 				String AGI_ID = nextLine.substring(0, nextLine.indexOf('\t')).trim();
 				AGI nextAGI = AGI.createAGI(AGI_ID);
-				String TFFName = nextLine.substring(nextLine.indexOf('\t') + 1);
-				TFFName = TFFName.substring(0, TFFName.indexOf('\t')).trim();
+				String TFFName = nextLine.substring(nextLine.indexOf('\t') + 1).trim();
+//				TFFName = TFFName.substring(0, TFFName.indexOf('\t')).trim();
 				Set<AGI> newSet;
 				if (!TFFMap.containsKey(TFFName)) {
 					newSet = new HashSet<AGI>();

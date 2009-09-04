@@ -1,12 +1,12 @@
 package com.bc.file;
 
 import java.io.BufferedReader;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.ArrayList;
 import com.bc.core.AGI;
 import com.bc.core.AGIMotif;
+import com.bc.chipenrich.ui.AGIMotifTableLocator;
 
 /*
  * Reads from an AGI_Motif table.
@@ -20,8 +20,8 @@ public class AGIMotifReader {
 	private ArrayList<String> tableRow;	//Stores mapping of row # to AGI ID
 	private HashMap<String, AGIMotif> AGIRow;	//Stores mapping of AGI ID to AGIMotif
 	
-	public AGIMotifReader(InputStream is) {
-		reader = new BufferedReader(new InputStreamReader(is));
+	public AGIMotifReader() {
+		reader = new BufferedReader(new InputStreamReader(AGIMotifTableLocator.getInstance().getInputStream()));
 		try {
 			motifCol = new HashMap<String, Integer>();
 			AGIRow = new HashMap<String, AGIMotif>();

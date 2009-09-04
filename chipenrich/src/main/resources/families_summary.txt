@@ -2,48 +2,48 @@ agi	family	occurences	databases
 AT1G13960	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G53230	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G01530	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT1G74930	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G74930	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G53950	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G59780	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT3G23690	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G23690	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G23140	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G22890	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT3G51080	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT1G30810	JUMONJI	3	agris2.csv	peking2.csv	riken2.csv
-AT4G28790	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G28790	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G25830	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT3G59060	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G59060	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G04240	C2H2	2	agris2.csv	riken2.csv	
 AT1G46480	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G15480	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G46350	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT2G17770	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G17770	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G28910	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G66940	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G05380	PHD	2	agris2.csv	peking2.csv	
-AT1G72210	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G72210	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G61190	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT3G30530	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G30530	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G46090	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G07530	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G63430	TRIHELIX	2	peking2.csv	riken2.csv	
-AT1G75390	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G75390	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G55020	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G03040	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G78080	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G03040	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G78080	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G24110	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT1G77200	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G77200	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G76420	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G30500	CCAAT-HAP2	2	agris2.csv	peking2.csv	
-AT2G12980	BZIP	2	agris2.csv	riken2.csv	
-AT2G31230	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G12980	bZIP	2	agris2.csv	riken2.csv	
+AT2G31230	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G54070	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT5G15210	ZF-HD	2	agris2.csv	peking2.csv	
 AT3G05760	C2H2	2	agris2.csv	riken2.csv	
 AT1G68200	C3H	2	agris2.csv	peking2.csv	
-AT1G18400	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G18400	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G25650	GEBP	2	agris2.csv	peking2.csv	
-AT4G28811	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G28811	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G07650	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT1G21200	TRIHELIX	2	peking2.csv	riken2.csv	
 AT1G08620	JUMONJI	3	agris2.csv	peking2.csv	riken2.csv
@@ -54,42 +54,42 @@ AT5G15820	C3H	2	agris2.csv	peking2.csv
 AT3G43240	ARID	2	agris2.csv	peking2.csv	
 AT5G46910	JUMONJI	2	peking2.csv	riken2.csv	
 AT1G57557	MYB	2	peking2.csv	riken2.csv	
-AT4G16750	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G16750	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G01080	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G69170	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G74650	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G60380	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G04890	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G50410	C2C2-DOF	2	agris2.csv	peking2.csv	
-AT3G61630	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G61630	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G11260	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G52020	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G16770	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G52020	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G16770	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G77570	HSF	2	peking2.csv	riken2.csv	
 AT5G03720	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65790	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G42830	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G66500	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT2G17180	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G59640	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G59640	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G65360	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G27300	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G26960	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G28160	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G28160	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G58220	MYB	2	peking2.csv	riken2.csv	
 AT3G18550	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G62430	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G28470	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G80390	AUX/IAA	2	peking2.csv	riken2.csv	
 AT1G68520	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
-AT1G44830	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G44830	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G05610	ALFIN-LIKE	2	agris2.csv	riken2.csv	
-AT2G23340	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G23340	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G01720	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT2G28550	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G09750	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G28550	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G09750	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G14980	PHD	2	agris2.csv	peking2.csv	
-AT3G23240	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G23240	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G33450	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G06100	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G01570	GRAS	3	agris2.csv	peking2.csv	riken2.csv
@@ -105,29 +105,29 @@ AT3G05860	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G75430	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G64530	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT2G20110	CPP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G39860	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G39860	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G33240	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT5G06510	CCAAT-HAP2	2	agris2.csv	peking2.csv	
-AT5G44210	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G44210	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G12870	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G21341	BHLH	2	peking2.csv	riken2.csv	
+AT4G21341	bHLH	2	peking2.csv	riken2.csv	
 AT5G58610	PHD	2	agris2.csv	peking2.csv	
 AT4G02560	HB	2	agris2.csv	peking2.csv	
 AT5G14280	GEBP	2	agris2.csv	peking2.csv	
 AT5G03415	E2F/DP	2	peking2.csv	riken2.csv	
-AT5G41315	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G41315	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G11510	GEBP	2	agris2.csv	peking2.csv	
 AT3G27780	MYB	2	agris2.csv	riken2.csv	
 AT2G37000	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G36870	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G60630	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G30590	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT5G48560	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G48560	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G45050	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT4G12020	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT3G61250	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT3G56980	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT3G56660	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G56980	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G56660	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G10000	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT5G05790	MYB	2	peking2.csv	riken2.csv	
 AT3G10580	MYB	2	peking2.csv	riken2.csv	
@@ -141,14 +141,14 @@ AT2G41940	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G41090	NAC	2	peking2.csv	riken2.csv	
 AT1G66140	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G58890	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT2G12900	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G14760	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G12900	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G14760	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G24240	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G28050	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
-AT3G49760	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G49760	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G02790	C2H2	2	agris2.csv	peking2.csv	
-AT4G35040	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G24340	BZIP	2	agris2.csv	riken2.csv	
+AT4G35040	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G24340	bZIP	2	agris2.csv	riken2.csv	
 AT5G42640	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G18170	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT5G59450	GRAS	3	agris2.csv	peking2.csv	riken2.csv
@@ -158,55 +158,55 @@ AT4G29000	CPP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G03200	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G28110	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G30935	WRKY	2	peking2.csv	riken2.csv	
-AT1G63040	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G63040	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G04760	MYB	2	peking2.csv	riken2.csv	
 AT3G04420	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G01380	MYB	2	peking2.csv	riken2.csv	
 AT1G69570	C2C2-DOF	2	agris2.csv	peking2.csv	
-AT4G18450	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G18450	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G48590	CCAAT-HAP5	2	agris2.csv	peking2.csv	
-AT2G31370	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G31370	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G19850	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT3G53680	PHD	2	agris2.csv	peking2.csv	
 AT5G64811	WRKY	2	peking2.csv	riken2.csv	
 AT4G12240	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT3G53820	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G07100	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT3G26744	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G26744	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G17810	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT5G06950	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G34410	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G06950	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G34410	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G28530	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G28420	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G17230	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G61110	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G17460	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G19700	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT3G11580	ABI3/VP1	2	peking2.csv	riken2.csv	
+AT3G11580	ABI3VP1	2	peking2.csv	riken2.csv	
 AT3G04430	NAC	2	peking2.csv	riken2.csv	
 AT5G60850	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G65200	C2H2	2	agris2.csv	riken2.csv	
-AT5G05410	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G05410	AP2EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G24840	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G44745	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT3G50700	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT3G49930	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT4G30080	ABI3/VP1	2	agris2.csv	riken2.csv	
+AT4G30080	ABI3VP1	2	agris2.csv	riken2.csv	
 AT5G62470	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G21910	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G21910	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G26940	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT2G17150	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT2G30250	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT3G14230	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G65210	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G19290	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G14230	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G65210	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G19290	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G80730	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT2G22900	CAMTA	2	agris2.csv	peking2.csv	
 AT4G15250	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT2G01940	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G50670	SBP	2	peking2.csv	riken2.csv	
 AT2G47260	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT2G33710	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G33710	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G11200	ALFIN-LIKE	2	agris2.csv	riken2.csv	
 AT5G39810	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT4G17570	C2C2-GATA	2	agris2.csv	peking2.csv	
@@ -214,14 +214,14 @@ AT1G20980	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G04640	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G05770	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G34310	ARF	3	agris2.csv	peking2.csv	riken2.csv
-AT4G25470	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G17609	BZIP	2	peking2.csv	riken2.csv	
+AT4G25470	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G17609	bZIP	2	peking2.csv	riken2.csv	
 AT3G03450	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT4G11250	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G01220	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G27990	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G03260	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G43700	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G43700	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G22670	AUX/IAA	2	peking2.csv	riken2.csv	
 AT4G26440	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT2G27650	C2H2	2	agris2.csv	riken2.csv	
@@ -233,28 +233,28 @@ AT4G04450	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT2G38950	JUMONJI	3	agris2.csv	peking2.csv	riken2.csv
 AT5G23280	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G48000	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT2G31730	BHLH	2	agris2.csv	peking2.csv	
-AT3G20640	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G31730	bHLH	2	agris2.csv	peking2.csv	
+AT3G20640	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G01470	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G17750	HSF	3	agris2.csv	peking2.csv	riken2.csv
-AT5G61590	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G61590	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G54060	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT1G20710	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G10500	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT2G24790	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
-AT1G42990	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G42990	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G56400	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G35540	ARF	3	agris2.csv	peking2.csv	riken2.csv
-AT5G19790	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G19790	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G40210	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT5G67000	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G67000	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G73870	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT5G62165	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G63350	HSF	3	agris2.csv	peking2.csv	riken2.csv
-AT2G47270	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT3G56770	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G47270	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G56770	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G04850	CPP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G58120	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G58120	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G63100	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G54630	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G61730	GEBP	2	agris2.csv	peking2.csv	
@@ -267,20 +267,20 @@ AT3G29035	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G38740	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G08070	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G56530	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT4G36900	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G36900	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G27240	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT3G10040	TRIHELIX	2	peking2.csv	riken2.csv	
 AT3G44350	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT2G16770	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G16770	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G39160	MYB	2	peking2.csv	riken2.csv	
 AT5G26650	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT3G47710	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G47710	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G59820	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT2G40620	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G40620	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G35550	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G22290	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT2G21235	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G25820	AP2/EREBP	2	agris2.csv	peking2.csv	
+AT2G21235	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G25820	AP2-EREBP	2	agris2.csv	peking2.csv	
 AT2G03710	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G25890	AUX/IAA	2	peking2.csv	riken2.csv	
 AT2G46990	AUX/IAA	2	peking2.csv	riken2.csv	
@@ -290,89 +290,89 @@ AT5G02660	C2H2	2	agris2.csv	riken2.csv
 AT5G15150	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G74660	ZF-HD	2	agris2.csv	peking2.csv	
 AT3G04730	AUX/IAA	2	peking2.csv	riken2.csv	
-AT3G26790	ABI3/VP1	3	agris2.csv	peking2.csv	riken2.csv
+AT3G26790	ABI3VP1	3	agris2.csv	peking2.csv	riken2.csv
 AT3G44290	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G31795	WRKY	2	peking2.csv	riken2.csv	
 AT1G68360	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT3G57600	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G00870	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G05805	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G57600	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G00870	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G05805	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G11050	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G29860	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT2G36450	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G10570	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT3G54320	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G61600	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G11020	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G36450	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G10570	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G54320	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G61600	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G11020	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G16350	MYB	2	peking2.csv	riken2.csv	
 AT3G16940	CAMTA	2	agris2.csv	peking2.csv	
-AT4G05170	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G05170	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G16490	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G19490	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G46830	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G19490	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G46830	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G07690	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G43410	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G43410	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G46680	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G32800	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G32800	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G64100	NAC	2	peking2.csv	riken2.csv	
 AT3G28470	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G08330	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G39820	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G43250	CCAAT-HAP5	2	agris2.csv	peking2.csv	
 AT3G02940	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G18450	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G16430	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G18450	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G16430	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65080	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G33880	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G01900	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G34790	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT2G40200	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G43160	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G17100	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G40200	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G43160	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G17100	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G37260	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT4G17980	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G60300	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G56110	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G43175	BHLH	2	agris2.csv	peking2.csv	
-AT5G65320	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G22380	BHLH	2	agris2.csv	peking2.csv	
+AT5G43175	bHLH	2	agris2.csv	peking2.csv	
+AT5G65320	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G22380	bHLH	2	agris2.csv	peking2.csv	
 AT1G52890	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT5G44080	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G44080	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G55690	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G60240	NAC	2	peking2.csv	riken2.csv	
 AT5G18300	NAC	2	peking2.csv	riken2.csv	
 AT5G60200	C2C2-DOF	2	agris2.csv	peking2.csv	
-AT1G03970	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G03970	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G77450	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT3G13350	ARID	2	agris2.csv	peking2.csv	
-AT2G27230	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G27230	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G42790	ALFIN-LIKE	2	agris2.csv	riken2.csv	
-AT1G68810	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT4G39780	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G68810	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G39780	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G43540	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G11660	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT3G24050	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT1G05710	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G69010	BHLH	2	agris2.csv	peking2.csv	
+AT1G05710	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G69010	bHLH	2	agris2.csv	peking2.csv	
 AT3G57920	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G68130	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G23090	CCAAT-DR1	2	agris2.csv	peking2.csv	
 AT5G35550	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G07580	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G07580	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G65120	C2H2	2	agris2.csv	riken2.csv	
 AT4G29080	AUX/IAA	2	peking2.csv	riken2.csv	
 AT3G04100	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT3G25890	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G25890	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G14140	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G49120	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G49120	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G27910	CCAAT-HAP5	2	agris2.csv	peking2.csv	
 AT4G39410	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT3G16160	CPP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G09450	MYB	2	peking2.csv	riken2.csv	
 AT1G69780	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G28140	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G22100	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT2G46870	ABI3/VP1	2	peking2.csv	riken2.csv	
+AT4G28140	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G22100	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G46870	ABI3VP1	2	peking2.csv	riken2.csv	
 AT3G18100	MYB	2	peking2.csv	riken2.csv	
 AT2G18280	TUB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G31640	MADS	3	agris2.csv	peking2.csv	riken2.csv
@@ -380,7 +380,7 @@ AT4G09960	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT4G39070	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT5G15310	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G10470	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT5G38860	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G38860	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G18550	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G66700	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G26320	MADS	3	agris2.csv	peking2.csv	riken2.csv
@@ -388,13 +388,13 @@ AT5G48150	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G52260	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G21450	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G12820	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G09460	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G09460	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G04240	JUMONJI	2	peking2.csv	riken2.csv	
 AT5G16600	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G54830	CCAAT-HAP5	2	agris2.csv	peking2.csv	
 AT5G06500	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G45260	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT4G02640	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G02640	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G11510	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G09460	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G17950	HB	3	agris2.csv	peking2.csv	riken2.csv
@@ -405,25 +405,25 @@ AT1G22640	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G60440	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G45610	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT3G08500	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G17490	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G17490	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G50670	C2H2	2	agris2.csv	riken2.csv	
-AT4G38900	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G38900	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G60480	ZF-HD	2	agris2.csv	peking2.csv	
 AT5G40120	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G25340	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G28800	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G28800	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G34440	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G15850	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
-AT4G09820	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G09820	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G20400	JUMONJI	3	agris2.csv	peking2.csv	riken2.csv
 AT3G01030	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT3G16870	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT4G27950	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G28770	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G27950	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G28770	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G04850	C2H2	2	agris2.csv	riken2.csv	
 AT3G01970	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT5G22570	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT2G40340	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G40340	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G37590	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT4G17780	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G10140	MADS	3	agris2.csv	peking2.csv	riken2.csv
@@ -433,12 +433,12 @@ AT1G02040	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G28460	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G40740	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT4G01250	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT3G51960	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G02340	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G51960	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G02340	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G58900	MYB	2	peking2.csv	riken2.csv	
 AT5G52010	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT2G38880	CCAAT-HAP3	2	agris2.csv	peking2.csv	
-AT3G23210	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G23210	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G02470	E2F/DP	2	peking2.csv	riken2.csv	
 AT1G01060	MYB	2	peking2.csv	riken2.csv	
 AT2G02080	C2H2	3	agris2.csv	peking2.csv	riken2.csv
@@ -450,36 +450,36 @@ AT5G50480	CCAAT-HAP5	2	agris2.csv	peking2.csv
 AT3G27010	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G21150	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT5G57620	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT3G57800	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G57800	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G46130	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT1G35460	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G35460	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G29060	GRAS	3	agris2.csv	peking2.csv	riken2.csv
-AT1G68640	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G17500	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G68640	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G17500	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G27100	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G67970	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT3G51910	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT5G40350	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G00610	GEBP	2	agris2.csv	peking2.csv	
 AT5G23650	MYB	2	peking2.csv	riken2.csv	
-AT1G73830	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G73830	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G28300	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT5G61470	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT2G47810	CCAAT-HAP3	2	agris2.csv	peking2.csv	
-AT1G25310	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G25310	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G35640	TRIHELIX	2	peking2.csv	riken2.csv	
 AT4G35280	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G37260	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G31060	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G31060	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G32870	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G20640	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT1G75710	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT4G30410	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G27740	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT2G24260	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G30410	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G27740	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G24260	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G29940	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G64000	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT1G30670	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G30670	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G41570	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G63910	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G58850	MYB	3	agris2.csv	peking2.csv	riken2.csv
@@ -499,71 +499,71 @@ AT3G27920	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G35590	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT2G29660	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G42780	ZF-HD	2	agris2.csv	peking2.csv	
-AT2G44840	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G28815	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT3G15210	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G44840	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G28815	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G15210	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G69490	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT5G10510	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G10510	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G24060	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT3G62610	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G15030	TCP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G22810	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G12980	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G22810	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G12980	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G14960	E2F/DP	2	peking2.csv	riken2.csv	
 AT1G25440	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
-AT1G32150	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G32150	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G26780	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G67010	AP2/EREBP	2	peking2.csv	riken2.csv	
-AT3G50330	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G25330	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G67010	AP2-EREBP	2	peking2.csv	riken2.csv	
+AT3G50330	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G25330	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G10590	MYB	2	peking2.csv	riken2.csv	
 AT4G35700	C2H2	2	peking2.csv	riken2.csv	
 AT1G66560	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT5G02320	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT2G20180	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT4G25481	AP2/EREBP	2	peking2.csv	riken2.csv	
-AT1G08320	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G20180	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G25481	AP2-EREBP	2	peking2.csv	riken2.csv	
+AT1G08320	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G53200	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G05100	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65100	EIL	3	agris2.csv	peking2.csv	riken2.csv
 AT4G00250	GEBP	2	agris2.csv	peking2.csv	
-AT4G29930	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G29930	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65590	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G77080	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G27630	C2H2	2	agris2.csv	riken2.csv	
 AT2G25000	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT4G34530	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G34530	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G18960	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G16770	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G60580	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT3G11100	TRIHELIX	2	peking2.csv	riken2.csv	
 AT2G43000	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G27360	SBP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G25730	AP2/EREBP	2	peking2.csv	riken2.csv	
+AT3G25730	AP2-EREBP	2	peking2.csv	riken2.csv	
 AT5G65670	AUX/IAA	2	peking2.csv	riken2.csv	
 AT1G01520	MYB	2	peking2.csv	riken2.csv	
-AT5G65640	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G10120	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G03800	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G65640	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G10120	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G03800	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G35515	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G43650	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G43650	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G26150	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT3G29340	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G68240	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT4G37730	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G68240	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G37730	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G08970	CCAAT-HAP5	2	agris2.csv	peking2.csv	
 AT2G34720	CCAAT-HAP2	2	agris2.csv	peking2.csv	
 AT3G45150	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G57660	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
-AT5G13330	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G34590	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G13330	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G34590	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G54230	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G49850	MYB	2	peking2.csv	riken2.csv	
 AT2G47900	TUB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G33280	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT3G21890	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
-AT3G21330	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT2G41710	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G21330	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G41710	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G24540	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G27370	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G20510	ALFIN-LIKE	2	agris2.csv	riken2.csv	
@@ -574,12 +574,12 @@ AT4G23810	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G34370	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G22070	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G19000	MYB	2	peking2.csv	riken2.csv	
-AT1G49770	BHLH	2	peking2.csv	riken2.csv	
+AT1G49770	bHLH	2	peking2.csv	riken2.csv	
 AT2G02825	MYB	2	peking2.csv	riken2.csv	
 AT2G22540	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G09330	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT2G33860	ARF	3	agris2.csv	peking2.csv	riken2.csv
-AT2G22760	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G22760	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G02210	NAC	2	peking2.csv	riken2.csv	
 AT4G23980	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT4G00270	GEBP	2	agris2.csv	peking2.csv	
@@ -587,20 +587,20 @@ AT3G06740	C2C2-GATA	2	agris2.csv	peking2.csv
 AT3G55730	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G30330	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT4G25530	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G56960	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G56960	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G47600	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G53200	MYB	2	peking2.csv	riken2.csv	
-AT2G42380	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G42380	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G32890	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT4G16845	C2H2	2	agris2.csv	peking2.csv	
 AT4G35580	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G09410	CAMTA	2	agris2.csv	peking2.csv	
 AT5G67580	MYB	2	peking2.csv	riken2.csv	
-AT4G32010	ABI3/VP1	3	agris2.csv	peking2.csv	riken2.csv
+AT4G32010	ABI3VP1	3	agris2.csv	peking2.csv	riken2.csv
 AT1G02065	SBP	2	agris2.csv	peking2.csv	
 AT1G69600	ZF-HD	2	agris2.csv	peking2.csv	
 AT2G18060	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT2G31210	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G31210	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G23760	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G55600	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT5G54360	C2H2	2	peking2.csv	riken2.csv	
@@ -610,30 +610,30 @@ AT5G18830	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G25560	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G68320	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G31550	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT1G71520	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G71520	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G01500	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65060	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G52510	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G12840	CCAAT-HAP2	2	agris2.csv	peking2.csv	
-AT1G32640	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G12890	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G32640	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G12890	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G13570	CCAAT-HAP3	2	agris2.csv	peking2.csv	
 AT3G23250	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G48250	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT1G07980	CCAAT-HAP5	2	agris2.csv	peking2.csv	
 AT1G72650	MYB	2	peking2.csv	riken2.csv	
 AT1G66350	GRAS	3	agris2.csv	peking2.csv	riken2.csv
-AT5G51790	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G51790	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G20750	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT1G75240	ZF-HD	2	agris2.csv	peking2.csv	
-AT1G27660	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G27660	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G55370	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT4G36740	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G01250	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G01250	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G01530	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G24570	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT3G06490	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G53210	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G53210	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G62100	AUX/IAA	2	peking2.csv	riken2.csv	
 AT5G64530	NAC	2	peking2.csv	riken2.csv	
 AT5G02460	C2C2-DOF	2	agris2.csv	peking2.csv	
@@ -643,47 +643,47 @@ AT4G12350	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G04670	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT5G27090	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G10480	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT4G17880	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G17880	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G79580	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT3G48160	E2F/DP	2	peking2.csv	riken2.csv	
 AT2G38090	MYB	2	peking2.csv	riken2.csv	
-AT2G13130	BZIP	2	agris2.csv	riken2.csv	
+AT2G13130	bZIP	2	agris2.csv	riken2.csv	
 AT2G33480	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT1G33760	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G33760	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G17040	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G57520	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G14580	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G53170	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G64340	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G53170	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G64340	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G56170	CCAAT-HAP5	2	agris2.csv	peking2.csv	
-AT4G30980	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G30980	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G15660	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT4G34000	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G34000	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G18860	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT5G57420	AUX/IAA	2	peking2.csv	riken2.csv	
-AT1G25560	ABI3/VP1	2	agris2.csv	riken2.csv	
+AT1G25560	ABI3VP1	2	agris2.csv	riken2.csv	
 AT3G58710	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT4G26030	C2H2	2	agris2.csv	riken2.csv	
-AT3G25710	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G04370	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G25710	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G04370	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G69560	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G61850	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G74080	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G18010	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G03790	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G22490	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G22490	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G38620	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G60460	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G57390	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G47660	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
-AT1G68840	AP2/EREBP	2	peking2.csv	riken2.csv	
-AT2G40350	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G54680	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G68840	AP2-EREBP	2	peking2.csv	riken2.csv	
+AT2G40350	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G54680	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G09540	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G77850	ARF	3	agris2.csv	peking2.csv	riken2.csv
-AT3G20840	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G20840	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G36475	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT5G08141	BZIP	2	peking2.csv	riken2.csv	
+AT5G08141	bZIP	2	peking2.csv	riken2.csv	
 AT4G00940	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G62360	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G68150	WRKY	3	agris2.csv	peking2.csv	riken2.csv
@@ -692,19 +692,19 @@ AT3G49530	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G18790	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT1G17920	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G16400	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G68920	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G68920	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G37790	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G44810	GEBP	2	agris2.csv	peking2.csv	
 AT4G01720	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT2G02470	ALFIN-LIKE	2	agris2.csv	riken2.csv	
 AT4G36990	HSF	3	agris2.csv	peking2.csv	riken2.csv
-AT2G04038	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G04038	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G13980	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT5G66730	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT5G06839	BZIP	2	peking2.csv	riken2.csv	
+AT5G06839	bZIP	2	peking2.csv	riken2.csv	
 AT5G22380	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G43950	ARF	3	agris2.csv	peking2.csv	riken2.csv
-AT4G13040	AP2/EREBP	2	peking2.csv	riken2.csv	
+AT4G13040	AP2-EREBP	2	peking2.csv	riken2.csv	
 AT2G06200	GRF	2	agris2.csv	peking2.csv	
 AT1G62700	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G17310	MADS	3	agris2.csv	peking2.csv	riken2.csv
@@ -717,30 +717,30 @@ AT2G31070	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G11280	MYB	2	peking2.csv	riken2.csv	
 AT5G24930	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT1G49900	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT2G46970	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT2G13150	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G46970	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G13150	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G18400	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G61940	C2H2	2	agris2.csv	riken2.csv	
-AT3G62420	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G46310	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G60830	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G62420	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G46310	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G60830	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G35670	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G56200	C2H2	2	peking2.csv	riken2.csv	
-AT1G74500	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G74500	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G10480	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G60470	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT2G20095	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G20095	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G27130	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G46590	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT3G02860	C2H2	2	agris2.csv	riken2.csv	
-AT4G21550	ABI3/VP1	3	agris2.csv	peking2.csv	riken2.csv
+AT4G21550	ABI3VP1	3	agris2.csv	peking2.csv	riken2.csv
 AT1G55460	C2H2	2	agris2.csv	riken2.csv	
-AT2G46270	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G46270	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G28640	AUX/IAA	2	peking2.csv	riken2.csv	
-AT1G79700	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G28360	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G79700	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G28360	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G09600	MYB	2	peking2.csv	riken2.csv	
-AT1G46768	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G46768	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G26210	ALFIN-LIKE	2	agris2.csv	riken2.csv	
 AT5G35210	PHD	2	agris2.csv	peking2.csv	
 AT2G34880	JUMONJI	3	agris2.csv	peking2.csv	riken2.csv
@@ -749,10 +749,10 @@ AT5G63900	PHD	2	agris2.csv	peking2.csv
 AT1G50600	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G23370	HB	2	peking2.csv	riken2.csv	
 AT5G25220	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G25490	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G25490	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G01200	AUX/IAA	2	peking2.csv	riken2.csv	
-AT5G25390	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G64750	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G25390	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G64750	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G47070	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G47500	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT3G46080	C2H2	3	agris2.csv	peking2.csv	riken2.csv
@@ -761,43 +761,43 @@ AT5G16820	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT2G36720	PHD	2	agris2.csv	peking2.csv	
 AT1G07520	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G22840	GRF	2	agris2.csv	peking2.csv	
-AT3G06120	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G06120	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G22830	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT5G56620	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT1G71130	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G24800	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G71130	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G24800	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G25210	GEBP	2	agris2.csv	peking2.csv	
 AT2G18490	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G65330	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G37740	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G25580	NAC	2	peking2.csv	riken2.csv	
-AT2G18300	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G18300	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G27220	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G38800	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G38800	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G66230	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G12270	C2H2	2	agris2.csv	riken2.csv	
 AT1G60920	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G19510	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G04445	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT3G24650	ABI3/VP1	3	agris2.csv	peking2.csv	riken2.csv
-AT5G04150	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G24650	ABI3VP1	3	agris2.csv	peking2.csv	riken2.csv
+AT5G04150	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G56010	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G01680	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G21120	EIL	3	agris2.csv	peking2.csv	riken2.csv
 AT1G26870	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G08000	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT4G25410	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G25410	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G51870	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G26950	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G26580	C2C2-YABBY	2	agris2.csv	peking2.csv	
-AT3G12250	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G12250	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G60340	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G21030	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT3G23030	AUX/IAA	2	peking2.csv	riken2.csv	
 AT3G29020	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G18330	MYB	2	peking2.csv	riken2.csv	
-AT4G36920	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G06170	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G36920	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G06170	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G18270	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT3G14180	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT1G31140	MADS	3	agris2.csv	peking2.csv	riken2.csv
@@ -808,7 +808,7 @@ AT5G13180	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G31310	TRIHELIX	2	peking2.csv	riken2.csv	
 AT1G60280	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G60970	TCP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G36540	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G36540	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G12400	PHD	2	agris2.csv	peking2.csv	
 AT1G09030	CCAAT-HAP3	2	agris2.csv	peking2.csv	
 AT4G40060	HB	3	agris2.csv	peking2.csv	riken2.csv
@@ -819,25 +819,25 @@ AT4G02240	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G53320	TUB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G03680	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT5G67300	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT3G20310	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G24590	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G20310	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G24590	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G32040	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G33310	AUX/IAA	2	peking2.csv	riken2.csv	
 AT5G52600	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G21040	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G68190	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT1G26590	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT2G30470	ABI3/VP1	3	agris2.csv	peking2.csv	riken2.csv
+AT2G30470	ABI3VP1	3	agris2.csv	peking2.csv	riken2.csv
 AT3G52440	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT5G49300	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT3G30260	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G25250	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G02670	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT4G36730	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G01500	ABI3/VP1	2	peking2.csv	riken2.csv	
-AT4G21330	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT5G11260	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G50010	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G36730	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G01500	ABI3VP1	2	peking2.csv	riken2.csv	
+AT4G21330	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G11260	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G50010	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G45120	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G74480	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT3G58780	MADS	3	agris2.csv	peking2.csv	riken2.csv
@@ -847,28 +847,28 @@ AT1G69180	C2C2-YABBY	2	agris2.csv	peking2.csv
 AT5G40360	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G77950	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G72050	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G72570	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G36270	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G72570	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G36270	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G38620	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G66370	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G34180	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT3G02380	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT5G52830	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT5G62610	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G62610	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G40430	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G26170	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G69810	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT4G02590	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT2G42280	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G02590	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G42280	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G01600	NAC	2	peking2.csv	riken2.csv	
 AT3G58070	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G21050	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT3G54810	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT3G61950	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G61950	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G49520	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT2G22630	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G48430	JUMONJI	2	peking2.csv	riken2.csv	
-AT4G00050	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G00050	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G59810	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G26310	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G06380	TUB	3	agris2.csv	peking2.csv	riken2.csv
@@ -876,11 +876,11 @@ AT3G49950	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G04060	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT3G18650	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G01650	C2H2	2	agris2.csv	peking2.csv	
-AT1G10610	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT2G42300	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G10610	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G42300	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G21900	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G66380	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT3G56970	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G56970	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G32460	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G49420	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G64060	NAC	3	agris2.csv	peking2.csv	riken2.csv
@@ -891,38 +891,38 @@ AT5G17260	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G18390	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G08520	MYB	2	peking2.csv	riken2.csv	
 AT5G17490	GRAS	3	agris2.csv	peking2.csv	riken2.csv
-AT1G51070	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G51070	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G24260	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G29280	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT4G37740	GRF	2	agris2.csv	peking2.csv	
 AT1G22590	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT5G17430	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G17430	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G31180	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G24490	TRIHELIX	2	peking2.csv	riken2.csv	
 AT5G25790	CPP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G66990	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT4G37940	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT5G61270	BHLH	2	agris2.csv	peking2.csv	
+AT5G61270	bHLH	2	agris2.csv	peking2.csv	
 AT3G04070	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT2G43010	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G43010	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G27050	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G66390	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G70000	MYB	2	peking2.csv	riken2.csv	
-AT1G71450	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G71450	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G35560	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G36670	PHD	2	agris2.csv	peking2.csv	
 AT5G06070	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G01540	NAC	2	peking2.csv	riken2.csv	
 AT1G78600	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT4G01060	MYB	2	peking2.csv	riken2.csv	
-AT3G54620	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G54620	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G13840	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G50890	ZF-HD	2	agris2.csv	peking2.csv	
-AT1G64625	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G64625	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G66656	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G46010	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G54340	C2H2	2	peking2.csv	riken2.csv	
-AT5G47220	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G47220	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G74250	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G01380	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT2G28340	C2C2-GATA	2	agris2.csv	peking2.csv	
@@ -931,42 +931,42 @@ AT2G32370	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G55650	ARID	2	agris2.csv	peking2.csv	
 AT3G54340	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G51910	TCP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G60120	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G60120	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G22800	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G36060	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G36060	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G04250	AUX/IAA	2	peking2.csv	riken2.csv	
 AT4G01550	NAC	2	peking2.csv	riken2.csv	
 AT3G46130	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G53340	CCAAT-HAP3	2	agris2.csv	peking2.csv	
 AT1G51700	C2C2-DOF	2	agris2.csv	peking2.csv	
-AT2G40220	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G40220	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G17730	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G17520	MYB	2	peking2.csv	riken2.csv	
 AT1G55580	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G30210	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G30180	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G30180	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G49950	MYB	2	peking2.csv	riken2.csv	
 AT1G13450	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT3G61120	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT2G36080	ABI3/VP1	2	peking2.csv	riken2.csv	
+AT2G36080	ABI3VP1	2	peking2.csv	riken2.csv	
 AT4G14550	AUX/IAA	2	peking2.csv	riken2.csv	
 AT1G20700	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G26870	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G17460	MYB	2	peking2.csv	riken2.csv	
 AT5G27880	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G14687	ZF-HD	2	agris2.csv	peking2.csv	
-AT5G67180	AP2/EREBP	2	peking2.csv	riken2.csv	
+AT5G67180	AP2-EREBP	2	peking2.csv	riken2.csv	
 AT5G27070	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G50490	CCAAT-HAP5	2	agris2.csv	peking2.csv	
 AT4G11070	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT2G36010	E2F/DP	2	peking2.csv	riken2.csv	
 AT3G46600	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G63490	JUMONJI	2	peking2.csv	riken2.csv	
-AT5G67060	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G16060	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G67060	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G16060	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G34680	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT5G27960	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT1G25470	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G25470	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G27050	EIL	3	agris2.csv	peking2.csv	riken2.csv
 AT4G38340	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT3G15170	NAC	3	agris2.csv	peking2.csv	riken2.csv
@@ -975,21 +975,21 @@ AT4G21080	C2C2-DOF	2	agris2.csv	peking2.csv
 AT1G70510	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G26880	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G38250	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
-AT1G12610	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G22190	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G12610	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G22190	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G76580	SBP	2	agris2.csv	riken2.csv	
 AT1G02220	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT1G62975	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G62975	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G01160	C2H2	2	agris2.csv	riken2.csv	
 AT5G27580	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT5G06960	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G06960	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G44750	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G38140	CCAAT-HAP5	2	agris2.csv	peking2.csv	
-AT2G21230	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G07160	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G21230	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G07160	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G30420	MYB	2	peking2.csv	riken2.csv	
 AT1G47760	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT1G61660	BHLH	2	agris2.csv	peking2.csv	
+AT1G61660	bHLH	2	agris2.csv	peking2.csv	
 AT5G26660	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G44180	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G18870	HSF	2	peking2.csv	riken2.csv	
@@ -999,21 +999,21 @@ AT2G46410	MYB	2	peking2.csv	riken2.csv
 AT1G02230	NAC	2	agris2.csv	peking2.csv	
 AT5G07700	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G44730	TRIHELIX	2	peking2.csv	riken2.csv	
-AT1G28370	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G28370	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G47670	CCAAT-HAP3	2	agris2.csv	peking2.csv	
 AT4G04885	C2H2	2	agris2.csv	riken2.csv	
-AT3G18990	ABI3/VP1	2	agris2.csv	riken2.csv	
+AT3G18990	ABI3VP1	2	agris2.csv	riken2.csv	
 AT1G72010	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G62990	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G50680	AP2/EREBP	2	peking2.csv	riken2.csv	
+AT1G50680	AP2-EREBP	2	peking2.csv	riken2.csv	
 AT4G34990	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT2G44940	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G44940	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G39760	ZF-HD	2	agris2.csv	peking2.csv	
 AT5G56860	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT3G55210	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G32730	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G00730	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G09250	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G09250	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G51950	AUX/IAA	2	peking2.csv	riken2.csv	
 AT1G28310	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G69690	TCP	3	agris2.csv	peking2.csv	riken2.csv
@@ -1025,20 +1025,20 @@ AT3G47890	C2H2	2	agris2.csv	riken2.csv
 AT5G60910	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G46408	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G21175	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT1G13600	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G13600	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G02240	NAC	2	peking2.csv	riken2.csv	
-AT1G71200	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G71200	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G46770	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G73360	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G66470	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G66470	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G26930	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT3G50260	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G41130	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT4G01120	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G50260	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G41130	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G01120	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G34410	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT5G47640	CCAAT-HAP3	2	agris2.csv	peking2.csv	
 AT2G47090	C2H2	2	agris2.csv	peking2.csv	
-AT1G06160	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G06160	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G21340	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G56160	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G28350	ARF	3	agris2.csv	peking2.csv	riken2.csv
@@ -1046,13 +1046,13 @@ AT3G47910	C2H2	2	agris2.csv	riken2.csv
 AT1G04550	AUX/IAA	2	peking2.csv	riken2.csv	
 AT1G04240	AUX/IAA	2	peking2.csv	riken2.csv	
 AT5G43290	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT1G31050	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G31050	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G21750	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G19580	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G30080	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT3G15270	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G03740	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT5G06250	ABI3/VP1	2	peking2.csv	riken2.csv	
+AT5G06250	ABI3VP1	2	peking2.csv	riken2.csv	
 AT1G08010	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT3G48920	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G53600	C2H2	3	agris2.csv	peking2.csv	riken2.csv
@@ -1062,46 +1062,46 @@ AT3G03660	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G05230	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G23290	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G79180	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT2G28160	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G28160	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G47370	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G01930	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G60880	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT5G65510	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G65510	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G66420	GEBP	2	agris2.csv	peking2.csv	
 AT5G14750	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G43860	C2H2	2	agris2.csv	riken2.csv	
-AT1G77920	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G06590	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G77920	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G06590	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G01260	GEBP	2	agris2.csv	peking2.csv	
 AT1G04100	AUX/IAA	2	peking2.csv	riken2.csv	
 AT2G45190	C2C2-YABBY	2	agris2.csv	peking2.csv	
-AT1G13260	AP2/EREBP	2	peking2.csv	riken2.csv	
+AT1G13260	AP2-EREBP	2	peking2.csv	riken2.csv	
 AT5G61620	MYB	2	peking2.csv	riken2.csv	
 AT4G10350	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G68480	C2H2	2	agris2.csv	peking2.csv	
 AT1G54330	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G24020	NIN-LIKE	2	peking2.csv	riken2.csv	
-AT2G22850	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G22850	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G58100	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G46530	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT1G49130	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT1G24630	C2H2	2	agris2.csv	riken2.csv	
-AT5G46691	BHLH	2	peking2.csv	riken2.csv	
-AT4G01460	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT4G00120	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G46691	bHLH	2	peking2.csv	riken2.csv	
+AT4G01460	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G00120	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G22990	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G70920	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G63470	CCAAT-HAP5	2	agris2.csv	peking2.csv	
 AT5G04340	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT5G18560	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G62090	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G18560	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G62090	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G33500	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT1G67030	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT2G37650	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT4G26150	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT1G76110	ARID	2	agris2.csv	peking2.csv	
 AT4G34610	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G15830	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G15830	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G65110	C2H2	2	agris2.csv	riken2.csv	
 AT5G61850	LFY	2	peking2.csv	riken2.csv	
 AT3G10490	NAC	3	agris2.csv	peking2.csv	riken2.csv
@@ -1111,7 +1111,7 @@ AT1G69540	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G46264	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT1G67910	CAMTA	2	agris2.csv	peking2.csv	
 AT3G20880	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT3G23220	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G23220	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G20730	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT1G31630	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G30970	C2H2	3	agris2.csv	peking2.csv	riken2.csv
@@ -1123,33 +1123,33 @@ AT1G17950	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G48670	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G47140	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT1G14510	ALFIN-LIKE	2	agris2.csv	riken2.csv	
-AT4G23750	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G23750	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G74430	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G45710	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT2G16720	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G02450	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G60450	ARF	3	agris2.csv	peking2.csv	riken2.csv
-AT3G24140	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G24140	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G31420	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G22070	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G22070	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G76510	ARID	2	agris2.csv	peking2.csv	
 AT4G00150	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G43500	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT3G60030	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G62000	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT4G24470	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT4G14410	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G14410	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G41200	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G47890	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
-AT2G38340	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G38340	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G62300	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT3G05800	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G05800	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G12260	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT2G46830	MYB	2	peking2.csv	riken2.csv	
 AT1G14350	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G47270	TUB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G65130	C2H2	2	agris2.csv	riken2.csv	
-AT3G07340	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G07340	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G52170	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G41410	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G24430	NAC	3	agris2.csv	peking2.csv	riken2.csv
@@ -1158,10 +1158,10 @@ AT5G01860	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G28450	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G60350	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT3G54390	TRIHELIX	2	peking2.csv	riken2.csv	
-AT5G10030	BZIP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G22200	AP2/EREBP	2	agris2.csv	peking2.csv	
+AT5G10030	bZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G22200	AP2-EREBP	2	agris2.csv	peking2.csv	
 AT3G45170	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT5G13910	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G13910	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G62380	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT2G18380	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT1G64620	C2C2-DOF	2	agris2.csv	peking2.csv	
@@ -1172,37 +1172,37 @@ AT1G80840	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT4G14770	CPP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G62010	ARF	2	agris2.csv	riken2.csv	
 AT4G27310	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
-AT5G47230	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G47230	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G30650	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT4G03250	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G14440	ZF-HD	2	agris2.csv	peking2.csv	
 AT2G28610	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G03150	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G68880	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G68880	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G50060	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G16070	TUB	2	agris2.csv	peking2.csv	
 AT1G53160	SBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G37800	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT5G25810	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G37800	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G25810	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G05690	CCAAT-HAP2	2	agris2.csv	peking2.csv	
 AT2G02070	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G11490	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G35270	NIN-LIKE	2	peking2.csv	riken2.csv	
-AT5G08130	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G08130	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G73410	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G77640	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G77640	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G59340	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G03340	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT1G63650	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G63650	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G19630	HSF	2	peking2.csv	riken2.csv	
-AT5G50080	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G50080	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G62850	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT5G15160	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G15160	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G45160	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G36930	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G25560	AP2/EREBP	2	peking2.csv	riken2.csv	
-AT1G19210	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G35900	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G25560	AP2-EREBP	2	peking2.csv	riken2.csv	
+AT1G19210	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G35900	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G16500	AUX/IAA	2	peking2.csv	riken2.csv	
 AT4G24150	GRF	2	agris2.csv	peking2.csv	
 AT1G56650	MYB	3	agris2.csv	peking2.csv	riken2.csv
@@ -1212,56 +1212,56 @@ AT1G55110	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G32770	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G60040	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G49330	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G67190	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G67190	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G54160	CCAAT-HAP2	2	agris2.csv	peking2.csv	
-AT2G46510	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G46510	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G27810	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G08810	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G38071	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT2G16910	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G26260	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G38071	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G16910	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G26260	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G14490	NAC	2	peking2.csv	riken2.csv	
-AT2G20880	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT4G09180	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G20880	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G09180	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65410	ZF-HD	2	agris2.csv	peking2.csv	
 AT1G71030	MYB	2	peking2.csv	riken2.csv	
-AT1G01260	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G01260	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G13290	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT2G31280	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G31280	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G40750	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT5G40310	C2H2	2	agris2.csv	riken2.csv	
 AT1G34190	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT4G36930	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G36930	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G80590	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G06180	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT2G35700	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G35700	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G38000	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT2G39880	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G43270	SBP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G51190	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G51190	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G32980	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G01430	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G25160	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G53910	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G53910	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G61430	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT2G02540	ZF-HD	2	agris2.csv	peking2.csv	
 AT1G19040	NAC	2	peking2.csv	riken2.csv	
 AT3G20910	CCAAT-HAP2	2	agris2.csv	peking2.csv	
-AT3G47640	BHLH	2	agris2.csv	peking2.csv	
+AT3G47640	bHLH	2	agris2.csv	peking2.csv	
 AT3G48430	C2H2	2	agris2.csv	riken2.csv	
-AT5G01310	BHLH	2	peking2.csv	riken2.csv	
+AT5G01310	bHLH	2	peking2.csv	riken2.csv	
 AT5G10280	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT3G16280	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G16280	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G76880	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT3G21270	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT5G02030	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G37650	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G37630	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G37060	CCAAT-HAP3	2	agris2.csv	peking2.csv	
-AT2G34820	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G34820	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G66550	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT3G01140	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT2G47520	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G47520	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G28200	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G21440	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G15050	AUX/IAA	2	peking2.csv	riken2.csv	
@@ -1270,9 +1270,9 @@ AT4G08250	GRAS	2	peking2.csv	riken2.csv
 AT4G24660	ZF-HD	2	agris2.csv	peking2.csv	
 AT5G40710	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G48890	C2H2	2	agris2.csv	riken2.csv	
-AT5G46760	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G46760	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G69310	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT5G49450	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G49450	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G14340	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G74840	MYB	2	peking2.csv	riken2.csv	
 AT1G29960	MADS	3	agris2.csv	peking2.csv	riken2.csv
@@ -1281,36 +1281,36 @@ AT2G23320	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT3G62240	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT2G34830	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT2G44910	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G21960	AP2/EREBP	2	peking2.csv	riken2.csv	
-AT5G25190	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G64380	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G21960	AP2-EREBP	2	peking2.csv	riken2.csv	
+AT5G25190	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G64380	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G76890	TRIHELIX	3	agris2.csv	peking2.csv	riken2.csv
 AT1G75540	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT2G28710	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT2G40950	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G40950	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G28500	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT2G43140	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G43140	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G04880	ARID	2	agris2.csv	peking2.csv	
 AT5G17810	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G65910	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G35240	ARF	3	agris2.csv	peking2.csv	riken2.csv
-AT5G50915	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G50915	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G28040	GEBP	2	agris2.csv	peking2.csv	
 AT5G63280	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G60890	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G17320	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G16150	CAMTA	2	agris2.csv	peking2.csv	
 AT1G73730	EIL	3	agris2.csv	peking2.csv	riken2.csv
-AT1G12540	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G12540	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G24500	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT2G47190	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G47620	TCP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G15360	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G15360	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G36710	GRAS	3	agris2.csv	peking2.csv	riken2.csv
-AT1G01030	ABI3/VP1	3	agris2.csv	peking2.csv	riken2.csv
+AT1G01030	ABI3VP1	3	agris2.csv	peking2.csv	riken2.csv
 AT3G14020	CCAAT-HAP2	2	agris2.csv	peking2.csv	
-AT4G13620	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G17010	ABI3/VP1	2	agris2.csv	riken2.csv	
+AT4G13620	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G17010	ABI3VP1	2	agris2.csv	riken2.csv	
 AT1G18570	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G07680	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G07640	C2C2-DOF	2	agris2.csv	peking2.csv	
@@ -1320,14 +1320,14 @@ AT5G50570	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G32275	AUX/IAA	2	peking2.csv	riken2.csv	
 AT4G22680	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G01200	MYB	2	peking2.csv	riken2.csv	
-AT5G07310	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G07310	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G61910	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT2G21320	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT3G57230	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G49690	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G26930	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT2G22750	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT1G68550	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G22750	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G68550	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G04410	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G31270	TRIHELIX	2	peking2.csv	riken2.csv	
 AT1G26790	C2C2-DOF	2	agris2.csv	peking2.csv	
@@ -1336,39 +1336,39 @@ AT4G27410	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT2G34710	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G23000	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G77980	MADS	2	agris2.csv	peking2.csv	
-AT5G57150	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G57150	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G61940	TUB	2	peking2.csv	riken2.csv	
 AT5G22260	PHD	2	agris2.csv	peking2.csv	
 AT3G13810	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT3G19860	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT3G19860	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G42410	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT3G44460	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G44460	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G54470	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
 AT5G14000	NAC	2	peking2.csv	riken2.csv	
 AT1G49010	MYB	2	peking2.csv	riken2.csv	
 AT5G11060	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT1G29950	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G29950	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G27730	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT3G60490	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G20350	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G60490	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G20350	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G21970	CCAAT-HAP3	2	agris2.csv	peking2.csv	
 AT5G53980	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G37430	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT3G54990	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G54990	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT4G08150	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT2G41240	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G41240	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G12480	CCAAT-HAP5	2	agris2.csv	peking2.csv	
 AT2G26950	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65050	MADS	3	agris2.csv	peking2.csv	riken2.csv
-AT2G46810	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G46810	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G69120	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G34650	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G61420	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT2G18160	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G18160	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G47460	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT4G00390	GEBP	2	agris2.csv	peking2.csv	
 AT3G13540	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT2G39250	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G39250	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G15500	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G53040	NIN-LIKE	2	peking2.csv	riken2.csv	
 AT4G16610	C2H2	2	peking2.csv	riken2.csv	
@@ -1377,27 +1377,27 @@ AT2G28510	C2C2-DOF	2	agris2.csv	peking2.csv
 AT4G23550	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT2G28700	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT4G36620	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT3G19500	BHLH	2	agris2.csv	peking2.csv	
+AT3G19500	bHLH	2	agris2.csv	peking2.csv	
 AT5G43620	C2H2	2	agris2.csv	riken2.csv	
-AT5G51780	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G51780	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65230	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G50420	GRAS	3	agris2.csv	peking2.csv	riken2.csv
-AT3G23230	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G23230	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G51230	C2H2	2	agris2.csv	peking2.csv	
 AT5G28650	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G22130	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G76900	TUB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G56840	MYB	2	peking2.csv	riken2.csv	
 AT1G23420	C2C2-YABBY	2	agris2.csv	peking2.csv	
-AT4G37750	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G22770	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G37750	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G22770	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT2G26960	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G59750	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT1G35520	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT4G11880	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G71930	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT1G34170	ARF	3	agris2.csv	peking2.csv	riken2.csv
-AT5G11190	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G11190	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G28920	ZF-HD	2	agris2.csv	peking2.csv	
 AT1G67260	TCP	2	peking2.csv	riken2.csv	
 AT5G20240	MADS	3	agris2.csv	peking2.csv	riken2.csv
@@ -1408,24 +1408,24 @@ AT5G04410	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT5G62020	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT3G54220	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G02250	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT1G75490	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G75490	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G32330	HSF	3	agris2.csv	peking2.csv	riken2.csv
-AT5G61890	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G61890	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G72740	MYB	2	peking2.csv	riken2.csv	
-AT4G00480	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT2G31220	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G00480	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G31220	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G09230	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G60390	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT3G10800	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G10800	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G64220	CAMTA	2	agris2.csv	peking2.csv	
-AT1G49720	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G49720	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G02990	HSF	3	agris2.csv	peking2.csv	riken2.csv
 AT5G39610	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT3G22760	CPP	3	agris2.csv	peking2.csv	riken2.csv
-AT5G42910	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G42910	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65070	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT4G13480	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G58010	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G58010	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G66770	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT4G36240	C2C2-GATA	2	agris2.csv	peking2.csv	
 AT1G20910	ARID	2	agris2.csv	peking2.csv	
@@ -1435,7 +1435,7 @@ AT1G47870	E2F/DP	2	peking2.csv	riken2.csv
 AT1G03840	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G35610	C2H2	2	peking2.csv	riken2.csv	
 AT2G45480	GRF	2	agris2.csv	peking2.csv	
-AT5G57390	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G57390	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G51220	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT4G37780	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G62940	C2C2-DOF	2	agris2.csv	peking2.csv	
@@ -1445,94 +1445,94 @@ AT1G52150	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G62340	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT2G45650	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT2G36340	GEBP	2	agris2.csv	peking2.csv	
-AT2G31215	BHLH	2	agris2.csv	peking2.csv	
-AT1G63030	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G28300	ABI3/VP1	3	agris2.csv	peking2.csv	riken2.csv
-AT1G80580	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G31215	bHLH	2	agris2.csv	peking2.csv	
+AT1G63030	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G28300	ABI3VP1	3	agris2.csv	peking2.csv	riken2.csv
+AT1G80580	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G39660	C2C2-DOF	2	agris2.csv	peking2.csv	
 AT1G52830	AUX/IAA	2	peking2.csv	riken2.csv	
 AT1G03490	NAC	2	peking2.csv	riken2.csv	
-AT2G43060	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT2G43060	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G05550	TRIHELIX	2	peking2.csv	riken2.csv	
-AT1G51140	BHLH	3	agris2.csv	peking2.csv	riken2.csv
-AT5G65130	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G51190	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT2G41070	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G51140	bHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT5G65130	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G51190	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G41070	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT2G41690	HSF	3	agris2.csv	peking2.csv	riken2.csv
-AT1G09530	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G09530	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT1G19220	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT2G22430	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G15130	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT5G47390	MYB	2	peking2.csv	riken2.csv	
 AT5G03510	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G27050	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT5G53290	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT1G72360	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G53290	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G72360	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G51600	C2C2-GATA	2	agris2.csv	peking2.csv	
-AT1G06070	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G06070	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G24860	TRIHELIX	2	peking2.csv	riken2.csv	
-AT1G36060	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G36060	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G72830	CCAAT-HAP2	2	agris2.csv	peking2.csv	
-AT3G61970	ABI3/VP1	2	peking2.csv	riken2.csv	
+AT3G61970	ABI3VP1	2	peking2.csv	riken2.csv	
 AT3G50650	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G20770	EIL	3	agris2.csv	peking2.csv	riken2.csv
 AT1G24625	C2H2	2	agris2.csv	peking2.csv	
 AT2G38470	WRKY	3	agris2.csv	peking2.csv	riken2.csv
-AT5G51990	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G51990	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G46590	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT4G18770	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G11140	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT4G11140	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G76350	NIN-LIKE	2	peking2.csv	riken2.csv	
-AT1G22985	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G22985	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G02150	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G13080	WRKY	3	agris2.csv	peking2.csv	riken2.csv
 AT1G15580	AUX/IAA	2	peking2.csv	riken2.csv	
 AT5G40220	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G41920	GRAS	3	agris2.csv	peking2.csv	riken2.csv
 AT3G09370	MYB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G37850	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G37850	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT3G12720	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G50470	CCAAT-HAP5	2	agris2.csv	peking2.csv	
-AT1G12630	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
-AT3G56850	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G12630	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT3G56850	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G61860	LFY	2	peking2.csv	riken2.csv	
 AT5G53660	GRF	2	agris2.csv	peking2.csv	
-AT4G29100	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G29100	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G02840	MYB	2	peking2.csv	riken2.csv	
 AT1G09710	MYB	2	peking2.csv	riken2.csv	
 AT5G49490	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G14920	GRAS	3	agris2.csv	peking2.csv	riken2.csv
-AT1G06850	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G06850	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G46070	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT1G59530	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G59530	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G61830	ARF	3	agris2.csv	peking2.csv	riken2.csv
 AT3G01330	E2F/DP	2	peking2.csv	riken2.csv	
-AT2G35530	BZIP	3	agris2.csv	peking2.csv	riken2.csv
+AT2G35530	bZIP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G75410	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT3G11440	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT1G30490	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G36400	GRF	2	agris2.csv	peking2.csv	
 AT1G34390	ARF	3	agris2.csv	peking2.csv	riken2.csv
-AT5G67111	BHLH	2	peking2.csv	riken2.csv	
+AT5G67111	bHLH	2	peking2.csv	riken2.csv	
 AT5G06650	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT1G52880	NAC	3	agris2.csv	peking2.csv	riken2.csv
 AT3G17600	AUX/IAA	2	peking2.csv	riken2.csv	
 AT3G61150	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G13960	MYB	2	peking2.csv	riken2.csv	
-AT1G50640	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT1G50640	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT3G58630	TRIHELIX	2	peking2.csv	riken2.csv	
 AT5G39690	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT1G12860	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT1G12860	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G10120	EIL	3	agris2.csv	peking2.csv	riken2.csv
 AT3G61890	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G15740	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G14010	C2H2	3	agris2.csv	peking2.csv	riken2.csv
-AT5G11590	AP2/EREBP	3	agris2.csv	peking2.csv	riken2.csv
+AT5G11590	AP2-EREBP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G65310	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G33880	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G33880	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT5G61870	LFY	2	peking2.csv	riken2.csv	
 AT4G36160	NAC	3	agris2.csv	peking2.csv	riken2.csv
-AT4G20970	BHLH	2	agris2.csv	peking2.csv	
+AT4G20970	bHLH	2	agris2.csv	peking2.csv	
 AT4G16780	HB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G37420	MADS	2	agris2.csv	peking2.csv	
 AT5G15840	C2C2-CO-LIKE	2	agris2.csv	peking2.csv	
@@ -1543,14 +1543,14 @@ AT1G72350	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT1G30210	TCP	3	agris2.csv	peking2.csv	riken2.csv
 AT5G61950	C2H2	2	agris2.csv	riken2.csv	
 AT5G45980	HB	3	agris2.csv	peking2.csv	riken2.csv
-AT4G25400	BHLH	3	agris2.csv	peking2.csv	riken2.csv
+AT4G25400	bHLH	3	agris2.csv	peking2.csv	riken2.csv
 AT4G00540	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G51860	MADS	3	agris2.csv	peking2.csv	riken2.csv
 AT5G67450	C2H2	3	agris2.csv	peking2.csv	riken2.csv
 AT5G51530	C2H2	2	agris2.csv	riken2.csv	
 AT5G17800	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT5G26610	C2H2	2	agris2.csv	riken2.csv	
-AT1G51120	AP2/EREBP	2	peking2.csv	riken2.csv	
+AT1G51120	AP2-EREBP	2	peking2.csv	riken2.csv	
 AT3G13890	MYB	3	agris2.csv	peking2.csv	riken2.csv
 AT2G42200	SBP	3	agris2.csv	peking2.csv	riken2.csv
 AT1G79840	HB	3	agris2.csv	peking2.csv	riken2.csv

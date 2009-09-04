@@ -33,18 +33,25 @@ public class CISAnalyzer {
 	private BindingSiteReader binding_site_read;
 	private TFFReader families_read;
 	
-	public CISAnalyzer(JLabel status, String patternDir) {
+	public CISAnalyzer(JLabel status, String patternDir, String set) {
 		this.status = status;
 		this.patternDir = patternDir;
-		directory = patternDir + "/singletons";
+		directory = patternDir + "/" + set;
+		String bcName = null;
+		if (set.equals("singletons")) {
+			bcName = "SINGLETONS.txt";
+		}
+		else if (set.equals("ath1chip")) {
+			bcName = "ATH1Chip.txt";
+		}
 		BackgroundChip bc;
 		AGIMotifReader tableReader;
 		ChipEnrichService ces = new ChipEnrichServiceImpl();
 		try {
-			bc = ces.processBackgroundChip(getClass().getClassLoader().getResourceAsStream("SINGLETONS.txt"));
-			tableReader = new AGIMotifReader(getClass().getClassLoader().getResourceAsStream("AGI_Motif_Table.txt"));
-			binding_site_read = new BindingSiteReader(getClass().getClassLoader().getResourceAsStream("new_binding_site.txt"));
-			families_read = new TFFReader(getClass().getClassLoader().getResourceAsStream("families_summary.txt"));
+			bc = ces.processBackgroundChip(getClass().getClassLoader().getResourceAsStream(bcName));
+			tableReader = new AGIMotifReader();
+			binding_site_read = new BindingSiteReader(getClass().getClassLoader().getResourceAsStream("matching_binding_site_no_spaces_2.txt"));
+			families_read = new TFFReader(getClass().getClassLoader().getResourceAsStream("Copy_of_TFFamiliesSummary_1.txt"));
 		} catch (Exception e) {
 			e.printStackTrace();
 			return;
@@ -94,7 +101,7 @@ public class CISAnalyzer {
 				e.printStackTrace();
 				return;
 			}
-			nodeWriter.println(patternName + "\tpattern");
+			nodeWriter.println(patternName.substring(0, patternName.indexOf(".txt")) + "\tpattern");
 			
 			new File(directory + "/subpatterns").mkdir();
 			CISReader cisread = new CISReader(motifs[i], writer);
@@ -147,7 +154,8 @@ public class CISAnalyzer {
 			e.printStackTrace();
 			return;
 		}
-
+		Set<String> TFF = new HashSet<String>();
+		Set<String> nodeProp = new HashSet<String>();
 		for (GO nextGO : GOs) {
 			Set<AGI> queryList = gdMap.getAGIs(nextGO);
 			MotifReader allMReader = null;
@@ -192,31 +200,41 @@ public class CISAnalyzer {
 								+ "\t" + nextElement
 								+ "\t" + String.valueOf(Math.log10(pval)));
 					}
-//					look in binding_sites for associated TFF
-					String TFF_name = binding_site_read.get(nextElement);
-					Set<AGI> all_agis = null;
-					if (TFF_name != null) {
-						all_agis = families_read.get(TFF_name);
-					}
-//					look in families_summary for associated AGI_IDs
-					if (all_agis != null) {
-						for (AGI nextAGI : all_agis) {
-//							if motif is significant in the pattern and the pattern contains the AGI
-							if ((enrichedCIS != null) && (enrichedCIS.contains(nextElement))) {
-								if (patternAGIs.contains(nextAGI)) {
-									writer.println(nextAGI.getId() + "\t" + nextElement);
-									nodeWriter.println(nextAGI.getId() + "\tTranscription Factor");
-								}
+				}
+//				look in binding_sites for associated TFF
+				String TFF_name = binding_site_read.get(nextElement);
+				Set<AGI> all_agis = null;
+				if (TFF_name != null) {
+					all_agis = families_read.get(TFF_name.toUpperCase());
+				}
+//				look in families_summary for associated AGI_IDs
+				if (all_agis != null) {
+					for (AGI nextAGI : all_agis) {
+//						if motif is significant in the pattern and the pattern contains the AGI
+						if ((enrichedCIS != null) && (enrichedCIS.contains(nextElement))) {
+							if (patternAGIs.contains(nextAGI)) {
+								String nextTFFline = nextAGI.getId() + "\t" + nextElement;
+								TFF.add(nextTFFline);
+								String nextNodeLine = nextAGI.getId() + "\tTranscription Factor";
+								nodeProp.add(nextNodeLine);
 							}
 						}
 					}
-					else {
+				}
+				else {
+					if ((TFF_name != null) && (!TFF_name.equals("NA"))) {
 						System.out.println(TFF_name + " not in families_summary");
 					}
 				}
 			}
 			subwriter.close();
 			subAGIwriter.close();
+		}
+		for (String line : nodeProp) {
+			nodeWriter.println(line);
+		}
+		for (String line : TFF) {
+			writer.println(line);
 		}
 		return;
 	}

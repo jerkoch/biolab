@@ -69,45 +69,61 @@ public class StartAction extends AbstractAction {
                }
             });
 
+            RunnerChooser r = RunnerChooser.getInstance();
         	try {
-                // start the first ath1 run...
-                Thread ath1 = new Ath1ChipRunner(progressDialog.getStatusLabel(), ces, chooser.getSelectedFiles(),
-                      chooser.getCurrentDirectory().getAbsolutePath());
-                ath1.start();
-        		ath1.join();
-                // start the second singletons run...
-                Thread singleton = new SingletonChipRunner(progressDialog.getStatusLabel(), ces,
-                     chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
-                singleton.start();
-        		singleton.join();
+        		if (r.getATH1GO() || r.getATH1Array() || r.getATH1TFF() || r.getATH1Metabolic()) {
+	                // start the first ath1 run...
+	                Thread ath1 = new Ath1ChipRunner(progressDialog.getStatusLabel(), ces, chooser.getSelectedFiles(),
+	                      chooser.getCurrentDirectory().getAbsolutePath(), r.getATH1GO(), r.getATH1Array(), r.getATH1TFF(), r.getATH1Metabolic());
+	                ath1.start();
+	        		ath1.join();
+        		}
+        		if (r.getSingletonGO() || r.getSingletonArray() || r.getSingletonTFF() || r.getSingletonMetabolic()) {
+	                // start the second singletons run...
+	                Thread singleton = new SingletonChipRunner(progressDialog.getStatusLabel(), ces,
+	                     chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath(),
+	                     r.getSingletonGO(), r.getSingletonArray(), r.getSingletonTFF(), r.getSingletonMetabolic());
+	                singleton.start();
+	        		singleton.join();
+        		}
         	} catch (Exception e) {
         		e.printStackTrace();
         	}
         	
-        	Runtime r = Runtime.getRuntime();
-        	r.gc();
-        	
-        	try {	
-                // Run promomer service
-            	AGIMotifReader tableReader = new AGIMotifReader(getClass().getClassLoader().getResourceAsStream("AGI_Motif_Table.txt"));
-
-            	Thread ATH1Motif = new ATH1PromomerRunner(progressDialog.getStatusLabel(), ces, 
-            		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
-            	ATH1Motif.start();
-        		ATH1Motif.join();
-            	Thread singletonMotif = new SingletonPromomerRunner(progressDialog.getStatusLabel(), ces,
-                		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
-                singletonMotif.start();
-        		singletonMotif.join();
+        	try {
+        		if (r.getATH1Motif() || r.getSingletonMotif()) {
+	                // Run promomer service
+	            	AGIMotifReader tableReader = new AGIMotifReader();
+	
+	            	if (r.getATH1Motif()) {
+		            	Thread ATH1Motif = new ATH1PromomerRunner(progressDialog.getStatusLabel(), ces, 
+		            		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
+		            	ATH1Motif.start();
+		        		ATH1Motif.join();
+	            	}
+	            	if (r.getSingletonMotif()) {
+		            	Thread singletonMotif = new SingletonPromomerRunner(progressDialog.getStatusLabel(), ces,
+		                		tableReader, chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath());
+		                singletonMotif.start();
+		        		singletonMotif.join();
+	            	}
+        		}
         	} catch (Exception e) {
         		e.printStackTrace();
         	}
-        	
-        	r.gc();
         	
         	// Now do analysis...
-        	CISAnalyzer analysis = new CISAnalyzer(progressDialog.getStatusLabel(), chooser.getCurrentDirectory().getAbsolutePath());
-        	analysis.makeTable();
+        	if (r.getATH1Analysis()) {
+	        	CISAnalyzer analysis = new CISAnalyzer(progressDialog.getStatusLabel(),
+	        			chooser.getCurrentDirectory().getAbsolutePath(), "ath1chip");
+	        	analysis.makeTable();
+        	}
+        	
+        	if (r.getSingletonAnalysis()) {
+        		CISAnalyzer analysis = new CISAnalyzer(progressDialog.getStatusLabel(),
+        				chooser.getCurrentDirectory().getAbsolutePath(), "singletons");
+        		analysis.makeTable();
+        	}
         	
             // kill the dialog
             progressDialog.dispose();

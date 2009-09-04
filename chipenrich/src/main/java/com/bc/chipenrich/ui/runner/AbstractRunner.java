@@ -26,9 +26,15 @@ public abstract class AbstractRunner extends Thread {
    private boolean ignoreMultipleQLP;
    private String root;
    private JLabel statusLabel;
+   
+   private boolean runGO;
+   private boolean runArray;
+   private boolean runTFF;
+   private boolean runMetabolics;
 
    public AbstractRunner(JLabel status, ChipEnrichService ces, File[] queryFiles, String root,
-         String baseOutputDir, String backgroundChipFilename, boolean ignoreMultipleQLP) {
+         String baseOutputDir, String backgroundChipFilename, boolean ignoreMultipleQLP,
+         boolean runGO, boolean runArray, boolean runTFF, boolean runMetabolics) {
       setPriority(Thread.NORM_PRIORITY - 1);
       this.statusLabel = status;
       this.ces = ces;
@@ -37,6 +43,11 @@ public abstract class AbstractRunner extends Thread {
       this.baseOutputDir = baseOutputDir;
       this.ignoreMultipleQLP = ignoreMultipleQLP;
       this.backgroundChipFilename = backgroundChipFilename;
+      
+      this.runGO = runGO;
+      this.runArray = runArray;
+      this.runTFF = runTFF;
+      this.runMetabolics = runMetabolics;
    }
 
    /*
@@ -52,26 +63,33 @@ public abstract class AbstractRunner extends Thread {
       BackgroundChip backgroundChip = ces.processBackgroundChip(getClass().getClassLoader().getResourceAsStream(
             backgroundChipFilename));
 
-      statusLabel.setText(getRunnerName() + ": Processing GOs...");
-      gdMap = ces.processGoAnnotations(GOAnnotationLocator.getInstance().getInputStreams(),
-            backgroundChip);
-      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "go", gdMap);
-
-      statusLabel.setText(getRunnerName() + ": Processing Arrays...");
-      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-            "ArrayAnnotationSummary.txt"), backgroundChip);
-      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "array", gdMap);
-
-      statusLabel.setText(getRunnerName() + ": Processing TFFs...");
-      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-            "families_summary.txt"), backgroundChip);
-      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "tff", gdMap);
-
-      statusLabel.setText(getRunnerName() + ": Processing Metabolics...");
-      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-            "metabolicpathways2008.txt"), backgroundChip);
-      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "metabolic", gdMap);
-   
+      if (runGO) {
+	      statusLabel.setText(getRunnerName() + ": Processing GOs...");
+	      gdMap = ces.processGoAnnotations(GOAnnotationLocator.getInstance().getInputStreams(),
+	            backgroundChip);
+	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "go", gdMap);
+      }
+      
+      if (runArray) {
+	      statusLabel.setText(getRunnerName() + ": Processing Arrays...");
+	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
+	            "ArrayAnnotationSummary.txt"), backgroundChip);
+	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "array", gdMap);
+      }
+      
+      if (runTFF) {
+	      statusLabel.setText(getRunnerName() + ": Processing TFFs...");
+	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
+	            "families_summary.txt"), backgroundChip);
+	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "tff", gdMap);
+      }
+      
+      if (runMetabolics) {
+	      statusLabel.setText(getRunnerName() + ": Processing Metabolics...");
+	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
+	            "metabolicpathways2008.txt"), backgroundChip);
+	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "metabolic", gdMap);
+      }
    }
 
    public void processEnrichment(ChipEnrichService ces, BackgroundChip backgroundChip,

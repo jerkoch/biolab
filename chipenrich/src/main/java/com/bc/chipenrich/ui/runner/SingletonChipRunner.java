@@ -15,8 +15,8 @@ import com.bc.chipenrich.service.ChipEnrichService;
 public class SingletonChipRunner extends AbstractRunner {
 
    public SingletonChipRunner(JLabel status, ChipEnrichService ces, File[] queryFiles,
-         String baseOutputDir) {
-      super(status, ces, queryFiles, "singletons", baseOutputDir, "SINGLETONS.txt", true);
+         String baseOutputDir, boolean runGO, boolean runArray, boolean runTFF, boolean runMetabolics) {
+      super(status, ces, queryFiles, "singletons", baseOutputDir, "SINGLETONS.txt", true, runGO, runArray, runTFF, runMetabolics);
    }
 
    /* (non-Javadoc)

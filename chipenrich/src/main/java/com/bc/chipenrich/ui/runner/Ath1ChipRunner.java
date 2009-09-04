@@ -15,8 +15,8 @@ import com.bc.chipenrich.service.ChipEnrichService;
 public class Ath1ChipRunner extends AbstractRunner {
 
    public Ath1ChipRunner(JLabel status, ChipEnrichService ces, File[] queryFiles,
-         String baseOutputDir) {
-      super(status, ces, queryFiles, "ath1chip", baseOutputDir, "ATH1Chip.txt", false);
+         String baseOutputDir, boolean runGO, boolean runArray, boolean runTFF, boolean runMetabolics) {
+      super(status, ces, queryFiles, "ath1chip", baseOutputDir, "ATH1Chip.txt", false, runGO, runArray, runTFF, runMetabolics);
    }
    
    /* (non-Javadoc)
