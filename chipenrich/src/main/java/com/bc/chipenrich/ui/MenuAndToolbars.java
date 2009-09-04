@@ -101,29 +101,7 @@ public class MenuAndToolbars {
       });
       
       JMenuItem makeTable = new JMenuItem("Create a custom AGI-Motif Table...");
-      makeTable.addActionListener(new AbstractAction() {
-    	 public void actionPerformed(ActionEvent e) {
-             JFileChooser chooser = new JFileChooser();
-             chooser.setCurrentDirectory(new java.io.File("."));
-             chooser.setDialogTitle("Select TAIR Upstream File...");
-             chooser.setMultiSelectionEnabled(false);
-             chooser.setApproveButtonText("Select");
-             if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
-                JFileChooser chooser2 = new JFileChooser();
-                chooser2.setCurrentDirectory(new java.io.File("."));
-                chooser2.setDialogTitle("Select motif file...");
-                chooser2.setMultiSelectionEnabled(false);
-                chooser2.setApproveButtonText("Select");
-                if (chooser2.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
-                	//////////////////////////////////////
-                	/*
-                	 * Make the Table
-                	 */
-                	//////////////////////////////////////
-                }
-             }
-    	 }
-      });
+      makeTable.addActionListener(new CustomTableMaker(parent));
       
       JMenuItem loadTable = new JMenuItem("Use custom AGI-Motif Table...");
       loadTable.addActionListener(new AbstractAction() {
@@ -136,6 +114,20 @@ public class MenuAndToolbars {
               if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
                  AGIMotifTableLocator.getInstance().setExternalFile(chooser.getSelectedFile());
               }
+    	  }
+      });
+      
+      JMenuItem loadMotif = new JMenuItem ("Use custom motif file...");
+      loadMotif.addActionListener(new AbstractAction() {
+    	  public void actionPerformed(ActionEvent e) {
+    		  JFileChooser chooser = new JFileChooser();
+    		  chooser.setCurrentDirectory(new java.io.File("."));
+    		  chooser.setDialogTitle("Select motif file...");
+    		  chooser.setMultiSelectionEnabled(false);
+    		  chooser.setApproveButtonText("Select");
+    		  if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+    			  MotifFileLocator.getInstance().setExternalFile(chooser.getSelectedFile());
+    		  }
     	  }
       });
       
@@ -308,11 +300,16 @@ public class MenuAndToolbars {
 /////////////////////////////////////////////
 
       fileMenu.add(start);
+      
       fileMenu.addSeparator();
+      
       fileMenu.add(loadGOs);
       fileMenu.add(makeTable);
       fileMenu.add(loadTable);
+      fileMenu.add(loadMotif);
+      
       fileMenu.addSeparator();
+      
       fileMenu.add(ATH1Array);
       fileMenu.add(ATH1GO);
       fileMenu.add(ATH1Metabolic);

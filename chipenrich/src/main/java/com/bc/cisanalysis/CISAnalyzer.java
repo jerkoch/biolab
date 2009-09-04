@@ -8,9 +8,11 @@ import java.io.FileWriter;
 import java.io.BufferedWriter;
 import java.util.Set;
 import java.util.HashSet;
+import java.util.HashMap;
 import javax.swing.JLabel;
 import com.bc.util.ResourceUtil;
 import com.bc.chipenrich.service.*;
+import com.bc.chipenrich.ui.MotifFileLocator;
 import com.bc.core.BackgroundChip;
 import com.bc.core.AGI;
 import com.bc.core.GO;
@@ -32,6 +34,7 @@ public class CISAnalyzer {
 	private JLabel status;
 	private BindingSiteReader binding_site_read;
 	private TFFReader families_read;
+	private HashMap<String, Double> GOCISEnrich;
 	
 	public CISAnalyzer(JLabel status, String patternDir, String set) {
 		this.status = status;
@@ -50,8 +53,8 @@ public class CISAnalyzer {
 		try {
 			bc = ces.processBackgroundChip(getClass().getClassLoader().getResourceAsStream(bcName));
 			tableReader = new AGIMotifReader();
-			binding_site_read = new BindingSiteReader(getClass().getClassLoader().getResourceAsStream("matching_binding_site_no_spaces_2.txt"));
-			families_read = new TFFReader(getClass().getClassLoader().getResourceAsStream("Copy_of_TFFamiliesSummary_1.txt"));
+			binding_site_read = new BindingSiteReader();
+			families_read = new TFFReader();
 		} catch (Exception e) {
 			e.printStackTrace();
 			return;
@@ -60,14 +63,11 @@ public class CISAnalyzer {
 	}
 	
 	public void makeTable() {
-		//For each pattern:
-		//Print pattern + motif name
-		//Print pattern + GO category
-		//Print GO catogory + motifs
 		File[] motifs = ResourceUtil.getFiles(directory + "/motifs", ".processed.txt");
 		String outDir = directory + "/analysis";
 		new File(outDir).mkdir();
 		writer = null;
+		GOCISEnrich = new HashMap<String, Double>();
 		for (int i = 0; i < motifs.length; i++) {
 			String filename = motifs[i].getName();
 			String patternName = filename.substring(0, filename.lastIndexOf(".processed.txt"));
@@ -140,6 +140,7 @@ public class CISAnalyzer {
 		
 		//Get all AGIs in pattern
 		Set<AGI> patternAGIs = new HashSet<AGI>();
+		Set<String> GOMotifs = new HashSet<String>();
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(patternDir + "/" + patternName));
 			String nextLine = "";
@@ -154,8 +155,6 @@ public class CISAnalyzer {
 			e.printStackTrace();
 			return;
 		}
-		Set<String> TFF = new HashSet<String>();
-		Set<String> nodeProp = new HashSet<String>();
 		for (GO nextGO : GOs) {
 			Set<AGI> queryList = gdMap.getAGIs(nextGO);
 			MotifReader allMReader = null;
@@ -181,7 +180,7 @@ public class CISAnalyzer {
 			subwriter.println(nextGO.getId() + "\t" + nextGO.getDescription());
 
 			try {
-				allMReader = new MotifReader(getClass().getClassLoader().getResourceAsStream("element_name_and_motif_IUPAC.txt"));
+				allMReader = new MotifReader(MotifFileLocator.getInstance().getInputStream());
 			} catch (Exception e) {
 				e.printStackTrace();
 				return;
@@ -189,11 +188,40 @@ public class CISAnalyzer {
 			while (allMReader.nextLine()) {
 				String nextMotif = allMReader.getMotif();
 				String nextElement = allMReader.getElement();
-				double pval = pt.parseLine(nextGO.getDescription(), nextMotif, nextElement, queryList, subwriter, subAGIwriter);
+				String key = nextGO.getId() + nextMotif;
+				double pval;
+				if (GOCISEnrich.containsKey(key)) {
+					pval = GOCISEnrich.get(key);
+				}
+				else {
+					pval = pt.parseLine(nextGO.getDescription(), nextMotif, nextElement, queryList, subwriter, subAGIwriter);
+					GOCISEnrich.put(key, pval);
+				}
 				if (pval < 0.001) {
 					writer2.println(nextGO.getDescription()
 							+ "\t" + nextElement
 							+ "\t" + String.valueOf(Math.log10(pval)));
+					String TFF_name = binding_site_read.get(nextElement);
+					Set<AGI> all_agis = null;
+					if (TFF_name != null) {
+						all_agis = families_read.get(TFF_name.toUpperCase());
+					}
+//					look in families_summary for associated AGI_IDs
+					if (all_agis != null) {
+						for (AGI nextAGI : all_agis) {
+//							if motif is significant in the pattern and the pattern contains the AGI
+							if ((enrichedCIS != null) && (enrichedCIS.contains(nextElement))) {
+								if (patternAGIs.contains(nextAGI)) {
+									GOMotifs.add(nextAGI.getId() + "\t" + nextElement);
+								}
+							}
+						}
+					}
+					else {
+						if ((TFF_name != null) && (!TFF_name.equals("NA"))) {
+							System.out.println(TFF_name + " not in families_summary");
+						}
+					}
 					if ((enrichedCIS != null) && (enrichedCIS.contains(nextElement))) {
 						//Motif is significant in both pattern and subpattern
 						writer.println(nextGO.getDescription()
@@ -201,40 +229,45 @@ public class CISAnalyzer {
 								+ "\t" + String.valueOf(Math.log10(pval)));
 					}
 				}
-//				look in binding_sites for associated TFF
-				String TFF_name = binding_site_read.get(nextElement);
-				Set<AGI> all_agis = null;
-				if (TFF_name != null) {
-					all_agis = families_read.get(TFF_name.toUpperCase());
-				}
-//				look in families_summary for associated AGI_IDs
-				if (all_agis != null) {
-					for (AGI nextAGI : all_agis) {
-//						if motif is significant in the pattern and the pattern contains the AGI
-						if ((enrichedCIS != null) && (enrichedCIS.contains(nextElement))) {
-							if (patternAGIs.contains(nextAGI)) {
-								String nextTFFline = nextAGI.getId() + "\t" + nextElement;
-								TFF.add(nextTFFline);
-								String nextNodeLine = nextAGI.getId() + "\tTranscription Factor";
-								nodeProp.add(nextNodeLine);
-							}
-						}
-					}
-				}
-				else {
-					if ((TFF_name != null) && (!TFF_name.equals("NA"))) {
-						System.out.println(TFF_name + " not in families_summary");
-					}
-				}
 			}
 			subwriter.close();
 			subAGIwriter.close();
 		}
-		for (String line : nodeProp) {
-			nodeWriter.println(line);
+		MotifReader allMReader = null;
+		try {
+			allMReader = new MotifReader(MotifFileLocator.getInstance().getInputStream());
+		} catch (Exception e) {
+			e.printStackTrace();
+			return;
 		}
-		for (String line : TFF) {
-			writer.println(line);
+		while (allMReader.nextLine()) {
+			String nextElement = allMReader.getElement();
+//			look in binding_sites for associated TFF
+			String TFF_name = binding_site_read.get(nextElement);
+			Set<AGI> all_agis = null;
+			if (TFF_name != null) {
+				all_agis = families_read.get(TFF_name.toUpperCase());
+			}
+//			look in families_summary for associated AGI_IDs
+			if (all_agis != null) {
+				for (AGI nextAGI : all_agis) {
+//					if motif is significant in the pattern and the pattern contains the AGI
+					if ((enrichedCIS != null) && (enrichedCIS.contains(nextElement))) {
+						if (patternAGIs.contains(nextAGI)) {
+							writer.println(nextAGI.getId() + "\t" + nextElement);
+							nodeWriter.println(nextAGI.getId() + "\tTranscription Factor");
+						}
+					}
+				}
+			}
+			else {
+				if ((TFF_name != null) && (!TFF_name.equals("NA"))) {
+					System.out.println(TFF_name + " not in families_summary");
+				}
+			}
+		}
+		for (String line : GOMotifs) {
+			writer2.println(line);
 		}
 		return;
 	}

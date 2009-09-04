@@ -8,6 +8,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.util.Set;
 
+import com.bc.chipenrich.ui.MotifFileLocator;
 import com.bc.chipenrich.domain.AGIQueryListParser;
 import com.bc.chipenrich.domain.EnrichmentSummary;
 import com.bc.chipenrich.domain.ProbabilityResult;
@@ -31,14 +32,12 @@ public class PromomerTableImpl implements PromomerTable{
 		this.backgroundChip = backgroundChip;
 		this.tableReader = table;
 	}
-	public void getCisCount(String motifFileName,
-			File inputFile, String outputDir, EnrichmentSummary summary) {
+	public void getCisCount(File inputFile, String outputDir, 
+			EnrichmentSummary summary) {
 			new File(outputDir).mkdir();
 			
 			this.summary = summary;
-			
-			InputStream motifFile = getClass().getClassLoader().getResourceAsStream(motifFileName);
-			
+					
 			String outFileName = inputFile.getName() + ".processed.txt";
 			File outfile = new File(outputDir, outFileName);
 			String outFileNameAGI = inputFile.getName() + ".processed.agi_list.txt";
@@ -61,7 +60,7 @@ public class PromomerTableImpl implements PromomerTable{
 			}
 			
 			Set<AGI> queryList = parser.getAGIs();
-			MotifReader motifReader = new MotifReader(motifFile);
+			MotifReader motifReader = new MotifReader(MotifFileLocator.getInstance().getInputStream());
 			//For each motif, calculate the enrichment
 			while (motifReader.nextLine()) {
 				parseLine(inputFile.getName(), motifReader.getMotif(), motifReader.getElement(),

@@ -8,10 +8,11 @@ import java.io.BufferedReader;
 public class BindingSiteReader {
 	private HashMap<String,String> TFFMap;
 	
-	public BindingSiteReader(InputStream is) {
+	public BindingSiteReader() {
 		BufferedReader reader;
 		try {
-			reader = new BufferedReader(new InputStreamReader(is));
+			reader = new BufferedReader(new InputStreamReader(
+					getClass().getClassLoader().getResourceAsStream("matching_binding_site_no_spaces_2.txt")));
 		} catch(Exception e) {
 			e.printStackTrace();
 			return;

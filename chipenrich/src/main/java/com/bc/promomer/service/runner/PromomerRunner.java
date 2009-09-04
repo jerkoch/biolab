@@ -36,7 +36,6 @@ public abstract class PromomerRunner extends Thread {
 	}
 	
 	public void run() {
-		String motifFileName = "element_name_and_motif_IUPAC.txt";
 		status.setText(getRunnerName() + ": Processing background chip...");
 		BackgroundChip backgroundChip = ces.processBackgroundChip(getClass().getClassLoader().getResourceAsStream(
 	            backgroundChipFilename));
@@ -48,7 +47,7 @@ public abstract class PromomerRunner extends Thread {
 		EnrichmentSummary summary = new EnrichmentSummary();
 		for (int i = 0; i < queryFiles.length; i++) {
 			status.setText(getRunnerName() + ": Processing Motifs: " + queryFiles[i].getName());
-			pt.getCisCount(motifFileName, queryFiles[i], outputDir, summary);
+			pt.getCisCount(queryFiles[i], outputDir, summary);
 		}
 		File summaryOut = new File(outputDir + "/summary.txt");
 		ResultsHandler.outputSummary(summaryOut, summary);

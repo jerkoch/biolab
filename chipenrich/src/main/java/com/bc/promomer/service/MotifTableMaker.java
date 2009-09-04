@@ -14,16 +14,8 @@ import com.bc.file.MotifReader;
  * class.
  */
 public class MotifTableMaker {
-	public MotifTableMaker(String TAIRFileName, String MotifFileName) {		
-		makeTable(new File(TAIRFileName), new File(MotifFileName));
-	}
 	
-	public static void main(String[] args) {
-		new MotifTableMaker("C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/TAIR9_upstream_1000_20090619.txt", 
-				"C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/element_name_and_motif_IUPAC.txt");
-	}
-	
-	public void makeTable(File upstreamFile, File motifFile) {
+	public static void makeTable(File upstreamFile, File motifFile) {
 		PrintWriter p;
 		try {
 			String outName = "AGI_Motif_Table";

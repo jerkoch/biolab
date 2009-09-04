@@ -14,8 +14,7 @@ public interface PromomerTable {
 	/*
 	 * Outputs the motif analysis based on an input file
 	 */
-	public void getCisCount(String motifFileName,
-			File inputFile, String outputDir, EnrichmentSummary summary);
+	public void getCisCount(File inputFile, String outputDir, EnrichmentSummary summary);
 	
 	/*
 	 * Parses a motif given a querylist.  printer and printerAGI may be null.

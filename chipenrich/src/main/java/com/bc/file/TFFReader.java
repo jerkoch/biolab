@@ -12,10 +12,11 @@ import com.bc.core.AGI;
 public class TFFReader {
 	private HashMap<String,Set<AGI>> TFFMap;
 	
-	public TFFReader(InputStream is) {
+	public TFFReader() {
 		BufferedReader reader;
 		try {
-			reader = new BufferedReader(new InputStreamReader(is));
+			reader = new BufferedReader(new InputStreamReader(
+					getClass().getClassLoader().getResourceAsStream("Copy_of_TFFamiliesSummary_1.txt")));
 		} catch(Exception e) {
 			e.printStackTrace();
 			return;
