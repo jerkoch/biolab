@@ -179,15 +179,6 @@ public class CISAnalyzer {
 				e.printStackTrace();
 				return;
 			}
-			PrintWriter subAGIwriter = null;
-			File outFile2 = new File(directory + "/subpatterns/" + nextGO.getId().replaceAll(":", "") + ".agi_list.txt");
-			try {
-				subAGIwriter = new PrintWriter(new BufferedWriter(
-						new FileWriter(outFile2)));
-			} catch (Exception e) {
-				e.printStackTrace();
-				return;
-			}
 			subwriter.println(nextGO.getId() + "\t" + nextGO.getDescription());
 
 			try {
@@ -205,7 +196,7 @@ public class CISAnalyzer {
 					pval = GOCISEnrich.get(key);
 				}
 				else {
-					pval = pt.parseLine(nextGO.getDescription(), nextMotif, nextElement, queryList, subwriter, subAGIwriter);
+					pval = pt.parseLine(nextGO.getDescription(), nextMotif, nextElement, queryList, subwriter);
 					GOCISEnrich.put(key, pval);
 				}
 				if (pval < 0.001) {
@@ -243,7 +234,6 @@ public class CISAnalyzer {
 				}
 			}
 			subwriter.close();
-			subAGIwriter.close();
 		}
 		MotifReader allMReader = null;
 		try {

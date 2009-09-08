@@ -21,6 +21,5 @@ public interface PromomerTable {
 	 * Returns the pvalue of the association.
 	 */
 	public double parseLine(String patternName, String nextMotif, String nextElement, 
-			Set<AGI> queryList, PrintWriter printer, 
-			PrintWriter printerAGI);
+			Set<AGI> queryList, PrintWriter printer);
 }

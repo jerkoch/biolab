@@ -48,11 +48,11 @@ public class ResultReader {
 		String nextLine = "";
 		try {
 			while ((nextLine = goReader.readLine()) != null) {
-				double pval = Double.parseDouble(nextLine.substring(nextLine.lastIndexOf('\t')).trim());
+				String nextLineSplit[] = nextLine.split("\t");
+				double pval = Double.parseDouble(nextLineSplit[6].trim());
 				if (pval < 0.001) {
-					String goId = nextLine.substring(0, nextLine.indexOf('\t')).trim();
-					nextLine = nextLine.substring(nextLine.indexOf('\t') + 1).trim();
-					String goDesc = nextLine.substring(0, nextLine.indexOf('\t')).trim();
+					String goId = nextLineSplit[0].trim();
+					String goDesc = nextLineSplit[1].trim();
 					printer.println(pattern
 							+ '\t' + goDesc
 							+ '\t' + String.valueOf(Math.log10(pval)));

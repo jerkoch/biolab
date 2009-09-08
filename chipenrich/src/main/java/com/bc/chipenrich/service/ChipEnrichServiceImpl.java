@@ -79,11 +79,6 @@ public class ChipEnrichServiceImpl implements ChipEnrichService {
             new File(outputDirectory).mkdirs();
             File outputFile = new File(outputDirectory, inputFiles[i].getName() + ".processed.txt");
             ResultsHandler outputter = new ResultsHandler(outputFile, backgroundChip);
-
-            // -------- TEMP: Move into outputter
-            File agiMatchFile = new File(outputDirectory, inputFiles[i].getName() + ".processed.agi_list.txt");
-            PrintStream writer = new PrintStream(agiMatchFile);
-            // ----------------------------------
             
             for (GeneDescriptor gd : filteredGeneDescriptorMap.getGeneDescriptors()) {
 
@@ -95,24 +90,15 @@ public class ChipEnrichServiceImpl implements ChipEnrichService {
                      filteredSetSize, geneDescCountOnBackground, backgroundChip.getNumAGIs());
 
                if (pr.isSignificant()) {
-
-                  // -------- TEMP: Move into outputter
-                  writer.print(gd + "\t" + filteredGeneDescriptorMap.getAGIs(gd).size());
-                  for(AGI agi : filteredGeneDescriptorMap.getAGIs(gd)) {
-                     writer.print("\t" + agi);
-                  }
-                  writer.println();
-                  // ----------------------------------
-                  
-                  outputter.output(pr, filteredCount, filteredSetSize, geneDescCountOnBackground);
+            	  String all_agis = "";
+            	  for (AGI agi : filteredGeneDescriptorMap.getAGIs(gd)) {
+            		  all_agis += "\t" + agi.getId();
+            	  }
+                  outputter.output(pr, filteredCount, filteredSetSize, geneDescCountOnBackground, all_agis);
                   enrichmentSummary.add(inputFiles[i].getName(), pr);
                }
             }
             outputter.close();
-            
-            // -------- TEMP: Move into outputter
-            writer.close();
-            // ----------------------------------
          }
          return enrichmentSummary;
       } catch (Exception e) {

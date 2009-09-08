@@ -26,13 +26,24 @@ public class ResultsHandler {
    }
 
    public void output(ProbabilityResult probabilityResult, int filteredCount, int filterSetSize,
-         int geneDescCountOnBackground) {
+         int geneDescCountOnBackground, String agis) {
 
       // output the results line
-      writer.println(probabilityResult.getGeneDescriptor().getId() + "\t"
-            + probabilityResult.getGeneDescriptor().getDescription() + "\t" + filteredCount + "\t"
-            + filterSetSize + "\t" + geneDescCountOnBackground + "\t" + backgroundChip.getNumAGIs()
-            + "\t" + probabilityResult.getProbability());
+      writer.print(probabilityResult.getGeneDescriptor().getId());
+      writer.print("\t");
+      writer.print(probabilityResult.getGeneDescriptor().getDescription());
+      writer.print("\t");
+      writer.print(filteredCount);
+      writer.print("\t");
+      writer.print(filterSetSize);
+      writer.print("\t");
+      writer.print(geneDescCountOnBackground);
+      writer.print("\t");
+      writer.print(backgroundChip.getNumAGIs());
+      writer.print("\t");
+      writer.print(probabilityResult.getProbability());
+      writer.print(agis);
+      writer.println();
    }
 
    public static void outputSummary(File outputFile, EnrichmentSummary enrichmentSummary) {

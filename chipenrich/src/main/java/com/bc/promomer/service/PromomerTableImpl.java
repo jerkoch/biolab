@@ -40,14 +40,10 @@ public class PromomerTableImpl implements PromomerTable{
 					
 			String outFileName = inputFile.getName() + ".processed.txt";
 			File outfile = new File(outputDir, outFileName);
-			String outFileNameAGI = inputFile.getName() + ".processed.agi_list.txt";
-			File outfileAGI = new File(outputDir, outFileNameAGI);
 			
 			PrintWriter printer = null;
-			PrintWriter printerAGI = null;
 			try {
 				printer = new PrintWriter(new BufferedWriter(new FileWriter(outfile)));
-				printerAGI = new PrintWriter(new BufferedWriter(new FileWriter(outfileAGI)));
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -64,20 +60,17 @@ public class PromomerTableImpl implements PromomerTable{
 			//For each motif, calculate the enrichment
 			while (motifReader.nextLine()) {
 				parseLine(inputFile.getName(), motifReader.getMotif(), motifReader.getElement(),
-						queryList, printer, printerAGI);
+						queryList, printer);
 			}	//end while
 			printer.close();
-			printerAGI.close();
 	}
 	
 	public double parseLine(String patternName, String nextMotif, String nextElement, 
-			Set<AGI> queryList, PrintWriter printer, 
-			PrintWriter printerAGI) {
+			Set<AGI> queryList, PrintWriter printer) {
 		int foundBackground = 0;
 		int foundInFile = 0;
 		boolean AGIprint = false;
 		String nextAGIs = "";
-		int numAGIs = 0;
 		//For each AGI:
 		for (int i = 0; i < tableReader.numAGIs(); i++) {
 			AGI nextAGI = tableReader.getAGIat(i);
@@ -90,16 +83,9 @@ public class PromomerTableImpl implements PromomerTable{
 		            	foundInFile++;
 		            	AGIprint = true;
 		            	nextAGIs += (("\t") + nextAGI.getId());
-		            	numAGIs++;
 		            }
 				}
 			}
-		}
-		if (AGIprint && (printerAGI != null)) {
-			printerAGI.println(nextElement
-					+ "\t"
-					+ numAGIs
-					+ nextAGIs);
 		}
 		double pval = DistributionCalculator.probabilty(backgroundChip.getNumAGIs(), foundBackground,
                 queryList.size(), foundInFile);
@@ -110,17 +96,25 @@ public class PromomerTableImpl implements PromomerTable{
 				summary.add(patternName, pr);
 			}
 			if (printer != null) {
-				printer.println(nextElement
-		            + "\t" + foundInFile
-		            + "\t" + queryList.size()
-		            + "\t" + foundBackground
-		            + "\t" + backgroundChip.getNumAGIs()
-		            + "\t" + pval);
+				printer.print(nextElement);
+		        printer.print("\t");
+		        printer.print(foundInFile);
+		        printer.print("\t");
+		        printer.print(queryList.size());
+		        printer.print("\t");
+		        printer.print(foundBackground);
+		        printer.print("\t");
+		        printer.print(backgroundChip.getNumAGIs());
+		        printer.print("\t");
+		        printer.print(pval);
+		        if (AGIprint) {
+		        	printer.print(nextAGIs);
+		        }
+		        printer.println();
 			}
 		}
 		try {
 			printer.flush();
-			printerAGI.flush();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
