@@ -4,6 +4,13 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/*
+ * Class for reading motif files.
+ * Format: Tab delimited file with element name in col 1 and IUPAC sequence in col 2
+ * Usage:	Call nextLine() and use getMotif() and getElement()
+ * 			Call nextLine() again to get next motif and element
+ * 			nextLine() returns false when all Motifs have been read.
+ */
 public class MotifReader {
 	
 	private BufferedReader reader;
@@ -12,10 +19,14 @@ public class MotifReader {
 	
 	public MotifReader(InputStream is) {
 		reader = new BufferedReader(new InputStreamReader(is));
-		nextMotif = "";
-		nextElement = "";
+		nextMotif = null;
+		nextElement = null;
 	}
 	
+	/*
+	 * Updates value returned for getMotif() and getElement()
+	 * Returns false when there are no more motifs to read.
+	 */
 	public boolean nextLine() {
 		String line = "";
 		try {
@@ -37,10 +48,18 @@ public class MotifReader {
 		}
 	}
 	
+	/*
+	 * Returns IUPAC motif
+	 * Changes value when nextLine() is called
+	 */
 	public String getMotif() {
 		return nextMotif;
 	}
 	
+	/*
+	 * Returns name of element
+	 * Changes value when nextLine() is called
+	 */
 	public String getElement() {
 		return nextElement;
 	}

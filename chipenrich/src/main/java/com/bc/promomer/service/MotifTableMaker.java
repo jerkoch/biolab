@@ -1,6 +1,7 @@
 package com.bc.promomer.service;
 
 import java.io.*;
+import javax.swing.JLabel;
 
 import com.bc.core.AGIUpstream;
 import com.bc.file.UpstreamReader;
@@ -15,9 +16,10 @@ import com.bc.file.MotifReader;
  */
 public class MotifTableMaker {
 	
-	public static void makeTable(File upstreamFile, File motifFile) {
+	public static int makeTable(JLabel status, File upstreamFile, File motifFile) {
 		PrintWriter p;
 		try {
+			status.setText("Build Table");
 			String outName = "AGI_Motif_Table";
 			File outFile = new File(outName + ".txt");
 			int append = 1;
@@ -30,11 +32,11 @@ public class MotifTableMaker {
 			UpstreamReader reader = new UpstreamReader(new FileInputStream(upstreamFile));
 			MotifReader mReader = new MotifReader(new FileInputStream(motifFile));
 			
+			status.setText("Build Table: Reading Motifs");
 			//build first row
 			p.print('\t');
-			String nextMotif;
-			while ((nextMotif = mReader.getMotif()) != null) {
-				p.print(nextMotif);
+			while (mReader.nextLine()) {
+				p.print(mReader.getMotif());
 				p.print('\t');
 			}
 			p.print('\n');
@@ -49,7 +51,9 @@ public class MotifTableMaker {
 				p.print(agiUp.getAgi().getId());
 				p.print('\t');
 				mReader = new MotifReader(new FileInputStream(motifFile));
-				while ((nextMotif = mReader.getMotif()) != null) {
+				while (mReader.nextLine()) {
+					String nextMotif = mReader.getMotif();
+					status.setText("Build Table: " + agiUp.getAgi().getId() + nextMotif);
 					num = CisMatcherUtil.getCisCount(nextMotif, agiUp.getUpstream());
 					p.print(num);
 					p.print('\t');
@@ -59,10 +63,11 @@ public class MotifTableMaker {
 			}
 			
 			p.close();
+			return 0;
 		}
 		catch (Exception e) {
 			System.out.println("Error");
-			return;
+			return -1;
 		}
 	}
 }

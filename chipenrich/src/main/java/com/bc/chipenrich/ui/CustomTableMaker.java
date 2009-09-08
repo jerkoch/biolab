@@ -56,13 +56,18 @@ public class CustomTableMaker extends AbstractAction {
 	            });
 	            
 	            //Make Table;
-	            MotifTableMaker.makeTable(chooser.getSelectedFile(), chooser2.getSelectedFile());
+	            int result = MotifTableMaker.makeTable(progressDialog.getStatusLabel(), chooser.getSelectedFile(), chooser2.getSelectedFile());
 	            
 	            // kill the dialog
 	            progressDialog.dispose();
 
-	            // show the completion message box
-	            JOptionPane.showMessageDialog(parent, "Done!");
+	            if (result < 0) {
+	            	JOptionPane.showMessageDialog(parent, "Error in building table");
+	            }
+	            else {
+	            	// show the completion message box
+	            	JOptionPane.showMessageDialog(parent, "Done!");
+	            }
 			}
 		}).start();
 	}

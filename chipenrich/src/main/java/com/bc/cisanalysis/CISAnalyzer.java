@@ -28,6 +28,7 @@ public class CISAnalyzer {
 	public PrintWriter writer;
 	private PrintWriter writer2;
 	private PrintWriter nodeWriter;
+	private PrintWriter subnodeWriter;
 	private String directory;
 	private String patternDir;
 	private PromomerTable pt;
@@ -101,15 +102,23 @@ public class CISAnalyzer {
 				e.printStackTrace();
 				return;
 			}
+			outFile = new File(outDir + "/" + patternName + ".subnode.txt");
+			try {
+				subnodeWriter = new PrintWriter(new BufferedWriter(
+						new FileWriter(outFile)));
+			} catch (Exception e) {
+				e.printStackTrace();
+				return;
+			}
 			nodeWriter.println(patternName.substring(0, patternName.indexOf(".txt")) + "\tpattern");
-			
+
 			new File(directory + "/subpatterns").mkdir();
 			CISReader cisread = new CISReader(motifs[i], writer);
 			Set<String> enrichedCIS = cisread.getSignificantMotifs();
 			
 			//Print node properties
 			for (String cis : enrichedCIS) {
-				nodeWriter.println(cis + "\tmotif");
+				nodeWriter.println(cis + "\tMotif");
 			}
 
 			//Get enriched gos;
@@ -123,6 +132,7 @@ public class CISAnalyzer {
 			writer.close();
 			writer2.close();
 			nodeWriter.close();
+			subnodeWriter.close();
 		}
 	}
 	
@@ -141,6 +151,7 @@ public class CISAnalyzer {
 		//Get all AGIs in pattern
 		Set<AGI> patternAGIs = new HashSet<AGI>();
 		Set<String> GOMotifs = new HashSet<String>();
+		Set<String> subNodeValues = new HashSet<String>();
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(patternDir + "/" + patternName));
 			String nextLine = "";
@@ -201,6 +212,8 @@ public class CISAnalyzer {
 					writer2.println(nextGO.getDescription()
 							+ "\t" + nextElement
 							+ "\t" + String.valueOf(Math.log10(pval)));
+					subNodeValues.add(nextGO.getDescription() + "\tGO");
+					subNodeValues.add(nextElement + "\tMotif");
 					String TFF_name = binding_site_read.get(nextElement);
 					Set<AGI> all_agis = null;
 					if (TFF_name != null) {
@@ -209,11 +222,10 @@ public class CISAnalyzer {
 //					look in families_summary for associated AGI_IDs
 					if (all_agis != null) {
 						for (AGI nextAGI : all_agis) {
-//							if motif is significant in the pattern and the pattern contains the AGI
-							if ((enrichedCIS != null) && (enrichedCIS.contains(nextElement))) {
-								if (patternAGIs.contains(nextAGI)) {
-									GOMotifs.add(nextAGI.getId() + "\t" + nextElement);
-								}
+//							if AGI is in GO category
+							if (queryList.contains(nextAGI)) {
+								GOMotifs.add(nextAGI.getId() + "\t" + nextElement);
+								subNodeValues.add(nextAGI.getId() + "\tTranscription Factor");
 							}
 						}
 					}
@@ -268,6 +280,9 @@ public class CISAnalyzer {
 		}
 		for (String line : GOMotifs) {
 			writer2.println(line);
+		}
+		for (String line : subNodeValues) {
+			subnodeWriter.println(line);
 		}
 		return;
 	}
