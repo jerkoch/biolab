@@ -7,27 +7,24 @@ import java.io.BufferedReader;
 import java.io.PrintWriter;
 import java.util.Set;
 import java.util.HashMap;
+import java.util.TreeSet;
 import com.bc.core.AGI;
 import com.bc.core.GO;
 import com.bc.core.GeneDescriptorMap;
 
 public class ResultReader {
 	private File GOResults;
-	private File GOagi;
 	private BufferedReader goReader;
-	private GOagiReader agiReader;
 	private PrintWriter printer;
 	private String pattern;
 	
-	public ResultReader(File GOFile, File AGIFile, PrintWriter writer) {
+	public ResultReader(File GOFile, PrintWriter writer) {
 		printer = writer;
 		GOResults = GOFile;
-		GOagi = AGIFile;
 		pattern = GOResults.getName();
 		pattern = pattern.substring(0, pattern.lastIndexOf(".txt.processed.txt"));
 		try {
 			goReader = new BufferedReader(new FileReader(GOResults));
-			agiReader = new GOagiReader(new FileInputStream(GOagi));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -35,17 +32,8 @@ public class ResultReader {
 	
 	public GeneDescriptorMap<GO> parseGOResults() {
 		HashMap<GO, Set<AGI>> goMap = new HashMap<GO, Set<AGI>>();
-		GO nextGO;
-		while ((nextGO = getSignificantGO()) != null) {
-			Set<AGI> agis = agiReader.getAGIs(nextGO);
-			goMap.put(nextGO, agis);
-		}
-		GeneDescriptorMap<GO> gdMap = new GeneDescriptorMap<GO>(goMap);
-		return gdMap;
-	}
-	
-	private GO getSignificantGO() {
 		String nextLine = "";
+		GO nextGO;
 		try {
 			while ((nextLine = goReader.readLine()) != null) {
 				String nextLineSplit[] = nextLine.split("\t");
@@ -56,10 +44,16 @@ public class ResultReader {
 					printer.println(pattern
 							+ '\t' + goDesc
 							+ '\t' + String.valueOf(Math.log10(pval)));
-					return GO.createGO(goId, goDesc);
+					nextGO = GO.createGO(goId, goDesc);
+					Set<AGI> agis = new TreeSet<AGI>();
+					for (int i = 7; i < nextLineSplit.length; i++) {
+						agis.add(AGI.createAGI(nextLineSplit[i]));
+					}
+					goMap.put(nextGO, agis);
 				}
 			}
-			return null;
+			GeneDescriptorMap<GO> gdMap = new GeneDescriptorMap<GO>(goMap);
+			return gdMap;
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;

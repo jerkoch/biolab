@@ -1,5 +1,8 @@
 package com.bc.cisanalysis;
-
+/*
+ * Deprecated
+ */
+/*
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
@@ -38,3 +41,4 @@ public class GOagiReader {
 		return GDMap.getAGIs(go);
 	}
 }
+*/

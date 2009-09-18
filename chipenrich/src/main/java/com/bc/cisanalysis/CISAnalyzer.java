@@ -123,9 +123,8 @@ public class CISAnalyzer {
 
 			//Get enriched gos;
 			File GOfile = new File(directory + "/go/" + patternName + ".processed.txt");
-			File GOAGIfile = new File(directory + "/go/" + patternName + ".processed.agi_list.txt");
-			if (GOfile.exists() && GOAGIfile.exists()) {
-				match_GO_CIS(patternName, GOfile, GOAGIfile, enrichedCIS);
+			if (GOfile.exists()) {
+				match_GO_CIS(patternName, GOfile, enrichedCIS);
 			} else {
 				System.out.println("GO File for " + patternName + " not found");
 			}
@@ -136,8 +135,8 @@ public class CISAnalyzer {
 		}
 	}
 	
-	private void match_GO_CIS(String patternName, File gofile, File goAGIfile, Set<String> enrichedCIS) {
-		ResultReader goreader = new ResultReader(gofile, goAGIfile, writer);
+	private void match_GO_CIS(String patternName, File gofile, Set<String> enrichedCIS) {
+		ResultReader goreader = new ResultReader(gofile, writer);
 		GeneDescriptorMap<GO> gdMap = goreader.parseGOResults();
 		Set<GO> GOs = gdMap.getGeneDescriptors();
 		
