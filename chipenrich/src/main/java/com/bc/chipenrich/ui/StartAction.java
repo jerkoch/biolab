@@ -32,7 +32,7 @@ import com.bc.cisanalysis.CISAnalyzer;
  */
 public class StartAction extends AbstractAction {
 
-   private ChipEnrich parent;
+private ChipEnrich parent;
 
    private ChipEnrichService ces = new ChipEnrichServiceImpl();
 
@@ -115,13 +115,15 @@ public class StartAction extends AbstractAction {
         	// Now do analysis...
         	if (r.getATH1Analysis()) {
 	        	CISAnalyzer analysis = new CISAnalyzer(progressDialog.getStatusLabel(),
-	        			chooser.getCurrentDirectory().getAbsolutePath(), "ath1chip");
+	        			chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath(),
+	        			"ath1chip");
 	        	analysis.makeTable();
         	}
         	
         	if (r.getSingletonAnalysis()) {
         		CISAnalyzer analysis = new CISAnalyzer(progressDialog.getStatusLabel(),
-        				chooser.getCurrentDirectory().getAbsolutePath(), "singletons");
+        				chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath(),
+        				"singletons");
         		analysis.makeTable();
         	}
         	

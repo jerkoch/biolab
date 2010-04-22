@@ -10,7 +10,6 @@ import java.util.Set;
 import java.util.HashSet;
 import java.util.HashMap;
 import javax.swing.JLabel;
-import com.bc.util.ResourceUtil;
 import com.bc.chipenrich.service.*;
 import com.bc.chipenrich.ui.MotifFileLocator;
 import com.bc.core.BackgroundChip;
@@ -30,6 +29,7 @@ public class CISAnalyzer {
 	private PrintWriter nodeWriter;
 	private PrintWriter subnodeWriter;
 	private String directory;
+	private File[] queryFiles;
 	private String patternDir;
 	private PromomerTable pt;
 	private JLabel status;
@@ -37,8 +37,9 @@ public class CISAnalyzer {
 	private TFFReader families_read;
 	private HashMap<String, Double> GOCISEnrich;
 	
-	public CISAnalyzer(JLabel status, String patternDir, String set) {
+	public CISAnalyzer(JLabel status, File[] queryFiles, String patternDir, String set) {
 		this.status = status;
+		this.queryFiles = queryFiles;
 		this.patternDir = patternDir;
 		directory = patternDir + "/" + set;
 		String bcName = null;
@@ -64,7 +65,12 @@ public class CISAnalyzer {
 	}
 	
 	public void makeTable() {
-		File[] motifs = ResourceUtil.getFiles(directory + "/motifs", ".processed.txt");
+		File[] motifs = new File[queryFiles.length];
+		for (int i = 0; i < queryFiles.length; i++) {
+			motifs[i] = new File(directory + "/motifs/" + queryFiles[i].getName() + ".processed.txt");
+			//if (!motifs[i].exists()) do some error handling
+		}
+		
 		String outDir = directory + "/analysis";
 		new File(outDir).mkdir();
 		writer = null;
