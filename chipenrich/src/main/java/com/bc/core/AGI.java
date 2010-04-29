@@ -53,10 +53,12 @@ public class AGI implements Comparable<AGI> {
       // ensure non-null parameter
       Assert.notNull(id);
 
+      /* FIXME: AGI for both arabidopsis and soybean
       // ensure agi is in proper format
       if (!id.matches(REGEX)) {
          throw new IllegalArgumentException("Illegal AGI=" + id);
       }
+      */
 
       // create the agi
       return new AGI(id.toUpperCase(), description);
@@ -67,7 +69,8 @@ public class AGI implements Comparable<AGI> {
    }
 
    public static boolean isAGI(String id) {
-      return id.matches(REGEX);
+//      return id.matches(REGEX);
+	   return true;
    }
 
    /*

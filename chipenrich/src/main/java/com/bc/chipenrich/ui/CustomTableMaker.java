@@ -29,7 +29,7 @@ public class CustomTableMaker extends AbstractAction {
 			public void run() {
 				JFileChooser chooser = new JFileChooser();
 				chooser.setCurrentDirectory(new java.io.File("."));
-	            chooser.setDialogTitle("Select TAIR Upstream File...");
+	            chooser.setDialogTitle("Select FASTA File...");
 	            chooser.setMultiSelectionEnabled(false);
 	            chooser.setApproveButtonText("Select");
 	            if (chooser.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {

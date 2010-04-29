@@ -5,7 +5,6 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 import javax.swing.JFrame;
-import javax.swing.JPanel;
 import javax.swing.UIManager;
 
 import com.bc.chipenrich.ui.config.LoadSettingsEvent;
@@ -40,7 +39,7 @@ public class ChipEnrich extends JFrame implements SettingsListener {
 
       this.getContentPane().setLayout(new BorderLayout());
       this.getContentPane().add(getMenus().getToolbar(), BorderLayout.NORTH);
-      this.getContentPane().add(new JPanel(), BorderLayout.CENTER);
+      this.getContentPane().add(new MainWindow(), BorderLayout.CENTER);
       this.getContentPane().add(statusBar, BorderLayout.SOUTH);
 
       // setup listener for close

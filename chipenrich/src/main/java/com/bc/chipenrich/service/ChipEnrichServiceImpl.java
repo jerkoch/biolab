@@ -22,6 +22,10 @@ import com.bc.core.TranscriptionFactorFamily;
 public class ChipEnrichServiceImpl implements ChipEnrichService {
 
    public BackgroundChip processBackgroundChip(InputStream bcInputStream) {
+	  if (bcInputStream == null) {
+		  System.out.println("Error - background chip not found");
+		  return null;
+	  }
       try {
          BackgroundChipParser backgroundChipParser = new BackgroundChipParser();
          backgroundChipParser.parse(bcInputStream);
@@ -34,6 +38,14 @@ public class ChipEnrichServiceImpl implements ChipEnrichService {
 
    public GeneDescriptorMap<GO> processGoAnnotations(InputStream[] goAnnotationInputStream,
          BackgroundChip backgroundChip) {
+	  if (backgroundChip == null) {
+		  System.out.println("Error - background chip not found");
+		  return null;
+	  }
+	  if (goAnnotationInputStream == null) {
+		  System.out.println("Error - GO annotations not found");
+		  return null;
+	  }
       try {
          GOAnnotationParser goAnnoParser = new GOAnnotationParser();
          goAnnoParser.setAGIFilterSet(backgroundChip.getAGIs());
@@ -49,6 +61,14 @@ public class ChipEnrichServiceImpl implements ChipEnrichService {
 
    public GeneDescriptorMap<TranscriptionFactorFamily> processTranscriptionFactorFamily(
          InputStream tffSummaryInputStream, BackgroundChip backgroundChip) {
+	  if (tffSummaryInputStream == null) {
+		  System.out.println("Error - Transcription Factor Family file not found");
+		  return null;
+	  }
+	  if (backgroundChip == null) {
+		  System.out.println("Error - Background chip not found");
+		  return null;
+	  }
       try {
          TranscriptionFactorFamilyParser tffParser = new TranscriptionFactorFamilyParser();
          tffParser.setAGIFilterSet(backgroundChip.getAGIs());
@@ -61,8 +81,16 @@ public class ChipEnrichServiceImpl implements ChipEnrichService {
    }
 
    public EnrichmentSummary processEnrichment(BackgroundChip backgroundChip,
-         GeneDescriptorMap<?> geneDescriptorMap, File[] inputFiles, String outputDirectory, boolean ignoreMultipleQLP) {
-
+         GeneDescriptorMap<?> geneDescriptorMap, File[] inputFiles, String outputDirectory, 
+         boolean ignoreMultipleQLP) {
+	  if (backgroundChip == null) {
+		  System.out.println("Error - Cannot complete summary because background chip not found");
+		  return null;
+	  }
+	  if (geneDescriptorMap == null) {
+		  System.out.println("Error - Cannot complete summary because gene descriptor map not found");
+		  return null;
+	  }
       try {
          EnrichmentSummary enrichmentSummary = new EnrichmentSummary();
 

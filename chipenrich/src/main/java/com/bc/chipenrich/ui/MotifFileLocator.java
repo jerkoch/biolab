@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.InputStream;
 import java.io.FileInputStream;
 
+import com.bc.chipenrich.ui.chooser.PlantChooser;
+
 public class MotifFileLocator {
 	
 	private static MotifFileLocator INSTANCE = new MotifFileLocator();
@@ -16,7 +18,8 @@ public class MotifFileLocator {
 	
 	public InputStream getInputStream() {
 		if (externalFile == null) {
-			return getClass().getClassLoader().getResourceAsStream("element_name_and_motif_IUPAC.txt");
+			return getClass().getClassLoader().getResourceAsStream(
+					PlantChooser.getInstance().getPlant() + "/element_name_and_motif_IUPAC.txt");
 		} else {
 			try {
 				return new FileInputStream(externalFile);

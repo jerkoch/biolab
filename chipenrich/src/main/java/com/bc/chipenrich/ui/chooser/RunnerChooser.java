@@ -1,4 +1,4 @@
-package com.bc.chipenrich.ui;
+package com.bc.chipenrich.ui.chooser;
 
 public class RunnerChooser {
 	

@@ -39,17 +39,22 @@ public class Affy implements Comparable<Affy> {
       // ensure non-null parameter
       Assert.notNull(id);
 
+      /* FIXME: Affy ID's for both arabidopsis and soybean
       // ensure Affy is in proper format
       if (!id.matches(REGEX)) {
          throw new IllegalArgumentException("Illegal Affy=" + id);
       }
+      */
 
       // create the Affy
       return new Affy(id.toLowerCase());
    }
 
    public static boolean isAffy(String id) {
+	  /*	
       return id.matches(REGEX);
+      */
+	   return true;
    }
 
    /*

@@ -16,7 +16,7 @@ import com.bc.file.MotifReader;
  */
 public class MotifTableMaker {
 	
-	public static int makeTable(JLabel status, File upstreamFile, File motifFile) {
+	public static int makeTable(JLabel status, File fastaFile, File motifFile) {
 		PrintWriter p;
 		try {
 			status.setText("Build Table");
@@ -29,7 +29,7 @@ public class MotifTableMaker {
 			}
 			p = new PrintWriter(new BufferedWriter(new FileWriter(outFile)));
 
-			UpstreamReader reader = new UpstreamReader(new FileInputStream(upstreamFile));
+			UpstreamReader reader = new UpstreamReader(new FileInputStream(fastaFile));
 			MotifReader mReader = new MotifReader(new FileInputStream(motifFile));
 			
 			status.setText("Build Table: Reading Motifs");
@@ -50,10 +50,10 @@ public class MotifTableMaker {
 			while ((agiUp = reader.nextAGIUpstream()) != null) {
 				p.print(agiUp.getAgi().getId());
 				p.print('\t');
+				status.setText("Build Table: " + agiUp.getAgi().getId());
 				mReader = new MotifReader(new FileInputStream(motifFile));
 				while (mReader.nextLine()) {
 					String nextMotif = mReader.getMotif();
-					status.setText("Build Table: " + agiUp.getAgi().getId() + nextMotif);
 					num = CisMatcherUtil.getCisCount(nextMotif, agiUp.getUpstream());
 					p.print(num);
 					p.print('\t');

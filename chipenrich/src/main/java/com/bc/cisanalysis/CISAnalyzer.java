@@ -44,10 +44,10 @@ public class CISAnalyzer {
 		directory = patternDir + "/" + set;
 		String bcName = null;
 		if (set.equals("singletons")) {
-			bcName = "SINGLETONS.txt";
+			bcName = "arabidopsis/SINGLETONS.txt";
 		}
 		else if (set.equals("ath1chip")) {
-			bcName = "ATH1Chip.txt";
+			bcName = "arabidopsis/ATH1Chip.txt";
 		}
 		BackgroundChip bc;
 		AGIMotifReader tableReader;

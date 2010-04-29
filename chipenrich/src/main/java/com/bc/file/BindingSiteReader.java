@@ -12,7 +12,7 @@ public class BindingSiteReader {
 		BufferedReader reader;
 		try {
 			reader = new BufferedReader(new InputStreamReader(
-					getClass().getClassLoader().getResourceAsStream("matching_binding_site_no_spaces_2.txt")));
+					getClass().getClassLoader().getResourceAsStream("arabidopsis/matching_binding_site_no_spaces_2.txt")));
 		} catch(Exception e) {
 			e.printStackTrace();
 			return;

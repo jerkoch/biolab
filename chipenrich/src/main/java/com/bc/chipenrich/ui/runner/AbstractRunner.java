@@ -11,6 +11,7 @@ import com.bc.chipenrich.domain.EnrichmentSummary;
 import com.bc.chipenrich.domain.ResultsHandler;
 import com.bc.chipenrich.service.ChipEnrichService;
 import com.bc.chipenrich.ui.GOAnnotationLocator;
+import com.bc.chipenrich.ui.chooser.PlantChooser;
 import com.bc.core.BackgroundChip;
 import com.bc.core.GeneDescriptorMap;
 
@@ -73,32 +74,33 @@ public abstract class AbstractRunner extends Thread {
       if (runArray) {
 	      statusLabel.setText(getRunnerName() + ": Processing Arrays...");
 	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-	            "ArrayAnnotationSummary.txt"), backgroundChip);
+	            PlantChooser.getInstance().getPlant() + "/ArrayAnnotationSummary.txt"), backgroundChip);
 	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "array", gdMap);
       }
       
       if (runTFF) {
 	      statusLabel.setText(getRunnerName() + ": Processing TFFs...");
 	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-	            "families_summary.txt"), backgroundChip);
+	            PlantChooser.getInstance().getPlant() + "/families_summary.txt"), backgroundChip);
 	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "tff", gdMap);
       }
       
       if (runMetabolics) {
 	      statusLabel.setText(getRunnerName() + ": Processing Metabolics...");
 	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-	            "metabolicpathways2008.txt"), backgroundChip);
+	            PlantChooser.getInstance().getPlant() + "/metabolicpathways2008.txt"), backgroundChip);
 	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "metabolic", gdMap);
       }
    }
 
    public void processEnrichment(ChipEnrichService ces, BackgroundChip backgroundChip,
          File[] queryFiles, String baseDir, String subDir, GeneDescriptorMap<?> descriptorMap) {
-
       String outputDir = baseDir + "/" + root + "/" + subDir;
       EnrichmentSummary summary = ces.processEnrichment(backgroundChip, descriptorMap, queryFiles,
             outputDir, ignoreMultipleQLP);
-      ResultsHandler.outputSummary(new File(outputDir, "summary.txt"), summary);
+      if (summary != null) {
+    	  ResultsHandler.outputSummary(new File(outputDir, "summary.txt"), summary);
+      }
    }
 
    protected abstract String getRunnerName();

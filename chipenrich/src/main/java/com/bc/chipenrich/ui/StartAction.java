@@ -19,6 +19,7 @@ import javax.swing.SwingConstants;
 
 import com.bc.chipenrich.service.ChipEnrichService;
 import com.bc.chipenrich.service.ChipEnrichServiceImpl;
+import com.bc.chipenrich.ui.chooser.RunnerChooser;
 import com.bc.chipenrich.ui.runner.Ath1ChipRunner;
 import com.bc.chipenrich.ui.runner.SingletonChipRunner;
 import com.bc.file.AGIMotifReader;

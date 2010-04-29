@@ -1,0 +1,5 @@
+Transcript_name	Pathway
+Glyma08g20230.1	13-LOX_and_13-HPL_pathway
+Glyma08g20230.1	jasmonic_acid_biosynthesis
+Glyma09g35950.1	cytokinins_degradation
+Glyma09g05170.1	flavonoid_biosynthesis

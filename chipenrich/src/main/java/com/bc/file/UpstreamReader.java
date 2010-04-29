@@ -26,7 +26,8 @@ public class UpstreamReader {
          String line = reader.readLine();
          if (line == null)	//end of file
         	 return null;
-         String agiId = line.substring(0, line.indexOf(' '));
+         String[] lines = line.split(" ", 2);
+         String agiId = lines[0];
          String upstream = readUntil('>');
          try {
         	 AGI newId = AGI.createAGI(agiId);
@@ -43,6 +44,8 @@ public class UpstreamReader {
       }
    }
 
+   // Read from input up to stopChar.  Only includes letter characters.
+   // Does not include stopChar in returned string
    private String readUntil(char stopChar) throws IOException {
       int ch;
       StringBuffer sb = new StringBuffer();
