@@ -10,8 +10,10 @@ import javax.swing.JLabel;
 import com.bc.chipenrich.domain.EnrichmentSummary;
 import com.bc.chipenrich.domain.ResultsHandler;
 import com.bc.chipenrich.service.ChipEnrichService;
-import com.bc.chipenrich.ui.GOAnnotationLocator;
 import com.bc.chipenrich.ui.chooser.PlantChooser;
+import com.bc.chipenrich.ui.locator.GOAnnotationLocator;
+import com.bc.chipenrich.ui.locator.MetabolicLocator;
+import com.bc.chipenrich.ui.locator.TFFLocator;
 import com.bc.core.BackgroundChip;
 import com.bc.core.GeneDescriptorMap;
 
@@ -21,7 +23,7 @@ import com.bc.core.GeneDescriptorMap;
 public abstract class AbstractRunner extends Thread {
 
    private ChipEnrichService ces;
-   private String backgroundChipFilename;
+   private BackgroundChip bc;
    private File[] queryFiles;
    private String baseOutputDir;
    private boolean ignoreMultipleQLP;
@@ -34,7 +36,7 @@ public abstract class AbstractRunner extends Thread {
    private boolean runMetabolics;
 
    public AbstractRunner(JLabel status, ChipEnrichService ces, File[] queryFiles, String root,
-         String baseOutputDir, String backgroundChipFilename, boolean ignoreMultipleQLP,
+         String baseOutputDir, BackgroundChip bc, boolean ignoreMultipleQLP,
          boolean runGO, boolean runArray, boolean runTFF, boolean runMetabolics) {
       setPriority(Thread.NORM_PRIORITY - 1);
       this.statusLabel = status;
@@ -43,7 +45,7 @@ public abstract class AbstractRunner extends Thread {
       this.root = root;
       this.baseOutputDir = baseOutputDir;
       this.ignoreMultipleQLP = ignoreMultipleQLP;
-      this.backgroundChipFilename = backgroundChipFilename;
+      this.bc = bc;
       
       this.runGO = runGO;
       this.runArray = runArray;
@@ -61,35 +63,32 @@ public abstract class AbstractRunner extends Thread {
       GeneDescriptorMap<?> gdMap;
 
       statusLabel.setText(getRunnerName() + ": Processing background chip...");
-      BackgroundChip backgroundChip = ces.processBackgroundChip(getClass().getClassLoader().getResourceAsStream(
-            backgroundChipFilename));
 
       if (runGO) {
 	      statusLabel.setText(getRunnerName() + ": Processing GOs...");
 	      gdMap = ces.processGoAnnotations(GOAnnotationLocator.getInstance().getInputStreams(),
-	            backgroundChip);
-	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "go", gdMap);
+	            bc);
+	      processEnrichment(ces, bc, queryFiles, baseOutputDir, "go", gdMap);
       }
       
       if (runArray) {
 	      statusLabel.setText(getRunnerName() + ": Processing Arrays...");
 	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-	            PlantChooser.getInstance().getPlant() + "/ArrayAnnotationSummary.txt"), backgroundChip);
-	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "array", gdMap);
+	            PlantChooser.getInstance().getPlant() + "/ArrayAnnotationSummary.txt"), bc);
+	      processEnrichment(ces, bc, queryFiles, baseOutputDir, "array", gdMap);
       }
       
       if (runTFF) {
 	      statusLabel.setText(getRunnerName() + ": Processing TFFs...");
-	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-	            PlantChooser.getInstance().getPlant() + "/families_summary.txt"), backgroundChip);
-	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "tff", gdMap);
+	      gdMap = ces.processTranscriptionFactorFamily(TFFLocator.getInstance().getInputStream(), bc);
+	      processEnrichment(ces, bc, queryFiles, baseOutputDir, "tff", gdMap);
       }
       
       if (runMetabolics) {
 	      statusLabel.setText(getRunnerName() + ": Processing Metabolics...");
-	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-	            PlantChooser.getInstance().getPlant() + "/metabolicpathways2008.txt"), backgroundChip);
-	      processEnrichment(ces, backgroundChip, queryFiles, baseOutputDir, "metabolic", gdMap);
+	      gdMap = ces.processTranscriptionFactorFamily(
+	    		  MetabolicLocator.getInstance().getInputStream(), bc);
+	      processEnrichment(ces, bc, queryFiles, baseOutputDir, "metabolic", gdMap);
       }
    }
 

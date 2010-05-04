@@ -1,6 +1,7 @@
 package com.bc.chipenrich.ui;
 
 import com.bc.chipenrich.ui.chooser.*;
+import com.bc.chipenrich.ui.locator.*;
 
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
@@ -64,7 +65,8 @@ public class MainWindow extends JPanel {
 		GOs.setLayout(new BoxLayout(GOs, BoxLayout.X_AXIS));
 		JLabel GOLabel = new JLabel("Using Default GOs");
 		JButton GOButton = new JButton("Use Custom GO Files");
-		GOButton.addActionListener(new GOChooser(GOLabel));
+		GOButton.addActionListener(GOAnnotationLocator.getInstance());
+		GOAnnotationLocator.getInstance().setLabel(GOLabel);
 		GOs.add(GOButton);
 		GOs.add(GOLabel);
 		//Motif
@@ -72,15 +74,64 @@ public class MainWindow extends JPanel {
 		motifs.setLayout(new BoxLayout(motifs, BoxLayout.X_AXIS));
 		JLabel motifLabel = new JLabel("Using Default Motifs");
 		JButton motifButton = new JButton("Use Custom Motif Files");
-		motifButton.addActionListener(new MotifChooser(motifLabel));
+		motifButton.addActionListener(MotifFileLocator.getInstance());
+		MotifFileLocator.getInstance().setLabel(motifLabel);
 		motifs.add(motifButton);
 		motifs.add(motifLabel);
-		//FASTA if needed
-		//JFileChooser
-		//JButton
-		//JLabel
+		//BindingSite
+		JPanel bindingSite = new JPanel();
+		bindingSite.setLayout(new BoxLayout(bindingSite, BoxLayout.X_AXIS));
+		JLabel bindingSiteLabel = new JLabel("Using Default Binding Site");
+		JButton bindingSiteButton = new JButton("Use Custom Binding Site File");
+		bindingSiteButton.addActionListener(BindingSiteLocator.getInstance());
+		BindingSiteLocator.getInstance().setLabel(bindingSiteLabel);
+		bindingSite.add(bindingSiteButton);
+		bindingSite.add(bindingSiteLabel);
+		//Metabolic
+		JPanel metabolic = new JPanel();
+		metabolic.setLayout(new BoxLayout(metabolic, BoxLayout.X_AXIS));
+		JLabel metabolicLabel = new JLabel("Using Default Metabolic");
+		JButton metabolicButton = new JButton("Use Custom Metabolic File");
+		metabolicButton.addActionListener(MetabolicLocator.getInstance());
+		MetabolicLocator.getInstance().setLabel(metabolicLabel);
+		metabolic.add(metabolicButton);
+		metabolic.add(metabolicLabel);
+		//TFF
+		JPanel tff = new JPanel();
+		tff.setLayout(new BoxLayout(tff, BoxLayout.X_AXIS));
+		JLabel tffLabel = new JLabel("Using Default TFF");
+		JButton tffButton = new JButton("Use Custom TFF File");
+		tffButton.addActionListener(TFFLocator.getInstance());
+		TFFLocator.getInstance().setLabel(tffLabel);
+		tff.add(tffButton);
+		tff.add(tffLabel);
+		//Whole Chip
+		JPanel wholechip = new JPanel();
+		wholechip.setLayout(new BoxLayout(wholechip, BoxLayout.X_AXIS));
+		JLabel wholechipLabel = new JLabel("Using Default Whole Chip");
+		JButton wholechipButton = new JButton("Use Custom Whole Chip");
+		wholechipButton.addActionListener(WholeChipLocator.getInstance());
+		WholeChipLocator.getInstance().setLabel(wholechipLabel);
+		wholechip.add(wholechipButton);
+		wholechip.add(wholechipLabel);
+		//Singleton Chip
+		JPanel singleton = new JPanel();
+		singleton.setLayout(new BoxLayout(singleton, BoxLayout.X_AXIS));
+		JLabel singletonLabel = new JLabel("Using Default Singleton Chip");
+		JButton singletonButton = new JButton("Use Custom Singleton Chip");
+		singletonButton.addActionListener(SingletonChipLocator.getInstance());
+		SingletonChipLocator.getInstance().setLabel(singletonLabel);
+		singleton.add(singletonButton);
+		singleton.add(singletonLabel);
+		//FASTA?
+		
 		selector.add(GOs);
 		selector.add(motifs);
+		selector.add(bindingSite);
+		selector.add(metabolic);
+		selector.add(tff);
+		selector.add(wholechip);
+		selector.add(singleton);
 		menu.add(selector);
 	}
 

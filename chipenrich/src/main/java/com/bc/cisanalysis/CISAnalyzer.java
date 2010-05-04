@@ -6,12 +6,17 @@ import java.io.BufferedReader;
 import java.io.PrintWriter;
 import java.io.FileWriter;
 import java.io.BufferedWriter;
+import java.io.InputStream;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.HashMap;
+
 import javax.swing.JLabel;
+
 import com.bc.chipenrich.service.*;
-import com.bc.chipenrich.ui.MotifFileLocator;
+import com.bc.chipenrich.ui.locator.MotifFileLocator;
+import com.bc.chipenrich.ui.locator.SingletonChipLocator;
+import com.bc.chipenrich.ui.locator.WholeChipLocator;
 import com.bc.core.BackgroundChip;
 import com.bc.core.AGI;
 import com.bc.core.GO;
@@ -42,18 +47,18 @@ public class CISAnalyzer {
 		this.queryFiles = queryFiles;
 		this.patternDir = patternDir;
 		directory = patternDir + "/" + set;
-		String bcName = null;
+		InputStream bcIn = null;
 		if (set.equals("singletons")) {
-			bcName = "arabidopsis/SINGLETONS.txt";
+			bcIn = SingletonChipLocator.getInstance().getInputStream();
 		}
 		else if (set.equals("ath1chip")) {
-			bcName = "arabidopsis/ATH1Chip.txt";
+			bcIn = WholeChipLocator.getInstance().getInputStream();
 		}
 		BackgroundChip bc;
 		AGIMotifReader tableReader;
 		ChipEnrichService ces = new ChipEnrichServiceImpl();
 		try {
-			bc = ces.processBackgroundChip(getClass().getClassLoader().getResourceAsStream(bcName));
+			bc = ces.processBackgroundChip(bcIn);
 			tableReader = new AGIMotifReader();
 			binding_site_read = new BindingSiteReader();
 			families_read = new TFFReader();
@@ -213,7 +218,7 @@ public class CISAnalyzer {
 					String TFF_name = binding_site_read.get(nextElement);
 					Set<AGI> all_agis = null;
 					if (TFF_name != null) {
-						all_agis = families_read.get(TFF_name.toUpperCase());
+						all_agis = families_read.get(TFF_name);
 					}
 //					look in families_summary for associated AGI_IDs
 					if (all_agis != null) {

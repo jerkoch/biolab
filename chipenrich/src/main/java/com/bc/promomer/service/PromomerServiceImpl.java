@@ -3,10 +3,12 @@ package com.bc.promomer.service;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Set;
+import java.util.Vector;
 
 import com.bc.chipenrich.domain.AGIQueryListParser;
 import com.bc.core.AGIUpstream;
 import com.bc.core.BackgroundChip;
+import com.bc.core.AGI;
 import com.bc.file.UpstreamReader;
 import com.bc.util.CisMatcherUtil;
 import com.bc.util.DistributionCalculator;
@@ -29,12 +31,12 @@ public class PromomerServiceImpl implements PromomerService {
    public void getCisCount(BackgroundChip backgroundChip, File upstreamFile, String cis,
          File[] inputFiles) {
       try {
-         Set[] queryList = new Set[inputFiles.length];
+         Vector<Set<AGI>> queryList = new Vector<Set<AGI>>(inputFiles.length);
          for (int i = 0; i < inputFiles.length; i++) {
             System.out.println(inputFiles[i].getName());
             AGIQueryListParser parser = new AGIQueryListParser();
             parser.parse(new FileInputStream(inputFiles[i]));
-            queryList[i] = parser.getAGIs();
+            queryList.add(i, parser.getAGIs());
          }
 
          UpstreamReader reader = new UpstreamReader(new FileInputStream(upstreamFile));
@@ -51,7 +53,7 @@ public class PromomerServiceImpl implements PromomerService {
                      found = true;
                   }
                   for (int i = 0; i < inputFiles.length; i++) {
-                     if (found && queryList[i].contains(agiUp.getAgi())) {
+                     if (found && queryList.elementAt(i).contains(agiUp.getAgi())) {
 //                    	 System.out.println(agiUp.getAgi());
                         foundInFiles[i]++;
                      }
@@ -69,14 +71,14 @@ public class PromomerServiceImpl implements PromomerService {
                   + "\t"
                   + foundInFiles[i]
                   + "\t"
-                  + queryList[i].size()
+                  + queryList.elementAt(i).size()
                   + "\t"
                   + foundBackground
                   + "\t"
                   + backgroundChip.getNumAGIs()
                   + "\t"
                   + DistributionCalculator.probabilty(backgroundChip.getNumAGIs(), foundBackground,
-                        queryList[i].size(), foundInFiles[i]));
+                        queryList.elementAt(i).size(), foundInFiles[i]));
          }
       } catch (Exception e) {
          e.printStackTrace();

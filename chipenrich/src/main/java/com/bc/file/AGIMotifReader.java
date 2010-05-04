@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.ArrayList;
 import com.bc.core.AGI;
 import com.bc.core.AGIMotif;
-import com.bc.chipenrich.ui.AGIMotifTableLocator;
+import com.bc.chipenrich.ui.locator.AGIMotifTableLocator;
 
 /*
  * Reads from an AGI_Motif table.
@@ -21,7 +21,8 @@ public class AGIMotifReader {
 	private HashMap<String, AGIMotif> AGIRow;	//Stores mapping of AGI ID to AGIMotif
 	
 	public AGIMotifReader() {
-		reader = new BufferedReader(new InputStreamReader(AGIMotifTableLocator.getInstance().getInputStream()));
+		reader = new BufferedReader(new InputStreamReader(
+				AGIMotifTableLocator.getInstance().getInputStream()));
 		try {
 			motifCol = new HashMap<String, Integer>();
 			AGIRow = new HashMap<String, AGIMotif>();

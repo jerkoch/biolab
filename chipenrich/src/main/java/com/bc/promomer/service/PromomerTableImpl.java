@@ -7,7 +7,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.util.Set;
 
-import com.bc.chipenrich.ui.MotifFileLocator;
+import com.bc.chipenrich.ui.locator.MotifFileLocator;
 import com.bc.chipenrich.domain.AGIQueryListParser;
 import com.bc.chipenrich.domain.EnrichmentSummary;
 import com.bc.chipenrich.domain.ProbabilityResult;

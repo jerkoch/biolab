@@ -14,6 +14,8 @@ import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
 import javax.swing.SwingConstants;
 
+import com.bc.chipenrich.ui.locator.AGIMotifTableLocator;
+
 public class MenuAndToolbars {
 
    ChipEnrich parent;

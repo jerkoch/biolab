@@ -1,9 +1,10 @@
 package com.bc.file;
 
 import java.util.HashMap;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
+
+import com.bc.chipenrich.ui.locator.BindingSiteLocator;
 
 public class BindingSiteReader {
 	private HashMap<String,String> TFFMap;
@@ -12,7 +13,7 @@ public class BindingSiteReader {
 		BufferedReader reader;
 		try {
 			reader = new BufferedReader(new InputStreamReader(
-					getClass().getClassLoader().getResourceAsStream("arabidopsis/matching_binding_site_no_spaces_2.txt")));
+					BindingSiteLocator.getInstance().getInputStream()));
 		} catch(Exception e) {
 			e.printStackTrace();
 			return;
