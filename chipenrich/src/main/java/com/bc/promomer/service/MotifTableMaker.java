@@ -1,6 +1,8 @@
 package com.bc.promomer.service;
 
 import java.io.*;
+
+import javax.swing.JFileChooser;
 import javax.swing.JLabel;
 
 import com.bc.core.AGIUpstream;
@@ -16,17 +18,21 @@ import com.bc.file.MotifReader;
  */
 public class MotifTableMaker {
 	
-	public static int makeTable(JLabel status, File fastaFile, File motifFile) {
+	//FIXME: Specify where you want to save the file
+	public static File makeTable(JLabel status, File fastaFile, File motifFile) {
 		PrintWriter p;
+		File outFile;
+		JFileChooser chooser = new JFileChooser();
+		chooser.setCurrentDirectory(new java.io.File("."));
+		chooser.setDialogTitle("Where will you save the file?");
+		if (chooser.showSaveDialog(null) == JFileChooser.APPROVE_OPTION) {
+			outFile = chooser.getSelectedFile();
+		} else {
+			return null;
+		}
 		try {
 			status.setText("Build Table");
-			String outName = "AGI_Motif_Table";
-			File outFile = new File(outName + ".txt");
-			int append = 1;
-			while (outFile.exists()) {
-				outFile = new File(outName + String.valueOf(append) + ".txt");
-				append++;
-			}
+
 			p = new PrintWriter(new BufferedWriter(new FileWriter(outFile)));
 
 			UpstreamReader reader = new UpstreamReader(new FileInputStream(fastaFile));
@@ -63,11 +69,11 @@ public class MotifTableMaker {
 			}
 			
 			p.close();
-			return 0;
+			return outFile;
 		}
 		catch (Exception e) {
 			System.out.println("Error");
-			return -1;
+			return null;
 		}
 	}
 }

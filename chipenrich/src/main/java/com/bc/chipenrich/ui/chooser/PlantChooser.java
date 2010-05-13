@@ -4,6 +4,8 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
 
+import com.bc.chipenrich.ui.CustomPlantManager;
+
 public class PlantChooser extends AbstractAction {
 	public static PlantChooser INSTANCE = new PlantChooser();
 	

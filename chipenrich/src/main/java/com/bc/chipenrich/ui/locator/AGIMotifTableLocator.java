@@ -1,36 +1,28 @@
 package com.bc.chipenrich.ui.locator;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
+import com.bc.chipenrich.ui.CustomPlant;
 
-import com.bc.chipenrich.ui.chooser.PlantChooser;
-
-public class AGIMotifTableLocator {
+public class AGIMotifTableLocator extends AbstractLocator {
 	
 	public static AGIMotifTableLocator INSTANCE = new AGIMotifTableLocator();
 	
-	private File externalFile;
+	protected String getArabidopsisDefault() {
+		return "arabidopsis/AGI_Motif_Table.txt";
+	}
 	
+	protected String getSoybeanDefault() {
+		return "soybean/AGI_Motif_Table";
+	}
+
 	public static AGIMotifTableLocator getInstance() {
 		return INSTANCE;
 	}
 	
-	public InputStream getInputStream() {
-		if (externalFile == null) {
-			return getClass().getClassLoader().getResourceAsStream(
-					PlantChooser.getInstance().getPlant() + "/AGI_Motif_Table.txt");
-		} else {
-			try {
-				return new FileInputStream(externalFile);
-			} catch (Exception e) {
-				e.printStackTrace();
-				return null;
-			}         
-		}
+	protected String getField(CustomPlant plant) {
+		return plant.getTable();
 	}
 	
-	public void setExternalFile(File file) {
-		this.externalFile = file;
+	protected String getType() {
+		return "AGI Motif Table";
 	}
 }

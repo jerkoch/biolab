@@ -1,5 +1,7 @@
 package com.bc.chipenrich.ui;
 
+import java.io.File;
+
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.WindowAdapter;
@@ -31,19 +33,16 @@ public class CustomTableMaker extends AbstractAction {
 				chooser.setCurrentDirectory(new java.io.File("."));
 	            chooser.setDialogTitle("Select FASTA File...");
 	            chooser.setMultiSelectionEnabled(false);
-	            chooser.setApproveButtonText("Select");
-	            if (chooser.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
+	            if (chooser.showOpenDialog(parent) != JFileChooser.APPROVE_OPTION) {
 	            	return;
 	            }
+	            File fastaFile = chooser.getSelectedFile();
 	            
-                JFileChooser chooser2 = new JFileChooser();
-                chooser2.setCurrentDirectory(new java.io.File("."));
-                chooser2.setDialogTitle("Select motif file...");
-                chooser2.setMultiSelectionEnabled(false);
-                chooser2.setApproveButtonText("Select");
-                if (chooser2.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
+                chooser.setDialogTitle("Select motif file...");
+                if (chooser.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
                 	return;
                 }
+                File motifFile = chooser.getSelectedFile();
 				
 		        // create and display the dialog
 	            ProgressDialog progressDialog = new ProgressDialog();
@@ -56,12 +55,13 @@ public class CustomTableMaker extends AbstractAction {
 	            });
 	            
 	            //Make Table;
-	            int result = MotifTableMaker.makeTable(progressDialog.getStatusLabel(), chooser.getSelectedFile(), chooser2.getSelectedFile());
+	            File result = MotifTableMaker.makeTable(progressDialog.getStatusLabel(), 
+	            		fastaFile, motifFile);
 	            
 	            // kill the dialog
 	            progressDialog.dispose();
 
-	            if (result < 0) {
+	            if (result == null) {
 	            	JOptionPane.showMessageDialog(parent, "Error in building table");
 	            }
 	            else {

@@ -12,6 +12,8 @@ import javax.swing.JFileChooser;
 import javax.swing.JLabel;
 import javax.swing.AbstractAction;
 
+import com.bc.chipenrich.ui.CustomPlant;
+import com.bc.chipenrich.ui.CustomPlantManager;
 import com.bc.chipenrich.ui.chooser.PlantChooser;
 import com.bc.util.ResourceUtil;
 
@@ -28,6 +30,7 @@ public class GOAnnotationLocator extends AbstractAction {
            "arabidopsis/GOAnnotations5.txt" };
    private String[] soybeanGO = new String[] {
 		   "soybean/GOAnnotations.txt" };
+   private CustomPlantManager plantManager;
 
    public static GOAnnotationLocator getInstance() {
       return INSTANCE;
@@ -37,16 +40,37 @@ public class GOAnnotationLocator extends AbstractAction {
 	   this.location = label;
    }
    
+   public void setManager(CustomPlantManager manager) {
+	   plantManager = manager;
+   }
+   
    public InputStream[] getInputStreams() {
       if (externalFiles == null) {
     	  //No custom GO - Use default for plant
     	  String plant = PlantChooser.getInstance().getPlant();
-    	  if (plant == "arabidopsis") {
+    	  if (plant.equals("arabidopsis")) {
     		  return ResourceUtil.getInputStreams(getClass().getClassLoader(), arabidopsisGO);
     	  }
-    	  // else plant = soybean
-    	  else {
+    	  else if (plant.equals("soybean")) {
     		  return ResourceUtil.getInputStreams(getClass().getClassLoader(), soybeanGO);
+    	  }
+    	  else {
+    		  //Custom Plant
+    		  CustomPlant custPlant = plantManager.getPlant(PlantChooser.getInstance().getPlant());
+    		  if (custPlant != null) {
+    			  try {
+	    			  String[] custGO = custPlant.getGOs().split(";");
+	    			  InputStream[] inputStreams = new InputStream[custGO.length];
+	    			  for (int i = 0; i < custGO.length; i++) {
+	    				  inputStreams[i] = new FileInputStream(custGO[i]);
+	    			  }
+	    			  return inputStreams;
+    			  } catch (Exception e) {
+    				  e.printStackTrace();
+    				  return null;
+    			  }
+    		  }
+    		  else return null;
     	  }
       } else {
          try {
@@ -77,7 +101,6 @@ public class GOAnnotationLocator extends AbstractAction {
 	   chooser.setCurrentDirectory(new java.io.File("."));
 	   chooser.setDialogTitle("Select GO Annotation File(s)...");
 	   chooser.setMultiSelectionEnabled(true);
-	   chooser.setApproveButtonText("Select");
 	   if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
 		   this.setExternalFiles(chooser.getSelectedFiles());
 	   }

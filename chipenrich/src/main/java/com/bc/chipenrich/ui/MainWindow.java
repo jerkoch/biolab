@@ -1,10 +1,12 @@
 package com.bc.chipenrich.ui;
 
 import com.bc.chipenrich.ui.chooser.*;
+import com.bc.chipenrich.ui.config.SettingsManager;
 import com.bc.chipenrich.ui.locator.*;
 
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
+import java.util.Vector;
 
 import javax.swing.JCheckBox;
 import javax.swing.JPanel;
@@ -14,36 +16,55 @@ import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 
-public class MainWindow extends JPanel {
+public class MainWindow extends JPanel  {
+	private CustomPlantManager plantManager = new CustomPlantManager(this);
+	private JPanel plantSelectorPanel;
+	
 	public MainWindow() {
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+		SettingsManager.getInstance().addSettingsListener(plantManager);
 		makeMenus();
 	}
 
 	private void makeMenus() {
 		JPanel topPanel = new JPanel();
 		topPanel.setLayout(new BoxLayout(topPanel, BoxLayout.X_AXIS));
-		makePlantPanel(topPanel);
+		topPanel.add(makePlantPanel());
 		makeSelectorPanel(topPanel);
 
 		this.add(topPanel);
 
 		JPanel bottomPanel = new JPanel();
 		bottomPanel.setLayout(new BoxLayout(bottomPanel, BoxLayout.X_AXIS));
-		makeATH1Panel(bottomPanel);
+		makeWholechipPanel(bottomPanel);
 		makeSingletonPanel(bottomPanel);
 		this.add(bottomPanel);
 	}
 
-	private void makePlantPanel(JPanel menu) {
+	private JPanel makePlantPanel() {
 		JPanel plantChooser = new JPanel();
+		
 		plantChooser.setLayout(new BoxLayout(plantChooser, BoxLayout.Y_AXIS));
 
-		JRadioButton arabidopsisButton = new JRadioButton("Arabidopsis");
+		//JButton specify custom plant
+		JButton newPlant = new JButton("Create custom plant");
+		newPlant.addActionListener(new NewPlantAction(this, plantManager));
+		plantChooser.add(newPlant);
+		
+		plantSelectorPanel = new JPanel();
+		plantSelectorPanel.setLayout(new BoxLayout(plantSelectorPanel, BoxLayout.Y_AXIS));
+
+		plantChooser.add(plantSelectorPanel);
+		return plantChooser;
+	}
+	
+	public void updatePlants() {
+		plantSelectorPanel.removeAll();
+		JRadioButton arabidopsisButton = new JRadioButton("arabidopsis");
 		arabidopsisButton.setActionCommand("arabidopsis");
 		arabidopsisButton.addActionListener(PlantChooser.getInstance());
 		arabidopsisButton.setSelected(true);
-		JRadioButton soybeanButton = new JRadioButton("Soybean");
+		JRadioButton soybeanButton = new JRadioButton("soybean");
 		soybeanButton.setActionCommand("soybean");
 		soybeanButton.addActionListener(PlantChooser.getInstance());
 		
@@ -51,10 +72,20 @@ public class MainWindow extends JPanel {
 		plants.add(arabidopsisButton);
 		plants.add(soybeanButton);
 
-		plantChooser.add(arabidopsisButton);
-		plantChooser.add(soybeanButton);
+		plantSelectorPanel.add(arabidopsisButton);
+		plantSelectorPanel.add(soybeanButton);		
 
-		menu.add(plantChooser);
+		// Add custom plants
+		Vector<CustomPlant> newPlants = plantManager.getCustomPlants();
+		for (CustomPlant nextPlant : newPlants) {
+			String newName = nextPlant.getName();
+			JRadioButton customButton = new JRadioButton(newName);
+			customButton.setActionCommand(newName);
+			customButton.addActionListener(PlantChooser.getInstance());
+			plants.add(customButton);
+			plantSelectorPanel.add(customButton);
+		}
+		plantSelectorPanel.revalidate();
 	}
 
 	private void makeSelectorPanel(JPanel menu) {
@@ -123,7 +154,6 @@ public class MainWindow extends JPanel {
 		SingletonChipLocator.getInstance().setLabel(singletonLabel);
 		singleton.add(singletonButton);
 		singleton.add(singletonLabel);
-		//FASTA?
 		
 		selector.add(GOs);
 		selector.add(motifs);
@@ -135,11 +165,11 @@ public class MainWindow extends JPanel {
 		menu.add(selector);
 	}
 
-	private void makeATH1Panel(JPanel menu) {
-		final JCheckBox ATH1Analysis = new JCheckBox("Include ATH1 Analysis");
+	private void makeWholechipPanel(JPanel menu) {
+		final JCheckBox wholechipAnalysis = new JCheckBox("Include Whole Chip Analysis");
 
-		JCheckBox ATH1Array = new JCheckBox("Include ATH1 Array");
-		ATH1Array.addItemListener(new ItemListener() {
+		JCheckBox wholechipArray = new JCheckBox("Include Whole Chip Array");
+		wholechipArray.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
 				if (e.getStateChange() == ItemEvent.DESELECTED) {
 					RunnerChooser.getInstance().setATH1Array(false);
@@ -149,24 +179,24 @@ public class MainWindow extends JPanel {
 				}
 			}
 		});
-		ATH1Array.setSelected(false);
+		wholechipArray.setSelected(false);
 
-		final JCheckBox ATH1GO = new JCheckBox("Include ATH1 GO");
-		ATH1GO.addItemListener(new ItemListener() {
+		final JCheckBox wholechipGO = new JCheckBox("Include Whole Chip GO");
+		wholechipGO.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
 				if (e.getStateChange() == ItemEvent.DESELECTED) {
 					RunnerChooser.getInstance().setATH1GO(false);
-					ATH1Analysis.setSelected(false);
+					wholechipAnalysis.setSelected(false);
 				}
 				if (e.getStateChange() == ItemEvent.SELECTED) {
 					RunnerChooser.getInstance().setATH1GO(true);
 				}
 			}
 		});
-		ATH1GO.setSelected(false);
+		wholechipGO.setSelected(false);
 
-		JCheckBox ATH1Metabolic = new JCheckBox("Include ATH1 Metabolic");
-		ATH1Metabolic.addItemListener(new ItemListener() {
+		JCheckBox wholechipMetabolic = new JCheckBox("Include Whole Chip Metabolic");
+		wholechipMetabolic.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
 				if (e.getStateChange() == ItemEvent.DESELECTED) {
 					RunnerChooser.getInstance().setATH1Metabolic(false);
@@ -176,10 +206,10 @@ public class MainWindow extends JPanel {
 				}
 			}
 		});
-		ATH1Metabolic.setSelected(false);
+		wholechipMetabolic.setSelected(false);
 
-		JCheckBox ATH1TFF = new JCheckBox("Include ATH1 TFF");
-		ATH1TFF.addItemListener(new ItemListener() {
+		JCheckBox wholechipTFF = new JCheckBox("Include Whole Chip TFF");
+		wholechipTFF.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
 				if (e.getStateChange() == ItemEvent.DESELECTED) {
 					RunnerChooser.getInstance().setATH1TFF(false);
@@ -189,45 +219,45 @@ public class MainWindow extends JPanel {
 				}
 			}
 		});
-		ATH1TFF.setSelected(false);
+		wholechipTFF.setSelected(false);
 
-		final JCheckBox ATH1Motif = new JCheckBox("Include ATH1 Motif");
-		ATH1Motif.addItemListener(new ItemListener() {
+		final JCheckBox wholechipMotif = new JCheckBox("Include Whole Chip Motif");
+		wholechipMotif.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
 				if (e.getStateChange() == ItemEvent.DESELECTED) {
 					RunnerChooser.getInstance().setATH1Motif(false);
-					ATH1Analysis.setSelected(false);
+					wholechipAnalysis.setSelected(false);
 				}
 				if (e.getStateChange() == ItemEvent.SELECTED) {
 					RunnerChooser.getInstance().setATH1Motif(true);
 				}
 			}
 		});
-		ATH1Motif.setSelected(false);
+		wholechipMotif.setSelected(false);
 
-		ATH1Analysis.addItemListener(new ItemListener() {
+		wholechipAnalysis.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
 				if (e.getStateChange() == ItemEvent.DESELECTED) {
 					RunnerChooser.getInstance().setATH1Analysis(false);
 				}
 				if (e.getStateChange() == ItemEvent.SELECTED) {
 					RunnerChooser.getInstance().setATH1Analysis(true);
-					ATH1Motif.setSelected(true);
-	    			ATH1GO.setSelected(true);
+					wholechipMotif.setSelected(true);
+	    			wholechipGO.setSelected(true);
 	    		}
 			}
 	    });
-	    ATH1Analysis.setSelected(false);
+	    wholechipAnalysis.setSelected(false);
 
-	    JPanel ATH1 = new JPanel();
-	    ATH1.setLayout(new BoxLayout(ATH1, BoxLayout.Y_AXIS));
-	    ATH1.add(ATH1Array);
-		ATH1.add(ATH1GO);
-		ATH1.add(ATH1Metabolic);
-		ATH1.add(ATH1TFF);
-		ATH1.add(ATH1Motif);
-		ATH1.add(ATH1Analysis);
-	    menu.add(ATH1);
+	    JPanel wholechip = new JPanel();
+	    wholechip.setLayout(new BoxLayout(wholechip, BoxLayout.Y_AXIS));
+	    wholechip.add(wholechipArray);
+		wholechip.add(wholechipGO);
+		wholechip.add(wholechipMetabolic);
+		wholechip.add(wholechipTFF);
+		wholechip.add(wholechipMotif);
+		wholechip.add(wholechipAnalysis);
+	    menu.add(wholechip);
 	}
 
 	private void makeSingletonPanel(JPanel menu) {

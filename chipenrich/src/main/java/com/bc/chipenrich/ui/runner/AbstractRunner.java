@@ -11,6 +11,7 @@ import com.bc.chipenrich.domain.EnrichmentSummary;
 import com.bc.chipenrich.domain.ResultsHandler;
 import com.bc.chipenrich.service.ChipEnrichService;
 import com.bc.chipenrich.ui.chooser.PlantChooser;
+import com.bc.chipenrich.ui.locator.ArrayLocator;
 import com.bc.chipenrich.ui.locator.GOAnnotationLocator;
 import com.bc.chipenrich.ui.locator.MetabolicLocator;
 import com.bc.chipenrich.ui.locator.TFFLocator;
@@ -73,8 +74,7 @@ public abstract class AbstractRunner extends Thread {
       
       if (runArray) {
 	      statusLabel.setText(getRunnerName() + ": Processing Arrays...");
-	      gdMap = ces.processTranscriptionFactorFamily(getClass().getClassLoader().getResourceAsStream(
-	            PlantChooser.getInstance().getPlant() + "/ArrayAnnotationSummary.txt"), bc);
+	      gdMap = ces.processTranscriptionFactorFamily(ArrayLocator.getInstance().getInputStream(), bc);
 	      processEnrichment(ces, bc, queryFiles, baseOutputDir, "array", gdMap);
       }
       

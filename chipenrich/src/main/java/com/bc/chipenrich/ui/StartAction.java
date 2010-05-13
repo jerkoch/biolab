@@ -52,11 +52,10 @@ private ChipEnrich parent;
             // open the file chooser
             JFileChooser chooser = new JFileChooser();
             chooser.setCurrentDirectory(new java.io.File("."));
-            chooser.setDialogTitle("Select Query Files");
+            chooser.setDialogTitle("Select Query File(s)");
             chooser.setMultiSelectionEnabled(true);
-            chooser.setApproveButtonText("Select");
 
-            if (chooser.showOpenDialog(null) != JFileChooser.APPROVE_OPTION) {
+            if (chooser.showOpenDialog(parent) != JFileChooser.APPROVE_OPTION) {
                return;
             }
 

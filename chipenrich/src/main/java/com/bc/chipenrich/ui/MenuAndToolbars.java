@@ -96,8 +96,7 @@ public class MenuAndToolbars {
               chooser.setCurrentDirectory(new java.io.File("."));
               chooser.setDialogTitle("Select AGI-Motif Table...");
               chooser.setMultiSelectionEnabled(false);
-              chooser.setApproveButtonText("Select");
-              if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+              if (chooser.showOpenDialog(parent) == JFileChooser.APPROVE_OPTION) {
                  AGIMotifTableLocator.getInstance().setExternalFile(chooser.getSelectedFile());
               }
     	  }
