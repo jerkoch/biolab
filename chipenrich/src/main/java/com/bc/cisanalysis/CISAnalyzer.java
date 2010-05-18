@@ -51,7 +51,7 @@ public class CISAnalyzer {
 		if (set.equals("singletons")) {
 			bcIn = SingletonChipLocator.getInstance().getInputStream();
 		}
-		else if (set.equals("ath1chip")) {
+		else if (set.equals("wholechip")) {
 			bcIn = WholeChipLocator.getInstance().getInputStream();
 		}
 		BackgroundChip bc;

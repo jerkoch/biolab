@@ -10,7 +10,7 @@ public class WholeChipLocator extends AbstractLocator {
 	}
 	
 	protected String getSoybeanDefault() {
-		return "soybean/ATH1Chip.txt";
+		return "soybean/Soybean_TranscriptOnArray_WholeChip.txt";
 	}
 	
 	public static WholeChipLocator getInstance() {

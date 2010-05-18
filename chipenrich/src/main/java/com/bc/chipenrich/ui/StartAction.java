@@ -116,7 +116,7 @@ private ChipEnrich parent;
         	if (r.getATH1Analysis()) {
 	        	CISAnalyzer analysis = new CISAnalyzer(progressDialog.getStatusLabel(),
 	        			chooser.getSelectedFiles(), chooser.getCurrentDirectory().getAbsolutePath(),
-	        			"ath1chip");
+	        			"wholechip");
 	        	analysis.makeTable();
         	}
         	

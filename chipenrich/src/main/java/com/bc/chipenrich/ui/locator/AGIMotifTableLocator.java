@@ -11,7 +11,7 @@ public class AGIMotifTableLocator extends AbstractLocator {
 	}
 	
 	protected String getSoybeanDefault() {
-		return "soybean/AGI_Motif_Table";
+		return "soybean/Soy_AGI_Motif_Table.txt";
 	}
 
 	public static AGIMotifTableLocator getInstance() {

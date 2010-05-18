@@ -1,6 +1,0 @@
-Transcript	TF_Family	Occurrence
-Glyma01g11670.1	ABI3VP1	2
-Glyma01g18100.1	GRAS	2
-Glyma01g33270.1	GRAS	2
-Glyma01g02530.1	MADS	2
-Glyma01g01990.1	HSF	1

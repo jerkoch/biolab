@@ -10,7 +10,7 @@ import com.bc.file.AGIMotifReader;
 public class ATH1PromomerRunner extends PromomerRunner {
 	public ATH1PromomerRunner(JLabel status, ChipEnrichService ces, 
 			AGIMotifReader tableReader, File[] queryFiles, String baseOutputDir) {
-		super(status, tableReader, queryFiles, "ath1chip", baseOutputDir, 
+		super(status, tableReader, queryFiles, "wholechip", baseOutputDir, 
 				ces.processBackgroundChip(WholeChipLocator.getInstance().getInputStream()));
 	}
 	

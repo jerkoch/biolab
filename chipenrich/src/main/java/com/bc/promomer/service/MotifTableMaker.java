@@ -18,7 +18,6 @@ import com.bc.file.MotifReader;
  */
 public class MotifTableMaker {
 	
-	//FIXME: Specify where you want to save the file
 	public static File makeTable(JLabel status, File fastaFile, File motifFile) {
 		PrintWriter p;
 		File outFile;

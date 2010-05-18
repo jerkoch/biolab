@@ -29,10 +29,14 @@ public abstract class AbstractLocator extends AbstractAction {
 	public InputStream getInputStream() {
 		if (externalFile == null) {
 			if (PlantChooser.getInstance().getPlant().equals("arabidopsis")) {
-				return getClass().getClassLoader().getResourceAsStream(getArabidopsisDefault());
+				if (getArabidopsisDefault() != null) {
+					return getClass().getClassLoader().getResourceAsStream(getArabidopsisDefault());
+				} else return null;
 			}
 			else if (PlantChooser.getInstance().getPlant().equals("soybean")) {
-				return getClass().getClassLoader().getResourceAsStream(getSoybeanDefault());
+				if (getSoybeanDefault() != null) {
+					return getClass().getClassLoader().getResourceAsStream(getSoybeanDefault());
+				} else return null;
 			}
 			else {	//Custom Plant
 				CustomPlant plant = plantManager.getPlant(PlantChooser.getInstance().getPlant());

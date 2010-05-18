@@ -10,7 +10,7 @@ public class MetabolicLocator extends AbstractLocator {
 	}
 	
 	protected String getSoybeanDefault() {
-		return "soybean/metabolicpathways2008.txt";
+		return "soybean/Soybean_Pathway.txt";
 	}
 	
 	public static MetabolicLocator getInstance() {

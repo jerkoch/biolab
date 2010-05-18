@@ -10,7 +10,7 @@ public class MotifFileLocator extends AbstractLocator {
 	}
 	
 	protected String getSoybeanDefault() {
-		return "soybean/element_name_and_motif_IUPAC.txt";
+		return "soybean/Soybean_cis-Element.txt";
 	}
 	
 	public static MotifFileLocator getInstance() {

@@ -10,7 +10,7 @@ public class TFFLocator extends AbstractLocator {
 	}
 	
 	protected String getSoybeanDefault() {
-		return "soybean/families_summary.txt";
+		return "soybean/Soybean_TF.txt";
 	}
 	
 	public static TFFLocator getInstance() {

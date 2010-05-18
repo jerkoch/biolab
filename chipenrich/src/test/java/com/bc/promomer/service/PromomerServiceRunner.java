@@ -2,38 +2,42 @@ package com.bc.promomer.service;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
+import java.io.BufferedWriter;
 
 import junit.framework.TestCase;
 
-import com.bc.chipenrich.service.ChipEnrichService;
-import com.bc.chipenrich.service.ChipEnrichServiceImpl;
-import com.bc.core.BackgroundChip;
-import com.bc.util.ResourceUtil;
-
 public class PromomerServiceRunner extends TestCase {
 
-   private BackgroundChip backgroundChip;
-   {
-      try {
-         ChipEnrichService ces = new ChipEnrichServiceImpl();
-         backgroundChip = ces.processBackgroundChip(new FileInputStream(new File("C:/Documents and Settings/Corey Harada/My Documents/workspace/chipenrich/src/main/resources/ATH1Chip.txt")));
-      } catch (Exception e) {
-      }
-   }
-/*
-   public void testCounting() {
-      PromomerService service = new PromomerServiceImpl();
-      service.getCisCount(backgroundChip, new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/TAIR9_upstream_1000_20090619.txt"),
-            "YACGTGGC", ResourceUtil.getFiles(
-                  "C:/Documents and Settings/Corey Harada/Desktop/Mac/to_process"));
-   }
-*/
    public void testFile() {
-	   System.out.println("Test Motif");
-	   PromomerService service = new PromomerServiceImpl();
-	   service.getMotifs(backgroundChip, 
-			   new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/for siobhan/TAIR9_upstream_1000_20090619.txt"),
-			   new File("C:/Documents and Settings/Corey Harada/Desktop/Mac/test/test_Motif.txt"),
-			   ResourceUtil.getFiles("C:/Documents and Settings/Corey Harada/Desktop/Mac/to_process"));
+      try {
+    	  /*
+    	  FileInputStream input = new FileInputStream("C:/Users/Corey/Desktop/GMChipEnrich/Soybean_GO_Annotation_AgriGO.txt");
+    	  BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+    	  FileOutputStream output = new FileOutputStream("C:/Users/Corey/Desktop/Soybean_GO_Annotation_AgriGO.txt");
+    	  BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(output));
+    	  String nextLine = reader.readLine();
+    	  while (nextLine != null) {
+    		  String[] nextLineSplit = nextLine.split("\t", 2);
+    		  writer.write(nextLineSplit[0]);
+    		  writer.write('\t');
+    		  writer.write("xxx");
+    		  writer.write('\t');
+    		  if (nextLineSplit.length >= 2) {
+    			  writer.write(nextLineSplit[1]);
+    		  }
+    		  writer.write('\n');
+    		  writer.flush();
+    		  nextLine = reader.readLine();
+    	  }
+    	  writer.close();
+    	  */
+      } catch (Exception e) {
+    	  e.printStackTrace();
+    	  System.out.println("ERROR");
+      }
    }
 }

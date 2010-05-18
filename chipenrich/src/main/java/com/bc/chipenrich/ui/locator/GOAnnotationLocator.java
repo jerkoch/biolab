@@ -29,7 +29,7 @@ public class GOAnnotationLocator extends AbstractAction {
            "arabidopsis/GOAnnotations3.txt", "arabidopsis/GOAnnotations4.txt",
            "arabidopsis/GOAnnotations5.txt" };
    private String[] soybeanGO = new String[] {
-		   "soybean/GOAnnotations.txt" };
+		   "soybean/Soybean_GO_Annotation_AgriGO.txt" };
    private CustomPlantManager plantManager;
 
    public static GOAnnotationLocator getInstance() {

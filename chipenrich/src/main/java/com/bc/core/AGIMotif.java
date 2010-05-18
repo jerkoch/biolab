@@ -2,9 +2,9 @@ package com.bc.core;
 
 public class AGIMotif {
 	private String agi;
-	private int[] motifCount;
+	private short[] motifCount;
 
-	public AGIMotif(String agi, int[] motifCount) {
+	public AGIMotif(String agi, short[] motifCount) {
 		this.agi = agi;
 		this.motifCount = motifCount;
 	}
@@ -14,6 +14,6 @@ public class AGIMotif {
 	}
 	
 	public int getMotifCount(int i) {
-		return motifCount[i];
+		return (int) motifCount[i];
 	}
 }

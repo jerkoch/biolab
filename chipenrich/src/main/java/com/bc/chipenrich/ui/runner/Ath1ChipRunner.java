@@ -17,7 +17,7 @@ public class Ath1ChipRunner extends AbstractRunner {
 
    public Ath1ChipRunner(JLabel status, ChipEnrichService ces, File[] queryFiles,
          String baseOutputDir, boolean runGO, boolean runArray, boolean runTFF, boolean runMetabolics) {
-      super(status, ces, queryFiles, "ath1chip", baseOutputDir, 
+      super(status, ces, queryFiles, "wholechip", baseOutputDir, 
     		  ces.processBackgroundChip(WholeChipLocator.getInstance().getInputStream()), false,
     		  runGO, runArray, runTFF, runMetabolics);
    }

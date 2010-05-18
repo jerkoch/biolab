@@ -10,7 +10,7 @@ public class SingletonChipLocator extends AbstractLocator {
 	}
 	
 	protected String getSoybeanDefault() {
-		return "soybean/SINGLETONS.txt";
+		return "soybean/Soybean_TranscriptOnArray_Singleton.txt";
 	}
 	
 	public static SingletonChipLocator getInstance() {
