@@ -21,5 +21,5 @@ public interface ChipEnrichService {
 
    public EnrichmentSummary processEnrichment(BackgroundChip backgroundChip,
          GeneDescriptorMap<?> geneDescriptorMap, File[] inputFiles, String outputDirectory,
-         boolean ignoreMultipleQLP);
+         boolean ignoreMultipleQLP, String type);
 }

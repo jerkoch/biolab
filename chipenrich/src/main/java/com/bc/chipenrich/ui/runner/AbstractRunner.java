@@ -96,7 +96,7 @@ public abstract class AbstractRunner extends Thread {
          File[] queryFiles, String baseDir, String subDir, GeneDescriptorMap<?> descriptorMap) {
       String outputDir = baseDir + "/" + root + "/" + subDir;
       EnrichmentSummary summary = ces.processEnrichment(backgroundChip, descriptorMap, queryFiles,
-            outputDir, ignoreMultipleQLP);
+            outputDir, ignoreMultipleQLP, subDir);
       if (summary != null) {
     	  ResultsHandler.outputSummary(new File(outputDir, "summary.txt"), summary);
       }

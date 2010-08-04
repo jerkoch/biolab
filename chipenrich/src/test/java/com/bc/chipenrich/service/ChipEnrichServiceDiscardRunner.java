@@ -34,7 +34,7 @@ public class ChipEnrichServiceDiscardRunner extends TestCase {
       for (int i = 0; i < inDirs.length; i++) {
          String outputDir = inDirs[i].getAbsolutePath() + "/singletons/go";
          EnrichmentSummary summary = ces.processEnrichment(backgroundChip, gdMap,
-               ResourceUtil.getFiles(inDirs[i].getAbsolutePath()), outputDir, true);
+               ResourceUtil.getFiles(inDirs[i].getAbsolutePath()), outputDir, true, "go");
          ResultsHandler.outputSummary(new File(outputDir, "summary.txt"), summary);
       }
    }
@@ -48,7 +48,7 @@ public class ChipEnrichServiceDiscardRunner extends TestCase {
       for (int i = 0; i < inDirs.length; i++) {
          String outputDir = inDirs[i].getAbsolutePath() + "/singletons/array";
          EnrichmentSummary summary = ces.processEnrichment(backgroundChip, gdMap,
-               ResourceUtil.getFiles(inDirs[i].getAbsolutePath()), outputDir, true);
+               ResourceUtil.getFiles(inDirs[i].getAbsolutePath()), outputDir, true, "array");
          ResultsHandler.outputSummary(new File(outputDir, "summary.txt"), summary);
       }
    }
@@ -61,7 +61,7 @@ public class ChipEnrichServiceDiscardRunner extends TestCase {
       for (int i = 0; i < inDirs.length; i++) {
          String outputDir = inDirs[i].getAbsolutePath() + "/singletons/tff";
          EnrichmentSummary summary = ces.processEnrichment(backgroundChip, gdMap,
-               ResourceUtil.getFiles(inDirs[i].getAbsolutePath()), outputDir, true);
+               ResourceUtil.getFiles(inDirs[i].getAbsolutePath()), outputDir, true, "tff");
          ResultsHandler.outputSummary(new File(outputDir, "summary.txt"), summary);
       }
    }

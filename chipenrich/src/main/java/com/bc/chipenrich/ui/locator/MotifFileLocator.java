@@ -6,7 +6,7 @@ public class MotifFileLocator extends AbstractLocator {
 	private static MotifFileLocator INSTANCE = new MotifFileLocator();
 	
 	protected String getArabidopsisDefault() {
-		return "arabidopsis/element_name_and_motif_IUPAC.txt";
+		return "arabidopsis/element_name_and_motif_iupac_072810.txt";
 	}
 	
 	protected String getSoybeanDefault() {

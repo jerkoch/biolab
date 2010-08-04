@@ -81,7 +81,7 @@ public class ChipEnrichServiceImpl implements ChipEnrichService {
 
    public EnrichmentSummary processEnrichment(BackgroundChip backgroundChip,
          GeneDescriptorMap<?> geneDescriptorMap, File[] inputFiles, String outputDirectory, 
-         boolean ignoreMultipleQLP) {
+         boolean ignoreMultipleQLP, String type) {
 	  if (backgroundChip == null) {
 		  System.out.println("Error - Cannot complete summary because background chip not found");
 		  return null;
@@ -104,7 +104,8 @@ public class ChipEnrichServiceImpl implements ChipEnrichService {
             GeneDescriptorMap<?> filteredGeneDescriptorMap = geneDescriptorMap.subsetContainingValues(qlp.getAGIs());
 
             new File(outputDirectory).mkdirs();
-            File outputFile = new File(outputDirectory, inputFiles[i].getName() + ".processed.txt");
+            File outputFile = new File(outputDirectory, inputFiles[i].getName() + 
+            		"." + type + ".processed.txt");
             ResultsHandler outputter = new ResultsHandler(outputFile, backgroundChip);
             
             for (GeneDescriptor gd : filteredGeneDescriptorMap.getGeneDescriptors()) {

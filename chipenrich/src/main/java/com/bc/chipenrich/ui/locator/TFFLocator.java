@@ -6,7 +6,7 @@ public class TFFLocator extends AbstractLocator {
 	private static TFFLocator INSTANCE = new TFFLocator();
 	
 	protected String getArabidopsisDefault() {
-		return "arabidopsis/families_summary.txt";
+		return "arabidopsis/tff_summary_072810.txt";
 	}
 	
 	protected String getSoybeanDefault() {

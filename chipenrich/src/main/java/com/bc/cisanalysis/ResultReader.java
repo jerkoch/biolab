@@ -21,7 +21,7 @@ public class ResultReader {
 		printer = writer;
 		GOResults = GOFile;
 		pattern = GOResults.getName();
-		pattern = pattern.substring(0, pattern.lastIndexOf(".txt.processed.txt"));
+		pattern = pattern.substring(0, pattern.lastIndexOf(".txt.go.processed.txt"));
 		try {
 			goReader = new BufferedReader(new FileReader(GOResults));
 		} catch (Exception e) {

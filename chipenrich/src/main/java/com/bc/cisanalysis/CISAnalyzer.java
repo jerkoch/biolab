@@ -133,7 +133,7 @@ public class CISAnalyzer {
 			}
 
 			//Get enriched gos;
-			File GOfile = new File(directory + "/go/" + patternName + ".processed.txt");
+			File GOfile = new File(directory + "/go/" + patternName + ".go.processed.txt");
 			if (GOfile.exists()) {
 				match_GO_CIS(patternName, GOfile, enrichedCIS);
 			} else {
