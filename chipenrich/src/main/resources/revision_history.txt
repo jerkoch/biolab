@@ -13,3 +13,6 @@
 
 1.4 - Aug 4, 2010
 * Updated motif, binding site, and transcription factor family files for arabidopsis.
+
+1.41 - Aug 26, 2010
+* Updated binding site and trancription factor family files for arabidopsis.

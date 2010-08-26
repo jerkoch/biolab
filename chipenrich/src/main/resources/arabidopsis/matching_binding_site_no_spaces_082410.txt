@@ -23,10 +23,9 @@ CArG2 motif in AP3	MADS
 CArG3 motif in AP3	MADS			
 CBF1 BS in cor15a	AP2-EREBP			
 CBF2 binding site motif	AP2-EREBP			
-CCA1 binding site motif	bZIP			
-CCA1 binding site motif	MYB			
-CCA1 motif1 BS in CAB1	MYB			
-CCA1 motif2 BS in CAB1	MYB			
+CCA1 binding site motif	MYB related			
+CCA1 motif1 BS in CAB1	MYB related			
+CCA1 motif2 BS in CAB1	MYB related			
 DPBF1&2 binding site motif	bZIP			
 DRE promoter motif	NA			
 DREB1&2 BS in rd29a	AP2-EREBP			
@@ -40,11 +39,12 @@ EIL3 BS in ERF1	EIL
 EIN3 BS in ERF1	EIL			
 ERE promoter motif	NA			
 ERF1 BS in AtCHI-B	AP2-EREBP			
-EveningElement promoter motif	MYB			
+EveningElement promoter motif	MYB related			
 GATA promoter motif	C2C2-GATA			
 GBF1/2/3 BS in ADH1	NA			
 G-box promoter motif	bZIP			
 G-box promoter motif	WOX			
+G-box promoter motif	BHLH			
 GCC-box promoter motif	NA			
 Hexamer promoter motif	NA			
 HSEs binding site motif	HSF			
