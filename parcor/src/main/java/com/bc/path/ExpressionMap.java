@@ -19,9 +19,7 @@ import com.bc.common.util.ParsingError;
 public class ExpressionMap {
 
 	private AffyAgiParser converter;
-
 	private Map<Affy, Double[]> map;
-
 	private List<ParsingError> errors;
 
 	public ExpressionMap(InputStream is, AffyAgiParser converter) {

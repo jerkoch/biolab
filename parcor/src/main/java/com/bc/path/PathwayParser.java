@@ -8,7 +8,6 @@ import com.bc.common.util.CSVParser;
 public class PathwayParser {
 
 	private CSVParser csvParser;
-	
 	private ExpressionMap expressionMap;
 
 	public PathwayParser(InputStream is, ExpressionMap expressionMap) {
@@ -29,11 +28,7 @@ public class PathwayParser {
 					step = new Step(expressionMap, tokens[1], tokens[2]);
 					pathway.addStep(step);
 				}
-				if (tokens[0].equalsIgnoreCase("unknown")) {
-					step.addNode(AGI.UNKNOWN);
-				} else {
-					step.addNode(AGI.createAGI(tokens[0]));
-				}
+				step.addNode(AGI.createAGI(tokens[0]));
 			}
 			return pathway;
 		}

@@ -16,9 +16,7 @@ import com.bc.common.util.ParsingError;
 public class AffyAgiParser {
 
 	private MultiMap<Affy, AGI> affyMap;
-
 	private MultiMap<AGI, Affy> agiMap;
-
 	private List<ParsingError> errors;
 
 	public AffyAgiParser(InputStream is) {
@@ -39,7 +37,6 @@ public class AffyAgiParser {
 			csvParser.nextToken();
 			csvParser.nextToken();
 			String agiStr = csvParser.nextToken();
-
 			try {
 				String vals[] = agiStr.split(";");
 				for (int j = 0; j < vals.length; j++) {
@@ -52,7 +49,6 @@ public class AffyAgiParser {
 				errors.add(ParsingError.createParsingError(i, e.getMessage()));
 			}
 		}
-
 	}
 
 	public Collection<AGI> getAGIs(Affy affy) {

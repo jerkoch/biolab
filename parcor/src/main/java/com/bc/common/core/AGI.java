@@ -4,6 +4,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
 import com.bc.common.util.Assert;
+import com.bc.common.util.CSVParser;
 
 
 /**
@@ -20,7 +21,9 @@ public class AGI implements Comparable<AGI> {
 
    private static final NumberFormat FORMAT = new DecimalFormat("00000");
 
+   private static final String NAME_FILE = "AGI_names.txt";
    public static final AGI UNKNOWN = new AGI("unknown", "unknown");
+   public static final AGI MUTANT = new AGI("mutant available gene unknown", "unknown");
    
    private String id;
    private String desc;
@@ -58,7 +61,7 @@ public class AGI implements Comparable<AGI> {
 
       // ensure agi is in proper format
       if (!id.matches(REGEX)) {
-         throw new IllegalArgumentException("Illegal AGI=" + id);
+    	  return checkAGIFormat(id, description);
       }
 
       // create the agi
@@ -73,6 +76,22 @@ public class AGI implements Comparable<AGI> {
       return id.matches(REGEX);
    }
 
+   private static AGI checkAGIFormat(String id, String description) {
+	   if (id.equalsIgnoreCase("unknown")) {
+		   return UNKNOWN;
+	   }
+	   CSVParser names = new CSVParser(ClassLoader.getSystemResourceAsStream(NAME_FILE), "\t");
+	   for (int i = 0; names.moreLines(); i++) {
+		   String[] tokens = names.getTokens();
+		   if (tokens[0].equalsIgnoreCase(id)) {
+			   if (tokens[1].equalsIgnoreCase("MUTANT")) {
+				   return MUTANT;
+			   }
+			   else return new AGI(tokens[1], description);
+		   }
+	   }
+	   throw new IllegalArgumentException("Illegal AGI=" + id);
+   }
    /*
     * (non-Javadoc)
     * @see java.lang.Object#equals(java.lang.Object)
