@@ -77,7 +77,7 @@ public class AGI implements Comparable<AGI> {
    }
 
    private static AGI checkAGIFormat(String id, String description) {
-	   if (id.equalsIgnoreCase("unknown")) {
+	   if (id.equalsIgnoreCase("NIL")) {
 		   return UNKNOWN;
 	   }
 	   CSVParser names = new CSVParser(ClassLoader.getSystemResourceAsStream(NAME_FILE), "\t");

@@ -9,19 +9,24 @@ public class Step {
 
 	private String reactionId;
 	private String description;
-
+	
 	private ExpressionMap expressionMap;
 
 	private List<Node> nodes = new ArrayList<Node>();
+	private List<String> order = new ArrayList<String>();
 	
-	public Step(String reactionId, String description) {
-		this(null, reactionId, description);
+	public Step(String reactionId, String description, String order) {
+		this(null, reactionId, description, order);
 	}
 
-	public Step(ExpressionMap expressionMap, String reactionId, String description) {
+	public Step(ExpressionMap expressionMap, String reactionId, String description, String order) {
 		this.expressionMap = expressionMap;
 		this.reactionId = reactionId;
 		this.description = description;
+		String orderSplit[] = order.trim().split(" - ");
+		for (int i = 0; i < orderSplit.length; i++) {
+			this.order.add(orderSplit[i]);
+		}
 	}
 
 	public void addNode(AGI agi) {
@@ -35,6 +40,10 @@ public class Step {
 
 	public String getDescription() {
 		return description;
+	}
+	
+	public List<String> getOrder() {
+		return order;
 	}
 
 	public List<Node> getNodes() {

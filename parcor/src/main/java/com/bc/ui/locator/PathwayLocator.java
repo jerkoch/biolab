@@ -5,7 +5,8 @@ public class PathwayLocator extends AbstractLocator {
 	
 	protected String getDefault() {
 //		return "GeneEachPathwayAll.txt";
-		return "aracyc_unordered_20100621.txt";
+//		return "aracyc_unordered_20100621.txt";
+		return "output.txt";
 	}
 	
 	protected String getType() {

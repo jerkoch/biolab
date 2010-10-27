@@ -37,12 +37,13 @@ public class Runner {
 				nextPathway = pathwayParser.nextPathway();
 			}
 			writer.close();
+			System.out.println("Done");
 			
 		} catch (Exception e) {
 			System.out.println("Unexpected exception: " + e.getMessage());
 			e.printStackTrace();
 			if (main != null) {
-				main.printMessage("Unexpeced exception: " + e.getMessage() + "\n");
+				main.printMessage("Unexpected exception: " + e.getMessage() + "\n");
 			}
 		}
 	}
