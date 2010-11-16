@@ -215,10 +215,16 @@ public class CISAnalyzer {
 							+ "\t" + String.valueOf(Math.log10(pval)));
 					subNodeValues.add(nextGO.getDescription() + "\tGO");
 					subNodeValues.add(nextElement + "\tMotif");
-					String TFF_name = binding_site_read.get(nextElement);
+					Set<String> TFF_names = binding_site_read.get(nextElement);
 					Set<AGI> all_agis = null;
-					if (TFF_name != null) {
-						all_agis = families_read.get(TFF_name);
+					if (TFF_names != null) {
+						all_agis = new HashSet<AGI>();
+						for (String tff : TFF_names) {
+							Set<AGI> nextFamilies = families_read.get(tff);
+							if (nextFamilies != null) {
+								all_agis.addAll(nextFamilies);
+							}
+						}
 					}
 //					look in families_summary for associated AGI_IDs
 					if (all_agis != null) {
@@ -231,8 +237,12 @@ public class CISAnalyzer {
 						}
 					}
 					else {
-						if ((TFF_name != null) && (!TFF_name.equals("NA"))) {
-							System.out.println(TFF_name + " not in families_summary");
+						if (TFF_names != null) {
+							for (String tff : TFF_names) {
+								if (!tff.equals("NA")) {
+									System.out.println(tff + " not in families_summary");
+								}
+							}
 						}
 					}
 					if ((enrichedCIS != null) && (enrichedCIS.contains(nextElement))) {
@@ -255,10 +265,16 @@ public class CISAnalyzer {
 		while (allMReader.nextLine()) {
 			String nextElement = allMReader.getElement();
 //			look in binding_sites for associated TFF
-			String TFF_name = binding_site_read.get(nextElement);
+			Set<String> TFF_names = binding_site_read.get(nextElement);
 			Set<AGI> all_agis = null;
-			if (TFF_name != null) {
-				all_agis = families_read.get(TFF_name.toUpperCase());
+			if (TFF_names != null) {
+				all_agis = new HashSet<AGI>();
+				for (String tff : TFF_names) {
+					Set<AGI> nextFamilies = families_read.get(tff.toUpperCase());
+					if (nextFamilies != null) {
+						all_agis.addAll(nextFamilies);
+					}
+				}
 			}
 //			look in families_summary for associated AGI_IDs
 			if (all_agis != null) {
@@ -273,8 +289,12 @@ public class CISAnalyzer {
 				}
 			}
 			else {
-				if ((TFF_name != null) && (!TFF_name.equals("NA"))) {
-					System.out.println(TFF_name + " not in families_summary");
+				if (TFF_names != null) {
+					for (String tff : TFF_names) {
+						if (!tff.equals("NA")) {
+							System.out.println(tff + " not in families_summary");
+						}
+					}
 				}
 			}
 		}

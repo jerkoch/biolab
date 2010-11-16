@@ -31,8 +31,9 @@ public class MotifReader {
 		String line = "";
 		try {
 			line = reader.readLine();
-			if (line == null)	//end of file
+			if ((line == null) || (line.equals(""))) {	//end of file
 				return false;
+			}
 			String[] lines = line.split("\t", 3);
 			nextElement = lines[0].trim();
 			nextMotif = lines[1].trim();

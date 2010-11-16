@@ -6,11 +6,11 @@ public class BindingSiteLocator extends AbstractLocator {
 	private static BindingSiteLocator INSTANCE = new BindingSiteLocator();
 	
 	protected String getArabidopsisDefault() {
-		return "arabidopsis/matching_binding_site_no_spaces_082410.txt";
+		return "arabidopsis/matching_binding_site_no_spaces_102110.txt";
 	}
 	
 	protected String getSoybeanDefault() {
-		return "arabidopsis/matching_binding_site_no_spaces_2.txt";
+		return getArabidopsisDefault();
 	}
 	
 	public static BindingSiteLocator getInstance() {
