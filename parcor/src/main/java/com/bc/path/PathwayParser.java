@@ -21,26 +21,6 @@ public class PathwayParser {
 	}
 
 	public Pathway nextPathway() {
-		//Build a pathway from the input, Pathway finds best path
-		/*
-		String tokens[] = csvParser.getTokens();
-		if (tokens.length == 2) {
-			Pathway pathway = new Pathway(tokens[0]);
-			Step step = null;
-			int numAGIs = Integer.parseInt(tokens[1]);
-			for (int i = 0; csvParser.moreLines() && i < numAGIs ; i++) {
-				tokens = csvParser.getTokens();
-				if (step == null || !step.getReactionId().equals(tokens[1])) {
-					step = new Step(expressionMap, tokens[1], tokens[2]);
-					pathway.addStep(step);
-				}
-				step.addNode(AGI.createAGI(tokens[0]));
-			}
-			return pathway;
-		}
-		return null;
-		*/
-		
 		if ((tokens.length == 5) || (tokens.length == 6)) {
 			String currentPathway = tokens[0];
 			Pathway pathway = new Pathway(currentPathway);
