@@ -22,3 +22,6 @@
 
 1.42a - Nov 15, 2010
 * Fixed bug relating to binding sites with multiple associated transcription factors.
+
+1.43 - Feb 25, 2011
+* Updated GO annotiation files for arabidopsis.

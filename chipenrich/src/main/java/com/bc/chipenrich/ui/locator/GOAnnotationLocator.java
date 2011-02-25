@@ -24,10 +24,9 @@ public class GOAnnotationLocator extends AbstractAction {
    private static GOAnnotationLocator INSTANCE = new GOAnnotationLocator();
    private JLabel location;
    private File[] externalFiles;
+
    private String[] arabidopsisGO = new String[] {
-           "arabidopsis/GOAnnotations1.txt", "arabidopsis/GOAnnotations2.txt",
-           "arabidopsis/GOAnnotations3.txt", "arabidopsis/GOAnnotations4.txt",
-           "arabidopsis/GOAnnotations5.txt" };
+		   "arabidopsis/ATH_GO_SLIM_22022011.txt"	};
    private String[] soybeanGO = new String[] {
 		   "soybean/Soybean_GO_Annotation_AgriGO.txt" };
    private CustomPlantManager plantManager;
