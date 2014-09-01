@@ -5,6 +5,7 @@ import java.util.List;
 import org.apache.commons.lang.ArrayUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.math.stat.correlation.PearsonsCorrelation;
+import org.apache.commons.math.stat.correlation.SpearmansCorrelation;
 
 import com.bc.common.core.AGI;
 
@@ -45,6 +46,15 @@ public class Node {
 		return pearsonsCorrelation.correlation(ArrayUtils.toPrimitive(expressionData), ArrayUtils.toPrimitive(j.getExpressionData()));
 	}
 
+	public Double calculateSpearmansCorrelation(Node j) {
+		if (expressionData == null || j.getExpressionData() == null) {
+			return null;
+		}
+		
+		SpearmansCorrelation spearmansCorrelation = new SpearmansCorrelation();
+		return spearmansCorrelation.correlation(ArrayUtils.toPrimitive(expressionData), ArrayUtils.toPrimitive(j.getExpressionData()));		
+	}
+	
 	public Double calculatePartialCorrelation(Node j, Node k) {
 		Double pij = calculatePearsonsCorrelation(j);
 		Double pik = calculatePearsonsCorrelation(k);

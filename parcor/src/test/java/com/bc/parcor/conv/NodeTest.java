@@ -30,9 +30,15 @@ public class NodeTest extends TestCase {
 		Assert.assertTrue(i.calculateWorstPartialCorrelation(j, ks).toString().startsWith("0.8375"));
 	}
 	
-	public void testBasicPearsonCorrelation() {
+	public void testBasicPearsonsCorrelation() {
 		Node i = new Node(AGI.createAGI("AT1G00000"), new Double[] { 0.0, 0.1, 0.2, 0.3 });
 		Node j = new Node(AGI.createAGI("AT1G00001"), new Double[] { 0.0, 0.1, 0.2, 0.3 });
 		Assert.assertEquals(1.0, i.calculatePearsonsCorrelation(j));		
 	}
+	
+	public void testBasicSpearmansCorrelation() {
+		Node i = new Node(AGI.createAGI("AT1G00000"), new Double[] { 0.0, 0.1, 0.2, 0.3, 0.4, 0.5 });
+		Node j = new Node(AGI.createAGI("AT1G00001"), new Double[] { 0.0, 0.5, 1.0, 1.5, 1.6, 1.7 });
+		Assert.assertEquals(1.0, i.calculateSpearmansCorrelation(j));		
+	}	
 }
