@@ -2,8 +2,9 @@ package com.bc.path;
 
 import java.util.List;
 
+import org.apache.commons.lang.ArrayUtils;
 import org.apache.commons.lang.StringUtils;
-import org.apache.commons.math.stat.regression.SimpleRegression;
+import org.apache.commons.math.stat.correlation.PearsonsCorrelation;
 
 import com.bc.common.core.AGI;
 
@@ -11,8 +12,6 @@ public class Node {
 
 	private AGI agi;
 	private Double[] expressionData;
-	
-	private Node path;
 	
 	private BestPath bestPath = new BestPath();
 	
@@ -37,21 +36,19 @@ public class Node {
 		return expressionData;
 	}
 
-	public Double calculateCorrelation(Node j) {
+	public Double calculatePearsonsCorrelation(Node j) {
 		if (expressionData == null || j.getExpressionData() == null) {
 			return null;
 		}
-		SimpleRegression simpleRegression = new SimpleRegression();
-		for (int i = 0; i < expressionData.length; i++) {
-			simpleRegression.addData(expressionData[i], j.getExpressionData()[i]);
-		}
-		return simpleRegression.getR();
+		
+		PearsonsCorrelation pearsonsCorrelation = new PearsonsCorrelation();
+		return pearsonsCorrelation.correlation(ArrayUtils.toPrimitive(expressionData), ArrayUtils.toPrimitive(j.getExpressionData()));
 	}
 
 	public Double calculatePartialCorrelation(Node j, Node k) {
-		Double pij = calculateCorrelation(j);
-		Double pik = calculateCorrelation(k);
-		Double pjk = j.calculateCorrelation(k);
+		Double pij = calculatePearsonsCorrelation(j);
+		Double pik = calculatePearsonsCorrelation(k);
+		Double pjk = j.calculatePearsonsCorrelation(k);
 		if (pij != null && pik != null && pjk != null) {
 			return (pij - (pik * pjk)) / (Math.sqrt(1 - Math.pow(pik, 2)) * Math.sqrt(1 - Math.pow(pjk, 2)));
 		} else {

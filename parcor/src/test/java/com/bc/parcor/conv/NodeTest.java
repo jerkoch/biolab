@@ -23,10 +23,16 @@ public class NodeTest extends TestCase {
 		ks.add(k1);
 		ks.add(k2);
 		
-		Assert.assertTrue(i.calculateCorrelation(j).toString().startsWith("0.8232"));
+		Assert.assertTrue(i.calculatePearsonsCorrelation(j).toString().startsWith("0.8232"));
 		Assert.assertTrue(i.calculatePartialCorrelation(j, k1).toString().startsWith("-0.9261"));
 		Assert.assertTrue(i.calculatePartialCorrelation(j, k2).toString().startsWith("-0.8375"));
 		
 		Assert.assertTrue(i.calculateWorstPartialCorrelation(j, ks).toString().startsWith("0.8375"));
+	}
+	
+	public void testBasicPearsonCorrelation() {
+		Node i = new Node(AGI.createAGI("AT1G00000"), new Double[] { 0.0, 0.1, 0.2, 0.3 });
+		Node j = new Node(AGI.createAGI("AT1G00001"), new Double[] { 0.0, 0.1, 0.2, 0.3 });
+		Assert.assertEquals(1.0, i.calculatePearsonsCorrelation(j));		
 	}
 }
