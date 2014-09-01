@@ -7,11 +7,13 @@ import junit.framework.Assert;
 import junit.framework.TestCase;
 
 import com.bc.common.core.AGI;
+import com.bc.path.CorrelationFactory;
 import com.bc.path.Node;
 
 public class NodeTest extends TestCase {
 
 	public void testPearsonCorrelation() {
+		Node.setCorrelation(new CorrelationFactory.Pearsons());
 		Node i = new Node(AGI.createAGI("AT1G00000"), new Double[]{0.775318586,0.675892628,0.619178561,0.720985147,0.812204883});
 		Node j = new Node(AGI.createAGI("AT1G00001"), new Double[]{0.712070237,0.679137952,0.620678799,0.74791477,1.002128407});
 		Node k1 = new Node(AGI.createAGI("AT1G00002"), new Double[]{2.065186078,1.581832636,1.04934916,1.950217008,2.998605525});
@@ -23,7 +25,7 @@ public class NodeTest extends TestCase {
 		ks.add(k1);
 		ks.add(k2);
 		
-		Assert.assertTrue(i.calculatePearsonsCorrelation(j).toString().startsWith("0.8232"));
+		Assert.assertTrue(i.calculateCorrelation(j).toString().startsWith("0.8232"));
 		Assert.assertTrue(i.calculatePartialCorrelation(j, k1).toString().startsWith("-0.9261"));
 		Assert.assertTrue(i.calculatePartialCorrelation(j, k2).toString().startsWith("-0.8375"));
 		
@@ -31,14 +33,16 @@ public class NodeTest extends TestCase {
 	}
 	
 	public void testBasicPearsonsCorrelation() {
+		Node.setCorrelation(new CorrelationFactory.Pearsons());
 		Node i = new Node(AGI.createAGI("AT1G00000"), new Double[] { 0.0, 0.1, 0.2, 0.3 });
 		Node j = new Node(AGI.createAGI("AT1G00001"), new Double[] { 0.0, 0.1, 0.2, 0.3 });
-		Assert.assertEquals(1.0, i.calculatePearsonsCorrelation(j));		
+		Assert.assertEquals(1.0, i.calculateCorrelation(j));		
 	}
 	
 	public void testBasicSpearmansCorrelation() {
+		Node.setCorrelation(new CorrelationFactory.Spearmans());
 		Node i = new Node(AGI.createAGI("AT1G00000"), new Double[] { 0.0, 0.1, 0.2, 0.3, 0.4, 0.5 });
 		Node j = new Node(AGI.createAGI("AT1G00001"), new Double[] { 0.0, 0.5, 1.0, 1.5, 1.6, 1.7 });
-		Assert.assertEquals(1.0, i.calculateSpearmansCorrelation(j));		
+		Assert.assertEquals(1.0, i.calculateCorrelation(j));		
 	}	
 }

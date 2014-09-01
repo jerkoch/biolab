@@ -3,10 +3,10 @@ package com.bc.path;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
+import com.bc.ui.MainWindow;
 import com.bc.ui.locator.AffyATH1Locator;
 import com.bc.ui.locator.ExpressionMapLocator;
 import com.bc.ui.locator.PathwayLocator;
-import com.bc.ui.MainWindow;
 
 public class Runner {
 	
@@ -26,6 +26,11 @@ public class Runner {
 				writer = new OutputStreamWriter(new FileOutputStream(outputFilename));
 			}
 	
+			if (main != null) {
+				main.printMessage("Correlation Mode: " + Node.getCorrelation() + "\n\n");
+			}
+			writer.write("Correlation Mode: " + Node.getCorrelation() + "\n\n");
+			
 			Pathway nextPathway = pathwayParser.nextPathway();
 			while (nextPathway != null) {
 				if (main != null) {
